@@ -1,0 +1,113 @@
+%
+% Vorlage für Deckblatt von Studien- & Diplomarbeiten
+%
+%    erstellt 2005: Volker Barth
+%
+
+\documentclass[12pt,a4paper]{article}
+\usepackage{graphicx}
+\usepackage{german}
+\usepackage[utf8]{inputenc}
+\usepackage{helvet}
+\usepackage[usenames]{color}
+%\usepackage[absolute,showboxes]{textpos}
+\usepackage[absolute]{textpos}
+
+\voffset-25mm
+\hoffset-25mm
+\textwidth160mm
+\topmargin20mm
+\headheight10mm
+\headsep15mm
+\topskip0mm
+\textheight230mm
+\footskip12mm
+\oddsidemargin30mm
+\evensidemargin20mm
+\parindent0mm
+
+% Ursprung für textblock; linke obere Ecke der Seite
+\textblockorigin{0mm}{0mm}
+% Helvetica als Standardschrift
+\renewcommand{\familydefault}{\sfdefault}
+\definecolor{FAU_Blue}{RGB}{11,59,106}
+\definecolor{LTM_Blue}{RGB}{46,49,146}
+
+\begin{document}
+  \begin{titlepage}
+    
+    % Textblock: 2.75 cm (!) breit
+    %            Position x: 3.4 cm
+    %            Position y: 2.5 cm
+    \begin{textblock}{2.75}(3.4,2.5)
+      \includegraphics[scale=0.13]{LTM_Logo.eps}
+    \end{textblock}
+    
+    \begin{textblock}{4}(5.8,2.5)
+      \color{LTM_Blue}
+      \rule{50mm}{0.25mm}
+    \end{textblock}
+    
+    \begin{textblock}{7}(9.8,2.5)
+      \color{LTM_Blue}\bf\vspace*{-.9mm}
+      LEHRSTUHL FÜR TECHNISCHE MECHANIK\\
+      Universität Erlangen-Nürnberg\\
+      Prof.~Dr.-Ing.~habil.~P.~Steinmann
+    \end{textblock}
+
+    \begin{textblock}{7}(3.4,3.4)    
+      \color{LTM_Blue}
+      \rule{185mm}{0.25mm}
+    \end{textblock}
+    
+%---------- ENDE KOPF ------------------------------------    
+
+\begin{center}
+	\vspace*{3mm}
+	\color{black}
+	\normalsize
+	%\rm
+    Masterarbeit im Studiengang\\
+    \textbf{Maschinenbau}\\[40mm]
+    \Large 
+    \textbf{The title of your thesis}\\[4mm]
+    \textbf{which might be a little longer}\\[4mm]
+	\textbf{goes here}\\[54mm]
+	\normalsize
+\begin{tabular*}{100mm}[t]{l l}
+  % after \\: \hline or \cline{col1-col2} \cline{col3-col4} ...
+  \textbf{Bearbeiter:} & Firstname~Lastname\\
+   & \\
+  \textbf{Prüfer:} & Prof.~Dr.-Ing.~habil.~P.~Steinmann \\
+   & \\
+  \textbf{Betreuer:} & Dr.-Ing.~S.~Pfaller \\
+\end{tabular*}
+
+%\includegraphics{bilder/eps/lehrstuhllogo.eps}
+
+\end{center}
+    
+ 
+    
+\begin{textblock}{10}(3.4,15.5)
+      \color{FAU_Blue}
+      \rule{185mm}{0.25mm}
+    \end{textblock}  
+
+    \begin{textblock}{10}[0.5,0.5](8.4,16)
+      \includegraphics[width=0.18\textwidth]{FAU_Logo_neu.eps}
+    \end{textblock}
+    
+    \begin{textblock}{10}[0.5,0.5](11.1,16.05)
+      \color{FAU_Blue}
+      {\large Friedrich-Alexander-Universität Erlangen-Nürnberg}
+    \end{textblock}
+
+    \begin{textblock}{10}[0.5,0.5](20.7,16)
+      \includegraphics[width=0.18\textwidth]{FAU_Logo_neu.eps}
+    \end{textblock}    
+    
+  \end{titlepage}
+  
+\newpage
+\end{document}

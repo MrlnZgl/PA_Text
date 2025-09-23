@@ -1,0 +1,101 @@
+%
+% Vorlage für Deckblatt von Bachelor-, Projekt- und Masterarbeiten
+%
+%    erstellt 2018: Maximilian Ries
+%
+
+\documentclass[12pt,a4paper]{article}
+\usepackage{graphicx}
+\usepackage{german}
+\usepackage[utf8]{inputenc}
+\usepackage{helvet}
+\usepackage[usenames]{color}
+%\usepackage[absolute,showboxes]{textpos}
+\usepackage[absolute]{textpos}
+
+
+\voffset-25mm
+\hoffset-25mm
+\textwidth160mm
+\topmargin20mm
+\headheight10mm
+\headsep15mm
+\topskip0mm
+\textheight230mm
+\footskip12mm
+\oddsidemargin30mm
+\evensidemargin20mm
+\parindent0mm
+
+% Ursprung für textblock; linke obere Ecke der Seite
+\textblockorigin{0mm}{0mm}
+% Helvetica als Standardschrift
+\renewcommand{\familydefault}{\sfdefault}
+\definecolor{FAU_Blue}{RGB}{0,73,116}
+
+
+%-------------------------------------------------------------------------------
+% User Input
+%-------------------------------------------------------------------------------
+\newcommand{\Titel}{Titel der Abschlussarbeit}
+\newcommand{\Name}{Name des Studenten}
+\newcommand{\Typ}{Art der Arbeit}
+\newcommand{\Mat}{Matrikelnummer}
+\newcommand{\Datum}{Datum der Abgabe}
+\newcommand{\Betreuer}{Name des Betreuers}
+
+%-------------------------------------------------------------------------------
+
+
+\begin{document}
+  \begin{titlepage}
+    
+    \begin{textblock*}{40mm}[0,1](55mm,50mm)
+      \includegraphics[scale=0.15]{LTM_Logo.png}
+    \end{textblock*}
+   
+    
+    \begin{textblock*}{110mm}[0,1](110mm,50mm)
+      \color{FAU_Blue}\bf\Large
+      Lehrstuhl für Technische Mechanik
+    \end{textblock*}
+
+     
+
+    	\begin{center}
+    		\color{black}
+    		\vspace*{40mm}
+    		
+    		\parbox{0.5\textwidth}{\LARGE \centering \Titel}
+    		
+    		\vspace*{12mm}
+    		
+			\parbox{0.5\textwidth}{\large \centering \Typ}
+			
+			\vspace*{23mm}
+			
+			\parbox{0.5\textwidth}{\large \centering \Name}
+			
+			\vspace*{2mm}
+			
+			\parbox{0.5\textwidth}{\large \centering \Mat}
+			
+			\vspace*{90mm}
+			
+			\parbox{0.5\textwidth}{\large \centering \Datum}
+			
+			\vspace*{2mm}
+			
+			\parbox{0.8\textwidth}{\large \centering \Betreuer}
+    	\end{center}
+
+
+  
+      
+
+    \begin{textblock*}{60mm}[0,1](55mm,310mm)
+      \includegraphics[scale=0.17]{FAU_Logo.png}
+    \end{textblock*}
+
+  \end{titlepage}
+\end{document}

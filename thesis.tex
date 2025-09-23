@@ -1,0 +1,233 @@
+   
+    
+    \documentclass[
+		11pt,
+		a4paper,
+		titlepage=firstiscover,
+	]{scrreprt}
+	\usepackage{pdfpages}
+    \usepackage{subfigure}
+    \usepackage{graphicx}
+    
+	\input{preamble}
+	
+	%----------------------------------------------
+	% Page Style 
+	%----------------------------------------------
+	\textheight=670pt
+	\pagestyle{fancy}
+	\fancyhead{}
+	\fancyfoot{}
+	\fancyhead[R]{\rightmark}
+	\renewcommand{\headrulewidth}{0.4pt}
+	\fancyfoot[R]{\thepage}
+	\renewcommand{\chaptermark}[1]{\markboth{\thechapter\ #1}{}}
+	\renewcommand{\sectionmark}[1]{\markright{\thesection\ #1}}
+	
+	
+	% Pagestyle for plain pages
+	\fancypagestyle{plain}{%
+	\fancyhf{} % clear all header and footer fields
+	\fancyfoot[R]{\thepage} % except the center
+	\renewcommand{\headrulewidth}{0pt}
+	\renewcommand{\footrulewidth}{0pt}}
+	
+	%pagestyle for titlepage
+    \renewcommand*{\coverpagebottommargin}{20mm}
+	
+	
+	
+	%----------------------------------------------
+	% Begin Document
+	%----------------------------------------------
+	
+	\begin{document}
+	
+	\input{variables}
+	
+	
+	
+	
+	%----------------------------------------------
+	% Coverpage
+	%----------------------------------------------
+	
+	\includepdf{LTM_thesis_cover.pdf}
+
+	
+	%----------------------------------------------
+	% Title page
+	%----------------------------------------------
+	
+	
+	% Title Page Information
+	\subject{
+			\huge Masterarbeit\\ [5mm]
+			\Large \textnormal {im Studiengang Maschinenbau}}
+			
+	\title{\vspace{1cm}The title of your thesis goes here
+	}
+	
+	\author{von \\Firstname~Lastname}
+	
+	\date{\vspace{2.5cm}
+		\begin{tabular}{l l l}
+			Prüfer: 	& & 	Prof.~Dr.-Ing.~habil.~P.~Steinmann\\
+	  		Betreuer:	& &		Dr.-Ing.~S.~Pfaller\\
+	  		Ausgabe:	& &		DD.MM.YYYY\\
+	  		Abgabe: 	& &		DD.MM.YYYY\\
+		 \end{tabular}
+	}
+	
+	\publishers{\vspace{2.7cm}
+			Universität Erlangen-Nürnberg\\ 
+			Lehrstuhl für Technische Mechanik\\ 
+			Prof.~Dr.-Ing.~habil.~P.~Steinmann}
+	
+	\maketitle
+	
+	
+	%----------------------------------------------
+	% Eidesstaatliche Erklärung
+	%----------------------------------------------
+	\thispagestyle{empty}
+	
+	\vspace{8cm}
+	
+	\noindent
+	\parbox[t][12cm][b]{\textwidth}{
+	Ich versichere, dass ich die Arbeit ohne fremde Hilfe und ohne Benutzung anderer als der angegebenen Quellen angefertigt habe und dass die Arbeit in gleicher oder ähnlicher Form noch keiner anderen Prüfungsbehörde vorgelegen hat und von dieser als Teil einer Prüfungsleistung angenommen wurde. Alle Ausführungen, die wörtlich oder sinngemä{\ss} übernommen wurden, sind als solche gekennzeichnet.\\[3cm]
+	\begin{minipage}[t]{0.3\linewidth}
+		\raggedright
+		\makebox[\textwidth]{\hrulefill}\\
+		Ort, Datum
+	\end{minipage}
+	 \hspace{0.385\linewidth}
+	\begin{minipage}[t]{0.3\linewidth}
+		\raggedright
+		\makebox[\textwidth]{\hrulefill}\\
+		Unterschrift
+	\end{minipage}
+	}
+	
+	\newpage
+	
+	
+	%----------------------------------------------
+	% Table of Contents
+	%----------------------------------------------
+	\pagenumbering{Roman}
+	\markboth{}{Contents}
+	\pdfbookmark[0]{\contentsname}{toc}
+	\tableofcontents
+	\clearpage
+	
+	
+	%----------------------------------------------
+	% List of Figures
+	%----------------------------------------------
+	\addtocontents{lof}{\protect\thispagestyle{plain}}
+	\listoffigures
+	\addcontentsline{toc}{chapter}{\listfigurename}
+	
+	
+	
+	%----------------------------------------------
+	% List of Tables
+	%----------------------------------------------
+	\addtocontents{lof}{\protect\thispagestyle{plain}}
+	\listoftables
+	\addcontentsline{toc}{chapter}{\listtablename}
+	\clearpage
+	\newpage
+	
+	
+	%--------------------------------------------------------
+	% Page Style
+	%--------------------------------------------------------
+	%Pagestyle for normal pages
+	\fancyhf{} % clear all header and footer fields
+	\pagestyle{fancy}
+	\fancyhead{}
+	\fancyfoot{}
+	\fancyhead[L]{\leftmark}
+	\fancyhead[R]{\rightmark}
+	\renewcommand{\headrulewidth}{0.4pt}
+	\fancyfoot[R]{\thepage}
+	\renewcommand{\chaptermark}[1]{\markboth{\thechapter\ #1}{}}
+	\renewcommand{\sectionmark}[1]{\markright{\thesection\ #1}}
+	
+	% Pagestyle for plain pages
+	\fancypagestyle{plain}{%
+	\fancyhf{} % clear all header and footer fields
+	\fancyfoot[R]{\thepage} % except the center
+	\renewcommand{\headrulewidth}{0pt}
+	\renewcommand{\footrulewidth}{0pt}}
+	
+	
+	
+	
+	%----------------------------------------------
+	% Start of Text
+	%----------------------------------------------
+	\pagenumbering{arabic}
+	
+	\chapter{Introduction}
+
+    research questions
+	
+	\chapter{Basics}
+
+    \section{MD-Model}
+
+ 
+
+    
+    
+    \section{VOCE-Model}
+    \section{Optimization algorithm}
+    \section{EasyPBC Plug-In}
+
+    \chapter{Methods and Models}
+    \section{Flowchart}
+    \section{Test cases}
+    \include{chapter_modelsAndMethods}
+    \include{chapter_results}
+    
+    
+    \chapter{Conclusion}
+	
+
+	
+	
+	
+	\clearpage
+	\newpage
+	 \pagenumbering{roman}
+	%----------------------------------------------
+	% Bibliograhy
+	%----------------------------------------------
+%	 \nocite{*} %print every bibtex key
+	
+	\pagestyle{fancy}
+	\fancyhead{}
+	\fancyfoot{}
+	% one sided 
+	\fancyhead[R]{\rightmark}
+	\renewcommand{\headrulewidth}{0.4pt}
+	\fancyfoot[R]{\thepage}
+	\renewcommand{\chaptermark}[1]{\markboth{\thechapter\ #1}{}}
+	\renewcommand{\sectionmark}[1]{\markright{\thesection\ #1}}
+	
+	 \printbibliography[heading=bibintoc, title={Bibliography}]
+	
+	\newpage
+	
+	 \addtocontents{toc}{\protect\setcounter{tocdepth}{0}}
+	 \begin{appendices}
+	 	\chapter{Appendix}
+	 	\section{Section}
+	 	\chapter{Appendix}
+	\end{appendices}
+	
+	\end{document}

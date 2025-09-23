@@ -1,0 +1,86 @@
+
+
+
+    
+
+    optimization algorithm:
+
+    - how does it work? 
+
+    Input: table with input variables 
+    describe their meaning
+
+    Algorithm: 
+    1. creates new mdb and work directory
+    2. creates models as given in the input
+    3. start easy pbc
+    4. manipulate BC, material porverties etc
+    5. start optimization
+        6. start job
+        7. read stress and strain from odb
+        8. calculate RMSE 
+        9. add to general error
+        10. again for next job
+        11. write new material parameters
+        12. again for next optimization loop
+
+
+Hence we have to reduce the mechanical behaviour into one representative parameter. First we must define the quantities which represent best the mechanical behaviour of the material. Since we build the code completely new we use simple load cases (see section XX). In all load cases we apply a strain in one direction and measure the corresponding stresses and all stress and strain values in the other two directions. 
+    
+
+    represent the stress-strain behaviour , given by the MD analysis, in an ABAQUS analysis through the definition of matching material parameters. This means we need an optimisation process to find values for the material parameters. The quality of the values is defined through the difference of stress-strain response in the simulation from the data of the MD-simulation. 
+    As introduced in chapter XX we use a scipy-minimize function with a nelder-mead algorithm. This function is able minimise one single value through the optimisation of multiple input values. Applied to our case we can optimise multiple material parameters through the minimisation of one single parameter which represents the matching of the stress-strain data. For this parameter we decided to use a root-mean-squared error (RMSE). (Theorie über RMSE)
+    For the evaluation of the matching of the stress-strain data we have to apply a mechanical load case to our test model. The constitution of the load cases is discussed in section XX. In general, either the stresses or the strain must be defined similar to the definition in the MD-analysis. In all our test cases the strains are given. Then the other data (stresses in our cases) can be compared to the results of the MD-simulation and summarized in one representative value. For this comparison we read out the stress values from the ABAQUS analysis at the same strain values as in the MD-results. Then we compute the difference between the two stress values at every strain step and square it to have only positive values. In the next step   
+
+
+     \begin{enumerate}
+        \item create CubeParameters object with input values 
+            \begin{itemize}
+                \item calculate scaled material values between 0 and 1 
+                \item check length of value arrays 
+                \item read plastic strain from input file
+                
+            \end{itemize}
+        \item create MDB, define current work directory, define model directory
+        \item create MDBCube object
+            \begin{itemize}
+                \item copy parameters
+                \item define work directory
+                \item read MD-Data (strucutre is fix)
+            \end{itemize}
+        \item create cube-model
+            - define elastic and plastic material
+            - elastic part important because easyPBC only works with elastic material 
+            - calculate plastic stress values with formula for VOCE-hardening with inital values for material parameters, evaluation points given through plastic strain of input voce file
+            - create element and node sets of the surfaces (not necessary any more)
+            - mesh part with element number from input file: 6 is good value because less element lead to convergence errors, more lead to increase of computation time
+        \item create job
+            - read from parameters current analysis direction
+            - start easyPBC with this direction set true 
+            - change job name
+        \item update boundary condition
+            - modify boundary conditon created by easyPBC
+            - create amplitude: use md strain data as amplitude points for every time step (evaluation points for field output)
+            - set correlated direction to 1.0 --> amplitude is applied with factor 1.0 in this direction
+            - shear load is only applied in one direction (similar to MD-analysis) --> factor of 2.0 is necessary because of addition of the two direcitons 
+        \item update increment size
+            - create time steps as many as md steps
+            - use nlgeom on: why is that important
+            - turn on automatic time incrementation: important for non-linear behavior: for time steps with large deformations, multiple increments can be used
+            - create TimePoints out of MD analysis steps
+            - define FieldOutputs at this timepoints
+            - define FieldOutput NE additional (what does it mean exactly?)
+        \item saveMDB
+            - save mdb in workDirectory
+
+        \item create MDData set object
+            - read MD data 
+        \item store mD data in dictionary with related job
+        \item copy md file in result directory
+
+        --> necessary for processing in scipy minimize function (can only handle dictionaries, not objects)
+
+        \item create value bounds for every optimization parameter of 0 and 1
+        \item list scaled values 
+            
+    \end{enumerate}
