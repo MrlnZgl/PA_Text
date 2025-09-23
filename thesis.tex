@@ -1,15 +1,17 @@
-   
-    
     \documentclass[
 		11pt,
 		a4paper,
 		titlepage=firstiscover,
 	]{scrreprt}
-	\usepackage{pdfpages}
-    \usepackage{subfigure}
-    \usepackage{graphicx}
-    
 	\input{preamble}
+	\usepackage{subfigure}
+	\usepackage{graphicx}
+	\usepackage{pdfpages}
+	\usepackage{comment}
+	\usepackage{subcaption}
+	\usepackage{caption}
+    \graphicspath{ {./images/} }
+	
 	
 	%----------------------------------------------
 	% Page Style 
@@ -219,7 +221,7 @@
 	\renewcommand{\chaptermark}[1]{\markboth{\thechapter\ #1}{}}
 	\renewcommand{\sectionmark}[1]{\markright{\thesection\ #1}}
 	
-	 \printbibliography[heading=bibintoc, title={Bibliography}]
+	%\printbibliography[heading=bibintoc, title={Bibliography}]
 	
 	\newpage
 	

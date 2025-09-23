@@ -2,6 +2,8 @@
     XXX muss vmtl eig in BAsics
     To evaluate the quality of the material parameters we need a possibility to investigate the material response caused by the definition of the material parameters. Then we can compare this results with the load parameters and evaluate the quality of the current material parameters. Thus we have to use a simulation program to analyse the material behaviour for every iteration of material parameter values during the optimization process. We decided to use ABAQUS as simulation software, because of the intern scripting tool. With the ABAQUS scripting tool one can run python scripts directly in ABAQUS (see chapter XX). With special ABAQUS commands one can use ABAQUS with the same opportunities as with the GUI. 
     XXXX
+
+    Therefore we choose simple load cases, which are easy to recalculate. AS explained in the chpater XX about the mathematical problem formulation, we have to define a parameter which defines the quality of the mechanical responses calculated by ABAQUS compared to the ones from the MD-simulation. Therefore we first have to define adequate mechanical measurements which represent best the mechanical behaviour and contain information about the material parameters. Hence the stress and strain measurements in all normal and shear directions are possible quantities. Depending on the load case the measurements with the most useful information may vary.
     
 
     
@@ -26,23 +28,34 @@
     
     \subsection{Load cases and evaluation measurements}
     
-    A load case defines the direction where the load is applied. Since we want reproducible and easy cases, we only allow loading in normal directions and principal shear directions. To model a more complex loading situation it is possible to combine these load cases. For example it is possible to apply a tensile load in xx-direction combined with a shear strain in xz-direction. Important to notice is, that we apply load only in one direction per load case without constraining the other ones. Thus the deformation of the cube is only restricted through the periodic boundary conditions (see chapter XX) which ensure that parallel surfaces remain parallel during the deformation process. Apart from this, the material response is not restricted. After the application of a load case, we have to decide which material responses we use to compare with our load parameters. We have the possibility to read out the stress and strain values in all normal and shear directions. These values are called evaluation measurements. For a high result quality of our material parameters, we try to use evaluation measurements where we can extract the most information about our material behaviour. These measurements vary depending on the applied load case. As we see in section XX the user defines the evaluation measurements in the input file. Based on the presented load cases in the following, the meaning of the evaluation measurements becomes clear. 
-    For the verification of the code we use a simple tensile load case in x-direction.
-    
+    A load case defines the direction where the load is applied. Since we want reproducible and easy cases, we only allow loading in normal directions and principal shear directions. To aplly this loadings we use easyPBC. For a consistent naming, we adopt the naming from easyPBC for the load cases, which is defined in \autoref{tab:loadCaseNaming}.
+     To model a more complex loading situation it is possible to combine these load cases. For example it is possible to apply a tensile load in xx-direction combined with a shear strain in xz-direction. Important to notice is, that we apply load only in one direction per load case without constraining the other ones. Thus the deformation of the cube is only restricted through the periodic boundary conditions (see chapter XX) which ensure that parallel surfaces remain parallel during the deformation process. Apart from this, the material response is not restricted. After the application of a load case, we have to decide which material responses we use to compare with our load parameters. We have the possibility to read out the stress and strain values in all normal and shear directions. These values are called evaluation measurements. For a high result quality of our material parameters, we try to use evaluation measurements where we can extract the most information about our material behaviour. These measurements vary depending on the applied load case. As we see in section XX the user defines the evaluation measurements in the input file. Based on the presented load cases in the following, the meaning of the evaluation measurements becomes clear. 
+
+    \begin{table}[H]
+        \centering
+        \includegraphics[width=0.4\textwidth]{loadCaseNaming.pdf}
+		\caption{Load case naming}
+		\label{tab:loadCaseNaming}
+    \end{table}
+
+    For the verification of the code we use a simple tensile load case E11.
     In all other directions we do not apply any constraints except the periodic boundary conditions. As evaluation measurements we use the stress in x-direction and the lateral strains in normal y- and z-direction. The normal stress in x-direction contains information about the Young's modulus and the plastic parameters. For the Poisson ratio the lateral strains are necessary. Since we do not constrain the motion of the cube, the y- and z-dimension will decrease, to balance the strain in x-direction. This reaction is necessary to keep a state of minimum stress. Simultaneously this means that the lateral stresses do not contain any useful information in this load case, because they are numerically zero. 
-    The validation study is done with the same load case. However, we use different mixing ratios which show different mechanical behaviours. Similar to the verification study we need the stresses in x-direction and the lateral strains to extract information about all material parameters. 
-    In the next step we apply a combination of a tensile load case and a simple shear test. Here we apply a tensile strain following a sinus function over time with a maximum amplitude of 15 \(\%\) strain. We only consider the first quarter of a period up to the maximum value as a preparation for studies with cyclic loading. In this preparing study we want to investigate the handling with non-linear loadings. For additional information we apply a simple shear strain in xy-direction. We apply the same loading as in normal direction. Then we measure the stresses in this direction. Through the additional obtained information we try to improve the uniqueness of the determined material parameter values.
-    As a last study we investigate the application of cyclic load cases. Now we use a full period of a sinusoidal loading for a tensile load case in x-direction. We use amplitudes of 1\(\%\), 5\(\%\) and 8\(\%\). The varying proportions in the elastic and plastic domain of the material should 
+    The validation study is done with the same load case. However, we use different mixing ratios as materials which show different mechanical behaviours. Similar to the verification study we need the stresses in x-direction and the lateral strains to extract information about all material parameters. 
+    In the next step we apply a combination of a tensile load case and a simple shear test.  For additional information we apply a simple shear strain as load case G12. Then we measure the stresses in this direction. Through the additional obtained information we try to improve the uniqueness of the determined material parameter values.
+    As a last study we investigate the application of cyclic loading as E11 load case. We perform this study with varying load parameters (see \autoref{subsec:loadParameters}). 
     
     Noch was über dei zyklische Art der Strains. Bild mit load case und gemessenen stress/strain directions.
 
     
-    Therefore we choose simple load cases, which are easy to recalculate. AS explained in the chpater XX about the mathematical problem formulation, we have to define a parameter which defines the quality of the mechanical responses calculated by ABAQUS compared to the ones from the MD-simulation. Therefore we first have to define adequate mechanical measurements which represent best the mechanical behaviour and contain information about the material parameters. Hence the stress and strain measurements in all normal and shear directions are possible quantities. Depending on the load case the measurements with the most useful information may vary.
+    
 
-    \subsection{load parameters}
+    \subsection{Load parameters}\label{subsec:loadParameters}
     NUR EIN WERT IM ELASTUSCHEN BEREICH
 
+    Test
+
      We apply a linear strain up to 20\(\%\) in normal x-direction.
+     Here we apply a tensile strain following a sinus function over time with a maximum amplitude of 15 \(\%\) strain. We only consider the first quarter of a period up to the maximum value as a preparation for studies with cyclic loading. In this preparing study we want to investigate the handling with non-linear loadings.We apply the same loading as in normal direction. Now we use a full period of a sinusoidal loading for a tensile load case in x-direction. We use amplitudes of 1\(\%\), 5\(\%\) and 8\(\%\). The varying proportions in the elastic and plastic domain of the material should 
 
     
 
@@ -88,32 +101,32 @@
 		\label{tab:inputParameterTable}
 	\end{table}
     
-    Before starting with the optimization process, we need some preprocessing steps to prepare a working ABQUS model with the required properties. In picture XX the complete structure of the code is depicted. The upper part belongs to the preprocessing. In the first step the code extracts the values from the input file. Table \autoref{fig:inputParameterTable} lists the input parameters relevant to the optimization process. The whole input file is included in the Attachment XX. Here the user has multiple options to specify the optimization process. It is possible to test multiple initial values for the material parameters calling the script once. This function is important to verify the optimization results with varying input values. For every material parameter we can write an array of initial values. Then the code loops over all array entries at a time to extract one initial value for each parameter (see \autoref{fig:initialValueComb}). As a consequence all arrays need to be of same length. For all the created initial value combinations the code creates a new ModeldataBase (mdb) in ABAQUS and a new folder structure to set the working directory and store the results.
-    
+    Before starting with the optimization process, we need some preprocessing steps to prepare a working ABQUS model with the required properties. In picture XX the complete structure of the code is depicted. The upper part belongs to the preprocessing. In the first step the code extracts the values from the input file. Table \autoref{tab:inputParameterTable} lists the input parameters relevant to the optimization process. The whole input file is included in the Attachment XX. Here the user has multiple options to specify the optimization process. It is possible to test multiple initial values for the material parameters calling the script once. This function is important to verify the optimization results with varying input values. For every material parameter we can write an array of initial values. Then the code loops over all array entries at a time to extract one initial value for each parameter (see \autoref{tab:ModelSettings}). As a consequence all arrays need to be of same length. For all the created initial value combinations the code creates a new ModeldataBase (mdb) in ABAQUS and a new folder structure to set the working directory and store the results.
+   
     \begin{table}[H]
         \centering
         \begin{minipage}[T!]{1.0\textwidth}
             \centering
             \begin{minipage}[T!][5.3cm][T!]{0.43\textwidth}
-                \includegraphics[width=1.0\textwidth]{Latex_Thesis_template/initalValueComb.pdf}
+                \includegraphics[width=1.0\textwidth]{initalValueComb.pdf}
                 \vfill{}
 		        \caption*{(a) Arrangement of initial value combination of material parameters}
-                \label{tab:amplitudemenu}
+                \label{tab:initialValueComb}
             \end{minipage}
             \hspace{0.05\textwidth} % Horizontal space between the minipage
             \begin{minipage}[T!][5.3cm][T!]{0.43\textwidth}
-                \includegraphics[width=\textwidth]{Latex_Thesis_template/ModelCombinations.pdf}
+                \includegraphics[width=1.0\textwidth]{ModelCombinations.pdf}
                 \vfill{}
                 \caption*{(b) Model creation for load case and parameter combinations}
-                \label{tab:bcmenu}
+                \label{tab:modelCombinations}
             \end{minipage}
         \end{minipage}    
         \caption{Loop conditions in preprocessing}
-        \label{tab:modelSettings}
+        \label{tab:ModelSettings}
 	\end{table}
     
     Afterwards we start to construct the model. As discussed in section XX we use a cube with size 1x1x1 as model. We mesh the cube with 6x6x6 XXXX elements. The number of elements is a compromise between a coarse mesh for fast computation and a minimum number to avoid convergence errors. Although we use the hyperelastic material law in our optimization process, we first have to build the model with elastic material. This is necessary for the usage of easyPBC in the next step. Now we use the load case defined in the input file to create a easyPBC job to apply it on the cube. As discussed in chapter XXX we use easyPBC for the automatic construction of periodic boundary conditions. We use this set up to simulate a small detail of a infinitely large area (SCHLECHT FROMULIERT). Aside from that we use the generated boundary conditions for the applied load case. Since they act at a reference point a homogeneous load contribution is ensured. --> vlt auch in basics teil..
-    However the settings from easyPBC contain some default values, we have to adjust. EasyPBC applies for every load case a uniform displacement with a standard fixed value. In our optimization we want to study cases with applied stresses as well. Additional we have to adapt the value of the load. For a correct comparison of the ABAQUS data with the MD-data we have to create evaluation points at similar load increments. In ABAQUS we can solve this issue by creating an amplitude. We register the evaluation points from the MD-data as steps and use this amplitude to apply the load. The value of the load is then set to 1 because it only defines the factor the amplitude is multiplied (see \autoref{fig:BcAmplitudeAbaqus}). Afterwards we modify the increment settings. EasyPBC automatically creates increments with fixed size and without non-linear geometry effects. In order not to run into convergence errors we use automatic incrementation. Especially in the first load steps we observe large deformations. If we try to resolve such large deformations in one incrementation step ABAQUS cannot resolve the step. With automatic incrementation ABAQUS can adapt the number of increments per load step dynamically. The non-linear geometry effects have to be considered because of the material properties we use. As described before we build elastic material for the usage of easyPBC. In the following the code removes this material and substitutes it with a hyper-elastic material which is suitable for high non-linear deformation. By using this material, ABAQUS demands the inclusion of non-linear geometry effects. In the last step of preprocessing we store the model in a dictionary. We use this dictionary later to call the models for the optimization. We perform the preprocessing for all prescribed load cases. This means for example if we define E11, G12, and G23 as load cases, we create one model for each load case in the previous described manner. Furthermore, we loop over the load parameters and create separate models. In the end we have then for each combination of load case and load parameter one model. 
+    However the settings from easyPBC contain some default values, we have to adjust. EasyPBC applies for every load case a uniform displacement with a standard fixed value. In our optimization we want to study cases with applied stresses as well. Additional we have to adapt the value of the load. For a correct comparison of the ABAQUS data with the MD-data we have to create evaluation points at similar load increments. In ABAQUS we can solve this issue by creating an amplitude. We register the evaluation points from the MD-data as steps and use this amplitude to apply the load. The value of the load is then set to 1 because it only defines the factor the amplitude is multiplied (see \autoref{fig:AbaqusSettings}). Afterwards we modify the increment settings. EasyPBC automatically creates increments with fixed size and without non-linear geometry effects. In order not to run into convergence errors we use automatic incrementation. Especially in the first load steps we observe large deformations. If we try to resolve such large deformations in one incrementation step ABAQUS cannot resolve the step. With automatic incrementation ABAQUS can adapt the number of increments per load step dynamically. The non-linear geometry effects have to be considered because of the material properties we use. As described before we build elastic material for the usage of easyPBC. In the following the code removes this material and substitutes it with a hyper-elastic material which is suitable for high non-linear deformation. By using this material, ABAQUS demands the inclusion of non-linear geometry effects. In the last step of preprocessing we store the model in a dictionary. We use this dictionary later to call the models for the optimization. We perform the preprocessing for all prescribed load cases. This means for example if we define E11, G12, and G23 as load cases, we create one model for each load case in the previous described manner. Furthermore, we loop over the load parameters and create separate models. In the end we have then for each combination of load case and load parameter one model. 
 
  
 
@@ -122,28 +135,28 @@
         \begin{minipage}[T!]{1.0\textwidth}
             \centering
             \begin{minipage}[T!][9cm][T!]{0.35\textwidth}
-                \includegraphics[width=\textwidth]{Latex_Thesis_template/Amplitude.pdf}
+                \includegraphics[width=1.0\textwidth]{Amplitude.pdf}
                 \vfill{}
                 \caption*{(a) Definition of load amplitude in ABAQUS}
                 \label{fig:amplitudemenu}
             \end{minipage}
             \hspace{0.08\textwidth} % Horizontal space between the minipage
             \begin{minipage}[T!][9cm][T!]{0.35\textwidth}
-                \includegraphics[width=\textwidth]{Latex_Thesis_template/BC.pdf}
+                \includegraphics[width=1.0\textwidth]{BC.pdf}
                 \vfill{}
                 \caption*{(b) Boundary condition menu in ABAQUS}
                 \label{fig:bcmenu}
             \end{minipage}
         \end{minipage}    
         \caption{Loop conditions in preprocessing}
-        \label{tab:modelSettings}
+        \label{fig:AbaqusSettings}
 	\end{figure}
  
     \section{Optimisation process}
 
      \begin{table}[H]
 		\centering
-        \includegraphics[width=0.95\textwidth]{Latex_Thesis_template/minimizeFuncitonInput.pdf}
+        \includegraphics[width=0.95\textwidth]{minimizeFuncitonInput.pdf}
 		\caption{Input parameters for SciPy minimize function}
 		\label{tab:minimizeFunctionInput}
 	\end{table}

@@ -13,18 +13,18 @@
 \contentsline {chapter}{\numberline {4}Models and Methods}{5}{chapter.4}%
 \contentsline {section}{\numberline {4.1}Theory}{5}{section.4.1}%
 \contentsline {section}{\numberline {4.2}Model, load cases and load parameters}{5}{section.4.2}%
-\contentsline {subsection}{\nonumberline Load cases and evaluation measurements}{6}{subsection*.5}%
-\contentsline {subsection}{\nonumberline load parameters}{7}{subsection*.7}%
-\contentsline {subsection}{\nonumberline error calculation}{7}{subsection*.9}%
+\contentsline {subsection}{\numberline {4.2.1}Load cases and evaluation measurements}{6}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Load parameters}{7}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.2.3}error calculation}{7}{subsection.4.2.3}%
 \contentsline {section}{\numberline {4.3}general structure of the code}{8}{section.4.3}%
 \contentsline {section}{\numberline {4.4}Preprocessing}{9}{section.4.4}%
-\contentsline {section}{\numberline {4.5}Optimisation process}{12}{section.4.5}%
-\contentsline {chapter}{\numberline {5}Results}{16}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Verification}{16}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Validation}{18}{section.5.2}%
-\contentsline {section}{\numberline {5.3}shear and normal strain tests combined}{22}{section.5.3}%
-\contentsline {section}{\numberline {5.4}cyclic tests}{22}{section.5.4}%
-\contentsline {chapter}{\numberline {6}Conclusion}{23}{chapter.6}%
+\contentsline {section}{\numberline {4.5}Optimisation process}{11}{section.4.5}%
+\contentsline {chapter}{\numberline {5}Results}{15}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Verification}{15}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Validation}{17}{section.5.2}%
+\contentsline {section}{\numberline {5.3}shear and normal strain tests combined}{21}{section.5.3}%
+\contentsline {section}{\numberline {5.4}cyclic tests}{21}{section.5.4}%
+\contentsline {chapter}{\numberline {6}Conclusion}{22}{chapter.6}%
 \setcounter {tocdepth}{0}
 \contentsline {chapter}{\numberline {A}Appendix}{i}{appendix.1.A}%
 \contentsline {section}{\numberline {A.1}Section}{i}{section.1.A.1}%
