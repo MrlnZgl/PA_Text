@@ -14,7 +14,7 @@
     \section{Theory}
 
     The aim of the optimisation process is to find material parameters which best represent the mechanical behaviour analysed with a MD-Simulation. In the following we demonstrate the need of this process.
-    The MD-analysis gives information about the mechanical response for an applied load case. In a MD-simulation we can apply a load case and log the stress and strain values in all directions at prescribed time steps during the loading process. In the following this data from the MD-Simulations are called load parameters. They describe the applied load (for example uniform strain up to 20\(\%\)) and the corresponding reactions. In section XX we have a closer look on the structure of the data. 
+    The MD-analysis gives information about the mechanical response for an applied load case. In a MD-simulation we can apply a load case and log the stress and strain values in all directions at prescribed time steps during the loading process. In the following this data from the MD-Simulations are called load parameters. They describe the applied load (for example uniform strain up to 20\(\%\)) and the corresponding reactions. In \autoref{subsec:loadParameters} we have a closer look on the structure of the data. 
     This load parameters empirically describe the mechanical behaviour of the investigated material. However, we are interested in a deterministic description of the material behaviour. This is usually done by the definition of material parameters. Since it is not possible to specify material parameters directly in the MD-simulation, we want to build a optimization process which is able to find the best material parameters to represent the material behaviour from the load parameters. To implement this problem we have to reformulate it as a minimization problem. As minimization value we have to define a value that represents the error of mechanical response of the material. Therefore we compare the material behaviour defined through the material parameters with the one from the load parameters. If we minimise their difference, we improve the quality of the material parameter values describing the material behaviour. In our problem formulation we have now the optimisation of the material parameters controlled by the minimization of the difference between the mechanical responses. In the next step we need to define this difference between the mechanical behaviour more precisely. For the mathematical formulation only one single value is allowed for the problem formulation. For a detailed explanation we now introduce the used model, the load cases and load parameters.
 
     As explained in chapter XX we use ABAQUS as simulation software and the ABAQUS internal scripting tool for the code. 
@@ -26,40 +26,31 @@
     
     NOCH MEHR ÜBER DAS MODEL
     
-    \subsection{Load cases and evaluation measurements}
+    \subsection{Load cases and evaluation measurements}\label{subsec: loadCases}
     
     A load case defines the direction where the load is applied. Since we want reproducible and easy cases, we only allow loading in normal directions and principal shear directions. To aplly this loadings we use easyPBC. For a consistent naming, we adopt the naming from easyPBC for the load cases, which is defined in \autoref{tab:loadCaseNaming}.
      To model a more complex loading situation it is possible to combine these load cases. For example it is possible to apply a tensile load in xx-direction combined with a shear strain in xz-direction. Important to notice is, that we apply load only in one direction per load case without constraining the other ones. Thus the deformation of the cube is only restricted through the periodic boundary conditions (see chapter XX) which ensure that parallel surfaces remain parallel during the deformation process. Apart from this, the material response is not restricted. After the application of a load case, we have to decide which material responses we use to compare with our load parameters. We have the possibility to read out the stress and strain values in all normal and shear directions. These values are called evaluation measurements. For a high result quality of our material parameters, we try to use evaluation measurements where we can extract the most information about our material behaviour. These measurements vary depending on the applied load case. As we see in section XX the user defines the evaluation measurements in the input file. Based on the presented load cases in the following, the meaning of the evaluation measurements becomes clear. 
 
     \begin{table}[H]
         \centering
-        \includegraphics[width=0.4\textwidth]{loadCaseNaming.pdf}
+        \includegraphics[width=0.35\textwidth]{loadCaseNaming.pdf}
 		\caption{Load case naming}
 		\label{tab:loadCaseNaming}
     \end{table}
 
     For the verification of the code we use a simple tensile load case E11.
     In all other directions we do not apply any constraints except the periodic boundary conditions. As evaluation measurements we use the stress in x-direction and the lateral strains in normal y- and z-direction. The normal stress in x-direction contains information about the Young's modulus and the plastic parameters. For the Poisson ratio the lateral strains are necessary. Since we do not constrain the motion of the cube, the y- and z-dimension will decrease, to balance the strain in x-direction. This reaction is necessary to keep a state of minimum stress. Simultaneously this means that the lateral stresses do not contain any useful information in this load case, because they are numerically zero. 
-    The validation study is done with the same load case. However, we use different mixing ratios as materials which show different mechanical behaviours. Similar to the verification study we need the stresses in x-direction and the lateral strains to extract information about all material parameters. 
-    In the next step we apply a combination of a tensile load case and a simple shear test.  For additional information we apply a simple shear strain as load case G12. Then we measure the stresses in this direction. Through the additional obtained information we try to improve the uniqueness of the determined material parameter values.
+    The validation study is done with the same load case. Similar to the verification study we need the stresses in x-direction and the lateral strains to extract information about all material parameters. 
+    In the next step we use a load case E11, then G12 and finally combine them. Through the additional obtained information we try to improve the uniqueness of the determined material parameter values. As evaluation measurement for the load case G12 we use the stresses in this direction.
     As a last study we investigate the application of cyclic loading as E11 load case. We perform this study with varying load parameters (see \autoref{subsec:loadParameters}). 
-    
-    Noch was über dei zyklische Art der Strains. Bild mit load case und gemessenen stress/strain directions.
-
-    
-    
 
     \subsection{Load parameters}\label{subsec:loadParameters}
-    NUR EIN WERT IM ELASTUSCHEN BEREICH
+    The load parameters contain the stress and strain values measured during the MD-simulation. The values are stored for all normal and shear directions. From this file we can extract the quantitave values of the applied load. Since we defined the load cases similar to the ones in the MD-simulations, we can use the data directly. They contain stress and strain values for every MD-timestep. The meaning of the MD-timsteps is not relevant in this thesis, because it depends on several restrictions on the MD-simulation which will not be discussed in this context. Within in the scope of this work it is only important that we get stress and strain values for multiple steps during the loading process. Thus, we can register different trends of loading and the corresponding responses. If we know the load case, we can easily extract the corresponding loading parameters and transfer them into the ABAQUS model. A detailed description of the of the load application in ABAQUS can be found in \autoref{sec: preprocessing}. Besides, we need some stress or strain values which define the material responses in the MD-simulation to evaluate the material parameter fitting. The introduced evaluation measurements \autoref{subsec: loadCases} define which data from the load parameters are used for the optimization process. In XX the load cases and load parameters we investigate in this work are shown.
+    In the verification and validation studies we always apply a linear strain with a maximum value of 20\%. In the validation studies we use different mixing ratios as materials which show different mechanical behaviours. In the next study we investigate a tensile strain following a sinus function over time with a maximum amplitude of 15 \(\%\) strain. We only consider the first quarter of a period up to the maximum value as a preparation for studies with cyclic loading. In this preparing study we want to investigate the handling with non-linear loadings. Then we use the same load parameters but apply them as a shear strain. In the next step we use the same load parameters but combine the load cases of E11 and G12. Important to notice is that the previously introduced load parameters proceed in a wide strain range. Assuming that the material starts to palstify at XX, the majority of the loaing steps are located in the plastic domain of the material. Conversely, the load parameters contain only little information about the elastic material behaviour. In \autoref{sec: verification} the issue about this unequal distribution in the material domains becomes clear.    
+    As a last study we investigate  a full period of a sinusoidal loading for a tensile load case in x-direction. We use amplitudes of 1\(\%\), 5\(\%\) and 8\(\%\). Through the use of this load parameters we try to get a larger proportion of data points in the elastic domain.
 
-    Test
 
-     We apply a linear strain up to 20\(\%\) in normal x-direction.
-     Here we apply a tensile strain following a sinus function over time with a maximum amplitude of 15 \(\%\) strain. We only consider the first quarter of a period up to the maximum value as a preparation for studies with cyclic loading. In this preparing study we want to investigate the handling with non-linear loadings.We apply the same loading as in normal direction. Now we use a full period of a sinusoidal loading for a tensile load case in x-direction. We use amplitudes of 1\(\%\), 5\(\%\) and 8\(\%\). The varying proportions in the elastic and plastic domain of the material should 
-
-    
-
-    \subsection{error calculation}
+    \subsection{Error calculation}\label{subsec: errorCalculation}
     The stress and strain measurements we do for the introduced load cases need to be reduced to one single value per load case for the mathematical solution of the optimization problem. 
     In this section we explain how we do this reduction. 
     First we define the measurements we want to use in the current load case. Then we read out this measurements from the ABAQUS-analysis and from the MD-analysis. In the next step we have to build the difference between them. For the tensile load case for example we have to do this for multiple measurements (stress xx, strain yy, strain zz). Additional it is not enough to consider only the stress and strain values at the end of the applied load (at 20 percent). If we want to adequately describe the material behaviour it is sufficient to regard the measurement during the complete loading process. From the MD-simulation certain strain-values are given at which stresses and strain in other directions are measured. We use this strain-values as steps in the ABAQUS-simulation to read the measurements there too. Thus we are able to directly compare the evolution of the measurements during the loading process. Since we now have multiple measurements to evaluate for multiple strain steps we need a mathematical expression to reduce all this values into one. For a representative value we decide to build a root-mean-squared error (RMSE). NOCH MEHR DAZU THEORIE. 
@@ -72,15 +63,22 @@
             \text{mse}_{\varepsilon} = \frac{\displaystyle\sum_{i=1}^{N_{\text{frame}}} w_i (\varepsilon_{odb,i} - \varepsilon_{md,i})^2}{\displaystyle\sum_{i=1}^{N_\text{frame}}w_i } \\
             \text{rmse} = \sqrt{\frac{\displaystyle\sum_{j=xx}^{N_\text{SED}} w_{\sigma} \cdot \text{mse}_{\sigma,j} + \displaystyle\sum_{j=1}^{N_\text{EED}} w_{\varepsilon} \cdot \text{mse}_{\varepsilon,j}}{N_\text{SED} + N_\text{EED}}} \\
             \text{error} = \sum_{k=1}^{N_\text{LC}} \sum_{l=1}^{N_\text{LP}} w_k w_l \cdot \text{rmse}_{k,l}  \\
-            N_{\text{inc}}: \text{Number of frames} \\
-            N_\text{SED}: \text{Number of stress evaluation directions} \hspace{2.5cm}
-            N_{\text{LC}}: \text{Number of load cases} \\
-            N_\text{EED}: \text{Number of strain evaluation directions}
-            \hspace{2cm} N_{\text{LP}}: \text{Number of load parameters}
         \end{gather}
+        \begin{equation*}
+            \begin{split}
+                &N_{\text{frame}}: \text{Number of frames}\\
+                &N_\text{SED}: \text{Stress evaluation directions}\\
+                &N_{\text{LC}}: \text{Number of load cases}
+            \end{split}
+            \hspace{2cm}
+            \begin{split}
+                &N_\text{EED}: \text{Strain evaluation directions}\\
+                &N_{\text{LP}}: \text{Number of load parameters}
+            \end{split}
+        \end{equation*}
     \end{center}
     
-    BILD MIT FORMEL 
+ 
     
     
 
@@ -92,17 +90,35 @@
         \item object oriented programming
     \end{itemize}
     
-    \section{Preprocessing}
+    \section{Preprocessing} \label{sec: preprocessing}
 
     \begin{table}[H]
 		\centering
-        \includegraphics[width=0.8\textwidth]{inputParameterTable.pdf}
+        \includegraphics[width=0.9\textwidth]{inputParameterTable.pdf}
 		\caption{Input parameters}
 		\label{tab:inputParameterTable}
 	\end{table}
     
     Before starting with the optimization process, we need some preprocessing steps to prepare a working ABQUS model with the required properties. In picture XX the complete structure of the code is depicted. The upper part belongs to the preprocessing. In the first step the code extracts the values from the input file. Table \autoref{tab:inputParameterTable} lists the input parameters relevant to the optimization process. The whole input file is included in the Attachment XX. Here the user has multiple options to specify the optimization process. It is possible to test multiple initial values for the material parameters calling the script once. This function is important to verify the optimization results with varying input values. For every material parameter we can write an array of initial values. Then the code loops over all array entries at a time to extract one initial value for each parameter (see \autoref{tab:ModelSettings}). As a consequence all arrays need to be of same length. For all the created initial value combinations the code creates a new ModeldataBase (mdb) in ABAQUS and a new folder structure to set the working directory and store the results.
-   
+    
+    \begin{table}[h!]
+        \centering
+        \begin{tabular}{cccccc}
+        \toprule
+        Material parameter & C1 & C2 & C3 & C4 & C5 \\
+        \midrule
+        E     & E1     & E2     & E3     & E4     & E5 \\
+        \hline
+        $\nu$ & $\nu_1$ & $\nu_2$ & $\nu_3$ & $\nu_4$ & $\nu_5$ \\
+        $\sigma_{pl}$ & $\sigma_{pl1}$ & $\sigma_{pl2}$ & $\sigma_{pl3}$ & $\sigma_{pl4}$ & $\sigma_{pl5}$ \\
+        $\alpha$ & $\alpha_1$ & $\alpha_2$ & $\alpha_3$ & $\alpha_4$ & $\alpha_5$ \\
+        $\beta$  & $\beta_1$ & $\beta_2$ & $\beta_3$ & $\beta_4$ & $\beta_5$ \\
+        $\gamma$ & $\gamma_1$ & $\gamma_2$ & $\gamma_3$ & $\gamma_4$ & $\gamma_5$ \\
+        \bottomrule
+        \end{tabular}
+        \caption{Parameterübersicht}
+    \end{table}
+
     \begin{table}[H]
         \centering
         \begin{minipage}[T!]{1.0\textwidth}
@@ -137,14 +153,14 @@
             \begin{minipage}[T!][9cm][T!]{0.35\textwidth}
                 \includegraphics[width=1.0\textwidth]{Amplitude.pdf}
                 \vfill{}
-                \caption*{(a) Definition of load amplitude in ABAQUS}
+                \caption{Definition of load amplitude in ABAQUS}
                 \label{fig:amplitudemenu}
             \end{minipage}
             \hspace{0.08\textwidth} % Horizontal space between the minipage
             \begin{minipage}[T!][9cm][T!]{0.35\textwidth}
                 \includegraphics[width=1.0\textwidth]{BC.pdf}
                 \vfill{}
-                \caption*{(b) Boundary condition menu in ABAQUS}
+                \caption{Boundary condition menu in ABAQUS}
                 \label{fig:bcmenu}
             \end{minipage}
         \end{minipage}    
