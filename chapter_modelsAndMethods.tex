@@ -44,10 +44,44 @@
     In the next step we use a load case E11, then G12 and finally combine them. Through the additional obtained information we try to improve the uniqueness of the determined material parameter values. As evaluation measurement for the load case G12 we use the stresses in this direction.
     As a last study we investigate the application of cyclic loading as E11 load case. We perform this study with varying load parameters (see \autoref{subsec:loadParameters}). 
 
+
+    \begin{figure}
+		\centering
+        \includegraphics[width=0.7\textwidth]{cube_loading_plain_white_new.pdf}
+		\caption{illustration of load case and evaluation measurements}
+		\label{fig:loadCaseEvaluationMeasurements}
+	\end{figure}
+
     \subsection{Load parameters}\label{subsec:loadParameters}
     The load parameters contain the stress and strain values measured during the MD-simulation. The values are stored for all normal and shear directions. From this file we can extract the quantitave values of the applied load. Since we defined the load cases similar to the ones in the MD-simulations, we can use the data directly. They contain stress and strain values for every MD-timestep. The meaning of the MD-timsteps is not relevant in this thesis, because it depends on several restrictions on the MD-simulation which will not be discussed in this context. Within in the scope of this work it is only important that we get stress and strain values for multiple steps during the loading process. Thus, we can register different trends of loading and the corresponding responses. If we know the load case, we can easily extract the corresponding loading parameters and transfer them into the ABAQUS model. A detailed description of the of the load application in ABAQUS can be found in \autoref{sec: preprocessing}. Besides, we need some stress or strain values which define the material responses in the MD-simulation to evaluate the material parameter fitting. The introduced evaluation measurements \autoref{subsec: loadCases} define which data from the load parameters are used for the optimization process. In XX the load cases and load parameters we investigate in this work are shown.
     In the verification and validation studies we always apply a linear strain with a maximum value of 20\%. In the validation studies we use different mixing ratios as materials which show different mechanical behaviours. In the next study we investigate a tensile strain following a sinus function over time with a maximum amplitude of 15 \(\%\) strain. We only consider the first quarter of a period up to the maximum value as a preparation for studies with cyclic loading. In this preparing study we want to investigate the handling with non-linear loadings. Then we use the same load parameters but apply them as a shear strain. In the next step we use the same load parameters but combine the load cases of E11 and G12. Important to notice is that the previously introduced load parameters proceed in a wide strain range. Assuming that the material starts to palstify at XX, the majority of the loaing steps are located in the plastic domain of the material. Conversely, the load parameters contain only little information about the elastic material behaviour. In \autoref{sec: verification} the issue about this unequal distribution in the material domains becomes clear.    
     As a last study we investigate  a full period of a sinusoidal loading for a tensile load case in x-direction. We use amplitudes of 1\(\%\), 5\(\%\) and 8\(\%\). Through the use of this load parameters we try to get a larger proportion of data points in the elastic domain.
+
+    \begin{table}[H]
+        \centering
+        \renewcommand{\arraystretch}{1.3}
+        \caption{Overview of test series, load cases and load parameters.}
+        \begin{tabular}{L{0.15\textwidth}C{0.06\textwidth}C{0.13\textwidth}C{0.13\textwidth}C{0.1\textwidth}C{0.2\textwidth}}
+        \toprule
+        \multirow{3}{0.15\textwidth}{\textbf{Test series}} & \multirow{3}{0.06\textwidth}{\textbf{Load case}} & \multicolumn{3}{C{0.36\textwidth}}{\textbf{Load parameters}} & \multirow{3}{0.2\textwidth}{\textbf{Evaluation measurements}}\\  \cmidrule{3-5}
+        & & \multirow{2}{0.13\textwidth}{\textbf{Trajectory}} & \multirow{2}{0.13\textwidth}{\textbf{Amplitude}} &  \multirow{2}{0.1\textwidth}{\textbf{Mixing ratio}} \\ 
+         &&&&&\\ \midrule
+        Verification & E11 & Linear & 20\% & 6:3 & \(\sigma_{xx}, \varepsilon_{yy}, \varepsilon_{zz}\)\\\hline
+        Validation & E11 & Linear & 20\% & 4:3 & \(\sigma_{xx}, \varepsilon_{yy}, \varepsilon_{zz}\)\\ 
+                &     &        &      & 6:3 \\ 
+                &     &        &      & 8:3 \\ \hline
+        \multirow{2}{0.15\textwidth}{Normal strain} & E11 & Sinus (\(\frac{1}{2} \pi\)) & 15\% & 6:3 & \(\sigma_{xx}, \varepsilon_{yy}, \varepsilon_{zz}\)\\ 
+                &   &           &   && \\ \hline
+        Shear strain  & E11 & Sinus (\(\frac{1}{2}\pi\)) & 15\% & 6:3 & \(\sigma_{xy}\)\\ \hline
+        \multirow{2}{0.15\textwidth}{Normal \& Shear strain} & E11 & Sinus (\(\frac{1}{2}\pi\)) & 15\% & 6:3 & \(\sigma_{xx}, \varepsilon_{yy}, \varepsilon_{zz}, \sigma_{xy}\)\\ 
+                                & G12 &       &      &     \\ \hline
+        \multirow{2}{0.15\textwidth}{Normal strain} & E11 & Sinus (\(2\pi\)) & 1\%  & 6:3 & \(\sigma_{xx}, \varepsilon_{yy}, \varepsilon_{zz}\)\\ 
+                    &     &       & 5\%  & 6:3 & \(\sigma_{xx}, \varepsilon_{yy}, \varepsilon_{zz}\)\\ 
+                    &     &       & 8\%  & 6:3 & \(\sigma_{xx}, \varepsilon_{yy}, \varepsilon_{zz}\)\\ \bottomrule
+        \end{tabular}
+        
+    \end{table}
+
 
 
     \subsection{Error calculation}\label{subsec: errorCalculation}
@@ -92,32 +126,63 @@
     
     \section{Preprocessing} \label{sec: preprocessing}
 
-    \begin{table}[H]
-		\centering
-        \includegraphics[width=0.9\textwidth]{inputParameterTable.pdf}
-		\caption{Input parameters}
-		\label{tab:inputParameterTable}
-	\end{table}
+
+    \begin{table}[h!]
+        \centering
+        \caption{Input paramters for optimization process}
+        \renewcommand{\arraystretch}{1.1}
+        \begin{tabular}{L{0.2\textwidth}C{0.2\textwidth}C{0.15\textwidth}C{0.1\textwidth}C{0.1\textwidth}}
+        \toprule
+        \textbf{Input parameter} & \textbf{Directions} & \textbf{Category} & \textbf{Data format} & \textbf{Unit} \\ \midrule
+        Youngs modulus & – & value    & array  & MPa \\ 
+                    & – & minimum  & scalar & MPa \\ 
+                    & – & maximum  & scalar & MPa \\ \hline
+        Poisson ratio  & – & value    & array  & –   \\ 
+                    & – & minimum  & scalar & –   \\ 
+                    & – & maximum  & scalar & –   \\ \hline
+        Plastic Yield  & – & value    & array  & MPa \\ 
+                    & – & minimum  & scalar & MPa \\ 
+                    & – & maximum  & scalar & MPa \\ \hline
+        \multirow{2}{0.2\textwidth}{Alpha, beta, gamma} & – & value    & array  & –   \\ 
+                        & – & minimum  & scalar & –   \\ 
+                        & – & maximum  & scalar & –   \\ \hline
+        Load parameters & – & filename & string & –   \\ 
+                        & – & weight   & scalar & –   \\ \hline
+        Load case & \multirow{2}{0.2\textwidth}{E11, E22, E33, G12, G23, G13} & active & 0/1    & – \\ 
+                &                               & weight & scalar & – \\ \hline
+        Stress evaluation & \multirow{2}{0.15\textwidth}{xx, yy, zz, xy, yz, xz} & active & 0/1    & – \\ 
+                        &                        & weight & scalar & – \\ \hline
+        Strain evaluation & \multirow{2}{0.15\textwidth}{xx, yy, zz, xy, yz, xz} & active & 0/1    & – \\ 
+                        &                        & weight & scalar & – \\ \hline
+        Load weighting & \multirow{4}{0.2\textwidth}{normal stress, normal strain, shear stress, shear strain} & weight & scalar & – \\ 
+        &&&& \\
+        &&&& \\
+        &&&& \\\bottomrule
+        \end{tabular}
+        
+    \end{table}
     
     Before starting with the optimization process, we need some preprocessing steps to prepare a working ABQUS model with the required properties. In picture XX the complete structure of the code is depicted. The upper part belongs to the preprocessing. In the first step the code extracts the values from the input file. Table \autoref{tab:inputParameterTable} lists the input parameters relevant to the optimization process. The whole input file is included in the Attachment XX. Here the user has multiple options to specify the optimization process. It is possible to test multiple initial values for the material parameters calling the script once. This function is important to verify the optimization results with varying input values. For every material parameter we can write an array of initial values. Then the code loops over all array entries at a time to extract one initial value for each parameter (see \autoref{tab:ModelSettings}). As a consequence all arrays need to be of same length. For all the created initial value combinations the code creates a new ModeldataBase (mdb) in ABAQUS and a new folder structure to set the working directory and store the results.
     
-    \begin{table}[h!]
+    \begin{table}[h]
+        
         \centering
-        \begin{tabular}{cccccc}
+        \renewcommand{\arraystretch}{1.1}
+        \begin{tabular}{C{0.14\textwidth}|C{0.04\textwidth}C{0.04\textwidth}C{0.04\textwidth}C{0.04\textwidth}C{0.04\textwidth}}
         \toprule
-        Material parameter & C1 & C2 & C3 & C4 & C5 \\
-        \midrule
-        E     & E1     & E2     & E3     & E4     & E5 \\
-        \hline
-        $\nu$ & $\nu_1$ & $\nu_2$ & $\nu_3$ & $\nu_4$ & $\nu_5$ \\
-        $\sigma_{pl}$ & $\sigma_{pl1}$ & $\sigma_{pl2}$ & $\sigma_{pl3}$ & $\sigma_{pl4}$ & $\sigma_{pl5}$ \\
-        $\alpha$ & $\alpha_1$ & $\alpha_2$ & $\alpha_3$ & $\alpha_4$ & $\alpha_5$ \\
-        $\beta$  & $\beta_1$ & $\beta_2$ & $\beta_3$ & $\beta_4$ & $\beta_5$ \\
-        $\gamma$ & $\gamma_1$ & $\gamma_2$ & $\gamma_3$ & $\gamma_4$ & $\gamma_5$ \\
-        \bottomrule
+            \multirow{2}{0.14\textwidth}{\textbf{Material parameter}} & \multicolumn{5}{C{0.2\textwidth}}{\textbf{Combinations}}\\
+            & \textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} \\ \midrule
+            $E$     & $E_1$     & $E_2$      & $E_3$      & $E_4$      & $E_5$  \\
+            $\nu$ & $\nu_1$ & $\nu_2$ & $\nu_3$ & $\nu_4$ & $\nu_5$ \\
+            $\sigma_{pl}$ & $\sigma_{pl1}$ & $\sigma_{pl2}$ & $\sigma_{pl3}$ & $\sigma_{pl4}$ & $\sigma_{pl5}$ \\
+            $\alpha$ & $\alpha_1$ & $\alpha_2$ & $\alpha_3$ & $\alpha_4$ & $\alpha_5$ \\
+            $\beta$  & $\beta_1$ & $\beta_2$ & $\beta_3$ & $\beta_4$ & $\beta_5$ \\
+            $\gamma$ & $\gamma_1$ & $\gamma_2$ & $\gamma_3$ & $\gamma_4$ & $\gamma_5$ \\
+            \bottomrule
         \end{tabular}
         \caption{Parameterübersicht}
     \end{table}
+
 
     \begin{table}[H]
         \centering

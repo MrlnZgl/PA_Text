@@ -672,13 +672,13 @@ INPUT ./images/loadCaseNaming.pdf
 INPUT ./images/loadCaseNaming.pdf
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/ecrm1000.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/ecbx1000.tfm
+INPUT ./images/cube_loading_plain_white_new.pdf
+INPUT ./images/cube_loading_plain_white_new.pdf
+INPUT ./images/cube_loading_plain_white_new.pdf
+INPUT ./images/cube_loading_plain_white_new.pdf
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/ecrm0800.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/ecrm0600.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/tcrm1095.tfm
-INPUT ./images/inputParameterTable.pdf
-INPUT ./images/inputParameterTable.pdf
-INPUT ./images/inputParameterTable.pdf
-INPUT ./images/inputParameterTable.pdf
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
 INPUT ./images/initalValueComb.pdf
 INPUT ./images/initalValueComb.pdf
