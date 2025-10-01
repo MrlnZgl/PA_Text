@@ -1,0 +1,15 @@
+abaqus
+rmse
+rlr
+mse
+hyperelastic
+EasyPBC
+yy
+zz
+xy
+yz
+xz
+olr
+eer
+esr
+MPa

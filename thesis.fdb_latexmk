@@ -1,11 +1,11 @@
 # Fdb version 4
-["biber thesis"] 1758904245.97675 "thesis.bcf" "thesis.bbl" "thesis" 1758985677.48815 0
-  "thesis.bcf" 1758985677.16115 107481 a8854f80fab4b7460fae389c17b7a902 "pdflatex"
+["biber thesis"] 1758904245.97675 "thesis.bcf" "thesis.bbl" "thesis" 1759151090.60624 0
+  "thesis.bcf" 1759151090.28265 107481 a8854f80fab4b7460fae389c17b7a902 "pdflatex"
   (generated)
   "thesis.bbl"
   "thesis.blg"
   (rewritten before read)
-["pdflatex"] 1758985672.63861 "/Users/marleneziegler/Desktop/4. Semester/Projektarbeit/PA_Text/thesis.tex" "thesis.pdf" "thesis" 1758985677.48857 0
+["pdflatex"] 1759151085.79449 "/Users/marleneziegler/Desktop/4. Semester/Projektarbeit/PA_Text/thesis.tex" "thesis.pdf" "thesis" 1759151090.60666 0
   "/Users/marleneziegler/Desktop/4. Semester/Projektarbeit/PA_Text/thesis.tex" 1758979099.42277 5785 ccd8c2724889b095e666a667ac0ddcf7 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1136849721 2971 def0b6c1f0b107b3b936def894055589 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
@@ -393,10 +393,10 @@
   "/usr/local/texlive/2025/texmf-var/web2c/pdftex/pdflatex.fmt" 1756551907 3345739 2cd41a0f49acc188c9151d65f4bab1c9 ""
   "/usr/local/texlive/2025/texmf.cnf" 1741450484 577 418a7058ec8e006d8704f60ecd22c938 ""
   "LTM_thesis_cover.pdf" 1758622532 1041262 ab866ccd75db3b259550d6fba461f3c3 ""
-  "chapter_modelsAndMethods.aux" 1758985676.9301 9131 1d1e7c92bdf5f4e52513bb82f4eacbf5 "pdflatex"
-  "chapter_modelsAndMethods.tex" 1758985667.14195 37544 c293cf8856e08b1b45ffb3067f96f878 ""
-  "chapter_results.aux" 1758985677.10345 10389 06df36d644761e046bf8e4a6dc68ce36 "pdflatex"
-  "chapter_results.tex" 1758718900.35178 13160 20e8f6f3c77b15e246be4d7698712f38 ""
+  "chapter_modelsAndMethods.aux" 1759151090.05195 9407 df0548bea0c7019d0a5960a7c7a7f7c8 "pdflatex"
+  "chapter_modelsAndMethods.tex" 1759151080.60038 38606 751bff7e1e6e5a15a88691b4d99e758b ""
+  "chapter_results.aux" 1759151090.22457 10077 922a2768ed7940894c3ff1d28b033eba "pdflatex"
+  "chapter_results.tex" 1759148093.73021 13166 771ae155ccddd14cbafcc887a87ec75e ""
   "images/Amplitude.pdf" 1758622534 21733 e593c049696693d9adaeb0723b7203c2 ""
   "images/BC.pdf" 1758622534 20897 2607bfcb86caa52d25ba06ebeab4b9ca ""
   "images/ModelCombinations.pdf" 1758622534 71623 be255a90bf215cd37d11aa77bdf79e68 ""
@@ -419,15 +419,15 @@
   "images/verify_stress_strain_combined.pdf" 1758631831.04759 48814 fc7c7542150b71eb51caccb9be4bdbdd ""
   "images/voce_curve.pdf" 1758631902.66873 47351 e1179e2d371a9d5cbce2565319b2702c ""
   "preamble.tex" 1758985667.16926 8489 813457fbf19272439abae4a242d74615 ""
-  "thesis.acr" 1758985672.50137 1181 180833ae6c595843f4c5bc44afb61600 ""
-  "thesis.aux" 1758985677.14759 10763 28f0d2c0e613f34906589f6c61a087cb "pdflatex"
+  "thesis.acr" 1759148590.13844 1118 8873ad60c02d465ad1a7460f9052b1e9 ""
+  "thesis.aux" 1759151090.26883 10773 37e42cca097a4e99a591e63270b56141 "pdflatex"
   "thesis.bbl" 1758904248.63073 466 76d65a242ec496c9b4361af646ff12cb "biber thesis"
-  "thesis.lof" 1758985677.16237 2410 2c4398071fa4e07191d7c2f2c67a9c9a "pdflatex"
-  "thesis.lot" 1758985677.16241 842 cd38e3332de8c5145354c28125a498fb "pdflatex"
-  "thesis.out" 1758985676.02214 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "thesis.run.xml" 1758985677.16221 2396 618b4f9871b43dcff4ac031d44fea79b "pdflatex"
+  "thesis.lof" 1759151090.28391 2187 dc1becae82526c309e7b94d75976042c "pdflatex"
+  "thesis.lot" 1759151090.28395 956 9a52505f3159282add3ebd1871a92031 "pdflatex"
+  "thesis.out" 1759151089.13366 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "thesis.run.xml" 1759151090.28373 2396 618b4f9871b43dcff4ac031d44fea79b "pdflatex"
   "thesis.tex" 1758979099.42277 5785 ccd8c2724889b095e666a667ac0ddcf7 ""
-  "thesis.toc" 1758985677.16234 2040 3832078e2f8666b529014c95a86a6fda "pdflatex"
+  "thesis.toc" 1759151090.28387 2041 d6c2ea48ac8e74790442bd87f47b68cf "pdflatex"
   "variables.tex" 1758622532 0 d41d8cd98f00b204e9800998ecf8427e ""
   (generated)
   "chapter_modelsAndMethods.aux"
