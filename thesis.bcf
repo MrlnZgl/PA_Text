@@ -2384,8 +2384,7 @@
     <bcf:citekey order="7" intorder="1">ries_deciphering_nodate</bcf:citekey>
     <bcf:citekey order="8" intorder="1">ries_deciphering_nodate</bcf:citekey>
     <bcf:citekey order="9" intorder="1">ries_deciphering_nodate</bcf:citekey>
-    <bcf:citekey order="10" intorder="1">buyukozturk_structural_2011</bcf:citekey>
-    <bcf:citekey order="11" intorder="1" nocite="1">*</bcf:citekey>
+    <bcf:citekey order="10" intorder="1" nocite="1">*</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">

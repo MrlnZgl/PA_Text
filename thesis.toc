@@ -5,10 +5,9 @@
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}%
 \contentsline {chapter}{\numberline {2}Basics}{2}{chapter.2}%
 \contentsline {section}{\numberline {2.1}MD-Model}{2}{section.2.1}%
-\contentsline {subsubsection}{\nonumberline uniaxial deformation}{2}{subsubsection*.7}%
-\contentsline {section}{\numberline {2.2}periodic boundary conditions}{3}{section.2.2}%
-\contentsline {section}{\numberline {2.3}VOCE-Model}{3}{section.2.3}%
-\contentsline {section}{\numberline {2.4}Optimization algorithm}{3}{section.2.4}%
+\contentsline {section}{\numberline {2.2}periodic boundary conditions}{2}{section.2.2}%
+\contentsline {section}{\numberline {2.3}VOCE-Model}{2}{section.2.3}%
+\contentsline {section}{\numberline {2.4}Optimization algorithm}{2}{section.2.4}%
 \contentsline {section}{\numberline {2.5}ABAQUS PDE}{3}{section.2.5}%
 \contentsline {subsection}{\numberline {2.5.1}EasyPBC Plug-In}{3}{subsection.2.5.1}%
 \contentsline {chapter}{\numberline {3}Models and Methods}{5}{chapter.3}%

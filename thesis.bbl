@@ -576,8 +576,8 @@
       \strng{authornamehash}{46e1e984eed95a6cd71d481048428b0a}
       \strng{authorfullhash}{46e1e984eed95a6cd71d481048428b0a}
       \strng{authorfullhashraw}{46e1e984eed95a6cd71d481048428b0a}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Computing the mechanical response of materials requires accurate constitutive descriptions, especially their plastic behavior. Furthermore, the ability of a model to be used as a predictive, rather than a descriptive, tool motivates the development of physically based constitutive models. This work investigates combining a homogenized viscoplastic self-consistent ({VPSC}) approach to reduce the development time for a high-resolution viscoplastic model based on the fast Fourier transform ({FFT}). An optimization scheme based on a least-squares algorithm is presented. The constitutive responses of copper, interstitial-free steel, and pearlite are investigated, and the model parameters are presented. Optimized parameters from the low-fidelity model provide close agreement ({<}2 {MPa}, {\textasciitilde}1 \% error) with stress-strain data at low strains ({<}10 \%) in the high-fidelity {FFT} model. Simple adjustments to constitutive law parameters bring the {FFT} stress-strain curve in alignment with experimental data at strains greater than 10 \%. A two-phase constitutive law is developed for a pearlitic steel using a single stress-strain curve, supplemented by data for the constituent phases. Sources of error and methods of using material information are discussed that lead to optimal estimates of initial parameter values.}
