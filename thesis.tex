@@ -137,7 +137,7 @@
 	%----------------------------------------------
 	% List of Figures
 	%----------------------------------------------
-	\addtocontents{lof}{\protect\thispagestyle{plain}}
+	%\addtocontents{lof}{\protect\thispagestyle{plain}}
 	\listoffigures
 	\addcontentsline{toc}{chapter}{\listfigurename}
 	
@@ -187,18 +187,8 @@
 
     research questions
 	
-	\chapter{Basics}
-
-    \section{MD-Model}
-
- 
-
-    
-    
-    \section{VOCE-Model}
-    \section{Optimization algorithm}
-    \section{EasyPBC Plug-In}
-
+	
+	\include{chapter_basics}
     \include{chapter_modelsAndMethods}
     \include{chapter_results}
     
@@ -215,7 +205,7 @@
 	%----------------------------------------------
 	% Bibliograhy
 	%----------------------------------------------
-%	 \nocite{*} %print every bibtex key
+	 \nocite{*} %print every bibtex key
 	
 	\pagestyle{fancy}
 	\fancyhead{}

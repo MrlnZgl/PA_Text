@@ -1,0 +1,28 @@
+\chapter{Basics}
+This chapter lays the foundations to understand this thesis. First \acrfull{md} are introduced. Afterwards the constitutive model is presented. In the last section the used scripting tool with its plug-in for periodic boundary conditions is explained.  
+
+    \section{MD-Model}
+    Adhesive joints are important because of XXX. The extension of usage in further applications depends on a profound understanding of their material behaviour. The interphase between the adhesive and adherend phase is particularly important \cite{roche_measurement_1994}, since the mechanical properties of this region depend on locally varying mixing ratios between resin and hardener (resin:hardener) \cite{ries_deciphering_nodate}, \cite{garifullin_dependence_2019}. The investigation of the locally variating mixing ratio is possible through \acrshort{md} simulations \cite{dotschel_reactive_2026}. \acrshort{md} simulations allow building samples with prescribed properties followed by deformation tests to study the material behaviour \cite{buyukozturk_structural_2011}. 
+    This work focusses on the investigations by \citet{ries_deciphering_nodate} who studied samples with different mixing ratios in the described way. Their performed deformation tests build the motivation for the here developed optimization process. \citet{ries_deciphering_nodate} ran uniaxial tensile tests loading a sample with a linear strain up to a maximum value of 20 \%. The test sample is constrained by periodic boundary conditions (section XX) which allow lateral contractions. To record the stress-strain response without viscous amounts they developed a procedure to approximate the quasi-static material response. They performed this test with mixing ratios of 4:3, 6:3 and 8:3. The corresponding stress-strain responses are used in the verification and validation of the code developed in this work. 
+
+
+    \section{periodic boundary conditions}
+    
+    \section{VOCE-Model}
+
+    - used in MD-Simulation too
+    - necessary for comparable results
+
+
+    \section{Optimization algorithm}
+
+    \begin{itemize}
+    \item no gradient needed
+    \item triangle build between three points ; procedure minimize always the point with the highest function value
+    \item detailed description in paper
+    \item why did we choose this algorithm? faster convergence than Powell, no gradient needed
+    \end{itemize}   
+
+    \section{ABAQUS PDE}
+    \subsection{EasyPBC Plug-In}
+
