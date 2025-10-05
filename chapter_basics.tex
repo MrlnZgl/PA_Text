@@ -1,28 +1,67 @@
 \chapter{Basics}
 This chapter lays the foundations to understand this thesis. First \acrfull{md} are introduced. Afterwards the constitutive model is presented. In the last section the used scripting tool with its plug-in for periodic boundary conditions is explained.  
 
-    \section{MD-Model}
-    Adhesive joints are important because of XXX. The extension of usage in further applications depends on a profound understanding of their material behaviour. The interphase between the adhesive and adherend phase is particularly important \cite{roche_measurement_1994}, since the mechanical properties of this region depend on locally varying mixing ratios between resin and hardener (resin:hardener) \cite{ries_deciphering_nodate}, \cite{garifullin_dependence_2019}. The investigation of the locally variating mixing ratio is possible through \acrshort{md} simulations \cite{dotschel_reactive_2026}. \acrshort{md} simulations allow building samples with prescribed properties followed by deformation tests to study the material behaviour \cite{buyukozturk_structural_2011}. 
-    This work focusses on the investigations by \citet{ries_deciphering_nodate} who studied samples with different mixing ratios in the described way. Their performed deformation tests build the motivation for the here developed optimization process. \citet{ries_deciphering_nodate} ran uniaxial tensile tests loading a sample with a linear strain up to a maximum value of 20 \%. The test sample is constrained by periodic boundary conditions (section XX) which allow lateral contractions. To record the stress-strain response without viscous amounts they developed a procedure to approximate the quasi-static material response. They performed this test with mixing ratios of 4:3, 6:3 and 8:3. The corresponding stress-strain responses are used in the verification and validation of the code developed in this work. 
+\section{MD-Model}
+Adhesive joints are important because of XXX. The extension of usage in further applications depends on a profound understanding of their material behaviour. The interphase between the adhesive and adherend phase is particularly important \cite{roche_measurement_1994}, since the mechanical properties of this region depend on locally varying mixing ratios between resin and hardener (resin:hardener) \cite{ries_deciphering_nodate}, \cite{garifullin_dependence_2019}. The investigation of the locally variating mixing ratio is possible through \acrshort{md} simulations \cite{dotschel_reactive_2026}. \acrshort{md} simulations allow building samples with prescribed properties followed by deformation tests to study the material behaviour \cite{buyukozturk_structural_2011}. 
+This work focusses on the investigations by \citet{ries_deciphering_nodate} who studied samples with different mixing ratios in the described way. Their performed deformation tests build the motivation for the here developed optimization process. \citet{ries_deciphering_nodate} ran uniaxial tensile tests loading a sample with a linear strain up to a maximum value of 20 \%. The test sample is constrained by periodic boundary conditions (section XX) which allow lateral contractions. To record the stress-strain response without viscous amounts they developed a procedure to approximate the quasi-static material response. They performed this test with mixing ratios of 4:3, 6:3 and 8:3. The corresponding stress-strain responses are used in the verification and validation of the code developed in this work. 
 
 
-    \section{periodic boundary conditions}
-    
-    \section{VOCE-Model}
+\section{Periodic boundary conditions}
 
-    - used in MD-Simulation too
-    - necessary for comparable results
+\section{VOCE-Model}
+
+- used in MD-Simulation too
+- necessary for comparable results
 
 
-    \section{Optimization algorithm}
+\section{Optimization algorithm} \label{optimizationAlgorithm}
 
-    \begin{itemize}
-    \item no gradient needed
-    \item triangle build between three points ; procedure minimize always the point with the highest function value
-    \item detailed description in paper
-    \item why did we choose this algorithm? faster convergence than Powell, no gradient needed
-    \end{itemize}   
+To find the values of material parameters fitting best the material behaviour measured in the MD-simulation a mathematical formulation is necessary. This leads to an optimization problem, where a calculated error (see \autoref{sec: errorCalculation}), defined as an objective function of the material parameter values, should be minimized. To solve this optimization problem various mathematical algorithms are available. We decided to use the Nelder-Mead algorithm, which is a widely used gradient-free optimization algorithm \cite{gao_implementing_2012}. In a gradient-free algorithm the derivates of the function are not included in the process. Our objective function is based on results from a finite-element-analysis, which makes it impossible to determine its derivatives directly. Therefore, only gradient-free algorithms come into account. In addition, ignoring the derivatives saves significant computational costs, which leads to fast convergence times \cite{pham_comparative_2011}. Due to its simple structure the algorithm is a standard feature in many numerical libraries \cite{singer_efficient_2004}. In \name{python} it is available in the SciPy.optimize minimize -function. In \autoref{sce: optimizationCode} the function call is described in detail. Here we focus on the procedure of the algorithm. The algorithm is capable to find a local minimum of a scalar function depending on $n$ optimization variables. In this work the optimization variables are the material parameters. The definition of the objective function can be found in \autoref{sec: methodTheory}. Assuming the objective function is known, the first step is to create $n+1$ points $\mathbf{P}$ in an $n$-dimensional space. In the initial step of the algorithm the position of the points has to be determined. This is done by an initial guess $\hat{x}$ for every optimization variable value. To process six optimization variables the initial guess would look like
+\begin{gather}
+    \mathbf{\hat{x}} = [\hat{x}^0, \hat{x}^1, \hat{x}^2, \hat{x}^3, \hat{x}^4, \hat{x}^5] \\
+    \text{with } 0,..., 5 \equiv \text{optimization variable.}
+\end{gather}
 
-    \section{ABAQUS PDE}
-    \subsection{EasyPBC Plug-In}
+Based on this the initial points $\mathbf{\hat{P}_i}$ are constructed. The first one is defined as $\mathbf{\hat{P}_1} = \mathbf{\hat{x}}$. For the other points the value of one variable in the initial guess is changed each. The points result in an $n$ dimensional simplex. In the next step the function values corresponding to the points $\mathbf{P_i}$ are evaluated and sorted by size. The highest function value $y_h$ thus maps the worst value combination $\mathbf{P_h}$ of the optimization parameters. Afterwards a centroid of all points of the simplex except $\mathbf{P_h}$ is determined. Now there are four possible operations to improve the position of $\mathbf{P_h}$. Reflection and expansion of $\mathbf{P_h}$ at the centroid are the first two. Before the new point $\mathbf{P^{*}}$ is positioned the corresponding function value needs to be evaluated. Only if $y^{*}$ is smaller than $y_l$, $\mathbf{P^{*}}$ is set as new point $\mathbf{P_i}$ in the simplex. If $y^{*}$ is larger than $y_l$, the new point is even worse than $\mathbf{P_h}$. Therefore, the operations contraction or shrinking have to be performed. They should find a position $\mathbf{P^{**}}$ between $\mathbf{P_h}$ and its reflection $\mathbf{P^{*}}$ which leads to a better function value $y^{**}$. This needs multiple iterations because for every guess $\mathbf{P^{**}}$ the function has to be evaluated. Only when a better position $\mathbf{P_h}$ is replaced by $\mathbf{P^{*}}$ or $\mathbf{P^{**}}$ and the algorithm starts again with the new simplex \cite{nelder_simplex_1965}. Therefore multiple function evaluations are necessary during one iteration of the optimization. If the variations of the functions values $y_i$ fall under a certain limit, the minimum with its corresponding parameter values is found.
+
+
+If the values of the optimization variables differ much in size, the points are irregularly distributed in space. This complicates the conditions to find the minimum. Hence a normalization of the variable values could be advisable. 
+
+\begin{itemize}
+\item no gradient needed
+\item triangle build between three points ; procedure minimize always the point with the highest function value
+\item detailed description in paper
+\item why did we choose this algorithm? faster convergence than Powell, no gradient needed
+\end{itemize}   
+
+% - have n varibales --> here 6 
+% - create n+1 points in a n-dimensional space
+% - function y 
+% - P_i are the n1 points
+% - y(P_i) are the function values from that we create a simplex
+% - determine y_low and y_high (lowest and highset function values)
+% - build centroid y_c between all points except y_high
+% - then three options to replace y_high (which is the worst value)
+% reflection: refelct y_high at y_c (Formel aus paper) is called y*
+% - i y* is better than y_high we replace it 
+% - if y* is better than y_low (we found a new minimum) we expand y* in the same direciton to y^{**}
+% if y++ is better than y_low we replace y_h by y++
+% - if not we reaplce y_h by y*
+% contraction: if y* is is higher than all other y's (so we just found a value whcih is still the maximum), we chosse p_h or P* to be the new P_h 
+% - then use contraction coefficient to find P** (inside or outside contraction)
+% - if y** worse than y_high or y* --> shrink towards P_l 
+% - stopping cruíterion: error smaller than defined value
+% - simplex should not become too small compared to the curvature of the surface -> leads to small curvatures which lead to high variance in the estimates without finding accurate minimum
+% - create intial simplex with x_0 as input --> macht SciPy irgendwie, angelbich nach irgendeiner logik 
+% - intiial guess ist P_1(rray mit 6 variablen) dann wird durch den array iteriert und jeweils ein wert verändert und daraus der näcshte Oonkt P_i erzeugt -> jeweils nur veränderung einer variablen. 
+% - scipy has dynmaic scaling how to variate the intial values
+
+- 
+
+
+
+expansion: 
+
+\section{ABAQUS PDE}
+\subsection{EasyPBC Plug-In}
 

@@ -306,7 +306,7 @@
         \label{fig:ABAQUS Settings}
 	\end{figure}
  
-    \section{Optimisation process}
+    \section{Optimization process} \label{sce: optimizationCode}
 
      \begin{table}[H]
 		\centering
@@ -318,77 +318,77 @@
     In the following section we describe the optimisation process. We start the processing by calling the scipy-minimize function. We pass this function various parameters to perform the optimisation listed in table XX. (MEHR ÜBER INPUT PARAMETER INKL TABLEE ) The minimize function itself calls our self-written optimisation function, where the evaluation takes place. As described before we create a model with a corresponding job for every combination of load case and load parameters and store them in a dictionary. Now we pass the whole dictionary to the optimisation function. All of the models describe now different test cases for the same material. We want to use them all to get as much information as possible, such that we have to include all of them into the optimisation process. To do so we have to calculate an error expression from all these analyses as described in section XX. 
     We start the process with rewriting the material values in all models. Since they all describe the same material we write the same values for every model. For the minimization computation optimisation parameters are scaled in the bounds 0-1, that we have to rescale them first. Then we can use the rescaled parameters to compute the values for the plastic stress function with the formula for VOCE-hardening. Now we can update all material values. in the next step we handle the models successively. We start a job to perform the \name{abaqus} analysis and open the resulting output-data base. Afterwards we read the stresses from the odb. We do this by reading the fieldOutput variable 'S' and write the data in a stress directory. Since we need the stress-values at all the defined strain steps we read out every frame. One frame corresponds with one strain step. Additionally we loop over all directions (xx, yy, zz, xy, yz, xz). The same procedure is done for the strain values. Here it is important to read out the correct strain variable 'NE' (nominal strain). For hyperelastic materials \name{abaqus} uses as standard value the logarithmic strain ('LE'), which gives incorrect values in our studies. Then we store all values for all frames and directions in a dictionary again. Now we collected all required data to calculate the error. We do this in the way described in section XX. For a better structure of the code this part is outsourced in a separate function. We call this function and pass the stress and strain directory as well as the corresponding load parameters from the md-analysis. Then the computation runs and the function returns the rmse value for this job. Multiplied with its corresponding weights for load case and load parameters we add this value to the total error value. Now we restart the result reading and error computation for the next job. When all jobs are processed we have a total error value containing information from all jobs about the quality of the current material values. This value is the one we return our minimization function. It uses this values to compute internal the next material value combination to reduce the returned error value. Now one optimisation iteration is performed. The new combination of material values is passed to our optimisation function and it starts again. This process will run till our defined number of maximum iterations is reached. 
 
-    \begin{enumerate}
-        \item call scipy minimize with all necessary arguments
-            1. function which shuold be minimized
-            2. list with optimisation parameters
-            3. additional arguments: data which are called in the minimized function:
-                cubeparameter- object, mddaa dictionary, work directory, evaluation counter
-            4. minimization method: nelder mead
-            5. boundaries for optimisation parameters
-            6. options: return all (return function value from every iteration), maxiter (use max iteeration value as termination criterion)
-    \end{enumerate}
+    % \begin{enumerate}
+    %     \item call scipy minimize with all necessary arguments
+    %         1. function which shuold be minimized
+    %         2. list with optimisation parameters
+    %         3. additional arguments: data which are called in the minimized function:
+    %             cubeparameter- object, mddaa dictionary, work directory, evaluation counter
+    %         4. minimization method: nelder mead
+    %         5. boundaries for optimisation parameters
+    %         6. options: return all (return function value from every iteration), maxiter (use max iteeration value as termination criterion)
+    % \end{enumerate}
 
-    optimisation function:
-    \begin{enumerate}
-        \item rescale material parameters
-        \item compute plastic stresses
-        \item delete elastic material
-        \item write hyperelasitc material and update plastic material
-        \item delete lock-files for job: they prevent the start of a job where a obd is already written
-        \item list jobs in current work directory/ mdb
-        \item iterate over jobs
-        \item start job
-        \item open odb
-        \item create stress directory: for tensile load cases with normal direction, for shear load with shear direction
-        \item loop over all directions
-        \item loop over all frames from last step
-        \item read fieldoutput 'S' from element set in current direction 
-        \item write it in stress directory
-        \item create strain directory
-        \item loop over all directions
-        \item loop over all frames from last step
-        \item read fieldoutput 'NE' from element set in current direction 
-        \item write it in strain directory
-        \item call calculate rmse function
-        \item call multiple save functions to store results
-        \item when all jobs are finished: 
-        \item multiple rmse from jobs with weights from parameter input (different weighting of load cases or md data sets)
-        \item sum weighted rmse 
-        \item save material parameters, rmse
-        \item return total rmse
+    % optimisation function:
+    % \begin{enumerate}
+    %     \item rescale material parameters
+    %     \item compute plastic stresses
+    %     \item delete elastic material
+    %     \item write hyperelasitc material and update plastic material
+    %     \item delete lock-files for job: they prevent the start of a job where a obd is already written
+    %     \item list jobs in current work directory/ mdb
+    %     \item iterate over jobs
+    %     \item start job
+    %     \item open odb
+    %     \item create stress directory: for tensile load cases with normal direction, for shear load with shear direction
+    %     \item loop over all directions
+    %     \item loop over all frames from last step
+    %     \item read fieldoutput 'S' from element set in current direction 
+    %     \item write it in stress directory
+    %     \item create strain directory
+    %     \item loop over all directions
+    %     \item loop over all frames from last step
+    %     \item read fieldoutput 'NE' from element set in current direction 
+    %     \item write it in strain directory
+    %     \item call calculate rmse function
+    %     \item call multiple save functions to store results
+    %     \item when all jobs are finished: 
+    %     \item multiple rmse from jobs with weights from parameter input (different weighting of load cases or md data sets)
+    %     \item sum weighted rmse 
+    %     \item save material parameters, rmse
+    %     \item return total rmse
 
-    \end{enumerate}
+    % \end{enumerate}
 
     
     
-    calculate rmse function:
+    % calculate rmse function:
 
-    \begin{itemize}
-        \item loop over directions in stress directory if the direction should be anaylsed (parameter input)
-        \item read out md data for this direction
-        \item check if md data and odb data have the same length
-        \item calculate squared differences for every step (array)
-        \item weight array --> first data point is weighted with 100, because it is the only point in elastic domain 
-        \item compute mean from array: sum over all weighted squared differences/ sum of all weights
-        \item differentiate between tensile and shear load case:
-            - use correlated weight 
-        \item append to mse array
-        \item same procedure  for strain directory
-        \item sum up all mse values, divide by number of values (build mean value)
-        \item wurzel ziehen
-        \item return rmse
-    \end{itemize}
+    % \begin{itemize}
+    %     \item loop over directions in stress directory if the direction should be anaylsed (parameter input)
+    %     \item read out md data for this direction
+    %     \item check if md data and odb data have the same length
+    %     \item calculate squared differences for every step (array)
+    %     \item weight array --> first data point is weighted with 100, because it is the only point in elastic domain 
+    %     \item compute mean from array: sum over all weighted squared differences/ sum of all weights
+    %     \item differentiate between tensile and shear load case:
+    %         - use correlated weight 
+    %     \item append to mse array
+    %     \item same procedure  for strain directory
+    %     \item sum up all mse values, divide by number of values (build mean value)
+    %     \item wurzel ziehen
+    %     \item return rmse
+    % \end{itemize}
         
     
     
     
-    - formel wir sich RMSE zusamensetzt
-    - welche schleifen gibt es?
+    % - formel wir sich RMSE zusamensetzt
+    % - welche schleifen gibt es?
     
 
-    test cases:
-    - linearere Zug
-    - Zug und shear --> mit sinusform --> warum? 
-    - cyclic tensile 
+    % test cases:
+    % - linearere Zug
+    % - Zug und shear --> mit sinusform --> warum? 
+    % - cyclic tensile 
     

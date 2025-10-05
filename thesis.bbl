@@ -319,6 +319,231 @@
       \verb https://linkinghub.elsevier.com/retrieve/pii/S002076831100120X
       \endverb
     \endentry
+    \entry{gao_implementing_2012}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=7a0b1a1f91828e25a65fe807d6e1c651}{%
+           family={Gao},
+           familyi={G\bibinitperiod},
+           given={Fuchang},
+           giveni={F\bibinitperiod}}}%
+        {{hash=f97c7b110779475ebbc54bf6f131e753}{%
+           family={Han},
+           familyi={H\bibinitperiod},
+           given={Lixing},
+           giveni={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{06e9e94332657d5a1d7c5393513fd38d}
+      \strng{fullhash}{06e9e94332657d5a1d7c5393513fd38d}
+      \strng{fullhashraw}{06e9e94332657d5a1d7c5393513fd38d}
+      \strng{bibnamehash}{06e9e94332657d5a1d7c5393513fd38d}
+      \strng{authorbibnamehash}{06e9e94332657d5a1d7c5393513fd38d}
+      \strng{authornamehash}{06e9e94332657d5a1d7c5393513fd38d}
+      \strng{authorfullhash}{06e9e94332657d5a1d7c5393513fd38d}
+      \strng{authorfullhashraw}{06e9e94332657d5a1d7c5393513fd38d}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In this paper, we ﬁrst prove that the expansion and contraction steps of the Nelder-Mead simplex algorithm possess a descent property when the objective function is uniformly convex. This property provides some new insights on why the standard Nelder-Mead algorithm becomes inefﬁcient in high dimensions. We then propose an implementation of the Nelder-Mead method in which the expansion, contraction, and shrink parameters depend on the dimension of the optimization problem. Our numerical experiments show that the new implementation outperforms the standard Nelder-Mead method for high dimensional problems.}
+      \field{issn}{0926-6003, 1573-2894}
+      \field{journaltitle}{Computational Optimization and Applications}
+      \field{langid}{english}
+      \field{month}{1}
+      \field{note}{Publisher: Springer Science and Business Media {LLC}}
+      \field{number}{1}
+      \field{shortjournal}{Comput Optim Appl}
+      \field{title}{Implementing the Nelder-Mead simplex algorithm with adaptive parameters}
+      \field{urlday}{24}
+      \field{urlmonth}{7}
+      \field{urlyear}{2025}
+      \field{volume}{51}
+      \field{year}{2012}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{259\bibrangedash 277}
+      \range{pages}{19}
+      \verb{doi}
+      \verb 10.1007/s10589-010-9329-3
+      \endverb
+      \verb{file}
+      \verb Gao und Han - 2012 - Implementing the Nelder-Mead simplex algorithm wit.pdf:/Users/marleneziegler/Zotero/storage/F8VUVXDN/Gao und Han - 2012 - Implementing the Nelder-Mead simplex algorithm wit.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://link.springer.com/10.1007/s10589-010-9329-3
+      \endverb
+      \verb{url}
+      \verb http://link.springer.com/10.1007/s10589-010-9329-3
+      \endverb
+    \endentry
+    \entry{pham_comparative_2011}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=e6f59d883f3d3183d8163be67463f531}{%
+           family={Pham},
+           familyi={P\bibinitperiod},
+           given={Nam},
+           giveni={N\bibinitperiod}}}%
+        {{hash=e55b7ec0d343f34bab2d1e32af63e41d}{%
+           family={Malinowski},
+           familyi={M\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=3a27c6e529e0d14981e986a50acd6a18}{%
+           family={Bartczak},
+           familyi={B\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{d6d90dd15f3b10b575a0fe9b8d013f62}
+      \strng{fullhash}{d6d90dd15f3b10b575a0fe9b8d013f62}
+      \strng{fullhashraw}{d6d90dd15f3b10b575a0fe9b8d013f62}
+      \strng{bibnamehash}{d6d90dd15f3b10b575a0fe9b8d013f62}
+      \strng{authorbibnamehash}{d6d90dd15f3b10b575a0fe9b8d013f62}
+      \strng{authornamehash}{d6d90dd15f3b10b575a0fe9b8d013f62}
+      \strng{authorfullhash}{d6d90dd15f3b10b575a0fe9b8d013f62}
+      \strng{authorfullhashraw}{d6d90dd15f3b10b575a0fe9b8d013f62}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Derivative free optimization algorithms are often used when it is difficult to find function derivatives, or if finding such derivatives are time consuming. The Nelder Mead's simplex method is one of the most popular derivative free optimization algorithms in the fields of engineering, statistics, and sciences. This algorithm is favored and widely used because of its fast convergence and simplicity. The simplex method converges really well with small scale problems of some variables. However, it does not have much success with large-scale problems of multiple variables. This factor has reduced its popularity in optimization sciences significantly. Two solutions of quasi-gradients are introduced to improve it in terms of the convergence rate and the convergence speed. The improved algorithm with higher success rate and faster convergence which still maintains the simplicity is the key feature of this paper. This algorithm will be compared on several benchmark functions with other popular optimization algorithms such as the genetic algorithm, the differential evolution algorithm, the particle swarm algorithm, and the original simplex method. Then, the comparing results will be reported and discussed.}
+      \field{issn}{1941-0050}
+      \field{journaltitle}{{IEEE} Transactions on Industrial Informatics}
+      \field{month}{11}
+      \field{number}{4}
+      \field{title}{Comparative Study of Derivative Free Optimization Algorithms}
+      \field{urlday}{4}
+      \field{urlmonth}{10}
+      \field{urlyear}{2025}
+      \field{volume}{7}
+      \field{year}{2011}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{592\bibrangedash 600}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1109/TII.2011.2166799
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/Users/marleneziegler/Zotero/storage/4XHLN8VG/Pham et al. - 2011 - Comparative Study of Derivative Free Optimization Algorithms.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://ieeexplore.ieee.org/document/6011694/
+      \endverb
+      \verb{url}
+      \verb https://ieeexplore.ieee.org/document/6011694/
+      \endverb
+      \keyw{Algorithm design and analysis,Convergence,differential evolution algorithm ({DE}),genetic algorithm ({GA}),Genetic algorithms,Gradient methods,Particle swarm optimization,particle swarm optimization ({PSO}),quasi-gradient method,Simplex method}
+    \endentry
+    \entry{singer_efficient_2004}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=e0971c76fe69e7a7d4e7ba81d3e43dd4}{%
+           family={Singer},
+           familyi={S\bibinitperiod},
+           given={Saša},
+           giveni={S\bibinitperiod}}}%
+        {{hash=740408be5a9ce1e419a4c44b58f37b00}{%
+           family={Singer},
+           familyi={S\bibinitperiod},
+           given={Sanja},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{2db29ad368f10affecdcddbfcf27c0da}
+      \strng{fullhash}{2db29ad368f10affecdcddbfcf27c0da}
+      \strng{fullhashraw}{2db29ad368f10affecdcddbfcf27c0da}
+      \strng{bibnamehash}{2db29ad368f10affecdcddbfcf27c0da}
+      \strng{authorbibnamehash}{2db29ad368f10affecdcddbfcf27c0da}
+      \strng{authornamehash}{2db29ad368f10affecdcddbfcf27c0da}
+      \strng{authorfullhash}{2db29ad368f10affecdcddbfcf27c0da}
+      \strng{authorfullhashraw}{2db29ad368f10affecdcddbfcf27c0da}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The Nelder–Mead or simplex search algorithm is one of the best known algorithms for unconstrained optimization of non–smooth functions. Even though the basic algorithm is quite simple, it is implemented in many different ways. Apart from some minor computational details, the main difference between various implementations lies in the selection of convergence (or termination) tests, which are used to break the iteration process. A fairly simple efficiency analysis of each iteration step reveals a potential computational bottleneck in the domain convergence test. To be efficient, such a test has to be sublinear in the number of vertices of the working simplex. We have tested some of the most common implementations of the Nelder–Mead algorithm, and none of them is efficient in this sense. Therefore, we propose a simple and efficient domain convergence test and discuss some of its properties. This test is based on tracking the volume of the working simplex throughout the iterations. Similar termination tests can also be applied in some other simplex–based direct search methods. (© 2004 {WILEY}-{VCH} Verlag {GmbH} \& Co. {KGaA}, Weinheim)}
+      \field{issn}{1611-8189}
+      \field{journaltitle}{Applied Numerical Analysis \& Computational Mathematics}
+      \field{langid}{english}
+      \field{note}{\_eprint: https://onlinelibrary.wiley.com/doi/pdf/10.1002/anac.200410015}
+      \field{number}{2}
+      \field{title}{Efficient Implementation of the Nelder–Mead Search Algorithm}
+      \field{urlday}{4}
+      \field{urlmonth}{10}
+      \field{urlyear}{2025}
+      \field{volume}{1}
+      \field{year}{2004}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{524\bibrangedash 534}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1002/anac.200410015
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/Users/marleneziegler/Zotero/storage/75RQ64S4/Singer und Singer - 2004 - Efficient Implementation of the Nelder–Mead Search Algorithm.pdf:application/pdf;Snapshot:/Users/marleneziegler/Zotero/storage/824RP952/anac.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://onlinelibrary.wiley.com/doi/abs/10.1002/anac.200410015
+      \endverb
+      \verb{url}
+      \verb https://onlinelibrary.wiley.com/doi/abs/10.1002/anac.200410015
+      \endverb
+      \keyw{complexity,direct search methods,Nelder–Mead algorithm,optimization,termination test}
+    \endentry
+    \entry{nelder_simplex_1965}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=97a60525676f2f0735b3bace8039e9af}{%
+           family={Nelder},
+           familyi={N\bibinitperiod},
+           given={J.\bibnamedelimi A.},
+           giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=b7b244d12aeefd19786bac78fb546e01}{%
+           family={Mead},
+           familyi={M\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{c883f46bc4773c0e0cd4ad615f0e1a00}
+      \strng{fullhash}{c883f46bc4773c0e0cd4ad615f0e1a00}
+      \strng{fullhashraw}{c883f46bc4773c0e0cd4ad615f0e1a00}
+      \strng{bibnamehash}{c883f46bc4773c0e0cd4ad615f0e1a00}
+      \strng{authorbibnamehash}{c883f46bc4773c0e0cd4ad615f0e1a00}
+      \strng{authornamehash}{c883f46bc4773c0e0cd4ad615f0e1a00}
+      \strng{authorfullhash}{c883f46bc4773c0e0cd4ad615f0e1a00}
+      \strng{authorfullhashraw}{c883f46bc4773c0e0cd4ad615f0e1a00}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{issn}{0010-4620, 1460-2067}
+      \field{journaltitle}{The Computer Journal}
+      \field{langid}{english}
+      \field{month}{1}
+      \field{note}{Publisher: Oxford University Press ({OUP})}
+      \field{number}{4}
+      \field{title}{A Simplex Method for Function Minimization}
+      \field{urlday}{26}
+      \field{urlmonth}{7}
+      \field{urlyear}{2025}
+      \field{volume}{7}
+      \field{year}{1965}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{308\bibrangedash 313}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1093/comjnl/7.4.308
+      \endverb
+      \verb{file}
+      \verb Nelder und Mead - 1965 - A Simplex Method for Function Minimization.pdf:/Users/marleneziegler/Zotero/storage/2TG6WJ4X/Nelder und Mead - 1965 - A Simplex Method for Function Minimization.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://academic.oup.com/comjnl/article-lookup/doi/10.1093/comjnl/7.4.308
+      \endverb
+      \verb{url}
+      \verb https://academic.oup.com/comjnl/article-lookup/doi/10.1093/comjnl/7.4.308
+      \endverb
+    \endentry
     \entry{kraj_damage_nodate}{article}{}{}
       \name{author}{2}{}{%
         {{hash=09ceedd197eee41b67ab0450252dc693}{%
@@ -458,8 +683,8 @@
       \strng{authornamehash}{ea23efa540ff1bbc8f185cfcf11baa14}
       \strng{authorfullhash}{ea23efa540ff1bbc8f185cfcf11baa14}
       \strng{authorfullhashraw}{ea23efa540ff1bbc8f185cfcf11baa14}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{One of the fundamental diﬃculties in engineering design is the multiplicity of local solutions. This has triggered great eﬀorts to develop global search algorithms. Globality, however, often has a prohibitively high numerical cost for real problems. A ﬁxed cost local search, which sequentially becomes global is developed. Globalization is achieved by probabilistic restart. A spatial probability of starting a local search is built based on past searches. An improved Nelder–Mead algorithm makes the local optimizer. It accounts for variable bounds. It is additionally made more robust by reinitializing degenerated simplexes. The resulting method, called Globalized Bounded Nelder–Mead ({GBNM}) algorithm, is particularly adapted to tackle multimodal, discontinuous optimization problems, for which it is uncertain that a global optimization can be aﬀorded. Diﬀerent strategies for restarting the local search are discussed. Numerical experiments are given on analytical test functions and composite laminate design problems. The {GBNM} method compares favorably to an evolutionary algorithm, both in terms of numerical cost and accuracy.}
@@ -493,63 +718,6 @@
       \verb https://linkinghub.elsevier.com/retrieve/pii/S0045794904002378
       \endverb
     \endentry
-    \entry{gao_implementing_2012}{article}{}{}
-      \name{author}{2}{}{%
-        {{hash=7a0b1a1f91828e25a65fe807d6e1c651}{%
-           family={Gao},
-           familyi={G\bibinitperiod},
-           given={Fuchang},
-           giveni={F\bibinitperiod}}}%
-        {{hash=f97c7b110779475ebbc54bf6f131e753}{%
-           family={Han},
-           familyi={H\bibinitperiod},
-           given={Lixing},
-           giveni={L\bibinitperiod}}}%
-      }
-      \strng{namehash}{06e9e94332657d5a1d7c5393513fd38d}
-      \strng{fullhash}{06e9e94332657d5a1d7c5393513fd38d}
-      \strng{fullhashraw}{06e9e94332657d5a1d7c5393513fd38d}
-      \strng{bibnamehash}{06e9e94332657d5a1d7c5393513fd38d}
-      \strng{authorbibnamehash}{06e9e94332657d5a1d7c5393513fd38d}
-      \strng{authornamehash}{06e9e94332657d5a1d7c5393513fd38d}
-      \strng{authorfullhash}{06e9e94332657d5a1d7c5393513fd38d}
-      \strng{authorfullhashraw}{06e9e94332657d5a1d7c5393513fd38d}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{In this paper, we ﬁrst prove that the expansion and contraction steps of the Nelder-Mead simplex algorithm possess a descent property when the objective function is uniformly convex. This property provides some new insights on why the standard Nelder-Mead algorithm becomes inefﬁcient in high dimensions. We then propose an implementation of the Nelder-Mead method in which the expansion, contraction, and shrink parameters depend on the dimension of the optimization problem. Our numerical experiments show that the new implementation outperforms the standard Nelder-Mead method for high dimensional problems.}
-      \field{issn}{0926-6003, 1573-2894}
-      \field{journaltitle}{Computational Optimization and Applications}
-      \field{langid}{english}
-      \field{month}{1}
-      \field{note}{Publisher: Springer Science and Business Media {LLC}}
-      \field{number}{1}
-      \field{shortjournal}{Comput Optim Appl}
-      \field{title}{Implementing the Nelder-Mead simplex algorithm with adaptive parameters}
-      \field{urlday}{24}
-      \field{urlmonth}{7}
-      \field{urlyear}{2025}
-      \field{volume}{51}
-      \field{year}{2012}
-      \field{dateera}{ce}
-      \field{urldateera}{ce}
-      \true{nocite}
-      \field{pages}{259\bibrangedash 277}
-      \range{pages}{19}
-      \verb{doi}
-      \verb 10.1007/s10589-010-9329-3
-      \endverb
-      \verb{file}
-      \verb Gao und Han - 2012 - Implementing the Nelder-Mead simplex algorithm wit.pdf:/Users/marleneziegler/Zotero/storage/F8VUVXDN/Gao und Han - 2012 - Implementing the Nelder-Mead simplex algorithm wit.pdf:application/pdf
-      \endverb
-      \verb{urlraw}
-      \verb http://link.springer.com/10.1007/s10589-010-9329-3
-      \endverb
-      \verb{url}
-      \verb http://link.springer.com/10.1007/s10589-010-9329-3
-      \endverb
-    \endentry
     \entry{anglin_developing_2016}{article}{}{}
       \name{author}{3}{}{%
         {{hash=9c239b376d8bd2025d3e6f96fdb1e694}{%
@@ -576,8 +744,8 @@
       \strng{authornamehash}{46e1e984eed95a6cd71d481048428b0a}
       \strng{authorfullhash}{46e1e984eed95a6cd71d481048428b0a}
       \strng{authorfullhashraw}{46e1e984eed95a6cd71d481048428b0a}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Computing the mechanical response of materials requires accurate constitutive descriptions, especially their plastic behavior. Furthermore, the ability of a model to be used as a predictive, rather than a descriptive, tool motivates the development of physically based constitutive models. This work investigates combining a homogenized viscoplastic self-consistent ({VPSC}) approach to reduce the development time for a high-resolution viscoplastic model based on the fast Fourier transform ({FFT}). An optimization scheme based on a least-squares algorithm is presented. The constitutive responses of copper, interstitial-free steel, and pearlite are investigated, and the model parameters are presented. Optimized parameters from the low-fidelity model provide close agreement ({<}2 {MPa}, {\textasciitilde}1 \% error) with stress-strain data at low strains ({<}10 \%) in the high-fidelity {FFT} model. Simple adjustments to constitutive law parameters bring the {FFT} stress-strain curve in alignment with experimental data at strains greater than 10 \%. A two-phase constitutive law is developed for a pearlitic steel using a single stress-strain curve, supplemented by data for the constituent phases. Sources of error and methods of using material information are discussed that lead to optimal estimates of initial parameter values.}
@@ -612,60 +780,282 @@
       \verb http://link.springer.com/10.1186/s40192-016-0053-4
       \endverb
     \endentry
-    \entry{nelder_simplex_1965}{article}{}{}
+    \entry{schwerz_non-linear_2024}{inproceedings}{}{}
       \name{author}{2}{}{%
-        {{hash=97a60525676f2f0735b3bace8039e9af}{%
-           family={Nelder},
-           familyi={N\bibinitperiod},
-           given={J.\bibnamedelimi A.},
-           giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
-        {{hash=b7b244d12aeefd19786bac78fb546e01}{%
-           family={Mead},
-           familyi={M\bibinitperiod},
+        {{hash=ef87d6cb801569d24155ad612b2fb7f6}{%
+           family={Schwerz},
+           familyi={S\bibinitperiod},
            given={R.},
            giveni={R\bibinitperiod}}}%
+        {{hash=2daa1927d7a79eaca91f4d0200925f83}{%
+           family={Roellig},
+           familyi={R\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
       }
-      \strng{namehash}{c883f46bc4773c0e0cd4ad615f0e1a00}
-      \strng{fullhash}{c883f46bc4773c0e0cd4ad615f0e1a00}
-      \strng{fullhashraw}{c883f46bc4773c0e0cd4ad615f0e1a00}
-      \strng{bibnamehash}{c883f46bc4773c0e0cd4ad615f0e1a00}
-      \strng{authorbibnamehash}{c883f46bc4773c0e0cd4ad615f0e1a00}
-      \strng{authornamehash}{c883f46bc4773c0e0cd4ad615f0e1a00}
-      \strng{authorfullhash}{c883f46bc4773c0e0cd4ad615f0e1a00}
-      \strng{authorfullhashraw}{c883f46bc4773c0e0cd4ad615f0e1a00}
+      \list{location}{1}{%
+        {Catania, Italy}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{fd9022a9dbaa053ffe03e3d415f96453}
+      \strng{fullhash}{fd9022a9dbaa053ffe03e3d415f96453}
+      \strng{fullhashraw}{fd9022a9dbaa053ffe03e3d415f96453}
+      \strng{bibnamehash}{fd9022a9dbaa053ffe03e3d415f96453}
+      \strng{authorbibnamehash}{fd9022a9dbaa053ffe03e3d415f96453}
+      \strng{authornamehash}{fd9022a9dbaa053ffe03e3d415f96453}
+      \strng{authorfullhash}{fd9022a9dbaa053ffe03e3d415f96453}
+      \strng{authorfullhashraw}{fd9022a9dbaa053ffe03e3d415f96453}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{day}{1}
-      \field{issn}{0010-4620, 1460-2067}
-      \field{journaltitle}{The Computer Journal}
+      \field{abstract}{This paper presents an overview and selection of material models that can describe nonlinear viscoelasticity ({NLVE}) of thermoset materials. To evaluate them, mechanical measurements with variable force-deformation-time regimes were performed on the example of encapsulation compounds consisting of different types of polyurethane. A digital twin of the experiment, based on Finite Element Analysis ({FEA}), was created, and used to determine the required {NLVE} model parameters. The parameter extraction has been done for the Bergstrom-Boyce-Model as well as the Three-Network-Model. First, the mechanical experiments were performed to establish a sufficient database for model calibration. The measurement setup for tensile and compression experiments and the test specimens are presented. Wide range deformation rates between 0.05 mm/min to 50 mm/min have been conducted to excite the specimens and their mechanical response. The investigated types of polyurethanes are characterized by significant {NLVE} behavior, which becomes visible in stress relaxations with different displacement excitations. In the second step, the model parameters determined and calibrated. This has been done with an inverse method by using the {FEM} response calculations of the digital experiment and optimize towards the root-mean-square error of the comparison with the real measurement curves. The workflows for the optimization have been efficiently implemented in a python environment which controls the {FEM} model in Ansys. As a result, it could be shown that the simulation results with reduced mesh density and datapoints are sufficient with error deviation {<}2\% and thus can be used speed up the model calibration by up to 900x. Both the {BB}- and the {TN}-model could be fitted to the experimental data well. In the future, the proposed {NLVE} models, data acquisition and parameterization method will bring large strain viscoelastic material behavior into electronic design support tools in a timely manner and with manageable expenses.}
+      \field{booktitle}{2024 25th International Conference on Thermal, Mechanical and Multi-Physics Simulation and Experiments in Microelectronics and Microsystems ({EuroSimE})}
+      \field{day}{7}
+      \field{eventtitle}{2024 25th International Conference on Thermal, Mechanical and Multi-Physics Simulation and Experiments in Microelectronics and Microsystems ({EuroSimE})}
+      \field{isbn}{979-8-3503-9363-7}
       \field{langid}{english}
-      \field{month}{1}
-      \field{note}{Publisher: Oxford University Press ({OUP})}
-      \field{number}{4}
-      \field{title}{A Simplex Method for Function Minimization}
-      \field{urlday}{26}
-      \field{urlmonth}{7}
+      \field{month}{4}
+      \field{title}{Non-linear viscoelastic Material Models of Polymers for Electronics Simulation - Measurement, Modelling, Validation}
+      \field{urlday}{3}
+      \field{urlmonth}{10}
       \field{urlyear}{2025}
-      \field{volume}{7}
-      \field{year}{1965}
+      \field{year}{2024}
       \field{dateera}{ce}
       \field{urldateera}{ce}
       \true{nocite}
-      \field{pages}{308\bibrangedash 313}
-      \range{pages}{6}
+      \field{pages}{1\bibrangedash 7}
+      \range{pages}{7}
       \verb{doi}
-      \verb 10.1093/comjnl/7.4.308
+      \verb 10.1109/EuroSimE60745.2024.10491560
       \endverb
       \verb{file}
-      \verb Nelder und Mead - 1965 - A Simplex Method for Function Minimization.pdf:/Users/marleneziegler/Zotero/storage/2TG6WJ4X/Nelder und Mead - 1965 - A Simplex Method for Function Minimization.pdf:application/pdf
+      \verb Schwerz und Roellig - 2024 - Non-linear viscoelastic Material Models of Polymer.pdf:/Users/marleneziegler/Zotero/storage/ERGMSP6V/Schwerz und Roellig - 2024 - Non-linear viscoelastic Material Models of Polymer.pdf:application/pdf
       \endverb
       \verb{urlraw}
-      \verb https://academic.oup.com/comjnl/article-lookup/doi/10.1093/comjnl/7.4.308
+      \verb https://ieeexplore.ieee.org/document/10491560/
       \endverb
       \verb{url}
-      \verb https://academic.oup.com/comjnl/article-lookup/doi/10.1093/comjnl/7.4.308
+      \verb https://ieeexplore.ieee.org/document/10491560/
+      \endverb
+    \endentry
+    \entry{yi_backcalculating_2009}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=af221fde158b6fbbbe48c72ef6c64e06}{%
+           family={Yi},
+           familyi={Y\bibinitperiod},
+           given={Jin-Hak},
+           giveni={J\bibinithyphendelim H\bibinitperiod}}}%
+        {{hash=0d9ca24d6f19bdbe2462e2a98f42de84}{%
+           family={Mun},
+           familyi={M\bibinitperiod},
+           given={Sungho},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{963b4f4b0c7b19f9da1ddae5093ab1c8}
+      \strng{fullhash}{963b4f4b0c7b19f9da1ddae5093ab1c8}
+      \strng{fullhashraw}{963b4f4b0c7b19f9da1ddae5093ab1c8}
+      \strng{bibnamehash}{963b4f4b0c7b19f9da1ddae5093ab1c8}
+      \strng{authorbibnamehash}{963b4f4b0c7b19f9da1ddae5093ab1c8}
+      \strng{authornamehash}{963b4f4b0c7b19f9da1ddae5093ab1c8}
+      \strng{authorfullhash}{963b4f4b0c7b19f9da1ddae5093ab1c8}
+      \strng{authorfullhashraw}{963b4f4b0c7b19f9da1ddae5093ab1c8}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{A structural integrity assessment technique of pavements that considers the backcalculation of material properties is herein proposed. In order to carry out the backcalculation, a Nelder–Mead simplex ({NMS}) search is applied to estimate the elastic moduli of layered structures using the deflection data simulated by falling weight deflectometer ({FWD}) tests. In order to utilize a forward calculation engine of the numerical simulation in the {FWD} testing, a wave analysis program of layered pavement systems is used based on a spectral element method. The performance of the {NMS} inversion technique is evaluated based on a comparison with the Levenberg–Marquardt method. Copyright © 2009 John Wiley \& Sons, Ltd.}
+      \field{issn}{1096-9853}
+      \field{journaltitle}{International Journal for Numerical and Analytical Methods in Geomechanics}
+      \field{langid}{english}
+      \field{note}{\_eprint: https://onlinelibrary.wiley.com/doi/pdf/10.1002/nag.769}
+      \field{number}{11}
+      \field{title}{Backcalculating pavement structural properties using a Nelder–Mead simplex search}
+      \field{urlday}{4}
+      \field{urlmonth}{10}
+      \field{urlyear}{2025}
+      \field{volume}{33}
+      \field{year}{2009}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \field{pages}{1389\bibrangedash 1406}
+      \range{pages}{18}
+      \verb{doi}
+      \verb 10.1002/nag.769
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/Users/marleneziegler/Zotero/storage/UIYL8BKY/Yi und Mun - 2009 - Backcalculating pavement structural properties using a Nelder–Mead simplex search.pdf:application/pdf;Snapshot:/Users/marleneziegler/Zotero/storage/QRZBB37F/nag.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://onlinelibrary.wiley.com/doi/abs/10.1002/nag.769
+      \endverb
+      \verb{url}
+      \verb https://onlinelibrary.wiley.com/doi/abs/10.1002/nag.769
+      \endverb
+      \keyw{asphalt concrete pavement,falling weight deflectometer,inversion technique,Nelder–Mead simplex}
+    \endentry
+    \entry{luersen_constrained_2004}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=df7edf7dccd149057dc82a90aeae5be1}{%
+           family={Luersen},
+           familyi={L\bibinitperiod},
+           given={M.A.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=e2953b6fe27f5baac310356a3dec5bd4}{%
+           family={Le\bibnamedelima Riche},
+           familyi={L\bibinitperiod\bibinitdelim R\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=739ce3dee571c05b89d8098272cd00b7}{%
+           family={Guyon},
+           familyi={G\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{d7111944d14993a497650890b26e8c59}
+      \strng{fullhash}{d7111944d14993a497650890b26e8c59}
+      \strng{fullhashraw}{d7111944d14993a497650890b26e8c59}
+      \strng{bibnamehash}{d7111944d14993a497650890b26e8c59}
+      \strng{authorbibnamehash}{d7111944d14993a497650890b26e8c59}
+      \strng{authornamehash}{d7111944d14993a497650890b26e8c59}
+      \strng{authorfullhash}{d7111944d14993a497650890b26e8c59}
+      \strng{authorfullhashraw}{d7111944d14993a497650890b26e8c59}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{One of the fundamental difficulties in engineering design is the multiplicity of local solutions. This has triggered much effort in the development of global search algorithms. Globality, however, often has a prohibitively high numerical cost for real problems. A fixed cost local search, which sequentially becomes global, is developed in this work. Globalization is achieved by probabilistic restarts. A spacial probability of starting a local search is built based on past searches. An improved Nelder–Mead algorithm is the local optimizer. It accounts for variable bounds and nonlinear inequality constraints. It is additionally made more robust by reinitializing degenerated simplexes. The resulting method, called the Globalized Bounded Nelder–Mead ({GBNM}) algorithm, is particularly adapted to tackling multimodal, discontinuous, constrained optimization problems, for which it is uncertain that a global optimization can be afforded. Numerical experiments are given on two analytical test functions and two composite laminate design problems. The {GBNM} method compares favorably with an evolutionary algorithm, both in terms of numerical cost and accuracy.}
+      \field{day}{1}
+      \field{issn}{1615-1488}
+      \field{journaltitle}{Structural and Multidisciplinary Optimization}
+      \field{langid}{english}
+      \field{month}{5}
+      \field{number}{1}
+      \field{shortjournal}{Struct Multidisc Optim}
+      \field{title}{A constrained, globalized, and bounded Nelder–Mead method for engineering optimization}
+      \field{urlday}{4}
+      \field{urlmonth}{10}
+      \field{urlyear}{2025}
+      \field{volume}{27}
+      \field{year}{2004}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \field{pages}{43\bibrangedash 54}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1007/s00158-003-0320-9
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/Users/marleneziegler/Zotero/storage/QQELYLWR/Luersen et al. - 2004 - A constrained, globalized, and bounded Nelder–Mead method for engineering optimization.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/s00158-003-0320-9
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/s00158-003-0320-9
+      \endverb
+      \keyw{composite laminated plates,global constrained optimization,Nelder–Mead method}
+    \endentry
+    \entry{olsson_sequential_1974}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=c864b7007c941ffc332092379117a089}{%
+           family={Olsson},
+           familyi={O\bibinitperiod},
+           given={D.\bibnamedelimi M.},
+           giveni={D\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{c864b7007c941ffc332092379117a089}
+      \strng{fullhash}{c864b7007c941ffc332092379117a089}
+      \strng{fullhashraw}{c864b7007c941ffc332092379117a089}
+      \strng{bibnamehash}{c864b7007c941ffc332092379117a089}
+      \strng{authorbibnamehash}{c864b7007c941ffc332092379117a089}
+      \strng{authornamehash}{c864b7007c941ffc332092379117a089}
+      \strng{authorfullhash}{c864b7007c941ffc332092379117a089}
+      \strng{authorfullhashraw}{c864b7007c941ffc332092379117a089}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0022-4065, 2575-6230}
+      \field{journaltitle}{Journal of Quality Technology}
+      \field{langid}{english}
+      \field{month}{1}
+      \field{number}{1}
+      \field{shortjournal}{Journal of Quality Technology}
+      \field{title}{A Sequential Simplex Program for Solving Minimization Problems}
+      \field{urlday}{4}
+      \field{urlmonth}{10}
+      \field{urlyear}{2025}
+      \field{volume}{6}
+      \field{year}{1974}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \field{pages}{53\bibrangedash 57}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1080/00224065.1974.11980616
+      \endverb
+      \verb{urlraw}
+      \verb https://www.tandfonline.com/doi/full/10.1080/00224065.1974.11980616
+      \endverb
+      \verb{url}
+      \verb https://www.tandfonline.com/doi/full/10.1080/00224065.1974.11980616
+      \endverb
+    \endentry
+    \entry{wessing_proper_2019}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=2fbf993e385893c08adb04300d6702c8}{%
+           family={Wessing},
+           familyi={W\bibinitperiod},
+           given={Simon},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{2fbf993e385893c08adb04300d6702c8}
+      \strng{fullhash}{2fbf993e385893c08adb04300d6702c8}
+      \strng{fullhashraw}{2fbf993e385893c08adb04300d6702c8}
+      \strng{bibnamehash}{2fbf993e385893c08adb04300d6702c8}
+      \strng{authorbibnamehash}{2fbf993e385893c08adb04300d6702c8}
+      \strng{authornamehash}{2fbf993e385893c08adb04300d6702c8}
+      \strng{authorfullhash}{2fbf993e385893c08adb04300d6702c8}
+      \strng{authorfullhashraw}{2fbf993e385893c08adb04300d6702c8}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The Nelder–Mead simplex search as one of the oldest direct search methods is still in use today. Despite its ﬂaws, such as possible convergence to nonstationary points, in practice the algorithm offers a competitive performance compared to other direct search algorithms. However, we show that some of the most common initialization procedures can increase the runtime of the algorithm by orders of magnitude, even on a trivial spherical test function. These results also hold for the Nelder–Mead variant with sufﬁcient decrease condition and oriented restarts by Kelley and the variant with adaptive parameters by Gao and Han. As a remedy, we recommend to normalize the search space and to choose the initial simplex independent of the starting point.}
+      \field{issn}{1862-4472, 1862-4480}
+      \field{journaltitle}{Optimization Letters}
+      \field{langid}{english}
+      \field{month}{6}
+      \field{number}{4}
+      \field{shortjournal}{Optim Lett}
+      \field{title}{Proper initialization is crucial for the Nelder–Mead simplex search}
+      \field{urlday}{4}
+      \field{urlmonth}{10}
+      \field{urlyear}{2025}
+      \field{volume}{13}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \field{pages}{847\bibrangedash 856}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1007/s11590-018-1284-4
+      \endverb
+      \verb{file}
+      \verb PDF:/Users/marleneziegler/Zotero/storage/522LVZV9/Wessing - 2019 - Proper initialization is crucial for the Nelder–Mead simplex search.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://link.springer.com/10.1007/s11590-018-1284-4
+      \endverb
+      \verb{url}
+      \verb http://link.springer.com/10.1007/s11590-018-1284-4
       \endverb
     \endentry
   \enddatalist
