@@ -19,64 +19,70 @@
 
 \refsection{0}
   \datalist[entry]{none/global//global/global/global}
-    \entry{roche_measurement_1994}{article}{}{}
-      \name{author}{3}{}{%
-        {{hash=f8a1b73230247f1945085cbb07b21ed8}{%
-           family={Roche},
-           familyi={R\bibinitperiod},
-           given={A.A.},
-           giveni={A\bibinitperiod}}}%
-        {{hash=3e34415e33cf7c3752e8ec209f898a17}{%
-           family={Dole},
-           familyi={D\bibinitperiod},
-           given={P.},
-           giveni={P\bibinitperiod}}}%
-        {{hash=50b8e4720887c60dae5e158636120f10}{%
-           family={Bouzziri},
+    \entry{buyukozturk_structural_2011}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=0d963c114fc32660b6e40da6046bd4fa}{%
+           family={Büyüköztürk},
            familyi={B\bibinitperiod},
-           given={M.},
-           giveni={M\bibinitperiod}}}%
+           given={Oral},
+           giveni={O\bibinitperiod}}}%
+        {{hash=6838714519bd96717809c86f9b41a59f}{%
+           family={Buehler},
+           familyi={B\bibinitperiod},
+           given={Markus\bibnamedelima J.},
+           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=5d018b6c776f3e1cb0544de62b6a1662}{%
+           family={Lau},
+           familyi={L\bibinitperiod},
+           given={Denvid},
+           giveni={D\bibinitperiod}}}%
+        {{hash=f9caae3da776107466cead828be5fc64}{%
+           family={Tuakta},
+           familyi={T\bibinitperiod},
+           given={Chakrapan},
+           giveni={C\bibinitperiod}}}%
       }
-      \strng{namehash}{ca3e4df1402b8ee99b3d90c71994ff8a}
-      \strng{fullhash}{ca3e4df1402b8ee99b3d90c71994ff8a}
-      \strng{fullhashraw}{ca3e4df1402b8ee99b3d90c71994ff8a}
-      \strng{bibnamehash}{ca3e4df1402b8ee99b3d90c71994ff8a}
-      \strng{authorbibnamehash}{ca3e4df1402b8ee99b3d90c71994ff8a}
-      \strng{authornamehash}{ca3e4df1402b8ee99b3d90c71994ff8a}
-      \strng{authorfullhash}{ca3e4df1402b8ee99b3d90c71994ff8a}
-      \strng{authorfullhashraw}{ca3e4df1402b8ee99b3d90c71994ff8a}
+      \strng{namehash}{3e73dc11c059d8f74ea16b91709d903c}
+      \strng{fullhash}{50bfcce20be270c2879fabe70bff0083}
+      \strng{fullhashraw}{50bfcce20be270c2879fabe70bff0083}
+      \strng{bibnamehash}{3e73dc11c059d8f74ea16b91709d903c}
+      \strng{authorbibnamehash}{3e73dc11c059d8f74ea16b91709d903c}
+      \strng{authornamehash}{3e73dc11c059d8f74ea16b91709d903c}
+      \strng{authorfullhash}{50bfcce20be270c2879fabe70bff0083}
+      \strng{authorfullhashraw}{50bfcce20be270c2879fabe70bff0083}
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{In this paper, we compare the practicaladhesionmeasurementsof alkyd, vinyl, epoxy, and polyurethanepaints on cold-rolledsteel usingthe pull-offand three-pointflexuretests. It has been shown that (a) in the pull-offtest, theultimateloadand ultimatestrainvaluesdependon the studarea. Duringtrimming, cracks are created within the system which are responsiblefor a large decrease in the parameters measured. On the other hand, it is impossibleto differentiatebetweenthe failure initiationand the failurepropagationzones; (b) in the three-pointflexuretest,the area(W) subtendedby the load/displacemenct urvescorrespondingto sampleswithand withoutstiffenerdoesnot dependon the bondedwidthor on the substratecompliance. Aftercarryingout sucha mechanicaltest,it is alsopossibleto discriminatebetweenfailureinitiationand failurepropagationusing appropriatetools for observation,such as scanningelectronmicroscopy,and for analysis,such as electronmicroprobeanalysisand Fouriertransforminfraredspectroscopy.W is shownto be representativeof the failureinitiationenergy.}
-      \field{issn}{0169-4243, 1568-5616}
-      \field{journaltitle}{Journal of Adhesion Science and Technology}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{In this paper, the molecular dynamics ({MD}) simulation technique is described in the context of structural mechanics applications, providing a fundamental understanding of the atomistic approach, and demonstrating its applicability. Atomistic models provide a bottom-up description of material properties and processes, and {MD} simulation is capable of solving the dynamic evolution of equilibrium and non-equilibrium processes. The applicability of the technique to structural engineering problems is demonstrated through an interface debonding problem in a multi-layered material system usually encountered in composite structures. Interface debonding may lead to a possible premature failure of ﬁber reinforced polymer ({FRP}) bonded reinforced concrete ({RC}) structural elements subjected to moisture. Existing knowledge on meso-scale fracture mechanics may not fully explain the weakening of the interface between concrete and epoxy, when the interface is under moisture; there is a need to study the moisture affected debonding of the interface using a more fundamental approach that incorporates chemistry in the description of materials. The results of the atomistic modeling presented in this paper show that the adhesive strength (in terms of energy) between epoxy and silica is weakened in the presence of water through its interaction with epoxy. This is correlated with the existing meso-scale experimental data. This example demonstrates that {MD} simulation can be effectively used in studying the durability of the system through an understanding of how materials interact with the environment at the molecular level. In view of the limitation of {MD} simulation on both length- and time-scales, future research may focus on the development of a bridging technique between {MD} and ﬁnite element modeling ({FEM}) to be able to correlate the results from the nano- to the macro-scale.}
+      \field{issn}{0020-7683}
+      \field{journaltitle}{International Journal of Solids and Structures}
       \field{langid}{english}
-      \field{month}{1}
-      \field{number}{6}
-      \field{shortjournal}{Journal of Adhesion Science and Technology}
-      \field{title}{Measurement of the practical adhesion of paint coatings to metallic sheets by the pull-off and three-point flexure tests}
-      \field{urlday}{3}
-      \field{urlmonth}{10}
+      \field{month}{7}
+      \field{note}{Publisher: Elsevier {BV}}
+      \field{number}{14}
+      \field{shorttitle}{Structural solution using molecular dynamics}
+      \field{title}{Structural solution using molecular dynamics: Fundamentals and a case study of epoxy-silica interface}
+      \field{urlday}{24}
+      \field{urlmonth}{7}
       \field{urlyear}{2025}
-      \field{volume}{8}
-      \field{year}{1994}
+      \field{volume}{48}
+      \field{year}{2011}
       \field{dateera}{ce}
       \field{urldateera}{ce}
-      \field{pages}{587\bibrangedash 609}
-      \range{pages}{23}
+      \field{pages}{2131\bibrangedash 2140}
+      \range{pages}{10}
       \verb{doi}
-      \verb 10.1163/156856194X00366
+      \verb 10.1016/j.ijsolstr.2011.03.018
       \endverb
       \verb{file}
-      \verb Roche et al. - 1994 - Measurement of the practical adhesion of paint coa.pdf:/Users/marleneziegler/Zotero/storage/5B6QW8GB/Roche et al. - 1994 - Measurement of the practical adhesion of paint coa.pdf:application/pdf
+      \verb Büyüköztürk et al. - 2011 - Structural solution using molecular dynamics Fund.pdf:/Users/marleneziegler/Zotero/storage/VTJZX3R4/Büyüköztürk et al. - 2011 - Structural solution using molecular dynamics Fund.pdf:application/pdf
       \endverb
       \verb{urlraw}
-      \verb http://www.tandfonline.com/doi/abs/10.1163/156856194X00366
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S002076831100120X
       \endverb
       \verb{url}
-      \verb http://www.tandfonline.com/doi/abs/10.1163/156856194X00366
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S002076831100120X
       \endverb
     \endentry
     \entry{ries_deciphering_nodate}{article}{}{}
@@ -121,204 +127,6 @@
       \verb Ries et al. - DECIPHERING ELASTOPLASTIC PROPERTIES FROM ATOMISTI.pdf:/Users/marleneziegler/Zotero/storage/FHVAAHEP/Ries et al. - DECIPHERING ELASTOPLASTIC PROPERTIES FROM ATOMISTI.pdf:application/pdf
       \endverb
     \endentry
-    \entry{garifullin_dependence_2019}{article}{}{}
-      \name{author}{4}{}{%
-        {{hash=743c5cfaeec5bc6b72838245317146de}{%
-           family={Garifullin},
-           familyi={G\bibinitperiod},
-           given={Nilson\bibnamedelima O.},
-           giveni={N\bibinitperiod\bibinitdelim O\bibinitperiod}}}%
-        {{hash=1db28bd24fa32879f8ae5a67176aca80}{%
-           family={Komarov},
-           familyi={K\bibinitperiod},
-           given={Boris\bibnamedelima A.},
-           giveni={B\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
-        {{hash=7d8318aaa9dbeba1d6945c308d1db34c}{%
-           family={Kapasharov},
-           familyi={K\bibinitperiod},
-           given={Artur\bibnamedelima T.},
-           giveni={A\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
-        {{hash=73c558aa8f2b527598752227d8b74e7d}{%
-           family={Malkov},
-           familyi={M\bibinitperiod},
-           given={Georgiy\bibnamedelima V.},
-           giveni={G\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
-      }
-      \strng{namehash}{c1036102fd7ce95bdbcb2e8f96a7b201}
-      \strng{fullhash}{f600785ea2a61cd548845f37e97a068b}
-      \strng{fullhashraw}{f600785ea2a61cd548845f37e97a068b}
-      \strng{bibnamehash}{c1036102fd7ce95bdbcb2e8f96a7b201}
-      \strng{authorbibnamehash}{c1036102fd7ce95bdbcb2e8f96a7b201}
-      \strng{authornamehash}{c1036102fd7ce95bdbcb2e8f96a7b201}
-      \strng{authorfullhash}{f600785ea2a61cd548845f37e97a068b}
-      \strng{authorfullhashraw}{f600785ea2a61cd548845f37e97a068b}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{The results of studying of the physical-mechanical properties of {DGEBA}-epoxy resin cured by 4,4'-diaminodiphenylmethane ({DDM}) are presented. The molar ratio of the concentrations of amine ({NH}) and epoxy ({EP}) groups are: 0.5; 0.6; 0.7; 0.75; 0.8; 0.9; 1; 1.11; 1.25; 1.33; 1.43; 1.66; 2. Samples of the cured resin were examined in tension and three-point bending according to {ASTM} D638-10 and {ASTM} D 3039 standards, respectively, using the Zwick / Roel {TC}-{FR}010 universal testing machine. As a result, the dependencies of the resins physical-mechanical properties (modulus of elasticity, strength, elongation at break, glass temperature) on the {NH} / {EP} ratio and the curing temperature were obtained.}
-      \field{issn}{1662-9795}
-      \field{journaltitle}{Key Engineering Materials}
-      \field{langid}{english}
-      \field{month}{8}
-      \field{shortjournal}{{KEM}}
-      \field{title}{Dependence of the Physical-Mechanical Properties of Cured Epoxy-Amine Resin on the Ratio of its Components}
-      \field{urlday}{3}
-      \field{urlmonth}{10}
-      \field{urlyear}{2025}
-      \field{volume}{816}
-      \field{year}{2019}
-      \field{dateera}{ce}
-      \field{urldateera}{ce}
-      \field{pages}{146\bibrangedash 150}
-      \range{pages}{5}
-      \verb{doi}
-      \verb 10.4028/www.scientific.net/KEM.816.146
-      \endverb
-      \verb{file}
-      \verb Garifullin et al. - 2019 - Dependence of the Physical-Mechanical Properties o.pdf:/Users/marleneziegler/Zotero/storage/4INVUGU4/Garifullin et al. - 2019 - Dependence of the Physical-Mechanical Properties o.pdf:application/pdf
-      \endverb
-      \verb{urlraw}
-      \verb https://www.scientific.net/KEM.816.146
-      \endverb
-      \verb{url}
-      \verb https://www.scientific.net/KEM.816.146
-      \endverb
-    \endentry
-    \entry{dotschel_reactive_2026}{article}{}{}
-      \name{author}{5}{}{%
-        {{hash=8ccfa0b7b30436b5f022edc88d4b6299}{%
-           family={Dötschel},
-           familyi={D\bibinitperiod},
-           given={Vincent},
-           giveni={V\bibinitperiod}}}%
-        {{hash=00fc9d26b0f96140cec5c49c97d049a9}{%
-           family={Richter},
-           familyi={R\bibinitperiod},
-           given={Eva\bibnamedelima Maria},
-           giveni={E\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
-        {{hash=99fe00a4f6c8405d759cca2956788a20}{%
-           family={Possart},
-           familyi={P\bibinitperiod},
-           given={Gunnar},
-           giveni={G\bibinitperiod}}}%
-        {{hash=85eb99c254587a8b351349f7be9aa3f1}{%
-           family={Steinmann},
-           familyi={S\bibinitperiod},
-           given={Paul},
-           giveni={P\bibinitperiod}}}%
-        {{hash=6f008db3199f0b0c7775c2724b341494}{%
-           family={Ries},
-           familyi={R\bibinitperiod},
-           given={Maximilian},
-           giveni={M\bibinitperiod}}}%
-      }
-      \strng{namehash}{cd3ab87691ec0249415afa374f54a326}
-      \strng{fullhash}{dedbcbb7214733c79b5dd1bff2201ecb}
-      \strng{fullhashraw}{dedbcbb7214733c79b5dd1bff2201ecb}
-      \strng{bibnamehash}{cd3ab87691ec0249415afa374f54a326}
-      \strng{authorbibnamehash}{cd3ab87691ec0249415afa374f54a326}
-      \strng{authornamehash}{cd3ab87691ec0249415afa374f54a326}
-      \strng{authorfullhash}{dedbcbb7214733c79b5dd1bff2201ecb}
-      \strng{authorfullhashraw}{dedbcbb7214733c79b5dd1bff2201ecb}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issn}{09977538}
-      \field{journaltitle}{European Journal of Mechanics - A/Solids}
-      \field{langid}{english}
-      \field{month}{3}
-      \field{shortjournal}{European Journal of Mechanics - A/Solids}
-      \field{title}{Reactive coarse-grained {MD} models to capture interphase formation in epoxy-based structural adhesive joints}
-      \field{urlday}{3}
-      \field{urlmonth}{10}
-      \field{urlyear}{2025}
-      \field{volume}{116}
-      \field{year}{2026}
-      \field{dateera}{ce}
-      \field{urldateera}{ce}
-      \field{pages}{105801}
-      \range{pages}{1}
-      \verb{doi}
-      \verb 10.1016/j.euromechsol.2025.105801
-      \endverb
-      \verb{file}
-      \verb Dötschel et al. - 2026 - Reactive coarse-grained MD models to capture inter.pdf:/Users/marleneziegler/Zotero/storage/LIF97DTE/Dötschel et al. - 2026 - Reactive coarse-grained MD models to capture inter.pdf:application/pdf
-      \endverb
-      \verb{urlraw}
-      \verb https://linkinghub.elsevier.com/retrieve/pii/S0997753825002359
-      \endverb
-      \verb{url}
-      \verb https://linkinghub.elsevier.com/retrieve/pii/S0997753825002359
-      \endverb
-    \endentry
-    \entry{buyukozturk_structural_2011}{article}{}{}
-      \name{author}{4}{}{%
-        {{hash=0d963c114fc32660b6e40da6046bd4fa}{%
-           family={Büyüköztürk},
-           familyi={B\bibinitperiod},
-           given={Oral},
-           giveni={O\bibinitperiod}}}%
-        {{hash=6838714519bd96717809c86f9b41a59f}{%
-           family={Buehler},
-           familyi={B\bibinitperiod},
-           given={Markus\bibnamedelima J.},
-           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
-        {{hash=5d018b6c776f3e1cb0544de62b6a1662}{%
-           family={Lau},
-           familyi={L\bibinitperiod},
-           given={Denvid},
-           giveni={D\bibinitperiod}}}%
-        {{hash=f9caae3da776107466cead828be5fc64}{%
-           family={Tuakta},
-           familyi={T\bibinitperiod},
-           given={Chakrapan},
-           giveni={C\bibinitperiod}}}%
-      }
-      \strng{namehash}{3e73dc11c059d8f74ea16b91709d903c}
-      \strng{fullhash}{50bfcce20be270c2879fabe70bff0083}
-      \strng{fullhashraw}{50bfcce20be270c2879fabe70bff0083}
-      \strng{bibnamehash}{3e73dc11c059d8f74ea16b91709d903c}
-      \strng{authorbibnamehash}{3e73dc11c059d8f74ea16b91709d903c}
-      \strng{authornamehash}{3e73dc11c059d8f74ea16b91709d903c}
-      \strng{authorfullhash}{50bfcce20be270c2879fabe70bff0083}
-      \strng{authorfullhashraw}{50bfcce20be270c2879fabe70bff0083}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{shorttitle}
-      \field{abstract}{In this paper, the molecular dynamics ({MD}) simulation technique is described in the context of structural mechanics applications, providing a fundamental understanding of the atomistic approach, and demonstrating its applicability. Atomistic models provide a bottom-up description of material properties and processes, and {MD} simulation is capable of solving the dynamic evolution of equilibrium and non-equilibrium processes. The applicability of the technique to structural engineering problems is demonstrated through an interface debonding problem in a multi-layered material system usually encountered in composite structures. Interface debonding may lead to a possible premature failure of ﬁber reinforced polymer ({FRP}) bonded reinforced concrete ({RC}) structural elements subjected to moisture. Existing knowledge on meso-scale fracture mechanics may not fully explain the weakening of the interface between concrete and epoxy, when the interface is under moisture; there is a need to study the moisture affected debonding of the interface using a more fundamental approach that incorporates chemistry in the description of materials. The results of the atomistic modeling presented in this paper show that the adhesive strength (in terms of energy) between epoxy and silica is weakened in the presence of water through its interaction with epoxy. This is correlated with the existing meso-scale experimental data. This example demonstrates that {MD} simulation can be effectively used in studying the durability of the system through an understanding of how materials interact with the environment at the molecular level. In view of the limitation of {MD} simulation on both length- and time-scales, future research may focus on the development of a bridging technique between {MD} and ﬁnite element modeling ({FEM}) to be able to correlate the results from the nano- to the macro-scale.}
-      \field{issn}{0020-7683}
-      \field{journaltitle}{International Journal of Solids and Structures}
-      \field{langid}{english}
-      \field{month}{7}
-      \field{note}{Publisher: Elsevier {BV}}
-      \field{number}{14}
-      \field{shorttitle}{Structural solution using molecular dynamics}
-      \field{title}{Structural solution using molecular dynamics: Fundamentals and a case study of epoxy-silica interface}
-      \field{urlday}{24}
-      \field{urlmonth}{7}
-      \field{urlyear}{2025}
-      \field{volume}{48}
-      \field{year}{2011}
-      \field{dateera}{ce}
-      \field{urldateera}{ce}
-      \field{pages}{2131\bibrangedash 2140}
-      \range{pages}{10}
-      \verb{doi}
-      \verb 10.1016/j.ijsolstr.2011.03.018
-      \endverb
-      \verb{file}
-      \verb Büyüköztürk et al. - 2011 - Structural solution using molecular dynamics Fund.pdf:/Users/marleneziegler/Zotero/storage/VTJZX3R4/Büyüköztürk et al. - 2011 - Structural solution using molecular dynamics Fund.pdf:application/pdf
-      \endverb
-      \verb{urlraw}
-      \verb https://linkinghub.elsevier.com/retrieve/pii/S002076831100120X
-      \endverb
-      \verb{url}
-      \verb https://linkinghub.elsevier.com/retrieve/pii/S002076831100120X
-      \endverb
-    \endentry
     \entry{gao_implementing_2012}{article}{}{}
       \name{author}{2}{}{%
         {{hash=7a0b1a1f91828e25a65fe807d6e1c651}{%
@@ -340,8 +148,8 @@
       \strng{authornamehash}{06e9e94332657d5a1d7c5393513fd38d}
       \strng{authorfullhash}{06e9e94332657d5a1d7c5393513fd38d}
       \strng{authorfullhashraw}{06e9e94332657d5a1d7c5393513fd38d}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{In this paper, we ﬁrst prove that the expansion and contraction steps of the Nelder-Mead simplex algorithm possess a descent property when the objective function is uniformly convex. This property provides some new insights on why the standard Nelder-Mead algorithm becomes inefﬁcient in high dimensions. We then propose an implementation of the Nelder-Mead method in which the expansion, contraction, and shrink parameters depend on the dimension of the optimization problem. Our numerical experiments show that the new implementation outperforms the standard Nelder-Mead method for high dimensional problems.}
@@ -401,8 +209,8 @@
       \strng{authornamehash}{d6d90dd15f3b10b575a0fe9b8d013f62}
       \strng{authorfullhash}{d6d90dd15f3b10b575a0fe9b8d013f62}
       \strng{authorfullhashraw}{d6d90dd15f3b10b575a0fe9b8d013f62}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Derivative free optimization algorithms are often used when it is difficult to find function derivatives, or if finding such derivatives are time consuming. The Nelder Mead's simplex method is one of the most popular derivative free optimization algorithms in the fields of engineering, statistics, and sciences. This algorithm is favored and widely used because of its fast convergence and simplicity. The simplex method converges really well with small scale problems of some variables. However, it does not have much success with large-scale problems of multiple variables. This factor has reduced its popularity in optimization sciences significantly. Two solutions of quasi-gradients are introduced to improve it in terms of the convergence rate and the convergence speed. The improved algorithm with higher success rate and faster convergence which still maintains the simplicity is the key feature of this paper. This algorithm will be compared on several benchmark functions with other popular optimization algorithms such as the genetic algorithm, the differential evolution algorithm, the particle swarm algorithm, and the original simplex method. Then, the comparing results will be reported and discussed.}
@@ -455,8 +263,8 @@
       \strng{authornamehash}{2db29ad368f10affecdcddbfcf27c0da}
       \strng{authorfullhash}{2db29ad368f10affecdcddbfcf27c0da}
       \strng{authorfullhashraw}{2db29ad368f10affecdcddbfcf27c0da}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{The Nelder–Mead or simplex search algorithm is one of the best known algorithms for unconstrained optimization of non–smooth functions. Even though the basic algorithm is quite simple, it is implemented in many different ways. Apart from some minor computational details, the main difference between various implementations lies in the selection of convergence (or termination) tests, which are used to break the iteration process. A fairly simple efficiency analysis of each iteration step reveals a potential computational bottleneck in the domain convergence test. To be efficient, such a test has to be sublinear in the number of vertices of the working simplex. We have tested some of the most common implementations of the Nelder–Mead algorithm, and none of them is efficient in this sense. Therefore, we propose a simple and efficient domain convergence test and discuss some of its properties. This test is based on tracking the volume of the working simplex throughout the iterations. Similar termination tests can also be applied in some other simplex–based direct search methods. (© 2004 {WILEY}-{VCH} Verlag {GmbH} \& Co. {KGaA}, Weinheim)}
@@ -510,8 +318,8 @@
       \strng{authornamehash}{c883f46bc4773c0e0cd4ad615f0e1a00}
       \strng{authorfullhash}{c883f46bc4773c0e0cd4ad615f0e1a00}
       \strng{authorfullhashraw}{c883f46bc4773c0e0cd4ad615f0e1a00}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{day}{1}
@@ -709,8 +517,8 @@
       \strng{authornamehash}{ea23efa540ff1bbc8f185cfcf11baa14}
       \strng{authorfullhash}{ea23efa540ff1bbc8f185cfcf11baa14}
       \strng{authorfullhashraw}{ea23efa540ff1bbc8f185cfcf11baa14}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{One of the fundamental diﬃculties in engineering design is the multiplicity of local solutions. This has triggered great eﬀorts to develop global search algorithms. Globality, however, often has a prohibitively high numerical cost for real problems. A ﬁxed cost local search, which sequentially becomes global is developed. Globalization is achieved by probabilistic restart. A spatial probability of starting a local search is built based on past searches. An improved Nelder–Mead algorithm makes the local optimizer. It accounts for variable bounds. It is additionally made more robust by reinitializing degenerated simplexes. The resulting method, called Globalized Bounded Nelder–Mead ({GBNM}) algorithm, is particularly adapted to tackle multimodal, discontinuous optimization problems, for which it is uncertain that a global optimization can be aﬀorded. Diﬀerent strategies for restarting the local search are discussed. Numerical experiments are given on analytical test functions and composite laminate design problems. The {GBNM} method compares favorably to an evolutionary algorithm, both in terms of numerical cost and accuracy.}
@@ -806,6 +614,201 @@
       \verb http://link.springer.com/10.1186/s40192-016-0053-4
       \endverb
     \endentry
+    \entry{garifullin_dependence_2019}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=743c5cfaeec5bc6b72838245317146de}{%
+           family={Garifullin},
+           familyi={G\bibinitperiod},
+           given={Nilson\bibnamedelima O.},
+           giveni={N\bibinitperiod\bibinitdelim O\bibinitperiod}}}%
+        {{hash=1db28bd24fa32879f8ae5a67176aca80}{%
+           family={Komarov},
+           familyi={K\bibinitperiod},
+           given={Boris\bibnamedelima A.},
+           giveni={B\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=7d8318aaa9dbeba1d6945c308d1db34c}{%
+           family={Kapasharov},
+           familyi={K\bibinitperiod},
+           given={Artur\bibnamedelima T.},
+           giveni={A\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+        {{hash=73c558aa8f2b527598752227d8b74e7d}{%
+           family={Malkov},
+           familyi={M\bibinitperiod},
+           given={Georgiy\bibnamedelima V.},
+           giveni={G\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+      }
+      \strng{namehash}{c1036102fd7ce95bdbcb2e8f96a7b201}
+      \strng{fullhash}{f600785ea2a61cd548845f37e97a068b}
+      \strng{fullhashraw}{f600785ea2a61cd548845f37e97a068b}
+      \strng{bibnamehash}{c1036102fd7ce95bdbcb2e8f96a7b201}
+      \strng{authorbibnamehash}{c1036102fd7ce95bdbcb2e8f96a7b201}
+      \strng{authornamehash}{c1036102fd7ce95bdbcb2e8f96a7b201}
+      \strng{authorfullhash}{f600785ea2a61cd548845f37e97a068b}
+      \strng{authorfullhashraw}{f600785ea2a61cd548845f37e97a068b}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The results of studying of the physical-mechanical properties of {DGEBA}-epoxy resin cured by 4,4'-diaminodiphenylmethane ({DDM}) are presented. The molar ratio of the concentrations of amine ({NH}) and epoxy ({EP}) groups are: 0.5; 0.6; 0.7; 0.75; 0.8; 0.9; 1; 1.11; 1.25; 1.33; 1.43; 1.66; 2. Samples of the cured resin were examined in tension and three-point bending according to {ASTM} D638-10 and {ASTM} D 3039 standards, respectively, using the Zwick / Roel {TC}-{FR}010 universal testing machine. As a result, the dependencies of the resins physical-mechanical properties (modulus of elasticity, strength, elongation at break, glass temperature) on the {NH} / {EP} ratio and the curing temperature were obtained.}
+      \field{issn}{1662-9795}
+      \field{journaltitle}{Key Engineering Materials}
+      \field{langid}{english}
+      \field{month}{8}
+      \field{shortjournal}{{KEM}}
+      \field{title}{Dependence of the Physical-Mechanical Properties of Cured Epoxy-Amine Resin on the Ratio of its Components}
+      \field{urlday}{3}
+      \field{urlmonth}{10}
+      \field{urlyear}{2025}
+      \field{volume}{816}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \field{pages}{146\bibrangedash 150}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.4028/www.scientific.net/KEM.816.146
+      \endverb
+      \verb{file}
+      \verb Garifullin et al. - 2019 - Dependence of the Physical-Mechanical Properties o.pdf:/Users/marleneziegler/Zotero/storage/4INVUGU4/Garifullin et al. - 2019 - Dependence of the Physical-Mechanical Properties o.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.scientific.net/KEM.816.146
+      \endverb
+      \verb{url}
+      \verb https://www.scientific.net/KEM.816.146
+      \endverb
+    \endentry
+    \entry{roche_measurement_1994}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=f8a1b73230247f1945085cbb07b21ed8}{%
+           family={Roche},
+           familyi={R\bibinitperiod},
+           given={A.A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=3e34415e33cf7c3752e8ec209f898a17}{%
+           family={Dole},
+           familyi={D\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod}}}%
+        {{hash=50b8e4720887c60dae5e158636120f10}{%
+           family={Bouzziri},
+           familyi={B\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{ca3e4df1402b8ee99b3d90c71994ff8a}
+      \strng{fullhash}{ca3e4df1402b8ee99b3d90c71994ff8a}
+      \strng{fullhashraw}{ca3e4df1402b8ee99b3d90c71994ff8a}
+      \strng{bibnamehash}{ca3e4df1402b8ee99b3d90c71994ff8a}
+      \strng{authorbibnamehash}{ca3e4df1402b8ee99b3d90c71994ff8a}
+      \strng{authornamehash}{ca3e4df1402b8ee99b3d90c71994ff8a}
+      \strng{authorfullhash}{ca3e4df1402b8ee99b3d90c71994ff8a}
+      \strng{authorfullhashraw}{ca3e4df1402b8ee99b3d90c71994ff8a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In this paper, we compare the practicaladhesionmeasurementsof alkyd, vinyl, epoxy, and polyurethanepaints on cold-rolledsteel usingthe pull-offand three-pointflexuretests. It has been shown that (a) in the pull-offtest, theultimateloadand ultimatestrainvaluesdependon the studarea. Duringtrimming, cracks are created within the system which are responsiblefor a large decrease in the parameters measured. On the other hand, it is impossibleto differentiatebetweenthe failure initiationand the failurepropagationzones; (b) in the three-pointflexuretest,the area(W) subtendedby the load/displacemenct urvescorrespondingto sampleswithand withoutstiffenerdoesnot dependon the bondedwidthor on the substratecompliance. Aftercarryingout sucha mechanicaltest,it is alsopossibleto discriminatebetweenfailureinitiationand failurepropagationusing appropriatetools for observation,such as scanningelectronmicroscopy,and for analysis,such as electronmicroprobeanalysisand Fouriertransforminfraredspectroscopy.W is shownto be representativeof the failureinitiationenergy.}
+      \field{issn}{0169-4243, 1568-5616}
+      \field{journaltitle}{Journal of Adhesion Science and Technology}
+      \field{langid}{english}
+      \field{month}{1}
+      \field{number}{6}
+      \field{shortjournal}{Journal of Adhesion Science and Technology}
+      \field{title}{Measurement of the practical adhesion of paint coatings to metallic sheets by the pull-off and three-point flexure tests}
+      \field{urlday}{3}
+      \field{urlmonth}{10}
+      \field{urlyear}{2025}
+      \field{volume}{8}
+      \field{year}{1994}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \field{pages}{587\bibrangedash 609}
+      \range{pages}{23}
+      \verb{doi}
+      \verb 10.1163/156856194X00366
+      \endverb
+      \verb{file}
+      \verb Roche et al. - 1994 - Measurement of the practical adhesion of paint coa.pdf:/Users/marleneziegler/Zotero/storage/5B6QW8GB/Roche et al. - 1994 - Measurement of the practical adhesion of paint coa.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://www.tandfonline.com/doi/abs/10.1163/156856194X00366
+      \endverb
+      \verb{url}
+      \verb http://www.tandfonline.com/doi/abs/10.1163/156856194X00366
+      \endverb
+    \endentry
+    \entry{dotschel_reactive_2026}{article}{}{}
+      \name{author}{5}{}{%
+        {{hash=8ccfa0b7b30436b5f022edc88d4b6299}{%
+           family={Dötschel},
+           familyi={D\bibinitperiod},
+           given={Vincent},
+           giveni={V\bibinitperiod}}}%
+        {{hash=00fc9d26b0f96140cec5c49c97d049a9}{%
+           family={Richter},
+           familyi={R\bibinitperiod},
+           given={Eva\bibnamedelima Maria},
+           giveni={E\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=99fe00a4f6c8405d759cca2956788a20}{%
+           family={Possart},
+           familyi={P\bibinitperiod},
+           given={Gunnar},
+           giveni={G\bibinitperiod}}}%
+        {{hash=85eb99c254587a8b351349f7be9aa3f1}{%
+           family={Steinmann},
+           familyi={S\bibinitperiod},
+           given={Paul},
+           giveni={P\bibinitperiod}}}%
+        {{hash=6f008db3199f0b0c7775c2724b341494}{%
+           family={Ries},
+           familyi={R\bibinitperiod},
+           given={Maximilian},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{cd3ab87691ec0249415afa374f54a326}
+      \strng{fullhash}{dedbcbb7214733c79b5dd1bff2201ecb}
+      \strng{fullhashraw}{dedbcbb7214733c79b5dd1bff2201ecb}
+      \strng{bibnamehash}{cd3ab87691ec0249415afa374f54a326}
+      \strng{authorbibnamehash}{cd3ab87691ec0249415afa374f54a326}
+      \strng{authornamehash}{cd3ab87691ec0249415afa374f54a326}
+      \strng{authorfullhash}{dedbcbb7214733c79b5dd1bff2201ecb}
+      \strng{authorfullhashraw}{dedbcbb7214733c79b5dd1bff2201ecb}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{09977538}
+      \field{journaltitle}{European Journal of Mechanics - A/Solids}
+      \field{langid}{english}
+      \field{month}{3}
+      \field{shortjournal}{European Journal of Mechanics - A/Solids}
+      \field{title}{Reactive coarse-grained {MD} models to capture interphase formation in epoxy-based structural adhesive joints}
+      \field{urlday}{3}
+      \field{urlmonth}{10}
+      \field{urlyear}{2025}
+      \field{volume}{116}
+      \field{year}{2026}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \field{pages}{105801}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.euromechsol.2025.105801
+      \endverb
+      \verb{file}
+      \verb Dötschel et al. - 2026 - Reactive coarse-grained MD models to capture inter.pdf:/Users/marleneziegler/Zotero/storage/LIF97DTE/Dötschel et al. - 2026 - Reactive coarse-grained MD models to capture inter.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S0997753825002359
+      \endverb
+      \verb{url}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S0997753825002359
+      \endverb
+    \endentry
     \entry{schwerz_non-linear_2024}{inproceedings}{}{}
       \name{author}{2}{}{%
         {{hash=ef87d6cb801569d24155ad612b2fb7f6}{%
@@ -888,8 +891,8 @@
       \strng{authornamehash}{963b4f4b0c7b19f9da1ddae5093ab1c8}
       \strng{authorfullhash}{963b4f4b0c7b19f9da1ddae5093ab1c8}
       \strng{authorfullhashraw}{963b4f4b0c7b19f9da1ddae5093ab1c8}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{A structural integrity assessment technique of pavements that considers the backcalculation of material properties is herein proposed. In order to carry out the backcalculation, a Nelder–Mead simplex ({NMS}) search is applied to estimate the elastic moduli of layered structures using the deflection data simulated by falling weight deflectometer ({FWD}) tests. In order to utilize a forward calculation engine of the numerical simulation in the {FWD} testing, a wave analysis program of layered pavement systems is used based on a spectral element method. The performance of the {NMS} inversion technique is evaluated based on a comparison with the Levenberg–Marquardt method. Copyright © 2009 John Wiley \& Sons, Ltd.}
@@ -949,8 +952,8 @@
       \strng{authornamehash}{d7111944d14993a497650890b26e8c59}
       \strng{authorfullhash}{d7111944d14993a497650890b26e8c59}
       \strng{authorfullhashraw}{d7111944d14993a497650890b26e8c59}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{One of the fundamental difficulties in engineering design is the multiplicity of local solutions. This has triggered much effort in the development of global search algorithms. Globality, however, often has a prohibitively high numerical cost for real problems. A fixed cost local search, which sequentially becomes global, is developed in this work. Globalization is achieved by probabilistic restarts. A spacial probability of starting a local search is built based on past searches. An improved Nelder–Mead algorithm is the local optimizer. It accounts for variable bounds and nonlinear inequality constraints. It is additionally made more robust by reinitializing degenerated simplexes. The resulting method, called the Globalized Bounded Nelder–Mead ({GBNM}) algorithm, is particularly adapted to tackling multimodal, discontinuous, constrained optimization problems, for which it is uncertain that a global optimization can be afforded. Numerical experiments are given on two analytical test functions and two composite laminate design problems. The {GBNM} method compares favorably with an evolutionary algorithm, both in terms of numerical cost and accuracy.}
@@ -1002,8 +1005,8 @@
       \strng{authornamehash}{c864b7007c941ffc332092379117a089}
       \strng{authorfullhash}{c864b7007c941ffc332092379117a089}
       \strng{authorfullhashraw}{c864b7007c941ffc332092379117a089}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0022-4065, 2575-6230}
@@ -1049,8 +1052,8 @@
       \strng{authornamehash}{2fbf993e385893c08adb04300d6702c8}
       \strng{authorfullhash}{2fbf993e385893c08adb04300d6702c8}
       \strng{authorfullhashraw}{2fbf993e385893c08adb04300d6702c8}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{The Nelder–Mead simplex search as one of the oldest direct search methods is still in use today. Despite its ﬂaws, such as possible convergence to nonstationary points, in practice the algorithm offers a competitive performance compared to other direct search algorithms. However, we show that some of the most common initialization procedures can increase the runtime of the algorithm by orders of magnitude, even on a trivial spherical test function. These results also hold for the Nelder–Mead variant with sufﬁcient decrease condition and oriented restarts by Kelley and the variant with adaptive parameters by Gao and Han. As a remedy, we recommend to normalize the search space and to choose the initial simplex independent of the starting point.}
