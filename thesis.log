@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.8.30)  5 OCT 2025 14:36
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.8.30)  6 OCT 2025 16:43
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -1783,13 +1783,13 @@ chapter 2.
 pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.20 \begin{gather}
-                    [2
+l.40 \begin{gather*}
+                     [2
 
 
 ])
 
-[3{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
+[3]
 
 [4]
 \openout2 = `chapter_modelsAndMethods.aux'.
@@ -1809,7 +1809,7 @@ chapter 3.
 ]
 
 [7]
-<./images/cube_loading_plain_white_new.pdf, id=233, 1199.23032pt x 766.36313pt>
+<./images/cube_loading_plain_white_new.pdf, id=235, 1199.23032pt x 766.36313pt>
 File: ./images/cube_loading_plain_white_new.pdf Graphic file (type pdf)
 <use ./images/cube_loading_plain_white_new.pdf>
 Package pdftex.def Info: ./images/cube_loading_plain_white_new.pdf  used on input line 81.
@@ -1841,7 +1841,7 @@ Overfull \hbox (0.8973pt too wide) in paragraph at lines 101--118
 [9]
 
 [10]
-<./images/error_plot.pdf, id=310, 578.16pt x 433.62pt>
+<./images/error_plot.pdf, id=312, 578.16pt x 433.62pt>
 File: ./images/error_plot.pdf Graphic file (type pdf)
 <use ./images/error_plot.pdf>
 Package pdftex.def Info: ./images/error_plot.pdf  used on input line 151.
@@ -1852,7 +1852,7 @@ Package pdftex.def Info: ./images/error_plot.pdf  used on input line 151.
 
 LaTeX Warning: Reference `tab:inputParameterTable' on page 12 undefined on input line 217.
 
-<./images/initalValueComb.pdf, id=330, 211.65044pt x 129.02473pt>
+<./images/initalValueComb.pdf, id=332, 211.65044pt x 129.02473pt>
 File: ./images/initalValueComb.pdf Graphic file (type pdf)
 <use ./images/initalValueComb.pdf>
 Package pdftex.def Info: ./images/initalValueComb.pdf  used on input line 265.
@@ -1860,7 +1860,7 @@ Package pdftex.def Info: ./images/initalValueComb.pdf  used on input line 265.
 
 LaTeX Warning: Unexpected alignment T! on input line 269.
 
-<./images/ModelCombinations.pdf, id=331, 206.27693pt x 98.34563pt>
+<./images/ModelCombinations.pdf, id=333, 206.27693pt x 98.34563pt>
 File: ./images/ModelCombinations.pdf Graphic file (type pdf)
 <use ./images/ModelCombinations.pdf>
 Package pdftex.def Info: ./images/ModelCombinations.pdf  used on input line 272.
@@ -1871,7 +1871,7 @@ LaTeX Warning: Unexpected alignment T! on input line 276.
 
 
 [12]
-<./images/Amplitude.pdf, id=341, 326.40144pt x 429.84439pt>
+<./images/Amplitude.pdf, id=343, 326.40144pt x 429.84439pt>
 File: ./images/Amplitude.pdf Graphic file (type pdf)
 <use ./images/Amplitude.pdf>
 Package pdftex.def Info: ./images/Amplitude.pdf  used on input line 292.
@@ -1880,7 +1880,7 @@ Package pdftex.def Info: ./images/Amplitude.pdf  used on input line 292.
 
 LaTeX Warning: Unexpected alignment T! on input line 296.
 
-<./images/BC.pdf, id=342, 280.44232pt x 435.72568pt>
+<./images/BC.pdf, id=344, 280.44232pt x 435.72568pt>
 File: ./images/BC.pdf Graphic file (type pdf)
 <use ./images/BC.pdf>
 Package pdftex.def Info: ./images/BC.pdf  used on input line 299.
@@ -1894,21 +1894,28 @@ LaTeX Warning: Unexpected alignment T! on input line 303.
 
 pdfTeX warning: pdflatex (file ./images/ModelCombinations.pdf): PDF inclusion: multiple pdfs with page group included in a single page
 >]
-<./images/minimizeFuncitonInput.pdf, id=401, 532.57907pt x 251.42432pt>
+<./images/complete_flowchart_new.pdf, id=403, 845.04674pt x 1195.01572pt>
+File: ./images/complete_flowchart_new.pdf Graphic file (type pdf)
+<use ./images/complete_flowchart_new.pdf>
+Package pdftex.def Info: ./images/complete_flowchart_new.pdf  used on input line 313.
+(pdftex.def)             Requested size: 418.25555pt x 591.4708pt.
+<./images/minimizeFuncitonInput.pdf, id=404, 532.57907pt x 251.42432pt>
 File: ./images/minimizeFuncitonInput.pdf Graphic file (type pdf)
 <use ./images/minimizeFuncitonInput.pdf>
-Package pdftex.def Info: ./images/minimizeFuncitonInput.pdf  used on input line 313.
+Package pdftex.def Info: ./images/minimizeFuncitonInput.pdf  used on input line 320.
 (pdftex.def)             Requested size: 397.34149pt x 187.58182pt.
 
 
-[14 <./images/Amplitude.pdf> <./images/BC.pdf> <./images/minimizeFuncitonInput.pdf>])
+[14 <./images/Amplitude.pdf> <./images/BC.pdf> <./images/minimizeFuncitonInput.pdf>]
 
-[15]
+[15 <./images/complete_flowchart_new.pdf>])
+
+[16]
 \openout2 = `chapter_results.aux'.
 
  (./chapter_results.tex
 chapter 4.
-<./images/verify_material_params.pdf, id=444, 1084.05pt x 578.16pt>
+<./images/verify_material_params.pdf, id=487, 1084.05pt x 578.16pt>
 File: ./images/verify_material_params.pdf Graphic file (type pdf)
 <use ./images/verify_material_params.pdf>
 Package pdftex.def Info: ./images/verify_material_params.pdf  used on input line 20.
@@ -1921,79 +1928,79 @@ Package hyperref Warning: No autoref name for `subfigure' on input line 25.
 
 
 
-[16
+[17
 
 
 
 
  <./images/verify_material_params.pdf>]
-<./images/verfiy_stress_strain_progress.pdf, id=702, 578.16pt x 433.62pt>
+<./images/verfiy_stress_strain_progress.pdf, id=746, 578.16pt x 433.62pt>
 File: ./images/verfiy_stress_strain_progress.pdf Graphic file (type pdf)
 <use ./images/verfiy_stress_strain_progress.pdf>
 Package pdftex.def Info: ./images/verfiy_stress_strain_progress.pdf  used on input line 34.
 (pdftex.def)             Requested size: 196.58061pt x 147.43546pt.
-<./images/verify_stress_strain_combined.pdf, id=703, 578.16pt x 433.62pt>
+<./images/verify_stress_strain_combined.pdf, id=747, 578.16pt x 433.62pt>
 File: ./images/verify_stress_strain_combined.pdf Graphic file (type pdf)
 <use ./images/verify_stress_strain_combined.pdf>
 Package pdftex.def Info: ./images/verify_stress_strain_combined.pdf  used on input line 38.
 (pdftex.def)             Requested size: 196.58061pt x 147.43546pt.
-<./images/voce_curve.pdf, id=704, 578.16pt x 433.62pt>
+<./images/voce_curve.pdf, id=748, 578.16pt x 433.62pt>
 File: ./images/voce_curve.pdf Graphic file (type pdf)
 <use ./images/voce_curve.pdf>
 Package pdftex.def Info: ./images/voce_curve.pdf  used on input line 47.
 (pdftex.def)             Requested size: 209.12778pt x 156.84413pt.
 
 
-[17 <./images/verfiy_stress_strain_progress.pdf> <./images/verify_stress_strain_combined.pdf
+[18 <./images/verfiy_stress_strain_progress.pdf> <./images/verify_stress_strain_combined.pdf
 
 pdfTeX warning: pdflatex (file ./images/verify_stress_strain_combined.pdf): PDF inclusion: multiple pdfs with page group included in a single page
 >]
-<./images/verify_rsme.pdf, id=894, 578.16pt x 433.62pt>
+<./images/verify_rsme.pdf, id=938, 578.16pt x 433.62pt>
 File: ./images/verify_rsme.pdf Graphic file (type pdf)
 <use ./images/verify_rsme.pdf>
 Package pdftex.def Info: ./images/verify_rsme.pdf  used on input line 55.
 (pdftex.def)             Requested size: 292.7776pt x 219.58177pt.
-<./images/valid6to3_material_params.pdf, id=895, 1156.32pt x 289.08pt>
+<./images/valid6to3_material_params.pdf, id=939, 1156.32pt x 289.08pt>
 File: ./images/valid6to3_material_params.pdf Graphic file (type pdf)
 <use ./images/valid6to3_material_params.pdf>
 Package pdftex.def Info: ./images/valid6to3_material_params.pdf  used on input line 66.
 (pdftex.def)             Requested size: 196.58061pt x 49.14294pt.
 
 
-LaTeX Warning: Reference `verification' on page 18 undefined on input line 71.
+LaTeX Warning: Reference `verification' on page 19 undefined on input line 71.
 
 
 Package caption Warning: \label without proper reference on input line 81.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `fig:validationStressStrain6to3' on page 18 undefined on input line 72.
+LaTeX Warning: Reference `fig:validationStressStrain6to3' on page 19 undefined on input line 72.
 
 
 
-[18 <./images/voce_curve.pdf> <./images/verify_rsme.pdf
+[19 <./images/voce_curve.pdf> <./images/verify_rsme.pdf
 
 pdfTeX warning: pdflatex (file ./images/verify_rsme.pdf): PDF inclusion: multiple pdfs with page group included in a single page
 > <./images/valid6to3_material_params.pdf
 
 pdfTeX warning: pdflatex (file ./images/valid6to3_material_params.pdf): PDF inclusion: multiple pdfs with page group included in a single page
 >]
-<./images/valid6to3_stress_strain_combined.pdf, id=1080, 578.16pt x 433.62pt>
+<./images/valid6to3_stress_strain_combined.pdf, id=1123, 578.16pt x 433.62pt>
 File: ./images/valid6to3_stress_strain_combined.pdf Graphic file (type pdf)
 <use ./images/valid6to3_stress_strain_combined.pdf>
 Package pdftex.def Info: ./images/valid6to3_stress_strain_combined.pdf  used on input line 79.
 (pdftex.def)             Requested size: 196.58061pt x 147.43546pt.
-<./images/valid6to3_rsme.pdf, id=1081, 578.16pt x 433.62pt>
+<./images/valid6to3_rsme.pdf, id=1124, 578.16pt x 433.62pt>
 File: ./images/valid6to3_rsme.pdf Graphic file (type pdf)
 <use ./images/valid6to3_rsme.pdf>
 Package pdftex.def Info: ./images/valid6to3_rsme.pdf  used on input line 86.
 (pdftex.def)             Requested size: 196.58061pt x 147.43546pt.
-<./images/valid4to3_material_params.pdf, id=1082, 1156.32pt x 289.08pt>
+<./images/valid4to3_material_params.pdf, id=1125, 1156.32pt x 289.08pt>
 File: ./images/valid4to3_material_params.pdf Graphic file (type pdf)
 <use ./images/valid4to3_material_params.pdf>
 Package pdftex.def Info: ./images/valid4to3_material_params.pdf  used on input line 103.
 (pdftex.def)             Requested size: 418.25555pt x 104.56274pt.
-<./images/valid8to3_material_paramspdf.pdf, id=1083, 1156.32pt x 289.08pt>
+<./images/valid8to3_material_paramspdf.pdf, id=1126, 1156.32pt x 289.08pt>
 File: ./images/valid8to3_material_paramspdf.pdf Graphic file (type pdf)
 <use ./images/valid8to3_material_paramspdf.pdf>
 Package pdftex.def Info: ./images/valid8to3_material_paramspdf.pdf  used on input line 107.
@@ -2010,38 +2017,38 @@ Overfull \hbox (7.26108pt too wide) in paragraph at lines 103--108
 
 
 
-[19 <./images/valid6to3_stress_strain_combined.pdf> <./images/valid6to3_rsme.pdf
+[20 <./images/valid6to3_stress_strain_combined.pdf> <./images/valid6to3_rsme.pdf
 
 pdfTeX warning: pdflatex (file ./images/valid6to3_rsme.pdf): PDF inclusion: multiple pdfs with page group included in a single page
 >]
-<./images/valid4to3_stress_strain_combined.pdf, id=1212, 578.16pt x 433.62pt>
+<./images/valid4to3_stress_strain_combined.pdf, id=1255, 578.16pt x 433.62pt>
 File: ./images/valid4to3_stress_strain_combined.pdf Graphic file (type pdf)
 <use ./images/valid4to3_stress_strain_combined.pdf>
 Package pdftex.def Info: ./images/valid4to3_stress_strain_combined.pdf  used on input line 120.
 (pdftex.def)             Requested size: 196.58061pt x 147.43546pt.
-<./images/valid4to3_rmse.pdf, id=1213, 578.16pt x 433.62pt>
+<./images/valid4to3_rmse.pdf, id=1256, 578.16pt x 433.62pt>
 File: ./images/valid4to3_rmse.pdf Graphic file (type pdf)
 <use ./images/valid4to3_rmse.pdf>
 Package pdftex.def Info: ./images/valid4to3_rmse.pdf  used on input line 124.
 (pdftex.def)             Requested size: 196.58061pt x 147.43546pt.
-<./images/valid8to3_stress_strain_combined.pdf, id=1214, 578.16pt x 433.62pt>
+<./images/valid8to3_stress_strain_combined.pdf, id=1257, 578.16pt x 433.62pt>
 File: ./images/valid8to3_stress_strain_combined.pdf Graphic file (type pdf)
 <use ./images/valid8to3_stress_strain_combined.pdf>
 Package pdftex.def Info: ./images/valid8to3_stress_strain_combined.pdf  used on input line 128.
 (pdftex.def)             Requested size: 196.58061pt x 147.43546pt.
-<./images/valid8to3_rmse.pdf, id=1215, 578.16pt x 433.62pt>
+<./images/valid8to3_rmse.pdf, id=1258, 578.16pt x 433.62pt>
 File: ./images/valid8to3_rmse.pdf Graphic file (type pdf)
 <use ./images/valid8to3_rmse.pdf>
 Package pdftex.def Info: ./images/valid8to3_rmse.pdf  used on input line 132.
 (pdftex.def)             Requested size: 196.58061pt x 147.43546pt.
 
 
-[20 <./images/valid4to3_material_params.pdf> <./images/valid8to3_material_paramspdf.pdf
+[21 <./images/valid4to3_material_params.pdf> <./images/valid8to3_material_paramspdf.pdf
 
 pdfTeX warning: pdflatex (file ./images/valid8to3_material_paramspdf.pdf): PDF inclusion: multiple pdfs with page group included in a single page
 >]
 
-[21 <./images/valid4to3_stress_strain_combined.pdf> <./images/valid4to3_rmse.pdf
+[22 <./images/valid4to3_stress_strain_combined.pdf> <./images/valid4to3_rmse.pdf
 
 pdfTeX warning: pdflatex (file ./images/valid4to3_rmse.pdf): PDF inclusion: multiple pdfs with page group included in a single page
 > <./images/valid8to3_stress_strain_combined.pdf
@@ -2052,11 +2059,11 @@ pdfTeX warning: pdflatex (file ./images/valid8to3_stress_strain_combined.pdf): P
 pdfTeX warning: pdflatex (file ./images/valid8to3_rmse.pdf): PDF inclusion: multiple pdfs with page group included in a single page
 >])
 
-[22]
+[23]
 chapter 5.
 
 
-[23
+[24
 
 
 
@@ -2119,18 +2126,18 @@ Package logreq Info: Writing requests to 'thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 65582 strings out of 473190
- 1524131 string characters out of 5715800
- 2769889 words of memory out of 5000000
- 87713 multiletter control sequences out of 15000+600000
- 588545 words of font info for 114 fonts, out of 8000000 for 9000
+ 65612 strings out of 473190
+ 1525032 string characters out of 5715800
+ 2770062 words of memory out of 5000000
+ 87736 multiletter control sequences out of 15000+600000
+ 589984 words of font info for 120 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 108i,18n,120p,10984b,2326s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 108i,18n,120p,10984b,2366s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1095.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx2074.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfcc1000.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfcc1095.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm0600.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm0900.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx1095.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx1200.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx1440.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx2074.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfti1095.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sftt1095.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb>
-Output written on thesis.pdf (35 pages, 2888624 bytes).
+Output written on thesis.pdf (36 pages, 2932428 bytes).
 PDF statistics:
- 2045 PDF objects out of 2073 (max. 8388607)
- 1473 compressed objects within 15 object streams
- 124 named destinations out of 1000 (max. 500000)
- 469 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2094 PDF objects out of 2487 (max. 8388607)
+ 1509 compressed objects within 16 object streams
+ 127 named destinations out of 1000 (max. 500000)
+ 482 words of extra memory for PDF output out of 10000 (max. 10000000)
 

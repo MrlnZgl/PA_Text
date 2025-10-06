@@ -19,6 +19,66 @@
 
 \refsection{0}
   \datalist[entry]{none/global//global/global/global}
+    \entry{roche_measurement_1994}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=f8a1b73230247f1945085cbb07b21ed8}{%
+           family={Roche},
+           familyi={R\bibinitperiod},
+           given={A.A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=3e34415e33cf7c3752e8ec209f898a17}{%
+           family={Dole},
+           familyi={D\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod}}}%
+        {{hash=50b8e4720887c60dae5e158636120f10}{%
+           family={Bouzziri},
+           familyi={B\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{ca3e4df1402b8ee99b3d90c71994ff8a}
+      \strng{fullhash}{ca3e4df1402b8ee99b3d90c71994ff8a}
+      \strng{fullhashraw}{ca3e4df1402b8ee99b3d90c71994ff8a}
+      \strng{bibnamehash}{ca3e4df1402b8ee99b3d90c71994ff8a}
+      \strng{authorbibnamehash}{ca3e4df1402b8ee99b3d90c71994ff8a}
+      \strng{authornamehash}{ca3e4df1402b8ee99b3d90c71994ff8a}
+      \strng{authorfullhash}{ca3e4df1402b8ee99b3d90c71994ff8a}
+      \strng{authorfullhashraw}{ca3e4df1402b8ee99b3d90c71994ff8a}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In this paper, we compare the practicaladhesionmeasurementsof alkyd, vinyl, epoxy, and polyurethanepaints on cold-rolledsteel usingthe pull-offand three-pointflexuretests. It has been shown that (a) in the pull-offtest, theultimateloadand ultimatestrainvaluesdependon the studarea. Duringtrimming, cracks are created within the system which are responsiblefor a large decrease in the parameters measured. On the other hand, it is impossibleto differentiatebetweenthe failure initiationand the failurepropagationzones; (b) in the three-pointflexuretest,the area(W) subtendedby the load/displacemenct urvescorrespondingto sampleswithand withoutstiffenerdoesnot dependon the bondedwidthor on the substratecompliance. Aftercarryingout sucha mechanicaltest,it is alsopossibleto discriminatebetweenfailureinitiationand failurepropagationusing appropriatetools for observation,such as scanningelectronmicroscopy,and for analysis,such as electronmicroprobeanalysisand Fouriertransforminfraredspectroscopy.W is shownto be representativeof the failureinitiationenergy.}
+      \field{issn}{0169-4243, 1568-5616}
+      \field{journaltitle}{Journal of Adhesion Science and Technology}
+      \field{langid}{english}
+      \field{month}{1}
+      \field{number}{6}
+      \field{shortjournal}{Journal of Adhesion Science and Technology}
+      \field{title}{Measurement of the practical adhesion of paint coatings to metallic sheets by the pull-off and three-point flexure tests}
+      \field{urlday}{3}
+      \field{urlmonth}{10}
+      \field{urlyear}{2025}
+      \field{volume}{8}
+      \field{year}{1994}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{587\bibrangedash 609}
+      \range{pages}{23}
+      \verb{doi}
+      \verb 10.1163/156856194X00366
+      \endverb
+      \verb{file}
+      \verb Roche et al. - 1994 - Measurement of the practical adhesion of paint coa.pdf:/Users/marleneziegler/Zotero/storage/5B6QW8GB/Roche et al. - 1994 - Measurement of the practical adhesion of paint coa.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://www.tandfonline.com/doi/abs/10.1163/156856194X00366
+      \endverb
+      \verb{url}
+      \verb http://www.tandfonline.com/doi/abs/10.1163/156856194X00366
+      \endverb
+    \endentry
     \entry{ries_deciphering_nodate}{article}{}{}
       \name{author}{4}{}{%
         {{hash=6f008db3199f0b0c7775c2724b341494}{%
@@ -50,8 +110,8 @@
       \strng{authornamehash}{7e55bb33d66f2ee4694731e2599d8639}
       \strng{authorfullhash}{307c6b6216d9aa3ade2026596cfd8d03}
       \strng{authorfullhashraw}{307c6b6216d9aa3ade2026596cfd8d03}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Adhesive joints provide a better strength-to-weight ratio than traditional fastening methods and thus play a vital role in lightweight and cost-efficient engineering designs. The interaction of adherend and adhesive causes a region with different local resin-to-hardener ratios, e.g., due to demixing during curing or sterically hindered diffusion. Consequently, this interphase exhibits a mechanical behavior that differs from that of the bulk adhesive, immediately implying thickness-dependent properties of the joint, which should be, but are not yet, addressed in engineering. Additionally, these local gradients of structural and especially mechanical properties are, if at all, very difficult to assess by experimental methods. As a remedy, we derive the elastoplastic material parameters for bulk adhesives covering a wide range of mixing ratios. To this end, we simulate the curing and deformation of pure epoxy with reactive, coarse-grained molecular dynamics ({CGMD}) and introduce an extrapolation scheme to obtain the quasi-static material response. The latter removes the viscous contributions, which facilitates the comparison of ultra-fast {MD} with conventional mechanical testing. Based on these results, we calibrate elastoplastic constitutive models with {VOCE}-type hardening and obtain mixing ratio-dependent Young’s modulus, Poisson’s ratio, yield stress, and hardening parameters. Finally, we obtain the correlation between these material parameters and structural characteristics, such as density and curing degree, for a wide range of mixing ratios. With these results, we can then conclude on the local mechanical properties of interphases, based on {CGMD} simulations of the curing of adhesive joints, which inherently provide the local structure gradients in the vicinity of the adherends, [14].}
@@ -61,123 +121,137 @@
       \verb Ries et al. - DECIPHERING ELASTOPLASTIC PROPERTIES FROM ATOMISTI.pdf:/Users/marleneziegler/Zotero/storage/FHVAAHEP/Ries et al. - DECIPHERING ELASTOPLASTIC PROPERTIES FROM ATOMISTI.pdf:application/pdf
       \endverb
     \endentry
-    \entry{kraj_damage_nodate}{article}{}{}
-      \name{author}{2}{}{%
-        {{hash=09ceedd197eee41b67ab0450252dc693}{%
-           family={Kraj},
+    \entry{garifullin_dependence_2019}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=743c5cfaeec5bc6b72838245317146de}{%
+           family={Garifullin},
+           familyi={G\bibinitperiod},
+           given={Nilson\bibnamedelima O.},
+           giveni={N\bibinitperiod\bibinitdelim O\bibinitperiod}}}%
+        {{hash=1db28bd24fa32879f8ae5a67176aca80}{%
+           family={Komarov},
            familyi={K\bibinitperiod},
-           given={Dušan\bibnamedelima P},
-           giveni={D\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
-        {{hash=8c9edb559d5b4258beeca26fb3951540}{%
-           family={Šumarac},
-           familyi={Š\bibinitperiod},
-           given={Dragoslav\bibnamedelima M},
-           giveni={D\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
-      }
-      \strng{namehash}{80845606484d2deb2432d8b1571cba5f}
-      \strng{fullhash}{80845606484d2deb2432d8b1571cba5f}
-      \strng{fullhashraw}{80845606484d2deb2432d8b1571cba5f}
-      \strng{bibnamehash}{80845606484d2deb2432d8b1571cba5f}
-      \strng{authorbibnamehash}{80845606484d2deb2432d8b1571cba5f}
-      \strng{authornamehash}{80845606484d2deb2432d8b1571cba5f}
-      \strng{authorfullhash}{80845606484d2deb2432d8b1571cba5f}
-      \strng{authorfullhashraw}{80845606484d2deb2432d8b1571cba5f}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{langid}{english}
-      \field{title}{{DAMAGE} {MECHANICS} - {BASIC} {PRINCIPLES}}
-      \true{nocite}
-      \verb{file}
-      \verb Kraj und Šumarac - DAMAGE MECHANICS - BASIC PRINCIPLES.pdf:/Users/marleneziegler/Zotero/storage/4E3Z8RNT/Kraj und Šumarac - DAMAGE MECHANICS - BASIC PRINCIPLES.pdf:application/pdf
-      \endverb
-    \endentry
-    \entry{mergheim_lecture_nodate}{article}{}{}
-      \name{author}{1}{}{%
-        {{hash=d43f009c41905de1e4436a9f1539b684}{%
-           family={Mergheim},
+           given={Boris\bibnamedelima A.},
+           giveni={B\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=7d8318aaa9dbeba1d6945c308d1db34c}{%
+           family={Kapasharov},
+           familyi={K\bibinitperiod},
+           given={Artur\bibnamedelima T.},
+           giveni={A\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+        {{hash=73c558aa8f2b527598752227d8b74e7d}{%
+           family={Malkov},
            familyi={M\bibinitperiod},
-           given={Julia},
-           giveni={J\bibinitperiod}}}%
+           given={Georgiy\bibnamedelima V.},
+           giveni={G\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
       }
-      \strng{namehash}{d43f009c41905de1e4436a9f1539b684}
-      \strng{fullhash}{d43f009c41905de1e4436a9f1539b684}
-      \strng{fullhashraw}{d43f009c41905de1e4436a9f1539b684}
-      \strng{bibnamehash}{d43f009c41905de1e4436a9f1539b684}
-      \strng{authorbibnamehash}{d43f009c41905de1e4436a9f1539b684}
-      \strng{authornamehash}{d43f009c41905de1e4436a9f1539b684}
-      \strng{authorfullhash}{d43f009c41905de1e4436a9f1539b684}
-      \strng{authorfullhashraw}{d43f009c41905de1e4436a9f1539b684}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \strng{namehash}{c1036102fd7ce95bdbcb2e8f96a7b201}
+      \strng{fullhash}{f600785ea2a61cd548845f37e97a068b}
+      \strng{fullhashraw}{f600785ea2a61cd548845f37e97a068b}
+      \strng{bibnamehash}{c1036102fd7ce95bdbcb2e8f96a7b201}
+      \strng{authorbibnamehash}{c1036102fd7ce95bdbcb2e8f96a7b201}
+      \strng{authornamehash}{c1036102fd7ce95bdbcb2e8f96a7b201}
+      \strng{authorfullhash}{f600785ea2a61cd548845f37e97a068b}
+      \strng{authorfullhashraw}{f600785ea2a61cd548845f37e97a068b}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
+      \field{abstract}{The results of studying of the physical-mechanical properties of {DGEBA}-epoxy resin cured by 4,4'-diaminodiphenylmethane ({DDM}) are presented. The molar ratio of the concentrations of amine ({NH}) and epoxy ({EP}) groups are: 0.5; 0.6; 0.7; 0.75; 0.8; 0.9; 1; 1.11; 1.25; 1.33; 1.43; 1.66; 2. Samples of the cured resin were examined in tension and three-point bending according to {ASTM} D638-10 and {ASTM} D 3039 standards, respectively, using the Zwick / Roel {TC}-{FR}010 universal testing machine. As a result, the dependencies of the resins physical-mechanical properties (modulus of elasticity, strength, elongation at break, glass temperature) on the {NH} / {EP} ratio and the curing temperature were obtained.}
+      \field{issn}{1662-9795}
+      \field{journaltitle}{Key Engineering Materials}
       \field{langid}{english}
-      \field{title}{Lecture Notes Materials Modelling and Simulation}
-      \true{nocite}
+      \field{month}{8}
+      \field{shortjournal}{{KEM}}
+      \field{title}{Dependence of the Physical-Mechanical Properties of Cured Epoxy-Amine Resin on the Ratio of its Components}
+      \field{urlday}{3}
+      \field{urlmonth}{10}
+      \field{urlyear}{2025}
+      \field{volume}{816}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{146\bibrangedash 150}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.4028/www.scientific.net/KEM.816.146
+      \endverb
       \verb{file}
-      \verb Mergheim - Lecture Notes Materials Modelling and Simulation.pdf:/Users/marleneziegler/Zotero/storage/ERK7B84V/Mergheim - Lecture Notes Materials Modelling and Simulation.pdf:application/pdf
+      \verb Garifullin et al. - 2019 - Dependence of the Physical-Mechanical Properties o.pdf:/Users/marleneziegler/Zotero/storage/4INVUGU4/Garifullin et al. - 2019 - Dependence of the Physical-Mechanical Properties o.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.scientific.net/KEM.816.146
+      \endverb
+      \verb{url}
+      \verb https://www.scientific.net/KEM.816.146
       \endverb
     \endentry
-    \entry{fear_publication_2016}{book}{}{}
-      \name{author}{1}{}{%
-        {{hash=413eba48fd96db4099753e792e1fc966}{%
-           family={Fear},
-           familyi={F\bibinitperiod},
-           given={Simon},
-           giveni={S\bibinitperiod}}}%
-      }
-      \strng{namehash}{413eba48fd96db4099753e792e1fc966}
-      \strng{fullhash}{413eba48fd96db4099753e792e1fc966}
-      \strng{fullhashraw}{413eba48fd96db4099753e792e1fc966}
-      \strng{bibnamehash}{413eba48fd96db4099753e792e1fc966}
-      \strng{authorbibnamehash}{413eba48fd96db4099753e792e1fc966}
-      \strng{authornamehash}{413eba48fd96db4099753e792e1fc966}
-      \strng{authorfullhash}{413eba48fd96db4099753e792e1fc966}
-      \strng{authorfullhashraw}{413eba48fd96db4099753e792e1fc966}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Publication quality tables in Latex – the booktabs package}
-      \field{year}{2016}
-      \field{dateera}{ce}
-      \true{nocite}
-    \endentry
-    \entry{pfaller_multiscale_2015}{incollection}{}{}
-      \name{author}{1}{}{%
-        {{hash=577df5ae5d853f485313ac11a5ef3baa}{%
-           family={Pfaller},
+    \entry{dotschel_reactive_2026}{article}{}{}
+      \name{author}{5}{}{%
+        {{hash=8ccfa0b7b30436b5f022edc88d4b6299}{%
+           family={Dötschel},
+           familyi={D\bibinitperiod},
+           given={Vincent},
+           giveni={V\bibinitperiod}}}%
+        {{hash=00fc9d26b0f96140cec5c49c97d049a9}{%
+           family={Richter},
+           familyi={R\bibinitperiod},
+           given={Eva\bibnamedelima Maria},
+           giveni={E\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=99fe00a4f6c8405d759cca2956788a20}{%
+           family={Possart},
            familyi={P\bibinitperiod},
-           given={Sebastian},
-           giveni={S\bibinitperiod}}}%
+           given={Gunnar},
+           giveni={G\bibinitperiod}}}%
+        {{hash=85eb99c254587a8b351349f7be9aa3f1}{%
+           family={Steinmann},
+           familyi={S\bibinitperiod},
+           given={Paul},
+           giveni={P\bibinitperiod}}}%
+        {{hash=6f008db3199f0b0c7775c2724b341494}{%
+           family={Ries},
+           familyi={R\bibinitperiod},
+           given={Maximilian},
+           giveni={M\bibinitperiod}}}%
       }
-      \list{location}{1}{%
-        {Universität Erlangen-Nürnberg}%
-      }
-      \list{publisher}{1}{%
-        {Lehrstuhl für Technische Mechaink - Universität Erlangen-Nürnberg}%
-      }
-      \strng{namehash}{577df5ae5d853f485313ac11a5ef3baa}
-      \strng{fullhash}{577df5ae5d853f485313ac11a5ef3baa}
-      \strng{fullhashraw}{577df5ae5d853f485313ac11a5ef3baa}
-      \strng{bibnamehash}{577df5ae5d853f485313ac11a5ef3baa}
-      \strng{authorbibnamehash}{577df5ae5d853f485313ac11a5ef3baa}
-      \strng{authornamehash}{577df5ae5d853f485313ac11a5ef3baa}
-      \strng{authorfullhash}{577df5ae5d853f485313ac11a5ef3baa}
-      \strng{authorfullhashraw}{577df5ae5d853f485313ac11a5ef3baa}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \strng{namehash}{cd3ab87691ec0249415afa374f54a326}
+      \strng{fullhash}{dedbcbb7214733c79b5dd1bff2201ecb}
+      \strng{fullhashraw}{dedbcbb7214733c79b5dd1bff2201ecb}
+      \strng{bibnamehash}{cd3ab87691ec0249415afa374f54a326}
+      \strng{authorbibnamehash}{cd3ab87691ec0249415afa374f54a326}
+      \strng{authornamehash}{cd3ab87691ec0249415afa374f54a326}
+      \strng{authorfullhash}{dedbcbb7214733c79b5dd1bff2201ecb}
+      \strng{authorfullhashraw}{dedbcbb7214733c79b5dd1bff2201ecb}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{booktitle}{Schriftenreihe Technische Mechanik}
-      \field{note}{{ISSN}: 2190-023X}
-      \field{title}{Multiscale Simulation of Polymers – Coupling of Continuum Mechanics and Particle-Based Simulation}
-      \field{volume}{16}
-      \field{year}{2015}
+      \field{issn}{09977538}
+      \field{journaltitle}{European Journal of Mechanics - A/Solids}
+      \field{langid}{english}
+      \field{month}{3}
+      \field{shortjournal}{European Journal of Mechanics - A/Solids}
+      \field{title}{Reactive coarse-grained {MD} models to capture interphase formation in epoxy-based structural adhesive joints}
+      \field{urlday}{3}
+      \field{urlmonth}{10}
+      \field{urlyear}{2025}
+      \field{volume}{116}
+      \field{year}{2026}
       \field{dateera}{ce}
-      \true{nocite}
+      \field{urldateera}{ce}
+      \field{pages}{105801}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.euromechsol.2025.105801
+      \endverb
+      \verb{file}
+      \verb Dötschel et al. - 2026 - Reactive coarse-grained MD models to capture inter.pdf:/Users/marleneziegler/Zotero/storage/LIF97DTE/Dötschel et al. - 2026 - Reactive coarse-grained MD models to capture inter.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S0997753825002359
+      \endverb
+      \verb{url}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S0997753825002359
+      \endverb
     \endentry
     \entry{buyukozturk_structural_2011}{article}{}{}
       \name{author}{4}{}{%
@@ -210,8 +284,8 @@
       \strng{authornamehash}{3e73dc11c059d8f74ea16b91709d903c}
       \strng{authorfullhash}{50bfcce20be270c2879fabe70bff0083}
       \strng{authorfullhashraw}{50bfcce20be270c2879fabe70bff0083}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
       \field{abstract}{In this paper, the molecular dynamics ({MD}) simulation technique is described in the context of structural mechanics applications, providing a fundamental understanding of the atomistic approach, and demonstrating its applicability. Atomistic models provide a bottom-up description of material properties and processes, and {MD} simulation is capable of solving the dynamic evolution of equilibrium and non-equilibrium processes. The applicability of the technique to structural engineering problems is demonstrated through an interface debonding problem in a multi-layered material system usually encountered in composite structures. Interface debonding may lead to a possible premature failure of ﬁber reinforced polymer ({FRP}) bonded reinforced concrete ({RC}) structural elements subjected to moisture. Existing knowledge on meso-scale fracture mechanics may not fully explain the weakening of the interface between concrete and epoxy, when the interface is under moisture; there is a need to study the moisture affected debonding of the interface using a more fundamental approach that incorporates chemistry in the description of materials. The results of the atomistic modeling presented in this paper show that the adhesive strength (in terms of energy) between epoxy and silica is weakened in the presence of water through its interaction with epoxy. This is correlated with the existing meso-scale experimental data. This example demonstrates that {MD} simulation can be effectively used in studying the durability of the system through an understanding of how materials interact with the environment at the molecular level. In view of the limitation of {MD} simulation on both length- and time-scales, future research may focus on the development of a bridging technique between {MD} and ﬁnite element modeling ({FEM}) to be able to correlate the results from the nano- to the macro-scale.}
@@ -230,7 +304,6 @@
       \field{year}{2011}
       \field{dateera}{ce}
       \field{urldateera}{ce}
-      \true{nocite}
       \field{pages}{2131\bibrangedash 2140}
       \range{pages}{10}
       \verb{doi}
@@ -244,62 +317,6 @@
       \endverb
       \verb{url}
       \verb https://linkinghub.elsevier.com/retrieve/pii/S002076831100120X
-      \endverb
-    \endentry
-    \entry{luersen_globalized_2004}{article}{}{}
-      \name{author}{2}{}{%
-        {{hash=ffca9dce37855689228ab2e3e38bcbed}{%
-           family={Luersen},
-           familyi={L\bibinitperiod},
-           given={Marco\bibnamedelima A.},
-           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
-        {{hash=8f22da05091df30628dd435f638dcb06}{%
-           family={Le\bibnamedelima Riche},
-           familyi={L\bibinitperiod\bibinitdelim R\bibinitperiod},
-           given={Rodolphe},
-           giveni={R\bibinitperiod}}}%
-      }
-      \strng{namehash}{ea23efa540ff1bbc8f185cfcf11baa14}
-      \strng{fullhash}{ea23efa540ff1bbc8f185cfcf11baa14}
-      \strng{fullhashraw}{ea23efa540ff1bbc8f185cfcf11baa14}
-      \strng{bibnamehash}{ea23efa540ff1bbc8f185cfcf11baa14}
-      \strng{authorbibnamehash}{ea23efa540ff1bbc8f185cfcf11baa14}
-      \strng{authornamehash}{ea23efa540ff1bbc8f185cfcf11baa14}
-      \strng{authorfullhash}{ea23efa540ff1bbc8f185cfcf11baa14}
-      \strng{authorfullhashraw}{ea23efa540ff1bbc8f185cfcf11baa14}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{One of the fundamental diﬃculties in engineering design is the multiplicity of local solutions. This has triggered great eﬀorts to develop global search algorithms. Globality, however, often has a prohibitively high numerical cost for real problems. A ﬁxed cost local search, which sequentially becomes global is developed. Globalization is achieved by probabilistic restart. A spatial probability of starting a local search is built based on past searches. An improved Nelder–Mead algorithm makes the local optimizer. It accounts for variable bounds. It is additionally made more robust by reinitializing degenerated simplexes. The resulting method, called Globalized Bounded Nelder–Mead ({GBNM}) algorithm, is particularly adapted to tackle multimodal, discontinuous optimization problems, for which it is uncertain that a global optimization can be aﬀorded. Diﬀerent strategies for restarting the local search are discussed. Numerical experiments are given on analytical test functions and composite laminate design problems. The {GBNM} method compares favorably to an evolutionary algorithm, both in terms of numerical cost and accuracy.}
-      \field{issn}{0045-7949}
-      \field{journaltitle}{Computers \& Structures}
-      \field{langid}{english}
-      \field{month}{9}
-      \field{note}{Publisher: Elsevier {BV}}
-      \field{number}{23}
-      \field{title}{Globalized Nelder–Mead method for engineering optimization}
-      \field{urlday}{24}
-      \field{urlmonth}{7}
-      \field{urlyear}{2025}
-      \field{volume}{82}
-      \field{year}{2004}
-      \field{dateera}{ce}
-      \field{urldateera}{ce}
-      \true{nocite}
-      \field{pages}{2251\bibrangedash 2260}
-      \range{pages}{10}
-      \verb{doi}
-      \verb 10.1016/j.compstruc.2004.03.072
-      \endverb
-      \verb{file}
-      \verb Luersen und Le Riche - 2004 - Globalized Nelder–Mead method for engineering opti.pdf:/Users/marleneziegler/Zotero/storage/39UBCRHX/Luersen und Le Riche - 2004 - Globalized Nelder–Mead method for engineering opti.pdf:application/pdf
-      \endverb
-      \verb{urlraw}
-      \verb https://linkinghub.elsevier.com/retrieve/pii/S0045794904002378
-      \endverb
-      \verb{url}
-      \verb https://linkinghub.elsevier.com/retrieve/pii/S0045794904002378
       \endverb
     \endentry
     \entry{gao_implementing_2012}{article}{}{}
@@ -343,7 +360,6 @@
       \field{year}{2012}
       \field{dateera}{ce}
       \field{urldateera}{ce}
-      \true{nocite}
       \field{pages}{259\bibrangedash 277}
       \range{pages}{19}
       \verb{doi}
@@ -359,67 +375,119 @@
       \verb http://link.springer.com/10.1007/s10589-010-9329-3
       \endverb
     \endentry
-    \entry{anglin_developing_2016}{article}{}{}
+    \entry{pham_comparative_2011}{article}{}{}
       \name{author}{3}{}{%
-        {{hash=9c239b376d8bd2025d3e6f96fdb1e694}{%
-           family={Anglin},
-           familyi={A\bibinitperiod},
-           given={B.\bibnamedelimi S.},
-           giveni={B\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
-        {{hash=80d469d2364d4e8a494623503918cf62}{%
-           family={Gockel},
-           familyi={G\bibinitperiod},
-           given={B.\bibnamedelimi T.},
-           giveni={B\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
-        {{hash=e829d2917c89d97a2fbba2b1c9f1c40e}{%
-           family={Rollett},
-           familyi={R\bibinitperiod},
-           given={A.\bibnamedelimi D.},
-           giveni={A\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=e6f59d883f3d3183d8163be67463f531}{%
+           family={Pham},
+           familyi={P\bibinitperiod},
+           given={Nam},
+           giveni={N\bibinitperiod}}}%
+        {{hash=e55b7ec0d343f34bab2d1e32af63e41d}{%
+           family={Malinowski},
+           familyi={M\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=3a27c6e529e0d14981e986a50acd6a18}{%
+           family={Bartczak},
+           familyi={B\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod}}}%
       }
-      \strng{namehash}{46e1e984eed95a6cd71d481048428b0a}
-      \strng{fullhash}{46e1e984eed95a6cd71d481048428b0a}
-      \strng{fullhashraw}{46e1e984eed95a6cd71d481048428b0a}
-      \strng{bibnamehash}{46e1e984eed95a6cd71d481048428b0a}
-      \strng{authorbibnamehash}{46e1e984eed95a6cd71d481048428b0a}
-      \strng{authornamehash}{46e1e984eed95a6cd71d481048428b0a}
-      \strng{authorfullhash}{46e1e984eed95a6cd71d481048428b0a}
-      \strng{authorfullhashraw}{46e1e984eed95a6cd71d481048428b0a}
+      \strng{namehash}{d6d90dd15f3b10b575a0fe9b8d013f62}
+      \strng{fullhash}{d6d90dd15f3b10b575a0fe9b8d013f62}
+      \strng{fullhashraw}{d6d90dd15f3b10b575a0fe9b8d013f62}
+      \strng{bibnamehash}{d6d90dd15f3b10b575a0fe9b8d013f62}
+      \strng{authorbibnamehash}{d6d90dd15f3b10b575a0fe9b8d013f62}
+      \strng{authornamehash}{d6d90dd15f3b10b575a0fe9b8d013f62}
+      \strng{authorfullhash}{d6d90dd15f3b10b575a0fe9b8d013f62}
+      \strng{authorfullhashraw}{d6d90dd15f3b10b575a0fe9b8d013f62}
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{Computing the mechanical response of materials requires accurate constitutive descriptions, especially their plastic behavior. Furthermore, the ability of a model to be used as a predictive, rather than a descriptive, tool motivates the development of physically based constitutive models. This work investigates combining a homogenized viscoplastic self-consistent ({VPSC}) approach to reduce the development time for a high-resolution viscoplastic model based on the fast Fourier transform ({FFT}). An optimization scheme based on a least-squares algorithm is presented. The constitutive responses of copper, interstitial-free steel, and pearlite are investigated, and the model parameters are presented. Optimized parameters from the low-fidelity model provide close agreement ({<}2 {MPa}, {\textasciitilde}1 \% error) with stress-strain data at low strains ({<}10 \%) in the high-fidelity {FFT} model. Simple adjustments to constitutive law parameters bring the {FFT} stress-strain curve in alignment with experimental data at strains greater than 10 \%. A two-phase constitutive law is developed for a pearlitic steel using a single stress-strain curve, supplemented by data for the constituent phases. Sources of error and methods of using material information are discussed that lead to optimal estimates of initial parameter values.}
-      \field{issn}{2193-9764, 2193-9772}
-      \field{journaltitle}{Integrating Materials and Manufacturing Innovation}
-      \field{langid}{english}
-      \field{month}{12}
-      \field{note}{Publisher: Springer Science and Business Media {LLC}}
-      \field{number}{1}
-      \field{shortjournal}{Integr Mater Manuf Innov}
-      \field{title}{Developing constitutive model parameters via a multi-scale approach}
-      \field{urlday}{24}
-      \field{urlmonth}{7}
+      \field{abstract}{Derivative free optimization algorithms are often used when it is difficult to find function derivatives, or if finding such derivatives are time consuming. The Nelder Mead's simplex method is one of the most popular derivative free optimization algorithms in the fields of engineering, statistics, and sciences. This algorithm is favored and widely used because of its fast convergence and simplicity. The simplex method converges really well with small scale problems of some variables. However, it does not have much success with large-scale problems of multiple variables. This factor has reduced its popularity in optimization sciences significantly. Two solutions of quasi-gradients are introduced to improve it in terms of the convergence rate and the convergence speed. The improved algorithm with higher success rate and faster convergence which still maintains the simplicity is the key feature of this paper. This algorithm will be compared on several benchmark functions with other popular optimization algorithms such as the genetic algorithm, the differential evolution algorithm, the particle swarm algorithm, and the original simplex method. Then, the comparing results will be reported and discussed.}
+      \field{issn}{1941-0050}
+      \field{journaltitle}{{IEEE} Transactions on Industrial Informatics}
+      \field{month}{11}
+      \field{number}{4}
+      \field{title}{Comparative Study of Derivative Free Optimization Algorithms}
+      \field{urlday}{4}
+      \field{urlmonth}{10}
       \field{urlyear}{2025}
-      \field{volume}{5}
-      \field{year}{2016}
+      \field{volume}{7}
+      \field{year}{2011}
       \field{dateera}{ce}
       \field{urldateera}{ce}
-      \true{nocite}
-      \field{pages}{212\bibrangedash 231}
-      \range{pages}{20}
+      \field{pages}{592\bibrangedash 600}
+      \range{pages}{9}
       \verb{doi}
-      \verb 10.1186/s40192-016-0053-4
+      \verb 10.1109/TII.2011.2166799
       \endverb
       \verb{file}
-      \verb Anglin et al. - 2016 - Developing constitutive model parameters via a mul.pdf:/Users/marleneziegler/Zotero/storage/BDLBLHJG/Anglin et al. - 2016 - Developing constitutive model parameters via a mul.pdf:application/pdf
+      \verb Full Text PDF:/Users/marleneziegler/Zotero/storage/4XHLN8VG/Pham et al. - 2011 - Comparative Study of Derivative Free Optimization Algorithms.pdf:application/pdf
       \endverb
       \verb{urlraw}
-      \verb http://link.springer.com/10.1186/s40192-016-0053-4
+      \verb https://ieeexplore.ieee.org/document/6011694/
       \endverb
       \verb{url}
-      \verb http://link.springer.com/10.1186/s40192-016-0053-4
+      \verb https://ieeexplore.ieee.org/document/6011694/
       \endverb
+      \keyw{Algorithm design and analysis,Convergence,differential evolution algorithm ({DE}),genetic algorithm ({GA}),Genetic algorithms,Gradient methods,Particle swarm optimization,particle swarm optimization ({PSO}),quasi-gradient method,Simplex method}
+    \endentry
+    \entry{singer_efficient_2004}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=e0971c76fe69e7a7d4e7ba81d3e43dd4}{%
+           family={Singer},
+           familyi={S\bibinitperiod},
+           given={Saša},
+           giveni={S\bibinitperiod}}}%
+        {{hash=740408be5a9ce1e419a4c44b58f37b00}{%
+           family={Singer},
+           familyi={S\bibinitperiod},
+           given={Sanja},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{2db29ad368f10affecdcddbfcf27c0da}
+      \strng{fullhash}{2db29ad368f10affecdcddbfcf27c0da}
+      \strng{fullhashraw}{2db29ad368f10affecdcddbfcf27c0da}
+      \strng{bibnamehash}{2db29ad368f10affecdcddbfcf27c0da}
+      \strng{authorbibnamehash}{2db29ad368f10affecdcddbfcf27c0da}
+      \strng{authornamehash}{2db29ad368f10affecdcddbfcf27c0da}
+      \strng{authorfullhash}{2db29ad368f10affecdcddbfcf27c0da}
+      \strng{authorfullhashraw}{2db29ad368f10affecdcddbfcf27c0da}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The Nelder–Mead or simplex search algorithm is one of the best known algorithms for unconstrained optimization of non–smooth functions. Even though the basic algorithm is quite simple, it is implemented in many different ways. Apart from some minor computational details, the main difference between various implementations lies in the selection of convergence (or termination) tests, which are used to break the iteration process. A fairly simple efficiency analysis of each iteration step reveals a potential computational bottleneck in the domain convergence test. To be efficient, such a test has to be sublinear in the number of vertices of the working simplex. We have tested some of the most common implementations of the Nelder–Mead algorithm, and none of them is efficient in this sense. Therefore, we propose a simple and efficient domain convergence test and discuss some of its properties. This test is based on tracking the volume of the working simplex throughout the iterations. Similar termination tests can also be applied in some other simplex–based direct search methods. (© 2004 {WILEY}-{VCH} Verlag {GmbH} \& Co. {KGaA}, Weinheim)}
+      \field{issn}{1611-8189}
+      \field{journaltitle}{Applied Numerical Analysis \& Computational Mathematics}
+      \field{langid}{english}
+      \field{note}{\_eprint: https://onlinelibrary.wiley.com/doi/pdf/10.1002/anac.200410015}
+      \field{number}{2}
+      \field{title}{Efficient Implementation of the Nelder–Mead Search Algorithm}
+      \field{urlday}{4}
+      \field{urlmonth}{10}
+      \field{urlyear}{2025}
+      \field{volume}{1}
+      \field{year}{2004}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{524\bibrangedash 534}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1002/anac.200410015
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/Users/marleneziegler/Zotero/storage/75RQ64S4/Singer und Singer - 2004 - Efficient Implementation of the Nelder–Mead Search Algorithm.pdf:application/pdf;Snapshot:/Users/marleneziegler/Zotero/storage/824RP952/anac.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://onlinelibrary.wiley.com/doi/abs/10.1002/anac.200410015
+      \endverb
+      \verb{url}
+      \verb https://onlinelibrary.wiley.com/doi/abs/10.1002/anac.200410015
+      \endverb
+      \keyw{complexity,direct search methods,Nelder–Mead algorithm,optimization,termination test}
     \endentry
     \entry{nelder_simplex_1965}{article}{}{}
       \name{author}{2}{}{%
@@ -461,7 +529,6 @@
       \field{year}{1965}
       \field{dateera}{ce}
       \field{urldateera}{ce}
-      \true{nocite}
       \field{pages}{308\bibrangedash 313}
       \range{pages}{6}
       \verb{doi}
@@ -475,6 +542,603 @@
       \endverb
       \verb{url}
       \verb https://academic.oup.com/comjnl/article-lookup/doi/10.1093/comjnl/7.4.308
+      \endverb
+    \endentry
+    \entry{baudin_nelder-mead_nodate}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=2c1eaca0798b8b612bf77d164f377c2d}{%
+           family={Baudin},
+           familyi={B\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{2c1eaca0798b8b612bf77d164f377c2d}
+      \strng{fullhash}{2c1eaca0798b8b612bf77d164f377c2d}
+      \strng{fullhashraw}{2c1eaca0798b8b612bf77d164f377c2d}
+      \strng{bibnamehash}{2c1eaca0798b8b612bf77d164f377c2d}
+      \strng{authorbibnamehash}{2c1eaca0798b8b612bf77d164f377c2d}
+      \strng{authornamehash}{2c1eaca0798b8b612bf77d164f377c2d}
+      \strng{authorfullhash}{2c1eaca0798b8b612bf77d164f377c2d}
+      \strng{authorfullhashraw}{2c1eaca0798b8b612bf77d164f377c2d}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{langid}{english}
+      \field{title}{Nelder-Mead User’s Manual}
+      \verb{file}
+      \verb PDF:/Users/marleneziegler/Zotero/storage/UEV6HMPJ/Baudin - Nelder-Mead User’s Manual.pdf:application/pdf
+      \endverb
+    \endentry
+    \entry{kraj_damage_nodate}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=09ceedd197eee41b67ab0450252dc693}{%
+           family={Kraj},
+           familyi={K\bibinitperiod},
+           given={Dušan\bibnamedelima P},
+           giveni={D\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=8c9edb559d5b4258beeca26fb3951540}{%
+           family={Šumarac},
+           familyi={Š\bibinitperiod},
+           given={Dragoslav\bibnamedelima M},
+           giveni={D\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{80845606484d2deb2432d8b1571cba5f}
+      \strng{fullhash}{80845606484d2deb2432d8b1571cba5f}
+      \strng{fullhashraw}{80845606484d2deb2432d8b1571cba5f}
+      \strng{bibnamehash}{80845606484d2deb2432d8b1571cba5f}
+      \strng{authorbibnamehash}{80845606484d2deb2432d8b1571cba5f}
+      \strng{authornamehash}{80845606484d2deb2432d8b1571cba5f}
+      \strng{authorfullhash}{80845606484d2deb2432d8b1571cba5f}
+      \strng{authorfullhashraw}{80845606484d2deb2432d8b1571cba5f}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{langid}{english}
+      \field{title}{{DAMAGE} {MECHANICS} - {BASIC} {PRINCIPLES}}
+      \true{nocite}
+      \verb{file}
+      \verb Kraj und Šumarac - DAMAGE MECHANICS - BASIC PRINCIPLES.pdf:/Users/marleneziegler/Zotero/storage/4E3Z8RNT/Kraj und Šumarac - DAMAGE MECHANICS - BASIC PRINCIPLES.pdf:application/pdf
+      \endverb
+    \endentry
+    \entry{mergheim_lecture_nodate}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=d43f009c41905de1e4436a9f1539b684}{%
+           family={Mergheim},
+           familyi={M\bibinitperiod},
+           given={Julia},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{d43f009c41905de1e4436a9f1539b684}
+      \strng{fullhash}{d43f009c41905de1e4436a9f1539b684}
+      \strng{fullhashraw}{d43f009c41905de1e4436a9f1539b684}
+      \strng{bibnamehash}{d43f009c41905de1e4436a9f1539b684}
+      \strng{authorbibnamehash}{d43f009c41905de1e4436a9f1539b684}
+      \strng{authornamehash}{d43f009c41905de1e4436a9f1539b684}
+      \strng{authorfullhash}{d43f009c41905de1e4436a9f1539b684}
+      \strng{authorfullhashraw}{d43f009c41905de1e4436a9f1539b684}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{langid}{english}
+      \field{title}{Lecture Notes Materials Modelling and Simulation}
+      \true{nocite}
+      \verb{file}
+      \verb Mergheim - Lecture Notes Materials Modelling and Simulation.pdf:/Users/marleneziegler/Zotero/storage/ERK7B84V/Mergheim - Lecture Notes Materials Modelling and Simulation.pdf:application/pdf
+      \endverb
+    \endentry
+    \entry{fear_publication_2016}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=413eba48fd96db4099753e792e1fc966}{%
+           family={Fear},
+           familyi={F\bibinitperiod},
+           given={Simon},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{413eba48fd96db4099753e792e1fc966}
+      \strng{fullhash}{413eba48fd96db4099753e792e1fc966}
+      \strng{fullhashraw}{413eba48fd96db4099753e792e1fc966}
+      \strng{bibnamehash}{413eba48fd96db4099753e792e1fc966}
+      \strng{authorbibnamehash}{413eba48fd96db4099753e792e1fc966}
+      \strng{authornamehash}{413eba48fd96db4099753e792e1fc966}
+      \strng{authorfullhash}{413eba48fd96db4099753e792e1fc966}
+      \strng{authorfullhashraw}{413eba48fd96db4099753e792e1fc966}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Publication quality tables in Latex – the booktabs package}
+      \field{year}{2016}
+      \field{dateera}{ce}
+      \true{nocite}
+    \endentry
+    \entry{pfaller_multiscale_2015}{incollection}{}{}
+      \name{author}{1}{}{%
+        {{hash=577df5ae5d853f485313ac11a5ef3baa}{%
+           family={Pfaller},
+           familyi={P\bibinitperiod},
+           given={Sebastian},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Universität Erlangen-Nürnberg}%
+      }
+      \list{publisher}{1}{%
+        {Lehrstuhl für Technische Mechaink - Universität Erlangen-Nürnberg}%
+      }
+      \strng{namehash}{577df5ae5d853f485313ac11a5ef3baa}
+      \strng{fullhash}{577df5ae5d853f485313ac11a5ef3baa}
+      \strng{fullhashraw}{577df5ae5d853f485313ac11a5ef3baa}
+      \strng{bibnamehash}{577df5ae5d853f485313ac11a5ef3baa}
+      \strng{authorbibnamehash}{577df5ae5d853f485313ac11a5ef3baa}
+      \strng{authornamehash}{577df5ae5d853f485313ac11a5ef3baa}
+      \strng{authorfullhash}{577df5ae5d853f485313ac11a5ef3baa}
+      \strng{authorfullhashraw}{577df5ae5d853f485313ac11a5ef3baa}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Schriftenreihe Technische Mechanik}
+      \field{note}{{ISSN}: 2190-023X}
+      \field{title}{Multiscale Simulation of Polymers – Coupling of Continuum Mechanics and Particle-Based Simulation}
+      \field{volume}{16}
+      \field{year}{2015}
+      \field{dateera}{ce}
+      \true{nocite}
+    \endentry
+    \entry{luersen_globalized_2004}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=ffca9dce37855689228ab2e3e38bcbed}{%
+           family={Luersen},
+           familyi={L\bibinitperiod},
+           given={Marco\bibnamedelima A.},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=8f22da05091df30628dd435f638dcb06}{%
+           family={Le\bibnamedelima Riche},
+           familyi={L\bibinitperiod\bibinitdelim R\bibinitperiod},
+           given={Rodolphe},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{ea23efa540ff1bbc8f185cfcf11baa14}
+      \strng{fullhash}{ea23efa540ff1bbc8f185cfcf11baa14}
+      \strng{fullhashraw}{ea23efa540ff1bbc8f185cfcf11baa14}
+      \strng{bibnamehash}{ea23efa540ff1bbc8f185cfcf11baa14}
+      \strng{authorbibnamehash}{ea23efa540ff1bbc8f185cfcf11baa14}
+      \strng{authornamehash}{ea23efa540ff1bbc8f185cfcf11baa14}
+      \strng{authorfullhash}{ea23efa540ff1bbc8f185cfcf11baa14}
+      \strng{authorfullhashraw}{ea23efa540ff1bbc8f185cfcf11baa14}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{One of the fundamental diﬃculties in engineering design is the multiplicity of local solutions. This has triggered great eﬀorts to develop global search algorithms. Globality, however, often has a prohibitively high numerical cost for real problems. A ﬁxed cost local search, which sequentially becomes global is developed. Globalization is achieved by probabilistic restart. A spatial probability of starting a local search is built based on past searches. An improved Nelder–Mead algorithm makes the local optimizer. It accounts for variable bounds. It is additionally made more robust by reinitializing degenerated simplexes. The resulting method, called Globalized Bounded Nelder–Mead ({GBNM}) algorithm, is particularly adapted to tackle multimodal, discontinuous optimization problems, for which it is uncertain that a global optimization can be aﬀorded. Diﬀerent strategies for restarting the local search are discussed. Numerical experiments are given on analytical test functions and composite laminate design problems. The {GBNM} method compares favorably to an evolutionary algorithm, both in terms of numerical cost and accuracy.}
+      \field{issn}{0045-7949}
+      \field{journaltitle}{Computers \& Structures}
+      \field{langid}{english}
+      \field{month}{9}
+      \field{note}{Publisher: Elsevier {BV}}
+      \field{number}{23}
+      \field{title}{Globalized Nelder–Mead method for engineering optimization}
+      \field{urlday}{24}
+      \field{urlmonth}{7}
+      \field{urlyear}{2025}
+      \field{volume}{82}
+      \field{year}{2004}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \field{pages}{2251\bibrangedash 2260}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1016/j.compstruc.2004.03.072
+      \endverb
+      \verb{file}
+      \verb Luersen und Le Riche - 2004 - Globalized Nelder–Mead method for engineering opti.pdf:/Users/marleneziegler/Zotero/storage/39UBCRHX/Luersen und Le Riche - 2004 - Globalized Nelder–Mead method for engineering opti.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S0045794904002378
+      \endverb
+      \verb{url}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S0045794904002378
+      \endverb
+    \endentry
+    \entry{anglin_developing_2016}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=9c239b376d8bd2025d3e6f96fdb1e694}{%
+           family={Anglin},
+           familyi={A\bibinitperiod},
+           given={B.\bibnamedelimi S.},
+           giveni={B\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=80d469d2364d4e8a494623503918cf62}{%
+           family={Gockel},
+           familyi={G\bibinitperiod},
+           given={B.\bibnamedelimi T.},
+           giveni={B\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+        {{hash=e829d2917c89d97a2fbba2b1c9f1c40e}{%
+           family={Rollett},
+           familyi={R\bibinitperiod},
+           given={A.\bibnamedelimi D.},
+           giveni={A\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+      }
+      \strng{namehash}{46e1e984eed95a6cd71d481048428b0a}
+      \strng{fullhash}{46e1e984eed95a6cd71d481048428b0a}
+      \strng{fullhashraw}{46e1e984eed95a6cd71d481048428b0a}
+      \strng{bibnamehash}{46e1e984eed95a6cd71d481048428b0a}
+      \strng{authorbibnamehash}{46e1e984eed95a6cd71d481048428b0a}
+      \strng{authornamehash}{46e1e984eed95a6cd71d481048428b0a}
+      \strng{authorfullhash}{46e1e984eed95a6cd71d481048428b0a}
+      \strng{authorfullhashraw}{46e1e984eed95a6cd71d481048428b0a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Computing the mechanical response of materials requires accurate constitutive descriptions, especially their plastic behavior. Furthermore, the ability of a model to be used as a predictive, rather than a descriptive, tool motivates the development of physically based constitutive models. This work investigates combining a homogenized viscoplastic self-consistent ({VPSC}) approach to reduce the development time for a high-resolution viscoplastic model based on the fast Fourier transform ({FFT}). An optimization scheme based on a least-squares algorithm is presented. The constitutive responses of copper, interstitial-free steel, and pearlite are investigated, and the model parameters are presented. Optimized parameters from the low-fidelity model provide close agreement ({<}2 {MPa}, {\textasciitilde}1 \% error) with stress-strain data at low strains ({<}10 \%) in the high-fidelity {FFT} model. Simple adjustments to constitutive law parameters bring the {FFT} stress-strain curve in alignment with experimental data at strains greater than 10 \%. A two-phase constitutive law is developed for a pearlitic steel using a single stress-strain curve, supplemented by data for the constituent phases. Sources of error and methods of using material information are discussed that lead to optimal estimates of initial parameter values.}
+      \field{issn}{2193-9764, 2193-9772}
+      \field{journaltitle}{Integrating Materials and Manufacturing Innovation}
+      \field{langid}{english}
+      \field{month}{12}
+      \field{note}{Publisher: Springer Science and Business Media {LLC}}
+      \field{number}{1}
+      \field{shortjournal}{Integr Mater Manuf Innov}
+      \field{title}{Developing constitutive model parameters via a multi-scale approach}
+      \field{urlday}{24}
+      \field{urlmonth}{7}
+      \field{urlyear}{2025}
+      \field{volume}{5}
+      \field{year}{2016}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \field{pages}{212\bibrangedash 231}
+      \range{pages}{20}
+      \verb{doi}
+      \verb 10.1186/s40192-016-0053-4
+      \endverb
+      \verb{file}
+      \verb Anglin et al. - 2016 - Developing constitutive model parameters via a mul.pdf:/Users/marleneziegler/Zotero/storage/BDLBLHJG/Anglin et al. - 2016 - Developing constitutive model parameters via a mul.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://link.springer.com/10.1186/s40192-016-0053-4
+      \endverb
+      \verb{url}
+      \verb http://link.springer.com/10.1186/s40192-016-0053-4
+      \endverb
+    \endentry
+    \entry{schwerz_non-linear_2024}{inproceedings}{}{}
+      \name{author}{2}{}{%
+        {{hash=ef87d6cb801569d24155ad612b2fb7f6}{%
+           family={Schwerz},
+           familyi={S\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=2daa1927d7a79eaca91f4d0200925f83}{%
+           family={Roellig},
+           familyi={R\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Catania, Italy}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{fd9022a9dbaa053ffe03e3d415f96453}
+      \strng{fullhash}{fd9022a9dbaa053ffe03e3d415f96453}
+      \strng{fullhashraw}{fd9022a9dbaa053ffe03e3d415f96453}
+      \strng{bibnamehash}{fd9022a9dbaa053ffe03e3d415f96453}
+      \strng{authorbibnamehash}{fd9022a9dbaa053ffe03e3d415f96453}
+      \strng{authornamehash}{fd9022a9dbaa053ffe03e3d415f96453}
+      \strng{authorfullhash}{fd9022a9dbaa053ffe03e3d415f96453}
+      \strng{authorfullhashraw}{fd9022a9dbaa053ffe03e3d415f96453}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This paper presents an overview and selection of material models that can describe nonlinear viscoelasticity ({NLVE}) of thermoset materials. To evaluate them, mechanical measurements with variable force-deformation-time regimes were performed on the example of encapsulation compounds consisting of different types of polyurethane. A digital twin of the experiment, based on Finite Element Analysis ({FEA}), was created, and used to determine the required {NLVE} model parameters. The parameter extraction has been done for the Bergstrom-Boyce-Model as well as the Three-Network-Model. First, the mechanical experiments were performed to establish a sufficient database for model calibration. The measurement setup for tensile and compression experiments and the test specimens are presented. Wide range deformation rates between 0.05 mm/min to 50 mm/min have been conducted to excite the specimens and their mechanical response. The investigated types of polyurethanes are characterized by significant {NLVE} behavior, which becomes visible in stress relaxations with different displacement excitations. In the second step, the model parameters determined and calibrated. This has been done with an inverse method by using the {FEM} response calculations of the digital experiment and optimize towards the root-mean-square error of the comparison with the real measurement curves. The workflows for the optimization have been efficiently implemented in a python environment which controls the {FEM} model in Ansys. As a result, it could be shown that the simulation results with reduced mesh density and datapoints are sufficient with error deviation {<}2\% and thus can be used speed up the model calibration by up to 900x. Both the {BB}- and the {TN}-model could be fitted to the experimental data well. In the future, the proposed {NLVE} models, data acquisition and parameterization method will bring large strain viscoelastic material behavior into electronic design support tools in a timely manner and with manageable expenses.}
+      \field{booktitle}{2024 25th International Conference on Thermal, Mechanical and Multi-Physics Simulation and Experiments in Microelectronics and Microsystems ({EuroSimE})}
+      \field{day}{7}
+      \field{eventtitle}{2024 25th International Conference on Thermal, Mechanical and Multi-Physics Simulation and Experiments in Microelectronics and Microsystems ({EuroSimE})}
+      \field{isbn}{979-8-3503-9363-7}
+      \field{langid}{english}
+      \field{month}{4}
+      \field{title}{Non-linear viscoelastic Material Models of Polymers for Electronics Simulation - Measurement, Modelling, Validation}
+      \field{urlday}{3}
+      \field{urlmonth}{10}
+      \field{urlyear}{2025}
+      \field{year}{2024}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \field{pages}{1\bibrangedash 7}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1109/EuroSimE60745.2024.10491560
+      \endverb
+      \verb{file}
+      \verb Schwerz und Roellig - 2024 - Non-linear viscoelastic Material Models of Polymer.pdf:/Users/marleneziegler/Zotero/storage/ERGMSP6V/Schwerz und Roellig - 2024 - Non-linear viscoelastic Material Models of Polymer.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://ieeexplore.ieee.org/document/10491560/
+      \endverb
+      \verb{url}
+      \verb https://ieeexplore.ieee.org/document/10491560/
+      \endverb
+    \endentry
+    \entry{yi_backcalculating_2009}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=af221fde158b6fbbbe48c72ef6c64e06}{%
+           family={Yi},
+           familyi={Y\bibinitperiod},
+           given={Jin-Hak},
+           giveni={J\bibinithyphendelim H\bibinitperiod}}}%
+        {{hash=0d9ca24d6f19bdbe2462e2a98f42de84}{%
+           family={Mun},
+           familyi={M\bibinitperiod},
+           given={Sungho},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{963b4f4b0c7b19f9da1ddae5093ab1c8}
+      \strng{fullhash}{963b4f4b0c7b19f9da1ddae5093ab1c8}
+      \strng{fullhashraw}{963b4f4b0c7b19f9da1ddae5093ab1c8}
+      \strng{bibnamehash}{963b4f4b0c7b19f9da1ddae5093ab1c8}
+      \strng{authorbibnamehash}{963b4f4b0c7b19f9da1ddae5093ab1c8}
+      \strng{authornamehash}{963b4f4b0c7b19f9da1ddae5093ab1c8}
+      \strng{authorfullhash}{963b4f4b0c7b19f9da1ddae5093ab1c8}
+      \strng{authorfullhashraw}{963b4f4b0c7b19f9da1ddae5093ab1c8}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{A structural integrity assessment technique of pavements that considers the backcalculation of material properties is herein proposed. In order to carry out the backcalculation, a Nelder–Mead simplex ({NMS}) search is applied to estimate the elastic moduli of layered structures using the deflection data simulated by falling weight deflectometer ({FWD}) tests. In order to utilize a forward calculation engine of the numerical simulation in the {FWD} testing, a wave analysis program of layered pavement systems is used based on a spectral element method. The performance of the {NMS} inversion technique is evaluated based on a comparison with the Levenberg–Marquardt method. Copyright © 2009 John Wiley \& Sons, Ltd.}
+      \field{issn}{1096-9853}
+      \field{journaltitle}{International Journal for Numerical and Analytical Methods in Geomechanics}
+      \field{langid}{english}
+      \field{note}{\_eprint: https://onlinelibrary.wiley.com/doi/pdf/10.1002/nag.769}
+      \field{number}{11}
+      \field{title}{Backcalculating pavement structural properties using a Nelder–Mead simplex search}
+      \field{urlday}{4}
+      \field{urlmonth}{10}
+      \field{urlyear}{2025}
+      \field{volume}{33}
+      \field{year}{2009}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \field{pages}{1389\bibrangedash 1406}
+      \range{pages}{18}
+      \verb{doi}
+      \verb 10.1002/nag.769
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/Users/marleneziegler/Zotero/storage/UIYL8BKY/Yi und Mun - 2009 - Backcalculating pavement structural properties using a Nelder–Mead simplex search.pdf:application/pdf;Snapshot:/Users/marleneziegler/Zotero/storage/QRZBB37F/nag.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://onlinelibrary.wiley.com/doi/abs/10.1002/nag.769
+      \endverb
+      \verb{url}
+      \verb https://onlinelibrary.wiley.com/doi/abs/10.1002/nag.769
+      \endverb
+      \keyw{asphalt concrete pavement,falling weight deflectometer,inversion technique,Nelder–Mead simplex}
+    \endentry
+    \entry{luersen_constrained_2004}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=df7edf7dccd149057dc82a90aeae5be1}{%
+           family={Luersen},
+           familyi={L\bibinitperiod},
+           given={M.A.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=e2953b6fe27f5baac310356a3dec5bd4}{%
+           family={Le\bibnamedelima Riche},
+           familyi={L\bibinitperiod\bibinitdelim R\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=739ce3dee571c05b89d8098272cd00b7}{%
+           family={Guyon},
+           familyi={G\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{d7111944d14993a497650890b26e8c59}
+      \strng{fullhash}{d7111944d14993a497650890b26e8c59}
+      \strng{fullhashraw}{d7111944d14993a497650890b26e8c59}
+      \strng{bibnamehash}{d7111944d14993a497650890b26e8c59}
+      \strng{authorbibnamehash}{d7111944d14993a497650890b26e8c59}
+      \strng{authornamehash}{d7111944d14993a497650890b26e8c59}
+      \strng{authorfullhash}{d7111944d14993a497650890b26e8c59}
+      \strng{authorfullhashraw}{d7111944d14993a497650890b26e8c59}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{One of the fundamental difficulties in engineering design is the multiplicity of local solutions. This has triggered much effort in the development of global search algorithms. Globality, however, often has a prohibitively high numerical cost for real problems. A fixed cost local search, which sequentially becomes global, is developed in this work. Globalization is achieved by probabilistic restarts. A spacial probability of starting a local search is built based on past searches. An improved Nelder–Mead algorithm is the local optimizer. It accounts for variable bounds and nonlinear inequality constraints. It is additionally made more robust by reinitializing degenerated simplexes. The resulting method, called the Globalized Bounded Nelder–Mead ({GBNM}) algorithm, is particularly adapted to tackling multimodal, discontinuous, constrained optimization problems, for which it is uncertain that a global optimization can be afforded. Numerical experiments are given on two analytical test functions and two composite laminate design problems. The {GBNM} method compares favorably with an evolutionary algorithm, both in terms of numerical cost and accuracy.}
+      \field{day}{1}
+      \field{issn}{1615-1488}
+      \field{journaltitle}{Structural and Multidisciplinary Optimization}
+      \field{langid}{english}
+      \field{month}{5}
+      \field{number}{1}
+      \field{shortjournal}{Struct Multidisc Optim}
+      \field{title}{A constrained, globalized, and bounded Nelder–Mead method for engineering optimization}
+      \field{urlday}{4}
+      \field{urlmonth}{10}
+      \field{urlyear}{2025}
+      \field{volume}{27}
+      \field{year}{2004}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \field{pages}{43\bibrangedash 54}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1007/s00158-003-0320-9
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/Users/marleneziegler/Zotero/storage/QQELYLWR/Luersen et al. - 2004 - A constrained, globalized, and bounded Nelder–Mead method for engineering optimization.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/s00158-003-0320-9
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/s00158-003-0320-9
+      \endverb
+      \keyw{composite laminated plates,global constrained optimization,Nelder–Mead method}
+    \endentry
+    \entry{olsson_sequential_1974}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=c864b7007c941ffc332092379117a089}{%
+           family={Olsson},
+           familyi={O\bibinitperiod},
+           given={D.\bibnamedelimi M.},
+           giveni={D\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{c864b7007c941ffc332092379117a089}
+      \strng{fullhash}{c864b7007c941ffc332092379117a089}
+      \strng{fullhashraw}{c864b7007c941ffc332092379117a089}
+      \strng{bibnamehash}{c864b7007c941ffc332092379117a089}
+      \strng{authorbibnamehash}{c864b7007c941ffc332092379117a089}
+      \strng{authornamehash}{c864b7007c941ffc332092379117a089}
+      \strng{authorfullhash}{c864b7007c941ffc332092379117a089}
+      \strng{authorfullhashraw}{c864b7007c941ffc332092379117a089}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0022-4065, 2575-6230}
+      \field{journaltitle}{Journal of Quality Technology}
+      \field{langid}{english}
+      \field{month}{1}
+      \field{number}{1}
+      \field{shortjournal}{Journal of Quality Technology}
+      \field{title}{A Sequential Simplex Program for Solving Minimization Problems}
+      \field{urlday}{4}
+      \field{urlmonth}{10}
+      \field{urlyear}{2025}
+      \field{volume}{6}
+      \field{year}{1974}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \field{pages}{53\bibrangedash 57}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1080/00224065.1974.11980616
+      \endverb
+      \verb{urlraw}
+      \verb https://www.tandfonline.com/doi/full/10.1080/00224065.1974.11980616
+      \endverb
+      \verb{url}
+      \verb https://www.tandfonline.com/doi/full/10.1080/00224065.1974.11980616
+      \endverb
+    \endentry
+    \entry{wessing_proper_2019}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=2fbf993e385893c08adb04300d6702c8}{%
+           family={Wessing},
+           familyi={W\bibinitperiod},
+           given={Simon},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{2fbf993e385893c08adb04300d6702c8}
+      \strng{fullhash}{2fbf993e385893c08adb04300d6702c8}
+      \strng{fullhashraw}{2fbf993e385893c08adb04300d6702c8}
+      \strng{bibnamehash}{2fbf993e385893c08adb04300d6702c8}
+      \strng{authorbibnamehash}{2fbf993e385893c08adb04300d6702c8}
+      \strng{authornamehash}{2fbf993e385893c08adb04300d6702c8}
+      \strng{authorfullhash}{2fbf993e385893c08adb04300d6702c8}
+      \strng{authorfullhashraw}{2fbf993e385893c08adb04300d6702c8}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The Nelder–Mead simplex search as one of the oldest direct search methods is still in use today. Despite its ﬂaws, such as possible convergence to nonstationary points, in practice the algorithm offers a competitive performance compared to other direct search algorithms. However, we show that some of the most common initialization procedures can increase the runtime of the algorithm by orders of magnitude, even on a trivial spherical test function. These results also hold for the Nelder–Mead variant with sufﬁcient decrease condition and oriented restarts by Kelley and the variant with adaptive parameters by Gao and Han. As a remedy, we recommend to normalize the search space and to choose the initial simplex independent of the starting point.}
+      \field{issn}{1862-4472, 1862-4480}
+      \field{journaltitle}{Optimization Letters}
+      \field{langid}{english}
+      \field{month}{6}
+      \field{number}{4}
+      \field{shortjournal}{Optim Lett}
+      \field{title}{Proper initialization is crucial for the Nelder–Mead simplex search}
+      \field{urlday}{4}
+      \field{urlmonth}{10}
+      \field{urlyear}{2025}
+      \field{volume}{13}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \field{pages}{847\bibrangedash 856}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1007/s11590-018-1284-4
+      \endverb
+      \verb{file}
+      \verb PDF:/Users/marleneziegler/Zotero/storage/522LVZV9/Wessing - 2019 - Proper initialization is crucial for the Nelder–Mead simplex search.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://link.springer.com/10.1007/s11590-018-1284-4
+      \endverb
+      \verb{url}
+      \verb http://link.springer.com/10.1007/s11590-018-1284-4
+      \endverb
+    \endentry
+    \entry{klein_nelder-mead_2014}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=04cb6f0009f83fce416cd0396e3c2554}{%
+           family={Klein},
+           familyi={K\bibinitperiod},
+           given={Kyle},
+           giveni={K\bibinitperiod}}}%
+        {{hash=49c8966468f00d5952219592cf35b37f}{%
+           family={Neira},
+           familyi={N\bibinitperiod},
+           given={Julian},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{da3f66e030665163e8c7981a2e4e1345}
+      \strng{fullhash}{da3f66e030665163e8c7981a2e4e1345}
+      \strng{fullhashraw}{da3f66e030665163e8c7981a2e4e1345}
+      \strng{bibnamehash}{da3f66e030665163e8c7981a2e4e1345}
+      \strng{authorbibnamehash}{da3f66e030665163e8c7981a2e4e1345}
+      \strng{authornamehash}{da3f66e030665163e8c7981a2e4e1345}
+      \strng{authorfullhash}{da3f66e030665163e8c7981a2e4e1345}
+      \strng{authorfullhashraw}{da3f66e030665163e8c7981a2e4e1345}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{The Nelder-Mead simplex method is an optimization routine that works well with irregular objective functions. For a function of n parameters, it compares the objective function at the n + 1 vertices of a simplex and updates the worst vertex through simplex search steps. However, a standard serial implementation can be prohibitively expensive for optimizations over a large number of parameters. We describe an implementation of the Nelder-Mead method in parallel using a distributed memory. For p processors, each processor is assigned (n + 1)/ p vertices at each iteration. Each processor then updates its worst local vertices, communicates the results, and a new simplex is formed with the vertices from all processors. We also describe how the algorithm can be implemented with only two {MPI} commands. In simulations, our implementation exhibits large speedups and is scalable to large problem sizes.}
+      \field{issn}{0927-7099, 1572-9974}
+      \field{journaltitle}{Computational Economics}
+      \field{langid}{english}
+      \field{month}{4}
+      \field{number}{4}
+      \field{shortjournal}{Comput Econ}
+      \field{shorttitle}{Nelder-Mead Simplex Optimization Routine for Large-Scale Problems}
+      \field{title}{Nelder-Mead Simplex Optimization Routine for Large-Scale Problems: A Distributed Memory Implementation}
+      \field{urlday}{6}
+      \field{urlmonth}{10}
+      \field{urlyear}{2025}
+      \field{volume}{43}
+      \field{year}{2014}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \field{pages}{447\bibrangedash 461}
+      \range{pages}{15}
+      \verb{doi}
+      \verb 10.1007/s10614-013-9377-8
+      \endverb
+      \verb{file}
+      \verb PDF:/Users/marleneziegler/Zotero/storage/J5WRSN8T/Klein und Neira - 2014 - Nelder-Mead Simplex Optimization Routine for Large-Scale Problems A Distributed Memory Implementati.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://link.springer.com/10.1007/s10614-013-9377-8
+      \endverb
+      \verb{url}
+      \verb http://link.springer.com/10.1007/s10614-013-9377-8
       \endverb
     \endentry
   \enddatalist

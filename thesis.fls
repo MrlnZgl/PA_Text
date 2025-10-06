@@ -727,9 +727,14 @@ INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/ecsx1440.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/eccc1095.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/ecrm0800.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/ecrm0600.tfm
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/tcrm1095.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam5.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/wasy/wasy5.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmbx5.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmmib5.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy5.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/ecsx1200.tfm
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
 INPUT ./chapter_modelsAndMethods.tex
 INPUT ./chapter_modelsAndMethods.tex
 OUTPUT chapter_modelsAndMethods.aux
@@ -763,6 +768,10 @@ INPUT ./images/BC.pdf
 INPUT ./images/BC.pdf
 INPUT ./images/BC.pdf
 INPUT ./images/BC.pdf
+INPUT ./images/complete_flowchart_new.pdf
+INPUT ./images/complete_flowchart_new.pdf
+INPUT ./images/complete_flowchart_new.pdf
+INPUT ./images/complete_flowchart_new.pdf
 INPUT ./images/minimizeFuncitonInput.pdf
 INPUT ./images/minimizeFuncitonInput.pdf
 INPUT ./images/minimizeFuncitonInput.pdf

@@ -544,6 +544,32 @@
       \verb https://academic.oup.com/comjnl/article-lookup/doi/10.1093/comjnl/7.4.308
       \endverb
     \endentry
+    \entry{baudin_nelder-mead_nodate}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=2c1eaca0798b8b612bf77d164f377c2d}{%
+           family={Baudin},
+           familyi={B\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{2c1eaca0798b8b612bf77d164f377c2d}
+      \strng{fullhash}{2c1eaca0798b8b612bf77d164f377c2d}
+      \strng{fullhashraw}{2c1eaca0798b8b612bf77d164f377c2d}
+      \strng{bibnamehash}{2c1eaca0798b8b612bf77d164f377c2d}
+      \strng{authorbibnamehash}{2c1eaca0798b8b612bf77d164f377c2d}
+      \strng{authornamehash}{2c1eaca0798b8b612bf77d164f377c2d}
+      \strng{authorfullhash}{2c1eaca0798b8b612bf77d164f377c2d}
+      \strng{authorfullhashraw}{2c1eaca0798b8b612bf77d164f377c2d}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{langid}{english}
+      \field{title}{Nelder-Mead User’s Manual}
+      \verb{file}
+      \verb PDF:/Users/marleneziegler/Zotero/storage/UEV6HMPJ/Baudin - Nelder-Mead User’s Manual.pdf:application/pdf
+      \endverb
+    \endentry
     \entry{kraj_damage_nodate}{article}{}{}
       \name{author}{2}{}{%
         {{hash=09ceedd197eee41b67ab0450252dc693}{%
@@ -862,8 +888,8 @@
       \strng{authornamehash}{963b4f4b0c7b19f9da1ddae5093ab1c8}
       \strng{authorfullhash}{963b4f4b0c7b19f9da1ddae5093ab1c8}
       \strng{authorfullhashraw}{963b4f4b0c7b19f9da1ddae5093ab1c8}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{A structural integrity assessment technique of pavements that considers the backcalculation of material properties is herein proposed. In order to carry out the backcalculation, a Nelder–Mead simplex ({NMS}) search is applied to estimate the elastic moduli of layered structures using the deflection data simulated by falling weight deflectometer ({FWD}) tests. In order to utilize a forward calculation engine of the numerical simulation in the {FWD} testing, a wave analysis program of layered pavement systems is used based on a spectral element method. The performance of the {NMS} inversion technique is evaluated based on a comparison with the Levenberg–Marquardt method. Copyright © 2009 John Wiley \& Sons, Ltd.}
@@ -1056,6 +1082,63 @@
       \endverb
       \verb{url}
       \verb http://link.springer.com/10.1007/s11590-018-1284-4
+      \endverb
+    \endentry
+    \entry{klein_nelder-mead_2014}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=04cb6f0009f83fce416cd0396e3c2554}{%
+           family={Klein},
+           familyi={K\bibinitperiod},
+           given={Kyle},
+           giveni={K\bibinitperiod}}}%
+        {{hash=49c8966468f00d5952219592cf35b37f}{%
+           family={Neira},
+           familyi={N\bibinitperiod},
+           given={Julian},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{da3f66e030665163e8c7981a2e4e1345}
+      \strng{fullhash}{da3f66e030665163e8c7981a2e4e1345}
+      \strng{fullhashraw}{da3f66e030665163e8c7981a2e4e1345}
+      \strng{bibnamehash}{da3f66e030665163e8c7981a2e4e1345}
+      \strng{authorbibnamehash}{da3f66e030665163e8c7981a2e4e1345}
+      \strng{authornamehash}{da3f66e030665163e8c7981a2e4e1345}
+      \strng{authorfullhash}{da3f66e030665163e8c7981a2e4e1345}
+      \strng{authorfullhashraw}{da3f66e030665163e8c7981a2e4e1345}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{The Nelder-Mead simplex method is an optimization routine that works well with irregular objective functions. For a function of n parameters, it compares the objective function at the n + 1 vertices of a simplex and updates the worst vertex through simplex search steps. However, a standard serial implementation can be prohibitively expensive for optimizations over a large number of parameters. We describe an implementation of the Nelder-Mead method in parallel using a distributed memory. For p processors, each processor is assigned (n + 1)/ p vertices at each iteration. Each processor then updates its worst local vertices, communicates the results, and a new simplex is formed with the vertices from all processors. We also describe how the algorithm can be implemented with only two {MPI} commands. In simulations, our implementation exhibits large speedups and is scalable to large problem sizes.}
+      \field{issn}{0927-7099, 1572-9974}
+      \field{journaltitle}{Computational Economics}
+      \field{langid}{english}
+      \field{month}{4}
+      \field{number}{4}
+      \field{shortjournal}{Comput Econ}
+      \field{shorttitle}{Nelder-Mead Simplex Optimization Routine for Large-Scale Problems}
+      \field{title}{Nelder-Mead Simplex Optimization Routine for Large-Scale Problems: A Distributed Memory Implementation}
+      \field{urlday}{6}
+      \field{urlmonth}{10}
+      \field{urlyear}{2025}
+      \field{volume}{43}
+      \field{year}{2014}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \field{pages}{447\bibrangedash 461}
+      \range{pages}{15}
+      \verb{doi}
+      \verb 10.1007/s10614-013-9377-8
+      \endverb
+      \verb{file}
+      \verb PDF:/Users/marleneziegler/Zotero/storage/J5WRSN8T/Klein und Neira - 2014 - Nelder-Mead Simplex Optimization Routine for Large-Scale Problems A Distributed Memory Implementati.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://link.springer.com/10.1007/s10614-013-9377-8
+      \endverb
+      \verb{url}
+      \verb http://link.springer.com/10.1007/s10614-013-9377-8
       \endverb
     \endentry
   \enddatalist
