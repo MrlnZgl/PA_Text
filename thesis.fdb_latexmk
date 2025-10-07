@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber thesis"] 1759770173.6018 "thesis.bcf" "thesis.bbl" "thesis" 1759778695.00397 0
-  "literature.bib" 1759735052.35545 32322 7f0c7675e7fef582e2e3503c91e857fc ""
-  "thesis.bcf" 1759778694.65861 108729 d8a1e8af68823487e619a39bd0c27002 "pdflatex"
+["biber thesis"] 1759854538.63617 "thesis.bcf" "thesis.bbl" "thesis" 1759854551.56542 0
+  "literature.bib" 1759836286.09398 36026 9ec3c0f238985fc56510d76c9896cef7 ""
+  "thesis.bcf" 1759854551.21094 109670 5eb98b5b11ad8134f2a363592d7ae91d "pdflatex"
   (generated)
   "thesis.bbl"
   "thesis.blg"
   (rewritten before read)
-["pdflatex"] 1759778689.7741 "/Users/marleneziegler/Desktop/4. Semester/Projektarbeit/PA_Text/thesis.tex" "thesis.pdf" "thesis" 1759778695.0044 0
+["pdflatex"] 1759854546.24585 "/Users/marleneziegler/Desktop/4. Semester/Projektarbeit/PA_Text/thesis.tex" "thesis.pdf" "thesis" 1759854551.56585 0
   "/Users/marleneziegler/Desktop/4. Semester/Projektarbeit/PA_Text/thesis.tex" 1759558016.69644 5663 5374f33f703b5a9bb152284ecb3909b2 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1136849721 2971 def0b6c1f0b107b3b936def894055589 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -405,11 +405,11 @@
   "/usr/local/texlive/2025/texmf-var/web2c/pdftex/pdflatex.fmt" 1756551907 3345739 2cd41a0f49acc188c9151d65f4bab1c9 ""
   "/usr/local/texlive/2025/texmf.cnf" 1741450484 577 418a7058ec8e006d8704f60ecd22c938 ""
   "LTM_thesis_cover.pdf" 1758622532 1041262 ab866ccd75db3b259550d6fba461f3c3 ""
-  "chapter_basics.aux" 1759778693.87653 5609 7aad3d52a67f0cbe196817448d45dd69 "pdflatex"
-  "chapter_basics.tex" 1759778684.14314 11087 32925b72cb1f94e947d648936484bd27 ""
-  "chapter_modelsAndMethods.aux" 1759778694.21496 9702 ce06fe88d8882dd5b78833fa38d9d885 "pdflatex"
-  "chapter_modelsAndMethods.tex" 1759745547.95763 38931 f4e1460190cf38fa6602322ee026fbb8 ""
-  "chapter_results.aux" 1759778694.3883 10077 b3268ca6cf4740ee6c8f0c394d0f0690 "pdflatex"
+  "chapter_basics.aux" 1759854550.40811 5361 72b6dd5446d477c864657c127c4cf5a6 "pdflatex"
+  "chapter_basics.tex" 1759854533.14687 13916 f2143a3876b153c8134103add73fc1a1 ""
+  "chapter_modelsAndMethods.aux" 1759854550.74109 9778 9c57297560b3f7016e6a745aef9d8b41 "pdflatex"
+  "chapter_modelsAndMethods.tex" 1759852621.52083 38962 a18d35d4fb511d47039cd91edd3d024c ""
+  "chapter_results.aux" 1759854550.91274 10078 c6b57850406d53cd4ab7b7db9a1e42d7 "pdflatex"
   "chapter_results.tex" 1759148093.73021 13166 771ae155ccddd14cbafcc887a87ec75e ""
   "images/Amplitude.pdf" 1758622534 21733 e593c049696693d9adaeb0723b7203c2 ""
   "images/BC.pdf" 1758622534 20897 2607bfcb86caa52d25ba06ebeab4b9ca ""
@@ -434,15 +434,15 @@
   "images/verify_stress_strain_combined.pdf" 1758631831.04759 48814 fc7c7542150b71eb51caccb9be4bdbdd ""
   "images/voce_curve.pdf" 1758631902.66873 47351 e1179e2d371a9d5cbce2565319b2702c ""
   "preamble.tex" 1759770098.70151 8579 703d8a920c4d97f85367386d6535ee8a ""
-  "thesis.acr" 1759772344.74552 1375 2986ece2b3a937cef7a00dc05bcc87ed ""
-  "thesis.aux" 1759778694.64272 14594 606a2c69b9d5c367933ba3addfc63eee "pdflatex"
-  "thesis.bbl" 1759772344.56525 65115 bd16e2b5dffc6c193e81a1ce539031f7 "biber thesis"
-  "thesis.lof" 1759778694.65992 2281 0bc764066c61f14a47f1638b4035c9e1 "pdflatex"
-  "thesis.lot" 1759778694.65996 976 40ab589fae71cc467cc8cbe06dc1bc77 "pdflatex"
-  "thesis.out" 1759778693.13944 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "thesis.run.xml" 1759778694.6597 2394 2595063819e0be324aae5d054874fc64 "pdflatex"
+  "thesis.acr" 1759854505.86355 1384 4928e64a7fa69066595076498b84730a ""
+  "thesis.aux" 1759854551.19406 15136 21aecdc88d624afad07a76d54e77fbca "pdflatex"
+  "thesis.bbl" 1759854540.89019 73012 bd78aff73e0a65f14c78924d75e1e5a1 "biber thesis"
+  "thesis.lof" 1759854551.21225 2281 0bc764066c61f14a47f1638b4035c9e1 "pdflatex"
+  "thesis.lot" 1759854551.21229 976 40ab589fae71cc467cc8cbe06dc1bc77 "pdflatex"
+  "thesis.out" 1759854549.57343 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "thesis.run.xml" 1759854551.21206 2394 2595063819e0be324aae5d054874fc64 "pdflatex"
   "thesis.tex" 1759558016.69644 5663 5374f33f703b5a9bb152284ecb3909b2 ""
-  "thesis.toc" 1759778694.65988 2380 3608be31a2cdfeb52a45c65d7b397d2e "pdflatex"
+  "thesis.toc" 1759854551.21221 2213 2371f30aa5e745a5fe1bea6309a04c1c "pdflatex"
   "variables.tex" 1758622532 0 d41d8cd98f00b204e9800998ecf8427e ""
   (generated)
   "chapter_basics.aux"
