@@ -3,7 +3,7 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces illustration of load case and evaluated stress and strain reactions}}{8}{figure.caption.8}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Illustration of load case and evaluated stress and strain reactions}}{8}{figure.caption.8}%
 \contentsline {figure}{\numberline {3.2}{\ignorespaces Error plot}}{11}{figure.caption.10}%
 \contentsline {figure}{\numberline {3.3}{\ignorespaces Definition of load amplitude in \textsc {abaqus}}}{14}{figure.caption.13}%
 \contentsline {figure}{\numberline {3.4}{\ignorespaces Boundary condition menu in \textsc {abaqus}}}{14}{figure.caption.13}%
