@@ -259,6 +259,78 @@
       \verb Ries et al. - DECIPHERING ELASTOPLASTIC PROPERTIES FROM ATOMISTI.pdf:/Users/marleneziegler/Zotero/storage/FHVAAHEP/Ries et al. - DECIPHERING ELASTOPLASTIC PROPERTIES FROM ATOMISTI.pdf:application/pdf
       \endverb
     \endentry
+    \entry{willner_vorlesungsskript_nodate}{unpublished}{}{}
+      \name{author}{1}{}{%
+        {{hash=86f3b574956f6683d5c37e8e3933af13}{%
+           family={Willner},
+           familyi={W\bibinitperiod},
+           given={Kai},
+           giveni={K\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Erlangen}%
+      }
+      \strng{namehash}{86f3b574956f6683d5c37e8e3933af13}
+      \strng{fullhash}{86f3b574956f6683d5c37e8e3933af13}
+      \strng{fullhashraw}{86f3b574956f6683d5c37e8e3933af13}
+      \strng{bibnamehash}{86f3b574956f6683d5c37e8e3933af13}
+      \strng{authorbibnamehash}{86f3b574956f6683d5c37e8e3933af13}
+      \strng{authornamehash}{86f3b574956f6683d5c37e8e3933af13}
+      \strng{authorfullhash}{86f3b574956f6683d5c37e8e3933af13}
+      \strng{authorfullhashraw}{86f3b574956f6683d5c37e8e3933af13}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Vorlesungsskript}
+      \field{title}{Vorlesungsskript Methode der finiten Elemente}
+      \field{type}{Vorlesungsskript}
+      \field{urlday}{9}
+      \field{urlmonth}{10}
+      \field{urlyear}{2025}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb PDF:/Users/marleneziegler/Zotero/storage/CSBBTCCL/2021_FEM_Vorlesungsskript.pdf:application/pdf
+      \endverb
+    \endentry
+    \entry{jagota_finite_nodate}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=35bb464f6f082572ae95428c4c853053}{%
+           family={Jagota},
+           familyi={J\bibinitperiod},
+           given={Vishal},
+           giveni={V\bibinitperiod}}}%
+        {{hash=97ebde96bb5cce35f43d131f7a6f8170}{%
+           family={Sethi},
+           familyi={S\bibinitperiod},
+           given={Aman\bibnamedelimb Preet\bibnamedelima Singh},
+           giveni={A\bibinitperiod\bibinitdelim P\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=545e099c6508cbfb4e1f47c1cf3d9d2b}{%
+           family={Kumar},
+           familyi={K\bibinitperiod},
+           given={Khushmeet},
+           giveni={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{2fe8a850e95311c4d84af8da6209f864}
+      \strng{fullhash}{2fe8a850e95311c4d84af8da6209f864}
+      \strng{fullhashraw}{2fe8a850e95311c4d84af8da6209f864}
+      \strng{bibnamehash}{2fe8a850e95311c4d84af8da6209f864}
+      \strng{authorbibnamehash}{2fe8a850e95311c4d84af8da6209f864}
+      \strng{authornamehash}{2fe8a850e95311c4d84af8da6209f864}
+      \strng{authorfullhash}{2fe8a850e95311c4d84af8da6209f864}
+      \strng{authorfullhashraw}{2fe8a850e95311c4d84af8da6209f864}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The finite element method ({FEM}) is a numerical analysis technique for obtaining approximate solutions to a wide variety of engineering problems. A finite element model of a problem gives a piecewise approximation to the governing equations. The basic premise of the {FEM} is that a solution region can be analytically modeled or approximated by replacing it with an assemblage of discrete elements (discretization). Since these elements can be put together in a variety of ways, they can be used to represent exceedingly complex shapes.}
+      \field{journaltitle}{Finite Element Method}
+      \field{langid}{english}
+      \field{title}{Finite Element Method: An Overview}
+      \verb{file}
+      \verb PDF:/Users/marleneziegler/Zotero/storage/HDAHRXNT/Jagota et al. - Finite Element Method An Overview.pdf:application/pdf
+      \endverb
+    \endentry
     \entry{gao_implementing_2012}{article}{}{}
       \name{author}{2}{}{%
         {{hash=7a0b1a1f91828e25a65fe807d6e1c651}{%
@@ -280,8 +352,8 @@
       \strng{authornamehash}{06e9e94332657d5a1d7c5393513fd38d}
       \strng{authorfullhash}{06e9e94332657d5a1d7c5393513fd38d}
       \strng{authorfullhashraw}{06e9e94332657d5a1d7c5393513fd38d}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{In this paper, we ﬁrst prove that the expansion and contraction steps of the Nelder-Mead simplex algorithm possess a descent property when the objective function is uniformly convex. This property provides some new insights on why the standard Nelder-Mead algorithm becomes inefﬁcient in high dimensions. We then propose an implementation of the Nelder-Mead method in which the expansion, contraction, and shrink parameters depend on the dimension of the optimization problem. Our numerical experiments show that the new implementation outperforms the standard Nelder-Mead method for high dimensional problems.}
@@ -341,8 +413,8 @@
       \strng{authornamehash}{d6d90dd15f3b10b575a0fe9b8d013f62}
       \strng{authorfullhash}{d6d90dd15f3b10b575a0fe9b8d013f62}
       \strng{authorfullhashraw}{d6d90dd15f3b10b575a0fe9b8d013f62}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Derivative free optimization algorithms are often used when it is difficult to find function derivatives, or if finding such derivatives are time consuming. The Nelder Mead's simplex method is one of the most popular derivative free optimization algorithms in the fields of engineering, statistics, and sciences. This algorithm is favored and widely used because of its fast convergence and simplicity. The simplex method converges really well with small scale problems of some variables. However, it does not have much success with large-scale problems of multiple variables. This factor has reduced its popularity in optimization sciences significantly. Two solutions of quasi-gradients are introduced to improve it in terms of the convergence rate and the convergence speed. The improved algorithm with higher success rate and faster convergence which still maintains the simplicity is the key feature of this paper. This algorithm will be compared on several benchmark functions with other popular optimization algorithms such as the genetic algorithm, the differential evolution algorithm, the particle swarm algorithm, and the original simplex method. Then, the comparing results will be reported and discussed.}
@@ -558,8 +630,8 @@
       \strng{authornamehash}{413eba48fd96db4099753e792e1fc966}
       \strng{authorfullhash}{413eba48fd96db4099753e792e1fc966}
       \strng{authorfullhashraw}{413eba48fd96db4099753e792e1fc966}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Publication quality tables in Latex – the booktabs package}
@@ -589,8 +661,8 @@
       \strng{authornamehash}{577df5ae5d853f485313ac11a5ef3baa}
       \strng{authorfullhash}{577df5ae5d853f485313ac11a5ef3baa}
       \strng{authorfullhashraw}{577df5ae5d853f485313ac11a5ef3baa}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Schriftenreihe Technische Mechanik}
@@ -881,8 +953,8 @@
       \strng{authornamehash}{cd3ab87691ec0249415afa374f54a326}
       \strng{authorfullhash}{dedbcbb7214733c79b5dd1bff2201ecb}
       \strng{authorfullhashraw}{dedbcbb7214733c79b5dd1bff2201ecb}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{09977538}
@@ -941,8 +1013,8 @@
       \strng{authornamehash}{fd9022a9dbaa053ffe03e3d415f96453}
       \strng{authorfullhash}{fd9022a9dbaa053ffe03e3d415f96453}
       \strng{authorfullhashraw}{fd9022a9dbaa053ffe03e3d415f96453}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{This paper presents an overview and selection of material models that can describe nonlinear viscoelasticity ({NLVE}) of thermoset materials. To evaluate them, mechanical measurements with variable force-deformation-time regimes were performed on the example of encapsulation compounds consisting of different types of polyurethane. A digital twin of the experiment, based on Finite Element Analysis ({FEA}), was created, and used to determine the required {NLVE} model parameters. The parameter extraction has been done for the Bergstrom-Boyce-Model as well as the Three-Network-Model. First, the mechanical experiments were performed to establish a sufficient database for model calibration. The measurement setup for tensile and compression experiments and the test specimens are presented. Wide range deformation rates between 0.05 mm/min to 50 mm/min have been conducted to excite the specimens and their mechanical response. The investigated types of polyurethanes are characterized by significant {NLVE} behavior, which becomes visible in stress relaxations with different displacement excitations. In the second step, the model parameters determined and calibrated. This has been done with an inverse method by using the {FEM} response calculations of the digital experiment and optimize towards the root-mean-square error of the comparison with the real measurement curves. The workflows for the optimization have been efficiently implemented in a python environment which controls the {FEM} model in Ansys. As a result, it could be shown that the simulation results with reduced mesh density and datapoints are sufficient with error deviation {<}2\% and thus can be used speed up the model calibration by up to 900x. Both the {BB}- and the {TN}-model could be fitted to the experimental data well. In the future, the proposed {NLVE} models, data acquisition and parameterization method will bring large strain viscoelastic material behavior into electronic design support tools in a timely manner and with manageable expenses.}
@@ -996,8 +1068,8 @@
       \strng{authornamehash}{963b4f4b0c7b19f9da1ddae5093ab1c8}
       \strng{authorfullhash}{963b4f4b0c7b19f9da1ddae5093ab1c8}
       \strng{authorfullhashraw}{963b4f4b0c7b19f9da1ddae5093ab1c8}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{A structural integrity assessment technique of pavements that considers the backcalculation of material properties is herein proposed. In order to carry out the backcalculation, a Nelder–Mead simplex ({NMS}) search is applied to estimate the elastic moduli of layered structures using the deflection data simulated by falling weight deflectometer ({FWD}) tests. In order to utilize a forward calculation engine of the numerical simulation in the {FWD} testing, a wave analysis program of layered pavement systems is used based on a spectral element method. The performance of the {NMS} inversion technique is evaluated based on a comparison with the Levenberg–Marquardt method. Copyright © 2009 John Wiley \& Sons, Ltd.}
@@ -1057,8 +1129,8 @@
       \strng{authornamehash}{d7111944d14993a497650890b26e8c59}
       \strng{authorfullhash}{d7111944d14993a497650890b26e8c59}
       \strng{authorfullhashraw}{d7111944d14993a497650890b26e8c59}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{One of the fundamental difficulties in engineering design is the multiplicity of local solutions. This has triggered much effort in the development of global search algorithms. Globality, however, often has a prohibitively high numerical cost for real problems. A fixed cost local search, which sequentially becomes global, is developed in this work. Globalization is achieved by probabilistic restarts. A spacial probability of starting a local search is built based on past searches. An improved Nelder–Mead algorithm is the local optimizer. It accounts for variable bounds and nonlinear inequality constraints. It is additionally made more robust by reinitializing degenerated simplexes. The resulting method, called the Globalized Bounded Nelder–Mead ({GBNM}) algorithm, is particularly adapted to tackling multimodal, discontinuous, constrained optimization problems, for which it is uncertain that a global optimization can be afforded. Numerical experiments are given on two analytical test functions and two composite laminate design problems. The {GBNM} method compares favorably with an evolutionary algorithm, both in terms of numerical cost and accuracy.}
@@ -1265,8 +1337,8 @@
       \strng{authornamehash}{60286b65464dd5283f2ab92cce74d04f}
       \strng{authorfullhash}{60286b65464dd5283f2ab92cce74d04f}
       \strng{authorfullhashraw}{60286b65464dd5283f2ab92cce74d04f}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
       \field{abstract}{{THE} title problem concerns two isotropic phases firmly bonded together to form a mixture with any concentrations. An elementary account of several theoretical methods of attack is given, among them the derivation of inequalities between various moduli. The approach is completely general and exact. Additionally, the problem is fully solved when the phases have equal rigidities but different compressibilities, the geometry being entirely arbitrary.}
@@ -1299,6 +1371,131 @@
       \endverb
       \verb{url}
       \verb https://linkinghub.elsevier.com/retrieve/pii/002250966390036X
+      \endverb
+    \endentry
+    \entry{noauthor_abaqus_nodate}{article}{}{}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labeltitlesource}{title}
+      \field{langid}{english}
+      \field{title}{Abaqus Analysis User's Guide, vol3}
+      \true{nocite}
+      \verb{file}
+      \verb PDF:/Users/marleneziegler/Zotero/storage/HZTEXGLP/Abaqus Analysis User's Guide, vol3.pdf:application/pdf
+      \endverb
+    \endentry
+    \entry{noauthor_finite-elemente-methode_2007}{book}{}{}
+      \list{location}{1}{%
+        {Berlin, Heidelberg}%
+      }
+      \list{publisher}{1}{%
+        {Springer Berlin Heidelberg}%
+      }
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-3-540-72235-9}
+      \field{langid}{german}
+      \field{title}{Finite-Elemente-Methode}
+      \field{urlday}{9}
+      \field{urlmonth}{10}
+      \field{urlyear}{2025}
+      \field{year}{2007}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{doi}
+      \verb 10.1007/978-3-540-72236-6
+      \endverb
+      \verb{file}
+      \verb 978-3-540-72236-6:/Users/marleneziegler/Zotero/storage/979CZC6P/978-3-540-72236-6.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://link.springer.com/10.1007/978-3-540-72236-6
+      \endverb
+      \verb{url}
+      \verb http://link.springer.com/10.1007/978-3-540-72236-6
+      \endverb
+    \endentry
+    \entry{knothe_finite_2017}{book}{}{}
+      \name{author}{2}{}{%
+        {{hash=99a4af1e2b9cb4a7e05f43e22a6ac2fd}{%
+           family={Knothe},
+           familyi={K\bibinitperiod},
+           given={Klaus},
+           giveni={K\bibinitperiod}}}%
+        {{hash=f83e64b25850284b8e81402f44d7ee79}{%
+           family={Wessels},
+           familyi={W\bibinitperiod},
+           given={Heribert},
+           giveni={H\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Berlin, Heidelberg}%
+      }
+      \list{publisher}{1}{%
+        {Springer Berlin Heidelberg}%
+      }
+      \strng{namehash}{03bb87af5002912166633c72cb8b17c0}
+      \strng{fullhash}{03bb87af5002912166633c72cb8b17c0}
+      \strng{fullhashraw}{03bb87af5002912166633c72cb8b17c0}
+      \strng{bibnamehash}{03bb87af5002912166633c72cb8b17c0}
+      \strng{authorbibnamehash}{03bb87af5002912166633c72cb8b17c0}
+      \strng{authornamehash}{03bb87af5002912166633c72cb8b17c0}
+      \strng{authorfullhash}{03bb87af5002912166633c72cb8b17c0}
+      \strng{authorfullhashraw}{03bb87af5002912166633c72cb8b17c0}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-3-662-49351-9 978-3-662-49352-6}
+      \field{langid}{german}
+      \field{title}{Finite Elemente}
+      \field{urlday}{9}
+      \field{urlmonth}{10}
+      \field{urlyear}{2025}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{doi}
+      \verb 10.1007/978-3-662-49352-6
+      \endverb
+      \verb{file}
+      \verb PDF:/Users/marleneziegler/Zotero/storage/LFJ7TD6V/Knothe und Wessels - 2017 - Finite Elemente.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://link.springer.com/10.1007/978-3-662-49352-6
+      \endverb
+      \verb{url}
+      \verb http://link.springer.com/10.1007/978-3-662-49352-6
+      \endverb
+    \endentry
+    \entry{voce_practical_1948}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=933c8b4c9db8294ed74d9206427c9083}{%
+           family={Voce},
+           familyi={V\bibinitperiod}}}%
+      }
+      \strng{namehash}{933c8b4c9db8294ed74d9206427c9083}
+      \strng{fullhash}{933c8b4c9db8294ed74d9206427c9083}
+      \strng{fullhashraw}{933c8b4c9db8294ed74d9206427c9083}
+      \strng{bibnamehash}{933c8b4c9db8294ed74d9206427c9083}
+      \strng{authorbibnamehash}{933c8b4c9db8294ed74d9206427c9083}
+      \strng{authornamehash}{933c8b4c9db8294ed74d9206427c9083}
+      \strng{authorfullhash}{933c8b4c9db8294ed74d9206427c9083}
+      \strng{authorfullhashraw}{933c8b4c9db8294ed74d9206427c9083}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{A Practical Strain-Hardening Function}
+      \field{volume}{Metallurgia}
+      \field{year}{1948}
+      \field{dateera}{ce}
+      \true{nocite}
+      \verb{file}
+      \verb PDF:/Users/marleneziegler/Zotero/storage/XDDFW8EJ/Voce1955.pdf:application/pdf
       \endverb
     \endentry
   \enddatalist
