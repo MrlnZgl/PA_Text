@@ -3,21 +3,21 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Illustration of load case and evaluated stress and strain reactions}}{9}{figure.caption.8}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Error plot}}{12}{figure.caption.10}%
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Definition of load amplitude in \textsc {Abaqus}}}{15}{figure.caption.13}%
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Boundary condition menu in \textsc {Abaqus}}}{15}{figure.caption.13}%
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Loop conditions in preprocessing}}{15}{figure.caption.13}%
-\contentsline {figure}{\numberline {3.6}{\ignorespaces flowchart code}}{16}{figure.caption.14}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Illustration of load case E11 with its corresponding evaluated stress and strain reactions $\sigma _{xx}, \varepsilon _{yy}$ and $\varepsilon _{zz}$}}{9}{figure.caption.7}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Exemplary \acrlong {rlr} $\sigma ^{\scriptscriptstyle \text {RLR}}$ and \acrlong {olr} $\sigma ^{\scriptscriptstyle \text {OLR}}$ with visualization of error calculation}}{11}{figure.caption.9}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Definition of load amplitude in \textsc {Abaqus}}}{14}{figure.caption.12}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Boundary condition menu in \textsc {Abaqus}}}{14}{figure.caption.12}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Loop conditions in preprocessing}}{14}{figure.caption.12}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces flowchart code}}{15}{figure.caption.13}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces optimization progress of material parameters}}{18}{figure.caption.16}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces a) evolution of the stress-strain curves during optimization for exemplary test, b) final stress-strain curves for complete test study}}{19}{figure.caption.17}%
-\contentsline {figure}{\numberline {4.3}{\ignorespaces parameter influence on voce-hardening curve}}{20}{figure.caption.18}%
-\contentsline {figure}{\numberline {4.4}{\ignorespaces rmse for multiple tests}}{20}{figure.caption.19}%
-\contentsline {figure}{\numberline {4.5}{\ignorespaces progress of material parameters for validation tests}}{20}{figure.caption.20}%
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Results of validation tests with 6to3 dataset}}{21}{figure.caption.21}%
-\contentsline {figure}{\numberline {4.7}{\ignorespaces Evolution of material parameters for a) mixing ratio 4:3 and b) mixing ratio 8:3}}{22}{figure.caption.22}%
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Results of validation tests with mixing ratios 4:3 and 8:3: a) final stress-strain curves for mixing ratio 4:3, b) RMSE for mixing ratio 8:3, c) final stress-strain curves for mixing ratio 4:3, d) RMSE for mixing ratio 8:3}}{23}{figure.caption.23}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces optimization progress of material parameters}}{18}{figure.caption.15}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces (a) Evolution of the stress–strain curves during optimization for an exemplary test, (b) final stress–strain curves for the complete test study.}}{19}{figure.caption.16}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces parameter influence on voce-hardening curve}}{20}{figure.caption.17}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces rmse for multiple tests}}{20}{figure.caption.18}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces progress of material parameters for validation tests}}{20}{figure.caption.19}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Results of validation tests with 6to3 dataset}}{21}{figure.caption.20}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Evolution of material parameters for (a) mixing ratio 4:3 and (b) mixing ratio 8:3.}}{22}{figure.caption.21}%
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Results of validation tests with mixing ratios 4:3 and 8:3: (a,b) show the final stress–strain curves and RMSE evolution for mixing ratio 4:3; (c,d) show the corresponding results for mixing ratio 8:3.}}{23}{figure.caption.22}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

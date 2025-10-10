@@ -2,12 +2,11 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {3.1}{\ignorespaces Mapping of load directions to load cases}}{8}{table.caption.6}%
-\contentsline {table}{\numberline {3.2}{\ignorespaces list of possible evaluated reactions}}{8}{table.caption.7}%
-\contentsline {table}{\numberline {3.3}{\ignorespaces Overview of test series, load cases and load parameters}}{10}{table.caption.9}%
-\contentsline {table}{\numberline {3.4}{\ignorespaces Input paramters for optimisation process}}{13}{table.caption.11}%
-\contentsline {table}{\numberline {3.5}{\ignorespaces Loop conditions in preprocessing}}{14}{table.caption.12}%
-\contentsline {table}{\numberline {3.6}{\ignorespaces Input parameters for SciPy minimize function}}{15}{table.caption.15}%
+\contentsline {table}{\numberline {3.1}{\ignorespaces Mapping of load directions and evaluated reactions}}{8}{table.caption.6}%
+\contentsline {table}{\numberline {3.2}{\ignorespaces Overview of the performed tests with corresponding input parameters}}{10}{table.caption.8}%
+\contentsline {table}{\numberline {3.3}{\ignorespaces Input parameters for optimisation process}}{12}{table.caption.10}%
+\contentsline {table}{\numberline {3.4}{\ignorespaces Loop conditions in preprocessing}}{13}{table.caption.11}%
+\contentsline {table}{\numberline {3.5}{\ignorespaces Input parameters for SciPy minimize function}}{16}{table.caption.14}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

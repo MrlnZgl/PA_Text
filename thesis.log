@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.8.30)  9 OCT 2025 22:02
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.8.30)  10 OCT 2025 15:58
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -1477,47 +1477,27 @@ Package: appendix 2020/02/08 v1.2c extra appendix facilities
 \c@@pps=\count574
 \c@@ppsavesec=\count575
 \c@@ppsaveapp=\count576
-)) (/usr/local/texlive/2025/texmf-dist/tex/latex/subfigure/subfigure.sty
-Package: subfigure 2002/03/15 v2.1.5 subfigure package
-\subfigtopskip=\skip153
-\subfigcapskip=\skip154
-\subfigcaptopadj=\dimen416
-\subfigbottomskip=\skip155
-\subfigcapmargin=\dimen417
-\subfiglabelskip=\skip156
-\c@subfigure=\count577
-\c@lofdepth=\count578
-\c@subtable=\count579
-\c@lotdepth=\count580
-
-****************************************
-* Local config file subfigure.cfg used *
-****************************************
-(/usr/local/texlive/2025/texmf-dist/tex/latex/subfigure/subfigure.cfg)
-\subfig@top=\skip157
-\subfig@bottom=\skip158
-) (/usr/local/texlive/2025/texmf-dist/tex/latex/comment/comment.sty
+)) (/usr/local/texlive/2025/texmf-dist/tex/latex/comment/comment.sty
 \CommentStream=\write8
- Excluding comment 'comment') (/usr/local/texlive/2025/texmf-dist/tex/latex/caption/subcaption.sty
-Package: subcaption 2023/07/28 v1.6b Sub-captions (AR)
-LaTeX Info: Redefining \subref on input line 189.
-Package subcaption Info: The counter `subfigure' was already defined by
-(subcaption)             an unknown document class or package on input line 238.
-Package subcaption Info: The counter `subtable' was already defined by
-(subcaption)             an unknown document class or package on input line 238.
-) (/usr/local/texlive/2025/texmf-dist/tex/latex/multirow/multirow.sty
+ Excluding comment 'comment') (/usr/local/texlive/2025/texmf-dist/tex/latex/multirow/multirow.sty
 Package: multirow 2024/11/12 v2.9 Span multiple rows of a table
-\multirow@colwidth=\skip159
-\multirow@cntb=\count581
-\multirow@dima=\skip160
-\bigstrutjot=\dimen418
+\multirow@colwidth=\skip153
+\multirow@cntb=\count577
+\multirow@dima=\skip154
+\bigstrutjot=\dimen416
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2023/07/28 v1.6b Sub-captions (AR)
+Package caption Info: New subtype `subfigure' on input line 238.
+\c@subfigure=\count578
+Package caption Info: New subtype `subtable' on input line 238.
+\c@subtable=\count579
 )
 
 Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 (biblatex)                Loading 'csquotes' recommended.
 
-\@quotelevel=\count582
-\@quotereset=\count583
+\@quotelevel=\count580
+\@quotereset=\count581
 
 Package biblatex Warning: Attempt to redefine deprecated '\mkbibnamelast'.
 (biblatex)                Please use '\mkbibnamefamily' instead.
@@ -1526,47 +1506,47 @@ Package biblatex Warning: Attempt to redefine deprecated '\mkbibnamelast'.
 (./thesis.aux (./chapter_basics.aux) (./chapter_modelsAndMethods.aux) (./chapter_results.aux))
 \openout1 = `thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-Package scrbase Info: activating english \abstractname on input line 49.
-Package scrbase Info: activating english \partname on input line 49.
-Package scrbase Info: activating english \chaptername on input line 49.
-Package scrbase Info: activating english \appendixname on input line 49.
-Package scrbase Info: activating english \figurename on input line 49.
-Package scrbase Info: activating english \tablename on input line 49.
-Package scrbase Info: activating english \contentsname on input line 49.
-Package scrbase Info: activating english \listfigurename on input line 49.
-Package scrbase Info: activating english \listtablename on input line 49.
-Package scrbase Info: activating english \bibname on input line 49.
-Package scrbase Info: activating english \indexname on input line 49.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+Package scrbase Info: activating english \abstractname on input line 48.
+Package scrbase Info: activating english \partname on input line 48.
+Package scrbase Info: activating english \chaptername on input line 48.
+Package scrbase Info: activating english \appendixname on input line 48.
+Package scrbase Info: activating english \figurename on input line 48.
+Package scrbase Info: activating english \tablename on input line 48.
+Package scrbase Info: activating english \contentsname on input line 48.
+Package scrbase Info: activating english \listfigurename on input line 48.
+Package scrbase Info: activating english \listtablename on input line 48.
+Package scrbase Info: activating english \bibname on input line 48.
+Package scrbase Info: activating english \indexname on input line 48.
  (/usr/local/texlive/2025/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count584
-\scratchdimen=\dimen419
+\scratchcounter=\count582
+\scratchdimen=\dimen417
 \scratchbox=\box104
-\nofMPsegments=\count585
-\nofMParguments=\count586
+\nofMPsegments=\count583
+\nofMParguments=\count584
 \everyMPshowfont=\toks69
-\MPscratchCnt=\count587
-\MPscratchDim=\dimen420
-\MPnumerator=\count588
-\makeMPintoPDFobject=\count589
+\MPscratchCnt=\count585
+\MPscratchDim=\dimen418
+\MPnumerator=\count586
+\makeMPintoPDFobject=\count587
 \everyMPtoPDFconversion=\toks70
 ) (/usr/local/texlive/2025/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -1582,7 +1562,7 @@ Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 ))
-Package hyperref Info: Link coloring OFF on input line 49.
+Package hyperref Info: Link coloring OFF on input line 48.
  (./thesis.out) (./thesis.out)
 \@outlinefile=\write9
 \openout9 = `thesis.out'.
@@ -1594,25 +1574,24 @@ Class scrreprt Info: loading recommended package `bookmark'.
 (scrreprt)           `bookmarkpackage=false' before \begin{document} and
 (scrreprt)           you can avoid this message adding:
 (scrreprt)             \usepackage{bookmark}
-(scrreprt)           before \begin{document} on input line 49.
+(scrreprt)           before \begin{document} on input line 48.
  (/usr/local/texlive/2025/texmf-dist/tex/latex/bookmark/bookmark.sty
 Package: bookmark 2023-12-10 v1.31 PDF bookmarks (HO)
  (/usr/local/texlive/2025/texmf-dist/tex/latex/bookmark/bkm-pdftex.def
 File: bkm-pdftex.def 2023-12-10 v1.31 bookmark driver for pdfTeX and luaTeX (HO)
-\BKM@id=\count590
+\BKM@id=\count588
 ))
 Package pgfplots notification 'compat/show suggested version=true': you might benefit from \pgfplotsset{compat=1.18} (current compat level: 1.13).
 
 (/usr/local/texlive/2025/texmf-dist/tex/latex/translations/translations-basic-dictionary-english.trsl
 File: translations-basic-dictionary-english.trsl (english translation file `translations-basic-dictionary')
 )
-Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 49.
+Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 48.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: longtable package is loaded.
  (/usr/local/texlive/2025/texmf-dist/tex/latex/caption/ltcaption.sty
 Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
 )
-Package caption Info: subfigure package is loaded.
 Package caption Info: supertabular package is loaded.
 Package caption Info: End \AtBeginDocument code.
 Package biblatex Info: Trying to load language 'english'...
@@ -1628,36 +1607,36 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'thesis.bbl' found.
  (./thesis.bbl)
-Package biblatex Info: Reference section=0 on input line 49.
-Package biblatex Info: Reference segment=0 on input line 49.
+Package biblatex Info: Reference section=0 on input line 48.
+Package biblatex Info: Reference segment=0 on input line 48.
  (./variables.tex)
 <LTM_thesis_cover.pdf, id=31, 597.50829pt x 845.0471pt>
 File: LTM_thesis_cover.pdf Graphic file (type pdf)
 <use LTM_thesis_cover.pdf>
-Package pdftex.def Info: LTM_thesis_cover.pdf  used on input line 60.
+Package pdftex.def Info: LTM_thesis_cover.pdf  used on input line 59.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 <LTM_thesis_cover.pdf, id=33, page=1, 597.50829pt x 845.0471pt>
 File: LTM_thesis_cover.pdf Graphic file (type pdf)
 <use LTM_thesis_cover.pdf, page 1>
-Package pdftex.def Info: LTM_thesis_cover.pdf , page1 used on input line 60.
+Package pdftex.def Info: LTM_thesis_cover.pdf , page1 used on input line 59.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 File: LTM_thesis_cover.pdf Graphic file (type pdf)
 <use LTM_thesis_cover.pdf, page 1>
-Package pdftex.def Info: LTM_thesis_cover.pdf , page1 used on input line 60.
+Package pdftex.def Info: LTM_thesis_cover.pdf , page1 used on input line 59.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: LTM_thesis_cover.pdf Graphic file (type pdf)
 <use LTM_thesis_cover.pdf, page 1>
-Package pdftex.def Info: LTM_thesis_cover.pdf , page1 used on input line 60.
+Package pdftex.def Info: LTM_thesis_cover.pdf , page1 used on input line 59.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: LTM_thesis_cover.pdf Graphic file (type pdf)
 <use LTM_thesis_cover.pdf, page 1>
-Package pdftex.def Info: LTM_thesis_cover.pdf , page1 used on input line 60.
+Package pdftex.def Info: LTM_thesis_cover.pdf , page1 used on input line 59.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 
 
 File: LTM_thesis_cover.pdf Graphic file (type pdf)
 <use LTM_thesis_cover.pdf, page 1>
-Package pdftex.def Info: LTM_thesis_cover.pdf , page1 used on input line 60.
+Package pdftex.def Info: LTM_thesis_cover.pdf , page1 used on input line 59.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 [1
 Non-PDF special ignored!
@@ -1691,21 +1670,21 @@ Non-PDF special ignored!
 
 
  <./LTM_thesis_cover.pdf{/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}>]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 93.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 92.
  (/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 93.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 92.
  (/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for U+wasy on input line 93.
+LaTeX Font Info:    Trying to load font information for U+wasy on input line 92.
  (/usr/local/texlive/2025/texmf-dist/tex/latex/wasysym/uwasy.fd
 File: uwasy.fd 2020/01/19 v2.4 Wasy-2 symbol font definitions
 )
 
 LaTeX Font Warning: Font shape `U/wasy/b/n' in size <7> not available
-(Font)              Font shape `U/wasy/m/n' tried instead on input line 93.
+(Font)              Font shape `U/wasy/m/n' tried instead on input line 92.
 
 
 
@@ -1713,7 +1692,7 @@ LaTeX Font Warning: Font shape `U/wasy/b/n' in size <7> not available
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.93 	
+l.92 	
        [1
 
 
@@ -1768,7 +1747,7 @@ chapter 1.
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.191 	\include{chapter_basics}
+l.190 	\include{chapter_basics}
                                 [1
 
 
@@ -1808,9 +1787,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 97--99
  []
 
 
-LaTeX Warning: Reference `sce: optimizationCode' on page 4 undefined on input line 134.
-
-
 
 [4])
 
@@ -1826,122 +1802,136 @@ LaTeX Warning: Reference `sce: optimizationCode' on page 4 undefined on input li
 ]
 chapter 3.
 
+Underfull \hbox (badness 10000) in paragraph at lines 12--14
+
+ []
+
+
 
 [7
 
 ]
+Overfull \hbox (5.17746pt too wide) in paragraph at lines 114--125
+ [][] 
+ []
 
-[8]
-<./images/cube_loading_plain_white_new.pdf, id=286, 1199.23032pt x 766.36313pt>
+<./images/cube_loading_plain_white_new.pdf, id=278, 1199.23032pt x 766.36313pt>
 File: ./images/cube_loading_plain_white_new.pdf Graphic file (type pdf)
 <use ./images/cube_loading_plain_white_new.pdf>
-Package pdftex.def Info: ./images/cube_loading_plain_white_new.pdf  used on input line 98.
+Package pdftex.def Info: ./images/cube_loading_plain_white_new.pdf  used on input line 139.
 (pdftex.def)             Requested size: 292.7776pt x 187.08821pt.
 
 
+[8]
+
 [9 <./images/cube_loading_plain_white_new.pdf>]
-Overfull \hbox (3.30347pt too wide) in paragraph at lines 121--121
+Overfull \hbox (3.30347pt too wide) in paragraph at lines 162--162
  []|\T1/cmr/bx/n/10.95 Trajectory| 
  []
 
 
-Overfull \hbox (4.62672pt too wide) in paragraph at lines 129--130
+Overfull \hbox (4.62672pt too wide) in paragraph at lines 170--171
  []|$\OML/cmm/m/it/10.95 ^^[[]; "[]; "[]; ^^[[]$| 
  []
 
 
-Overfull \hbox (0.8973pt too wide) in paragraph at lines 118--135
+Overfull \hbox (0.8973pt too wide) in paragraph at lines 159--176
  [][] 
  []
 
 
 
 [10]
-<./images/error_plot.pdf, id=361, 578.16pt x 433.62pt>
+<./images/error_plot.pdf, id=358, 578.16pt x 433.62pt>
 File: ./images/error_plot.pdf Graphic file (type pdf)
 <use ./images/error_plot.pdf>
-Package pdftex.def Info: ./images/error_plot.pdf  used on input line 167.
+Package pdftex.def Info: ./images/error_plot.pdf  used on input line 189.
 (pdftex.def)             Requested size: 271.86356pt x 203.89406pt.
 
 
-[11]
+[11 <./images/error_plot.pdf>]
 
-[12 <./images/error_plot.pdf>]
+[12]
+Overfull \hbox (3.03304pt too wide) in paragraph at lines 286--286
+ []|$\OML/cmm/m/it/10.95 ^^[[]$| 
+ []
 
-LaTeX Warning: Reference `tab:inputParameterTable' on page 13 undefined on input line 238.
 
-<./images/initalValueComb.pdf, id=392, 211.65044pt x 129.02473pt>
-File: ./images/initalValueComb.pdf Graphic file (type pdf)
-<use ./images/initalValueComb.pdf>
-Package pdftex.def Info: ./images/initalValueComb.pdf  used on input line 286.
-(pdftex.def)             Requested size: 179.84682pt x 109.64001pt.
+Overfull \hbox (3.03304pt too wide) in paragraph at lines 286--286
+ []|$\OML/cmm/m/it/10.95 ^^[[]$| 
+ []
 
-LaTeX Warning: Unexpected alignment T! on input line 290.
 
-<./images/ModelCombinations.pdf, id=393, 206.27693pt x 98.34563pt>
-File: ./images/ModelCombinations.pdf Graphic file (type pdf)
-<use ./images/ModelCombinations.pdf>
-Package pdftex.def Info: ./images/ModelCombinations.pdf  used on input line 293.
-(pdftex.def)             Requested size: 179.84682pt x 85.74907pt.
+Overfull \hbox (3.03304pt too wide) in paragraph at lines 286--286
+ []|$\OML/cmm/m/it/10.95 ^^[[]$| 
+ []
 
-LaTeX Warning: Unexpected alignment T! on input line 297.
+
+Overfull \hbox (3.03304pt too wide) in paragraph at lines 286--286
+ []|$\OML/cmm/m/it/10.95 ^^[[]$| 
+ []
+
+
+Overfull \hbox (3.03304pt too wide) in paragraph at lines 286--286
+ []|$\OML/cmm/m/it/10.95 ^^[[]$| 
+ []
+
+
+Overfull \hbox (17.81923pt too wide) in paragraph at lines 279--292
+ [][] 
+ []
 
 
 
 [13]
-
-[14 <./images/initalValueComb.pdf> <./images/ModelCombinations.pdf
-
-pdfTeX warning: pdflatex (file ./images/ModelCombinations.pdf): PDF inclusion: multiple pdfs with page group included in a single page
->]
-<./images/Amplitude.pdf, id=461, 326.40144pt x 429.84439pt>
+<./images/Amplitude.pdf, id=467, 326.40144pt x 429.84439pt>
 File: ./images/Amplitude.pdf Graphic file (type pdf)
 <use ./images/Amplitude.pdf>
-Package pdftex.def Info: ./images/Amplitude.pdf  used on input line 313.
+Package pdftex.def Info: ./images/Amplitude.pdf  used on input line 334.
 (pdftex.def)             Requested size: 146.39198pt x 192.79198pt.
 
 
-LaTeX Warning: Unexpected alignment T! on input line 317.
+LaTeX Warning: Unexpected alignment T! on input line 338.
 
-<./images/BC.pdf, id=462, 280.44232pt x 435.72568pt>
+<./images/BC.pdf, id=468, 280.44232pt x 435.72568pt>
 File: ./images/BC.pdf Graphic file (type pdf)
 <use ./images/BC.pdf>
-Package pdftex.def Info: ./images/BC.pdf  used on input line 320.
+Package pdftex.def Info: ./images/BC.pdf  used on input line 341.
 (pdftex.def)             Requested size: 146.39198pt x 227.44962pt.
 
-LaTeX Warning: Unexpected alignment T! on input line 324.
+LaTeX Warning: Unexpected alignment T! on input line 345.
 
-<./images/complete_flowchart_new.pdf, id=463, 845.04674pt x 1195.01572pt>
+<./images/complete_flowchart_new.pdf, id=469, 845.04674pt x 1195.01572pt>
 File: ./images/complete_flowchart_new.pdf Graphic file (type pdf)
 <use ./images/complete_flowchart_new.pdf>
-Package pdftex.def Info: ./images/complete_flowchart_new.pdf  used on input line 334.
+Package pdftex.def Info: ./images/complete_flowchart_new.pdf  used on input line 355.
 (pdftex.def)             Requested size: 418.25555pt x 591.4708pt.
-<./images/minimizeFuncitonInput.pdf, id=464, 532.57907pt x 251.42432pt>
-File: ./images/minimizeFuncitonInput.pdf Graphic file (type pdf)
-<use ./images/minimizeFuncitonInput.pdf>
-Package pdftex.def Info: ./images/minimizeFuncitonInput.pdf  used on input line 341.
-(pdftex.def)             Requested size: 397.34149pt x 187.58182pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-[15 <./images/Amplitude.pdf> <./images/BC.pdf> <./images/minimizeFuncitonInput.pdf>]
 
-[16 <./images/complete_flowchart_new.pdf>])
+[14 <./images/Amplitude.pdf> <./images/BC.pdf>]
+
+[15 <./images/complete_flowchart_new.pdf>]
+
+[16])
 
 [17]
 \openout2 = `chapter_results.aux'.
 
  (./chapter_results.tex
 chapter 4.
-<./images/verify_material_params.pdf, id=546, 1084.05pt x 578.16pt>
+<./images/verify_material_params.pdf, id=531, 1084.05pt x 578.16pt>
 File: ./images/verify_material_params.pdf Graphic file (type pdf)
 <use ./images/verify_material_params.pdf>
 Package pdftex.def Info: ./images/verify_material_params.pdf  used on input line 20.
 (pdftex.def)             Requested size: 292.7776pt x 156.14938pt.
 
-Package hyperref Warning: No autoref name for `subfigure' on input line 25.
+LaTeX Warning: Reference `fig:progress stress-strain curve' on page 18 undefined on input line 25.
 
 
-Package hyperref Warning: No autoref name for `subfigure' on input line 25.
+LaTeX Warning: Reference `fig:final stress-strain curves' on page 18 undefined on input line 25.
 
 
 
@@ -1951,20 +1941,20 @@ Package hyperref Warning: No autoref name for `subfigure' on input line 25.
 
 
  <./images/verify_material_params.pdf>]
-<./images/verfiy_stress_strain_progress.pdf, id=806, 578.16pt x 433.62pt>
+<./images/verfiy_stress_strain_progress.pdf, id=788, 578.16pt x 433.62pt>
 File: ./images/verfiy_stress_strain_progress.pdf Graphic file (type pdf)
 <use ./images/verfiy_stress_strain_progress.pdf>
-Package pdftex.def Info: ./images/verfiy_stress_strain_progress.pdf  used on input line 34.
+Package pdftex.def Info: ./images/verfiy_stress_strain_progress.pdf  used on input line 48.
 (pdftex.def)             Requested size: 196.58061pt x 147.43546pt.
-<./images/verify_stress_strain_combined.pdf, id=807, 578.16pt x 433.62pt>
+<./images/verify_stress_strain_combined.pdf, id=789, 578.16pt x 433.62pt>
 File: ./images/verify_stress_strain_combined.pdf Graphic file (type pdf)
 <use ./images/verify_stress_strain_combined.pdf>
-Package pdftex.def Info: ./images/verify_stress_strain_combined.pdf  used on input line 38.
+Package pdftex.def Info: ./images/verify_stress_strain_combined.pdf  used on input line 55.
 (pdftex.def)             Requested size: 196.58061pt x 147.43546pt.
-<./images/voce_curve.pdf, id=808, 578.16pt x 433.62pt>
+<./images/voce_curve.pdf, id=790, 578.16pt x 433.62pt>
 File: ./images/voce_curve.pdf Graphic file (type pdf)
 <use ./images/voce_curve.pdf>
-Package pdftex.def Info: ./images/voce_curve.pdf  used on input line 47.
+Package pdftex.def Info: ./images/voce_curve.pdf  used on input line 70.
 (pdftex.def)             Requested size: 209.12778pt x 156.84413pt.
 
 
@@ -1972,26 +1962,26 @@ Package pdftex.def Info: ./images/voce_curve.pdf  used on input line 47.
 
 pdfTeX warning: pdflatex (file ./images/verify_stress_strain_combined.pdf): PDF inclusion: multiple pdfs with page group included in a single page
 >]
-<./images/verify_rsme.pdf, id=996, 578.16pt x 433.62pt>
+<./images/verify_rsme.pdf, id=976, 578.16pt x 433.62pt>
 File: ./images/verify_rsme.pdf Graphic file (type pdf)
 <use ./images/verify_rsme.pdf>
-Package pdftex.def Info: ./images/verify_rsme.pdf  used on input line 55.
+Package pdftex.def Info: ./images/verify_rsme.pdf  used on input line 78.
 (pdftex.def)             Requested size: 292.7776pt x 219.58177pt.
-<./images/valid6to3_material_params.pdf, id=997, 1156.32pt x 289.08pt>
+<./images/valid6to3_material_params.pdf, id=977, 1156.32pt x 289.08pt>
 File: ./images/valid6to3_material_params.pdf Graphic file (type pdf)
 <use ./images/valid6to3_material_params.pdf>
-Package pdftex.def Info: ./images/valid6to3_material_params.pdf  used on input line 66.
+Package pdftex.def Info: ./images/valid6to3_material_params.pdf  used on input line 89.
 (pdftex.def)             Requested size: 196.58061pt x 49.14294pt.
 
 
-LaTeX Warning: Reference `verification' on page 20 undefined on input line 71.
+LaTeX Warning: Reference `verification' on page 20 undefined on input line 94.
 
 
-Package caption Warning: \label without proper reference on input line 81.
+Package caption Warning: \label without proper reference on input line 104.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `fig:validationStressStrain6to3' on page 20 undefined on input line 72.
+LaTeX Warning: Reference `fig:validationStressStrain6to3' on page 20 undefined on input line 95.
 
 
 
@@ -2002,68 +1992,64 @@ pdfTeX warning: pdflatex (file ./images/verify_rsme.pdf): PDF inclusion: multipl
 
 pdfTeX warning: pdflatex (file ./images/valid6to3_material_params.pdf): PDF inclusion: multiple pdfs with page group included in a single page
 >]
-<./images/valid6to3_stress_strain_combined.pdf, id=1182, 578.16pt x 433.62pt>
+<./images/valid6to3_stress_strain_combined.pdf, id=1161, 578.16pt x 433.62pt>
 File: ./images/valid6to3_stress_strain_combined.pdf Graphic file (type pdf)
 <use ./images/valid6to3_stress_strain_combined.pdf>
-Package pdftex.def Info: ./images/valid6to3_stress_strain_combined.pdf  used on input line 79.
+Package pdftex.def Info: ./images/valid6to3_stress_strain_combined.pdf  used on input line 102.
 (pdftex.def)             Requested size: 196.58061pt x 147.43546pt.
-<./images/valid6to3_rsme.pdf, id=1183, 578.16pt x 433.62pt>
+<./images/valid6to3_rsme.pdf, id=1162, 578.16pt x 433.62pt>
 File: ./images/valid6to3_rsme.pdf Graphic file (type pdf)
 <use ./images/valid6to3_rsme.pdf>
-Package pdftex.def Info: ./images/valid6to3_rsme.pdf  used on input line 86.
+Package pdftex.def Info: ./images/valid6to3_rsme.pdf  used on input line 109.
 (pdftex.def)             Requested size: 196.58061pt x 147.43546pt.
-<./images/valid4to3_material_params.pdf, id=1184, 1156.32pt x 289.08pt>
+<./images/valid4to3_material_params.pdf, id=1163, 1156.32pt x 289.08pt>
 File: ./images/valid4to3_material_params.pdf Graphic file (type pdf)
 <use ./images/valid4to3_material_params.pdf>
-Package pdftex.def Info: ./images/valid4to3_material_params.pdf  used on input line 103.
+Package pdftex.def Info: ./images/valid4to3_material_params.pdf  used on input line 141.
 (pdftex.def)             Requested size: 418.25555pt x 104.56274pt.
-<./images/valid8to3_material_paramspdf.pdf, id=1185, 1156.32pt x 289.08pt>
+<./images/valid8to3_material_paramspdf.pdf, id=1164, 1156.32pt x 289.08pt>
 File: ./images/valid8to3_material_paramspdf.pdf Graphic file (type pdf)
 <use ./images/valid8to3_material_paramspdf.pdf>
-Package pdftex.def Info: ./images/valid8to3_material_paramspdf.pdf  used on input line 107.
+Package pdftex.def Info: ./images/valid8to3_material_paramspdf.pdf  used on input line 151.
 (pdftex.def)             Requested size: 418.25555pt x 104.56274pt.
-
-Overfull \hbox (7.26108pt too wide) in paragraph at lines 103--108
- [][] 
- []
-
-
-Overfull \hbox (7.26108pt too wide) in paragraph at lines 103--108
- [][] 
- []
-
 
 
 [21 <./images/valid6to3_stress_strain_combined.pdf> <./images/valid6to3_rsme.pdf
 
 pdfTeX warning: pdflatex (file ./images/valid6to3_rsme.pdf): PDF inclusion: multiple pdfs with page group included in a single page
 >]
-<./images/valid4to3_stress_strain_combined.pdf, id=1314, 578.16pt x 433.62pt>
+
+LaTeX Warning: Reference `fig:validation material params' on page 22 undefined on input line 161.
+
+
+LaTeX Warning: Reference `fig:validation results' on page 22 undefined on input line 162.
+
+<./images/valid4to3_stress_strain_combined.pdf, id=1291, 578.16pt x 433.62pt>
 File: ./images/valid4to3_stress_strain_combined.pdf Graphic file (type pdf)
 <use ./images/valid4to3_stress_strain_combined.pdf>
-Package pdftex.def Info: ./images/valid4to3_stress_strain_combined.pdf  used on input line 120.
+Package pdftex.def Info: ./images/valid4to3_stress_strain_combined.pdf  used on input line 193.
 (pdftex.def)             Requested size: 196.58061pt x 147.43546pt.
-<./images/valid4to3_rmse.pdf, id=1315, 578.16pt x 433.62pt>
+<./images/valid4to3_rmse.pdf, id=1292, 578.16pt x 433.62pt>
 File: ./images/valid4to3_rmse.pdf Graphic file (type pdf)
 <use ./images/valid4to3_rmse.pdf>
-Package pdftex.def Info: ./images/valid4to3_rmse.pdf  used on input line 124.
+Package pdftex.def Info: ./images/valid4to3_rmse.pdf  used on input line 200.
 (pdftex.def)             Requested size: 196.58061pt x 147.43546pt.
-<./images/valid8to3_stress_strain_combined.pdf, id=1316, 578.16pt x 433.62pt>
+<./images/valid8to3_stress_strain_combined.pdf, id=1293, 578.16pt x 433.62pt>
 File: ./images/valid8to3_stress_strain_combined.pdf Graphic file (type pdf)
 <use ./images/valid8to3_stress_strain_combined.pdf>
-Package pdftex.def Info: ./images/valid8to3_stress_strain_combined.pdf  used on input line 128.
+Package pdftex.def Info: ./images/valid8to3_stress_strain_combined.pdf  used on input line 210.
 (pdftex.def)             Requested size: 196.58061pt x 147.43546pt.
-<./images/valid8to3_rmse.pdf, id=1317, 578.16pt x 433.62pt>
+<./images/valid8to3_rmse.pdf, id=1294, 578.16pt x 433.62pt>
 File: ./images/valid8to3_rmse.pdf Graphic file (type pdf)
 <use ./images/valid8to3_rmse.pdf>
-Package pdftex.def Info: ./images/valid8to3_rmse.pdf  used on input line 132.
+Package pdftex.def Info: ./images/valid8to3_rmse.pdf  used on input line 217.
 (pdftex.def)             Requested size: 196.58061pt x 147.43546pt.
 
 
 [22 <./images/valid4to3_material_params.pdf> <./images/valid8to3_material_paramspdf.pdf
 
 pdfTeX warning: pdflatex (file ./images/valid8to3_material_paramspdf.pdf): PDF inclusion: multiple pdfs with page group included in a single page
->]
+>])
 
 [23 <./images/valid4to3_stress_strain_combined.pdf> <./images/valid4to3_rmse.pdf
 
@@ -2074,7 +2060,7 @@ pdfTeX warning: pdflatex (file ./images/valid8to3_stress_strain_combined.pdf): P
 > <./images/valid8to3_rmse.pdf
 
 pdfTeX warning: pdflatex (file ./images/valid8to3_rmse.pdf): PDF inclusion: multiple pdfs with page group included in a single page
->])
+>]
 
 [24]
 chapter 5.
@@ -2087,12 +2073,12 @@ chapter 5.
 ]
 chapter without number
 
-Overfull \hbox (3.49103pt too wide) in paragraph at lines 220--220
+Overfull \hbox (3.49103pt too wide) in paragraph at lines 219--219
 []\T1/cmr/m/n/10.95 M. \T1/cmr/m/sc/10.95 Ries \T1/cmr/m/n/10.95 et al. ``DE-CI-PHER-ING ELASTO-PLAS-TIC PROP-ER-TIES FROM ATOM-
  []
 
 
-Overfull \hbox (2.90967pt too wide) in paragraph at lines 220--220
+Overfull \hbox (2.90967pt too wide) in paragraph at lines 219--219
 \T1/cmr/m/n/10.95 tive pa-ram-e-ters''. In: \T1/cmr/m/it/10.95 Com-pu-ta-tional Op-ti-miza-tion and Ap-pli-ca-tions \T1/cmr/m/n/10.95 51.1 (Jan. 2012).
  []
 
@@ -2102,12 +2088,12 @@ Overfull \hbox (2.90967pt too wide) in paragraph at lines 220--220
 
 
 ]
-Overfull \hbox (28.54956pt too wide) in paragraph at lines 220--220
+Overfull \hbox (28.54956pt too wide) in paragraph at lines 219--219
 []\T1/cmr/m/n/10.95 J.[]H. \T1/cmr/m/sc/10.95 Yi \T1/cmr/m/n/10.95 & S. \T1/cmr/m/sc/10.95 Mun\T1/cmr/m/n/10.95 . ``Back-cal-cu-lat-ing pave-ment struc-tural prop-er-ties us-ing a Nelder^^UMead
  []
 
 
-Overfull \hbox (58.42772pt too wide) in paragraph at lines 220--220
+Overfull \hbox (58.42772pt too wide) in paragraph at lines 219--219
 \T1/cmr/m/it/10.95 Ge-ome-chan-ics \T1/cmr/m/n/10.95 33.11 (2009). _eprint: https://onlinelibrary.wiley.com/doi/pdf/10.1002/nag.769,
  []
 
@@ -2143,18 +2129,18 @@ Package logreq Info: Writing requests to 'thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 65838 strings out of 473190
- 1529664 string characters out of 5715800
- 2771916 words of memory out of 5000000
- 87940 multiletter control sequences out of 15000+600000
- 592669 words of font info for 130 fonts, out of 8000000 for 9000
+ 65718 strings out of 473190
+ 1527159 string characters out of 5715800
+ 2773252 words of memory out of 5000000
+ 87830 multiletter control sequences out of 15000+600000
+ 594979 words of font info for 133 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 108i,18n,120p,10984b,2359s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1095.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx2074.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfcc1000.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfcc1095.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm0600.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm0900.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx1095.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx1200.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx1440.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx2074.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfti1095.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sftt1095.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb>
-Output written on thesis.pdf (37 pages, 2962626 bytes).
+ 108i,17n,120p,10984b,2359s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx0900.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1095.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx2074.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfcc1000.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfcc1095.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm0500.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm0600.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm0900.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx1095.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx1200.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx1440.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx2074.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfti1095.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sftt1095.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb>
+Output written on thesis.pdf (37 pages, 2782258 bytes).
 PDF statistics:
- 2177 PDF objects out of 2487 (max. 8388607)
- 1589 compressed objects within 16 object streams
- 141 named destinations out of 1000 (max. 500000)
- 466 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2167 PDF objects out of 2487 (max. 8388607)
+ 1564 compressed objects within 16 object streams
+ 134 named destinations out of 1000 (max. 500000)
+ 459 words of extra memory for PDF output out of 10000 (max. 10000000)
 
