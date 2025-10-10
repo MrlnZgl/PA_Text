@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.8.30)  10 OCT 2025 15:58
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.8.30)  10 OCT 2025 17:55
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -1884,27 +1884,27 @@ Overfull \hbox (17.81923pt too wide) in paragraph at lines 279--292
 
 
 [13]
-<./images/Amplitude.pdf, id=467, 326.40144pt x 429.84439pt>
+<./images/Amplitude.pdf, id=470, 326.40144pt x 429.84439pt>
 File: ./images/Amplitude.pdf Graphic file (type pdf)
 <use ./images/Amplitude.pdf>
-Package pdftex.def Info: ./images/Amplitude.pdf  used on input line 334.
+Package pdftex.def Info: ./images/Amplitude.pdf  used on input line 333.
 (pdftex.def)             Requested size: 146.39198pt x 192.79198pt.
 
 
-LaTeX Warning: Unexpected alignment T! on input line 338.
+LaTeX Warning: Unexpected alignment T! on input line 337.
 
-<./images/BC.pdf, id=468, 280.44232pt x 435.72568pt>
+<./images/BC.pdf, id=471, 280.44232pt x 435.72568pt>
 File: ./images/BC.pdf Graphic file (type pdf)
 <use ./images/BC.pdf>
-Package pdftex.def Info: ./images/BC.pdf  used on input line 341.
+Package pdftex.def Info: ./images/BC.pdf  used on input line 340.
 (pdftex.def)             Requested size: 146.39198pt x 227.44962pt.
 
-LaTeX Warning: Unexpected alignment T! on input line 345.
+LaTeX Warning: Unexpected alignment T! on input line 344.
 
-<./images/complete_flowchart_new.pdf, id=469, 845.04674pt x 1195.01572pt>
+<./images/complete_flowchart_new.pdf, id=472, 845.04674pt x 1195.01572pt>
 File: ./images/complete_flowchart_new.pdf Graphic file (type pdf)
 <use ./images/complete_flowchart_new.pdf>
-Package pdftex.def Info: ./images/complete_flowchart_new.pdf  used on input line 355.
+Package pdftex.def Info: ./images/complete_flowchart_new.pdf  used on input line 354.
 (pdftex.def)             Requested size: 418.25555pt x 591.4708pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -1913,16 +1913,16 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [14 <./images/Amplitude.pdf> <./images/BC.pdf>]
 
-[15 <./images/complete_flowchart_new.pdf>]
+[15 <./images/complete_flowchart_new.pdf>])
 
-[16])
+[16]
 
 [17]
 \openout2 = `chapter_results.aux'.
 
  (./chapter_results.tex
 chapter 4.
-<./images/verify_material_params.pdf, id=531, 1084.05pt x 578.16pt>
+<./images/verify_material_params.pdf, id=537, 1084.05pt x 578.16pt>
 File: ./images/verify_material_params.pdf Graphic file (type pdf)
 <use ./images/verify_material_params.pdf>
 Package pdftex.def Info: ./images/verify_material_params.pdf  used on input line 20.
@@ -1941,17 +1941,17 @@ LaTeX Warning: Reference `fig:final stress-strain curves' on page 18 undefined o
 
 
  <./images/verify_material_params.pdf>]
-<./images/verfiy_stress_strain_progress.pdf, id=788, 578.16pt x 433.62pt>
+<./images/verfiy_stress_strain_progress.pdf, id=794, 578.16pt x 433.62pt>
 File: ./images/verfiy_stress_strain_progress.pdf Graphic file (type pdf)
 <use ./images/verfiy_stress_strain_progress.pdf>
 Package pdftex.def Info: ./images/verfiy_stress_strain_progress.pdf  used on input line 48.
 (pdftex.def)             Requested size: 196.58061pt x 147.43546pt.
-<./images/verify_stress_strain_combined.pdf, id=789, 578.16pt x 433.62pt>
+<./images/verify_stress_strain_combined.pdf, id=795, 578.16pt x 433.62pt>
 File: ./images/verify_stress_strain_combined.pdf Graphic file (type pdf)
 <use ./images/verify_stress_strain_combined.pdf>
 Package pdftex.def Info: ./images/verify_stress_strain_combined.pdf  used on input line 55.
 (pdftex.def)             Requested size: 196.58061pt x 147.43546pt.
-<./images/voce_curve.pdf, id=790, 578.16pt x 433.62pt>
+<./images/voce_curve.pdf, id=796, 578.16pt x 433.62pt>
 File: ./images/voce_curve.pdf Graphic file (type pdf)
 <use ./images/voce_curve.pdf>
 Package pdftex.def Info: ./images/voce_curve.pdf  used on input line 70.
@@ -1962,12 +1962,12 @@ Package pdftex.def Info: ./images/voce_curve.pdf  used on input line 70.
 
 pdfTeX warning: pdflatex (file ./images/verify_stress_strain_combined.pdf): PDF inclusion: multiple pdfs with page group included in a single page
 >]
-<./images/verify_rsme.pdf, id=976, 578.16pt x 433.62pt>
+<./images/verify_rsme.pdf, id=982, 578.16pt x 433.62pt>
 File: ./images/verify_rsme.pdf Graphic file (type pdf)
 <use ./images/verify_rsme.pdf>
 Package pdftex.def Info: ./images/verify_rsme.pdf  used on input line 78.
 (pdftex.def)             Requested size: 292.7776pt x 219.58177pt.
-<./images/valid6to3_material_params.pdf, id=977, 1156.32pt x 289.08pt>
+<./images/valid6to3_material_params.pdf, id=983, 1156.32pt x 289.08pt>
 File: ./images/valid6to3_material_params.pdf Graphic file (type pdf)
 <use ./images/valid6to3_material_params.pdf>
 Package pdftex.def Info: ./images/valid6to3_material_params.pdf  used on input line 89.
@@ -1992,22 +1992,22 @@ pdfTeX warning: pdflatex (file ./images/verify_rsme.pdf): PDF inclusion: multipl
 
 pdfTeX warning: pdflatex (file ./images/valid6to3_material_params.pdf): PDF inclusion: multiple pdfs with page group included in a single page
 >]
-<./images/valid6to3_stress_strain_combined.pdf, id=1161, 578.16pt x 433.62pt>
+<./images/valid6to3_stress_strain_combined.pdf, id=1167, 578.16pt x 433.62pt>
 File: ./images/valid6to3_stress_strain_combined.pdf Graphic file (type pdf)
 <use ./images/valid6to3_stress_strain_combined.pdf>
 Package pdftex.def Info: ./images/valid6to3_stress_strain_combined.pdf  used on input line 102.
 (pdftex.def)             Requested size: 196.58061pt x 147.43546pt.
-<./images/valid6to3_rsme.pdf, id=1162, 578.16pt x 433.62pt>
+<./images/valid6to3_rsme.pdf, id=1168, 578.16pt x 433.62pt>
 File: ./images/valid6to3_rsme.pdf Graphic file (type pdf)
 <use ./images/valid6to3_rsme.pdf>
 Package pdftex.def Info: ./images/valid6to3_rsme.pdf  used on input line 109.
 (pdftex.def)             Requested size: 196.58061pt x 147.43546pt.
-<./images/valid4to3_material_params.pdf, id=1163, 1156.32pt x 289.08pt>
+<./images/valid4to3_material_params.pdf, id=1169, 1156.32pt x 289.08pt>
 File: ./images/valid4to3_material_params.pdf Graphic file (type pdf)
 <use ./images/valid4to3_material_params.pdf>
 Package pdftex.def Info: ./images/valid4to3_material_params.pdf  used on input line 141.
 (pdftex.def)             Requested size: 418.25555pt x 104.56274pt.
-<./images/valid8to3_material_paramspdf.pdf, id=1164, 1156.32pt x 289.08pt>
+<./images/valid8to3_material_paramspdf.pdf, id=1170, 1156.32pt x 289.08pt>
 File: ./images/valid8to3_material_paramspdf.pdf Graphic file (type pdf)
 <use ./images/valid8to3_material_paramspdf.pdf>
 Package pdftex.def Info: ./images/valid8to3_material_paramspdf.pdf  used on input line 151.
@@ -2024,22 +2024,22 @@ LaTeX Warning: Reference `fig:validation material params' on page 22 undefined o
 
 LaTeX Warning: Reference `fig:validation results' on page 22 undefined on input line 162.
 
-<./images/valid4to3_stress_strain_combined.pdf, id=1291, 578.16pt x 433.62pt>
+<./images/valid4to3_stress_strain_combined.pdf, id=1297, 578.16pt x 433.62pt>
 File: ./images/valid4to3_stress_strain_combined.pdf Graphic file (type pdf)
 <use ./images/valid4to3_stress_strain_combined.pdf>
 Package pdftex.def Info: ./images/valid4to3_stress_strain_combined.pdf  used on input line 193.
 (pdftex.def)             Requested size: 196.58061pt x 147.43546pt.
-<./images/valid4to3_rmse.pdf, id=1292, 578.16pt x 433.62pt>
+<./images/valid4to3_rmse.pdf, id=1298, 578.16pt x 433.62pt>
 File: ./images/valid4to3_rmse.pdf Graphic file (type pdf)
 <use ./images/valid4to3_rmse.pdf>
 Package pdftex.def Info: ./images/valid4to3_rmse.pdf  used on input line 200.
 (pdftex.def)             Requested size: 196.58061pt x 147.43546pt.
-<./images/valid8to3_stress_strain_combined.pdf, id=1293, 578.16pt x 433.62pt>
+<./images/valid8to3_stress_strain_combined.pdf, id=1299, 578.16pt x 433.62pt>
 File: ./images/valid8to3_stress_strain_combined.pdf Graphic file (type pdf)
 <use ./images/valid8to3_stress_strain_combined.pdf>
 Package pdftex.def Info: ./images/valid8to3_stress_strain_combined.pdf  used on input line 210.
 (pdftex.def)             Requested size: 196.58061pt x 147.43546pt.
-<./images/valid8to3_rmse.pdf, id=1294, 578.16pt x 433.62pt>
+<./images/valid8to3_rmse.pdf, id=1300, 578.16pt x 433.62pt>
 File: ./images/valid8to3_rmse.pdf Graphic file (type pdf)
 <use ./images/valid8to3_rmse.pdf>
 Package pdftex.def Info: ./images/valid8to3_rmse.pdf  used on input line 217.
@@ -2129,18 +2129,18 @@ Package logreq Info: Writing requests to 'thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 65718 strings out of 473190
- 1527159 string characters out of 5715800
- 2773252 words of memory out of 5000000
- 87830 multiletter control sequences out of 15000+600000
+ 65719 strings out of 473190
+ 1527187 string characters out of 5715800
+ 2773329 words of memory out of 5000000
+ 87831 multiletter control sequences out of 15000+600000
  594979 words of font info for 133 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  108i,17n,120p,10984b,2359s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx0900.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1095.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx2074.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfcc1000.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfcc1095.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm0500.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm0600.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm0900.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx1095.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx1200.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx1440.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx2074.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfti1095.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sftt1095.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb>
-Output written on thesis.pdf (37 pages, 2782258 bytes).
+Output written on thesis.pdf (37 pages, 2783261 bytes).
 PDF statistics:
- 2167 PDF objects out of 2487 (max. 8388607)
- 1564 compressed objects within 16 object streams
+ 2172 PDF objects out of 2487 (max. 8388607)
+ 1569 compressed objects within 16 object streams
  134 named destinations out of 1000 (max. 500000)
  459 words of extra memory for PDF output out of 10000 (max. 10000000)
 

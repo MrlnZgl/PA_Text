@@ -17,7 +17,7 @@
 \contentsline {subsection}{\numberline {3.1.2}Load parameters and load reactions}{9}{subsection.3.1.2}%
 \contentsline {section}{\numberline {3.2}Error calculation}{10}{section.3.2}%
 \contentsline {section}{\numberline {3.3}Preprocessing}{12}{section.3.3}%
-\contentsline {section}{\numberline {3.4}Optimization process}{14}{section.3.4}%
+\contentsline {section}{\numberline {3.4}Optimisation process}{14}{section.3.4}%
 \contentsline {chapter}{\numberline {4}Results}{18}{chapter.4}%
 \contentsline {section}{\numberline {4.1}Verification}{18}{section.4.1}%
 \contentsline {section}{\numberline {4.2}Validation}{20}{section.4.2}%
