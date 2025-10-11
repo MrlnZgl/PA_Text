@@ -3,27 +3,28 @@
 \contentsline {chapter}{List of Figures}{III}{chapter*.4}%
 \contentsline {chapter}{List of Tables}{IV}{chapter*.5}%
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}%
-\contentsline {chapter}{\numberline {2}Basics}{2}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Molecular dynamics}{2}{section.2.1}%
-\contentsline {section}{\numberline {2.2}Finite Element Method}{3}{section.2.2}%
-\contentsline {section}{\numberline {2.3}ABAQUS PDE}{4}{section.2.3}%
-\contentsline {subsection}{\numberline {2.3.1}EasyPBC Plug-In}{4}{subsection.2.3.1}%
-\contentsline {section}{\numberline {2.4}Mathematical basics}{4}{section.2.4}%
-\contentsline {subsection}{\numberline {2.4.1}Numerical optimization}{5}{subsection.2.4.1}%
-\contentsline {subsection}{\numberline {2.4.2}Root mean squared error}{5}{subsection.2.4.2}%
-\contentsline {chapter}{\numberline {3}Models and Methods}{7}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Input data}{7}{section.3.1}%
-\contentsline {subsection}{\numberline {3.1.1}Load cases and evaluated reactions}{8}{subsection.3.1.1}%
-\contentsline {subsection}{\numberline {3.1.2}Load parameters and load reactions}{9}{subsection.3.1.2}%
-\contentsline {section}{\numberline {3.2}Error calculation}{10}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Preprocessing}{12}{section.3.3}%
-\contentsline {section}{\numberline {3.4}Optimisation process}{14}{section.3.4}%
-\contentsline {chapter}{\numberline {4}Results}{18}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Verification}{18}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Validation}{20}{section.4.2}%
-\contentsline {section}{\numberline {4.3}shear and normal strain tests combined}{24}{section.4.3}%
-\contentsline {section}{\numberline {4.4}cyclic tests}{24}{section.4.4}%
-\contentsline {chapter}{\numberline {5}Conclusion}{25}{chapter.5}%
+\contentsline {chapter}{\numberline {2}Basics}{3}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Molecular dynamics}{3}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Finite Element Method}{4}{section.2.2}%
+\contentsline {section}{\numberline {2.3}ABAQUS PDE}{6}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}EasyPBC Plug-In}{6}{subsection.2.3.1}%
+\contentsline {section}{\numberline {2.4}Mathematical basics}{6}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}Numerical optimization}{6}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {2.4.2}Root mean squared error}{7}{subsection.2.4.2}%
+\contentsline {chapter}{\numberline {3}Models and Methods}{8}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Input data}{8}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Load cases and evaluated reactions}{9}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}Load parameters and load reactions}{10}{subsection.3.1.2}%
+\contentsline {section}{\numberline {3.2}Error calculation}{11}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Preprocessing}{13}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Optimisation process}{16}{section.3.4}%
+\contentsline {section}{\numberline {3.5}Postprocessing}{18}{section.3.5}%
+\contentsline {chapter}{\numberline {4}Results}{20}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Verification}{20}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Validation}{22}{section.4.2}%
+\contentsline {section}{\numberline {4.3}shear and normal strain tests combined}{26}{section.4.3}%
+\contentsline {section}{\numberline {4.4}cyclic tests}{26}{section.4.4}%
+\contentsline {chapter}{\numberline {5}Conclusion}{27}{chapter.5}%
 \contentsline {chapter}{\nonumberline Bibliography}{i}{chapter*.23}%
 \setcounter {tocdepth}{0}
 \contentsline {chapter}{\numberline {A}Appendix}{iv}{appendix.1.A}%
