@@ -102,44 +102,50 @@ In the first step we discretize the continuum in finite elements. The shape and 
     \boldsymbol{S} =  \boldsymbol{K} \cdot \boldsymbol{u}.
 \end{equation}
 Although the equation holds for an element, the calculated forces and deformations are defined at the element nodes. The entries in the stiffness matrix depend on the used element type. They contain material specific information through material parameters. The stiffness matrices were constructed in local coordinate systems. To connect them, a transformation into one global system is necessary. In the fourth step the equation systems of all elements are combined into one global system. In the assembly neighbouring elements share their nodes, which needs to be considered during the construction of the global equation system. Through prescribed loadings at the boundary of the continuum, certain forces or deformations are known. They are inserted in the equation system as boundary conditions. In the last step the equation system is solved. The results are the deformations for every node \cite{willner_vorlesungsskript_nodate}\cite{jagota_finite_nodate}. \\
-
-A main advantage of \acrshort{fem} is its high flexibility. Many different geometries can be modeled through an adequate choice of element shapes. The accuracy can be adjusted with the element size. Decreasing element sizes then lead to more accurate results but require higher computational costs. However, \acrshort{fem} simulations are normally quite fast, since the computations occur on easy element geometries. In addition, multiple commercial tools are available to construct a \acrshort{fem} simulation. They have multiple options to define the properties during the whole procedure, what makes them useable for a wide range of problems. This also allows the analysis of the materials, investigated by \citet{ries_deciphering_nodate}, with \acrshort{fem}. As described in XXX, the aim of this work is to create a new procedure to determine the material parameters of materials, investigated with \acrshort{md} simulations, with the stated requirements. Since a \acrshort{fem} analysis fulfils all these demands, we decided to use it as basis of our procedure. Therefore, we need to transfer the model used in the \acrshort{md} simulations into a \acrshort{fem} model first. Precisely, we 
-
-accurate simulation of mat behav and gleichzeitig mat params 
-alle werte lassen sich direkt auslesen 
-lässt 
+A main advantage of \acrshort{fem} is its high flexibility. Many different geometries can be modeled through an adequate choice of element shapes. The accuracy can be adjusted with the element size. Decreasing element sizes then lead to more accurate results but require higher computational costs. However, \acrshort{fem} simulations are normally quite fast, since the computations occur on easy element geometries. In addition, multiple commercial tools are available to construct a \acrshort{fem} simulation. They have multiple options to define the properties during the whole procedure, what makes them useable for a wide range of problems. \\
+As described in XXX, the aim of this work is to create a new procedure to determine the material parameters of materials, investigated with \acrshort{md} simulations, with the requirements stated in XX. Since a \acrshort{fem} simulation requires significantly less computational effort and still produces sufficiently accurate results, we decided to base this work on \acrshort{fem}. Therefore, we need to transfer the model used in the \acrshort{md} simulations into a \acrshort{fem} model first. As reference, we use the \acrshort{md} simulations performed by \citet{ries_deciphering_nodate}. To do this, we must transfer their model properties and their testing conditions into a finite element setting. Especially the material behaviour, the boundary conditions and the applied load must be transferred as exactly as possible. A description of the realization is given in \autoref{chap: modelsAndMethods}. 
 
 
+%  To describe the material behaviour, we use the constitutive model \citet{ries_deciphering_nodate} selected for the material parameter search. 
 
-there are cases, where this state is not fully correct. 
+%  - transfer material parameters in continuum
+%  - transfer EasyPBC
+%  - transfer load applications
+%  - homogenous behaviour: fast simulation 
+%  --> then much faster 
+
+% accurate simulation of mat behav and gleichzeitig mat params 
+% alle werte lassen sich direkt auslesen 
+% lässt 
+
+% there are cases, where this state is not fully correct. 
+% - various geometries possible
+% - fast simulation time
+% - easy to use in programs
+% - high felxibility --> various constitutitve models voreingestellt
+% - choose const model --> define material parameters 
+% - or define material behaviour through exp data (if mat par not known, exact const model not impemented)
+% - mesh part: denepends on geometry --> el type and sizes
+% - apply bc 
+% - possible to read out all stress and strain values
+% - differente element types
+% - fieldOutput: different vaiables which describe reactions (Energy, Stress,s train, deformation, etc)
+% - FO in all directions available
+% - per loadstep
+% - decided for FEM because:
+% - fast
+% - direct results for material response - material parameter relation
+% - easy to construct (for case of cube)
+% - load step erklären
 
 
-
-- various geometries possible
-- fast simulation time
-- easy to use in programs
-- high felxibility --> various constitutitve models voreingestellt
-- choose const model --> define material parameters 
-- or define material behaviour through exp data (if mat par not known, exact const model not impemented)
-- mesh part: denepends on geometry --> el type and sizes
-- apply bc 
-- possible to read out all stress and strain values
-- differente element types
-- fieldOutput: different vaiables which describe reactions (Energy, Stress,s train, deformation, etc)
-- FO in all directions available
-- per loadstep
-- decided for FEM because:
-- fast
-- direct results for material response - material parameter relation
-- easy to construct (for case of cube)
-- 
-
-
-
-
-load step erklären
 \section{ABAQUS PDE} \label{sec: AbaqusBasics}
+
+- use abaqus because of XXX
+
 \subsection{EasyPBC Plug-In} \label{subsec: EasPBC}
+
+- bei eva nachgucken
 
 
 
