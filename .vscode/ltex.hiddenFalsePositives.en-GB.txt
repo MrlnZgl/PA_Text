@@ -1,0 +1,3 @@
+{"rule":"OXFORD_SPELLING_Z_NOT_S","sentence":"^\\QInitial guess Material parameters array Scaled initial values for the optimisation parameters\\E$"}
+{"rule":"OXFORD_SPELLING_Z_NOT_S","sentence":"^\\QThe minimize function itself calls our self-written optimisation function, where the evaluation takes place.\\E$"}
+{"rule":"LC_AFTER_PERIOD","sentence":"^\\QAt the end of the optimisation process, we store the final message returned from the Scipy.minimize function.\\E$"}

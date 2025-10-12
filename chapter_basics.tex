@@ -5,55 +5,17 @@ The developed process should avoid data transfer between different programs for 
 
 
 \chapter{Basics} \label{chap: basics}
-This chapter lays the foundations to understand this thesis. First \acrfull{md} is simulation method is introduced. Afterwards the constitutive model is presented. In the last section the used scripting tool with its plug-in for periodic boundary conditions is explained.  
+This chapter lays the foundations to understand this thesis. First \acrfull{md} as simulation method is introduced. Afterwards the constitutive model is presented. In the last section the used scripting tool with its plug-in for periodic boundary conditions is explained.  
 
 \section{Molecular dynamics} \label{sec: MDBasics}
-Adhesive joints are important because of XXX FÜR POLYMERE. The extension of usage in further applications depends on a profound understanding of their material behaviour. For investigations on atomistic level \acrfull{md} is a widely used approach  \cite{ries_mechanical_2024}. From the interactions with neighbouring atoms Newtons equation is solved for every atom. These interactions are modeled via potentials. Non-bonded interactions like van der Waals potentials are considered within a cutoff radius. The total potential energy of the system helps to identify the acting forces and accelerations of each particle. To follow the movements of the particles time integration is necessary. Usual are small time step sizes in femtoseconds what makes only small time scales possible with suitable computational costs \cite{ries_mechanical_2024}. Similar restriction holds for the system size, due to the increasing number of interactions with increasing element dimensions. However, small dimensions lead to large surface-to-volume ratios which result in significant free surface effects. To avoid them \acrfull{pbc} are used. They constrain the simulated element as if it is integrated in an infinitely large volume. To achieve this the boundaries of the system close themselves, which results in a simulation of an infinitively long concatenation of the same element in each direction \cite{gorbunov_periodic_2022}. Regarding the particle tracking, a particle which leaves the system at one surface enters the system then at the opposite surface. For the deformation of the whole system is restricted in a way that parallel surfaces remain parallel during loading procedures. With these adaptions the results from \acrshort{md} simulations can be transferred to a larger system. Thus, \acrshort{md} simulations allow building samples with prescribed properties followed by deformation tests to study the material behaviour \cite{buyukozturk_structural_2011}. During a deformation test stress and strain values are measured for every simulation time step. This leads to discrete points describing the stress and strain evolutions over the loading process. To deduce general stress-strain curves from this discrete points, a mathematical expression is required. This is done by constitutive models, which describe the general qualitative relation between stresses and strains \cite{mergheim_lecture_nodate}. Through material parameters the material specific properties are considered.
-Depending on the deformation regime for that the constitutive model holds, different material parameters are useful. Polymers are usually modeled with elastoplastic models. In the elastic regime the material  parameters  Young's modulus $E$ and Poisson's ratio $\nu$ are used to specify the material. They show elastic behaviour until a yield strength is reached. 
-Then the plastification begins which can be described by various hardening models depending on the material characteristics \cite{mergheim_lecture_nodate}. 
+Adhesive joints are important because of XXX FÜR POLYMERE. The extension of usage in further applications depends on a profound understanding of their material behaviour. For investigations on atomistic level \acrfull{md} is a widely used approach  \cite{ries_mechanical_2024}. From the interactions with neighbouring atoms Newtons equation is solved for every atom. These interactions are modelled via potentials. Non-bonded interactions like van der Waals potentials are considered within a cutoff radius. The total potential energy of the system helps to identify the acting forces and accelerations of each particle. To follow the movements of the particles time integration is necessary. Usual are small time step sizes in femtoseconds what makes only small time scales possible with suitable computational costs \cite{ries_mechanical_2024}. Similar restriction holds for the system size, due to the increasing number of interactions with increasing domain dimensions. However, small dimensions lead to large surface-to-volume ratios which result in significant free surface effects. To avoid them \acrfull{pbc} are used. They constrain the simulated region as if it is integrated in an infinitely large volume. Regarding the particle tracking, a particle which leaves the system at one surface enters the system then at the opposite surface. For the deformation of the whole system is restricted in a way that parallel surfaces remain parallel during loading procedures. This boundary conditions result in a simulation of an infinitively long concatenation of the same element in each direction \cite{gorbunov_periodic_2022}.
+With these adaptions the results from \acrshort{md} simulations can be transferred to a larger system. 
+Thus, \acrshort{md} simulations allow building samples with prescribed properties followed by deformation tests to study the material behaviour \cite{buyukozturk_structural_2011}. During a deformation test stress and strain values are measured for every simulation time step. This leads to discrete points describing the stress and strain evolutions over the loading process. To deduce general stress-strain curves from this discrete points, a mathematical expression is required. This is done by constitutive models, which describe the general qualitative relation between stresses and strains \cite{mergheim_lecture_nodate}. Through material parameters the material specific properties are considered.
+Depending on the deformation regime for that the constitutive model holds, different material parameters are useful. Polymers are usually modelled with elastoplastic models. In the elastic regime the material  parameters  Young's modulus $E$ and Poisson's ratio $\nu$ are used to specify the material. They show elastic behaviour until a yield strength is reached. 
+Then, the plastification begins which can be described by various hardening models depending on the material characteristics \cite{mergheim_lecture_nodate}. 
 
 
-
-% . Constitutive model: 
-% - equations which describe stress-strain behaviour of material
-% - multiple models depending on the material behaviour
-% - try to fit the material curve 
-% - here voce model 
-% - hyperelastic and plastic
-
-% VOCE model hier beschreiben
-% - constitutive material model
-% - hier verwendet um material parameter zu bestimmen
-% - einzelne parameter beschreiben
-% - bild mit einfluss verschidener parameter auf hardening curve 
-% - hyperelastic material weil high strain rate 
-% - elastoplastisch? 
-% - auswertungsmethode beschreiben von MAx: durch quasie static kann viscosity ingonriert werden --> wird gewartet bis viskose reaktion aufgehört hat
-%  KEINE SINNVOLLEN QUELLEN DAZU GEFUNDEN --> MAX FRAGEN  
-
-% - solve newtons equation for each atom from interatiocns with neighbours
-% - modeled via potentials
-% - non-bonded interactions too
-% - timestep integration in femtosecond
-% - only small timescales possible
-% - hihg numerical effort --> small dimensions
-% - high surface to volume ratio --> bad 
-% - periodic bc eliminate free surface effect
-% - representative volume (Hill) which is strucutrally typical for the whole mixture
-% - periodic bc sorgen dafür dass randeffekte keine einfluss haben
-% - beschränken volumen so, dass es sich verhält als wäre es in einem unendlichen volumen enthalten
-% - parallel flächen bleiben parallel --> knoten an gegenüberliegenden Flächen sind miteinander verbunden (bei MD vmtl anders implementiert)
-% - particle which leaves RVE over one surface kommt es auf der ggü liegenden Fläche wieder rein an der stelle an der es theoritsch im nächsten Volume landen würde
-% - wie wird deformation bechsränkt? --> parallel flcäehn 
-% - ergebnisse sollen vewendet werden, dher muss modelaufbau übernommen werden: Würfel, PBC, Loading
-
-
-
-
-% The interphase between the adhesive and adherend phase is particularly important \cite{roche_measurement_1994}, since the mechanical properties of this region depend on locally varying mixing ratios between resin and hardener (resin:hardener) \cite{ries_deciphering_nodate}, \cite{garifullin_dependence_2019}. The investigation of the locally variating mixing ratio is possible through \acrshort{md} simulations \cite{dotschel_reactive_2026}. 
-
-
-This work focusses on the investigations by \citet{ries_deciphering_nodate} who studied the curing and deformation properties of epoxy through \acrshort{md} simulation. They developed models with numerous mixing ratios of resin and hardener\footnote{The mixing ratio is specified in the notation resin:hardener}. Their performed deformation tests build the motivation for the here developed optimization process. \citet{ries_deciphering_nodate} ran uniaxial tensile tests loading a sample with a linear strain up to a maximum value of 20 \%. The test sample is constrained by \acrshort{pbc} which allow lateral contractions. To record the stress-strain response without viscous amounts they developed a procedure to approximate the quasi-static material response. Then only elastic and plastic reactions are considered. Their choice of constitutive models is based on the assumption of isotropic material behaviour. To describe the elastic material behaviour they used the Neo-Hookean hyperelasticity model. The plastic reactions are modeled via the VOCE-model which defines the stresses during the hardening process through (Zitat voce)
+This work focusses on the investigations by \citet{ries_deciphering_nodate} who studied the curing and deformation properties of epoxy through \acrshort{md} simulation. They developed models with numerous mixing ratios of resin and hardener\footnote{The mixing ratio is specified in the notation resin:hardener}. Their performed deformation tests build the motivation for the here developed optimization process. \citet{ries_deciphering_nodate} ran uniaxial tensile tests loading a sample with a linear strain up to a maximum value of 20 \%. The test sample is constrained by \acrshort{pbc} which allow lateral contractions. To record the stress-strain response without viscous amounts they developed a procedure to approximate the quasi-static material response. Then only elastic and plastic reactions are considered. Their choice of constitutive models is based on the assumption of isotropic material behaviour. To describe the elastic material behaviour they used the Neo-Hookean hyperelasticity model. The plastic reactions are modelled via the VOCE-model which defines the stresses during the hardening process through (Zitat voce)
 
 \begin{equation} \label{eq: voce}
     \sigma = \sigma_0 + \alpha(1 - \text{exp}(-\beta \varepsilon_{pl})) + \gamma \varepsilon_{pl}
@@ -63,24 +25,8 @@ This work focusses on the investigations by \citet{ries_deciphering_nodate} who 
     \varepsilon_{pl}: \text{ Plastic strain} \\
     \alpha, \beta,  \gamma: \text{ Hardening parameters}
 \end{gather*}
-Together with the elastic material parameters Young's modulus $E$ and Poison's ratio $\nu$, six constitutive parameters are available to fit the stress-strain pairs measured through \acrshort{md} simulation. Their values are calculated with an external minimization algorithm. The detailed procedure is described in \cite{ries_deciphering_nodate}. The procedure of \citet{ries_deciphering_nodate} is important since their data are used for the model assessment of the optimization procedure developed in this work. A detailed description of the optimization setup is given in \autoref{chap: modelsAndMethods}. In the verification studies the optimization procedure is tested with mixing ratios 4:3, 6:3 and 8:3. To evaluate its performance the \acrlong{omp} are compared to the material parameter governed by \citet{ries_deciphering_nodate}. Though a valid comparison is only possible if first the stress strain data are collected under similar loading conditions. And second the same constitutive model is used to govern the material parameter values. Thus, a detailed understanding of the methods used by \citet{ries_deciphering_nodate} is necessary, since they are adopted to the simulation process used in this work.  
+Together with the elastic material parameters Young's modulus $E$ and Poisson's ratio $\nu$, six constitutive parameters are available to fit the stress-strain pairs measured through \acrshort{md} simulation. Their values are calculated with an external minimization algorithm. The detailed procedure is described in \cite{ries_deciphering_nodate}. The procedure of \citet{ries_deciphering_nodate} is important since their data are used for the model assessment of the optimization procedure developed in this work. A detailed description of the optimization setup is given in \autoref{chap: modelsAndMethods}. In the verification studies the optimization procedure is tested with mixing ratios 4:3, 6:3 and 8:3. To evaluate its performance the \acrlong{omp} are compared to the material parameter governed by \citet{ries_deciphering_nodate}. Though a valid comparison is only possible if, first, the stress strain data are collected under similar loading conditions. And, second, the same constitutive model is used to govern the material parameter values. Thus, a detailed understanding of the methods used by \citet{ries_deciphering_nodate} is necessary, since they are adopted to the simulation process used in this work.  
 
-
-
-
-% with parameters
-% \begin{gather}
-%     C_{10} = \frac{E}{4(1+ \nu)} \\
-%     D_1 = \frac{3(1-2\nu)}{2E}
-% \end{gather}
-% \begin{equation*}
-%     E: \text{ Youngs modulus} \hspace{1.5cm} \nu: \text{ Poisson ratio}
-% \end{equation*}
-
-
-
-
-- jz mit FEM weil XXXX
 
 
 \section{Finite Element Method} \label{sec: FEMBasics}
@@ -97,13 +43,13 @@ The purpose of \acrshort{fem} is to find solutions for field problems in complex
     &\text{6. Solving equation system}
 \end{align*}
 
-In the first step we discretize the continuum in finite elements. The shape and size of the elements depend on the geometry of the regime and the required level of precision. To achieve more accurate solutions smaller elements are necessary. Then we create for every element a local stiffness matrix $\boldsymbol{K}$, which connects the acting forces $\boldsymbol{S}$ with the element deformations $\boldsymbol{u}$ via 
+In the first step we discretize the continuum in finite elements. The shape and size of the elements depend on the geometry of the regime and the required level of precision. To achieve more accurate solutions, smaller elements are necessary. Then, we create for every element a local stiffness matrix $\boldsymbol{K}$, which connects the acting forces $\boldsymbol{S}$ with the element deformations $\boldsymbol{u}$ via 
 \begin{equation}
     \boldsymbol{S} =  \boldsymbol{K} \cdot \boldsymbol{u}.
 \end{equation}
-Although the equation holds for an element, the calculated forces and deformations are defined at the element nodes. The entries in the stiffness matrix depend on the used element type. They contain material specific information through material parameters. The stiffness matrices were constructed in local coordinate systems. To connect them, a transformation into one global system is necessary. In the fourth step the equation systems of all elements are combined into one global system. In the assembly neighbouring elements share their nodes, which needs to be considered during the construction of the global equation system. Through prescribed loadings at the boundary of the continuum, certain forces or deformations are known. They are inserted in the equation system as boundary conditions. In the last step the equation system is solved. The results are the deformations for every node \cite{willner_vorlesungsskript_nodate}\cite{jagota_finite_nodate}. \\
-A main advantage of \acrshort{fem} is its high flexibility. Many different geometries can be modeled through an adequate choice of element shapes. The accuracy can be adjusted with the element size. Decreasing element sizes then lead to more accurate results but require higher computational costs. However, \acrshort{fem} simulations are normally quite fast, since the computations occur on easy element geometries. In addition, multiple commercial tools are available to construct a \acrshort{fem} simulation. They have multiple options to define the properties during the whole procedure, what makes them useable for a wide range of problems. \\
-As described in XXX, the aim of this work is to create a new procedure to determine the material parameters of materials, investigated with \acrshort{md} simulations, with the requirements stated in XX. Since a \acrshort{fem} simulation requires significantly less computational effort and still produces sufficiently accurate results, we decided to base this work on \acrshort{fem}. Therefore, we need to transfer the model used in the \acrshort{md} simulations into a \acrshort{fem} model first. As reference, we use the \acrshort{md} simulations performed by \citet{ries_deciphering_nodate}. To do this, we must transfer their model properties and their testing conditions into a finite element setting. Especially the material behaviour, the boundary conditions and the applied load must be transferred as exactly as possible. A description of the realization is given in \autoref{chap: modelsAndMethods}. 
+Although the equation holds for an element, the calculated forces and deformations are defined at the element nodes. The entries in the stiffness matrix depend on the used element type.They contain material specific information through material parameters. The stiffness matrices were constructed in local coordinate systems. To connect them, a transformation into one global system is necessary. In the fourth step the equation systems of all elements are combined into one global system. In the assembly neighbouring elements share their nodes, which needs to be considered during the construction of the global equation system. Through prescribed loadings at the boundary of the continuum, certain forces or deformations are known. They are inserted in the equation system as boundary conditions. In the last step the equation system is solved. The results are the deformations for every node \cite{willner_vorlesungsskript_nodate}\cite{jagota_finite_nodate}. \\
+A main advantage of \acrshort{fem} is its high flexibility. Many different geometries can be modelled through an adequate choice of element shapes. The accuracy can be adjusted with the element size. Decreasing element sizes lead to more accurate results but require higher computational effort. However, \acrshort{fem} simulations are normally quite fast, since the computations occur on easy element geometries. In addition, multiple commercial tools are available to construct a \acrshort{fem} simulation. They have multiple options to define the properties during the whole procedure, what makes them useable for a wide range of problems. \\
+As described in XXX, the aim of this work is to create a new procedure to determine the material parameters of materials, investigated with \acrshort{md} simulations. Since a \acrshort{fem} simulation requires significantly less computational effort and still produces sufficiently accurate results, we decided to base this work on \acrshort{fem}. Therefore, we need to transfer the model used in the \acrshort{md} simulations into a \acrshort{fem} model first. As reference, we use the \acrshort{md} simulations performed by \citet{ries_deciphering_nodate}. To do this, we must transfer their model properties and their testing conditions into a finite element setting. Especially the material behaviour, the boundary conditions and the applied load must be transferred as exactly as possible. A description of the realisation is given in \autoref{chap: modelsAndMethods}. 
 
 
 %  To describe the material behaviour, we use the constitutive model \citet{ries_deciphering_nodate} selected for the material parameter search. 
@@ -139,13 +85,33 @@ As described in XXX, the aim of this work is to create a new procedure to determ
 % - load step erklären
 
 
-\section{ABAQUS PDE} \label{sec: AbaqusBasics}
+\section{ABAQUS Scripting Interface} \label{sec: AbaqusBasics}
 
-- use abaqus because of XXX
+The task addressed in this thesis was implemented using \name{Abaqus}/\acrshort{cae} 2024. The commercial software is a widespread tool for \acrshort{fem} analysis. At the Institute of Applied Mechanics (LTM) of the FAU, the software is frequently used, which simplifes its use for potential users. In addition, \name{Abaqus} has an integrated \name{Python}-based scripting tool called "Abaqus Scripting Interface". It works as an \acrfull{api} to use the object-oriented programming language \name{Python} in the \name{Abaqus} environment (USERGUIDE QUELLE). The "Abaqus Scripting Interface" allows access to the functionalities of \name{Abaqus}/\acrshort{cae} from scripts. Functions, such as the creation and modification of models and jobs, can be controlled via code. As well, the output data written for successful executed jobs can be processed (USWRGUIDE QUELLE). Since it is a \name{Python} extension, the standard programming functionalities are available too. The integration of \name{Abaqus} functionalities in a standard program structure, makes the "Abaqus Scripting Interface" the perfect tool for the task of this work. Due to this property, the realisation of the project is possible in a single script, whose structure is shown in \autoref{chap: modelsAndMethods}. NOCH WAS ZU INPUT FILE MIT PARAMETERN UND SCHNELL DADURCH? \\
 
-\subsection{EasyPBC Plug-In} \label{subsec: EasPBC}
+
+ZIEL MONTAG: BASICS FERTIG STELLEN, DANN JONAS UND THERESA GEBEN. IPNUT FILE, EASYPBC, RMSE
+
+
+% These possibilities enable a wide range of applications 
+
+% - use abaqus because of XXX
+% no reasion> bei eva abschreiben
+% - python scripting -> user guide zitieren
+% - python script führt befehle aus die klicks in Cui entpsrechen --> alle möglichkeiten die in gui auch vorhanden sind
+% - alle funktionen von python vorhanden
+% - objektorientierte programmierung möglich und parametrisierung --> deutlich schneller als mit gui
+% - input file ist json file: einfach auszulesen, nur dies muss von user bearbeitet werden
+% - 
+
+\subsection{EasyPBC plugin} \label{subsec: EasPBC}
+
+EasyPBC is an \name{Abaqus} plugin to automatically create \acrfull{pbc}. The plugin is developed by XX. The plugin is no official tool, thus it is not online available. Due to the utilisation in previous works, the plugin was easily available. EasyPBC is a tool which creates \acrshort{pbc} via constraints in \name{Abaqus}
 
 - bei eva nachgucken
+- create PBCs auomatisch
+- needs elastic material parameters
+- reference points are connected to surfaces --> apply load homogeneous on surface
 
 
 
@@ -160,7 +126,7 @@ To solve the optimization problem various mathematical algorithms are available.
     \text{with } \hat{x}^i \equiv \text{initial guess of the $i$-th optimization variable}
 \end{gather*}
 
-Based on this the initial points $\mathbf{\hat{P}_i}$ are constructed. The first one is defined as $\mathbf{\hat{P}_1} = \mathbf{\hat{x}}$. For the other points the value of one variable in the initial guess is changed each. The points result in an $n$ dimensional simplex. In the next step the function values corresponding to the points $\mathbf{P_i}$ are evaluated and sorted by size. The highest function value $y_h$ thus maps the worst value combination $\mathbf{P_h}$ of the optimization parameters. Afterwards a centroid of all points of the simplex except $\mathbf{P_h}$ is determined. Now there are four possible operations to improve the position of $\mathbf{P_h}$. Reflection and expansion of $\mathbf{P_h}$ at the centroid are the first two. Before the new point $\mathbf{P^{*}}$ is positioned the corresponding function value needs to be evaluated. Only if $y^{*}$ is smaller than $y_l$, $\mathbf{P^{*}}$ is set as new point $\mathbf{P_i}$ in the simplex. If $y^{*}$ is larger than $y_l$, the new point is even worse than $\mathbf{P_h}$. Therefore, the operations contraction or shrinking have to be performed. They should find a position $\mathbf{P^{**}}$ between $\mathbf{P_h}$ and its reflection $\mathbf{P^{*}}$ which leads to a better function value $y^{**}$. This needs multiple iterations because for every guess $\mathbf{P^{**}}$ the function has to be evaluated. Only when a better position $\mathbf{P_h}$ is replaced by $\mathbf{P^{*}}$ or $\mathbf{P^{**}}$ and the algorithm starts again with the new simplex \cite{nelder_simplex_1965}. Therefore multiple function evaluations are necessary during one iteration of the optimization. If the variations of the functions values $y_i$ fall under a certain limit, the minimum with its corresponding parameter values is found. To ensure a successful search the initial simplex should be scaled regularly \cite{baudin_nelder-mead_nodate} which is possible through a regular distribution of the points $\mathbf{\hat{P}_i}$ in space. This can be difficult if the values of the optimization variables differ much in size. Therefore, it is necessary to normalize the variable values within the range of 0 to 1.
+Based on this the initial points $\mathbf{\hat{P}_i}$ are constructed. The first one is defined as $\mathbf{\hat{P}_1} = \mathbf{\hat{x}}$. For the other points the value of one variable in the initial guess is changed each. The points result in an $n$ dimensional simplex. In the next step the function values corresponding to the points $\mathbf{P_i}$ are evaluated and sorted by size. The highest function value $y_h$ thus maps the worst value combination $\mathbf{P_h}$ of the optimization parameters. Afterwards a centroid of all points of the simplex except $\mathbf{P_h}$ is determined. Now there are four possible operations to improve the position of $\mathbf{P_h}$. Reflection and expansion of $\mathbf{P_h}$ at the centroid are the first two. Before the new point $\mathbf{P^{*}}$ is positioned the corresponding function value needs to be evaluated. Only if $y^{*}$ is smaller than $y_l$, $\mathbf{P^{*}}$ is set as new point $\mathbf{P_i}$ in the simplex. If $y^{*}$ is larger than $y_l$, the new point is even worse than $\mathbf{P_h}$. Therefore, the operations contraction or shrinking have to be performed. They should find a position $\mathbf{P^{**}}$ between $\mathbf{P_h}$ and its reflection $\mathbf{P^{*}}$ which leads to a better function value $y^{**}$. This needs multiple iterations because for every guess $\mathbf{P^{**}}$ the function has to be evaluated. Only when a better position $\mathbf{P_h}$ is replaced by $\mathbf{P^{*}}$ or $\mathbf{P^{**}}$ and the algorithm starts again with the new simplex \cite{nelder_simplex_1965}. Therefore, multiple function evaluations are necessary during one iteration of the optimization. If the variations of the functions values $y_i$ fall under a certain limit, the minimum with its corresponding parameter values is found. To ensure a successful search the initial simplex should be scaled regularly \cite{baudin_nelder-mead_nodate} which is possible through a regular distribution of the points $\mathbf{\hat{P}_i}$ in space. This can be difficult if the values of the optimization variables differ much in size. Therefore, it is necessary to normalize the variable values within the range of 0 to 1.
 
 \subsection{Root mean squared error} \label{subsec: RMSE}
 The numerical algorithm can only find adequate results, if the definition of the objective function is suitable. 

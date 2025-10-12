@@ -1,17 +1,17 @@
 [0] Config.pm:308> INFO - This is Biber 2.20
 [0] Config.pm:311> INFO - Logfile is 'thesis.blg'
-[38] biber-darwin:340> INFO - === Sat Oct 11, 2025, 22:06:57
+[38] biber-darwin:340> INFO - === Sun Oct 12, 2025, 17:47:14
 [47] Biber.pm:420> INFO - Reading 'thesis.bcf'
 [89] Biber.pm:991> INFO - Using all citekeys in bib section 0
 [96] Biber.pm:4463> INFO - Processing section 0
 [102] Biber.pm:4654> INFO - Looking for bibtex file 'literature.bib' for section 0
 [105] bibtex.pm:1713> INFO - LaTeX decoding ...
-[138] bibtex.pm:1519> INFO - Found BibTeX data source 'literature.bib'
-[240] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[136] bibtex.pm:1519> INFO - Found BibTeX data source 'literature.bib'
 [240] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[240] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
 [240] Biber.pm:4283> INFO - Sorting list 'none/global//global/global/global' of type 'entry' with template 'none' and locale 'en-US'
 [240] Biber.pm:4289> INFO - No sort tailoring available for locale 'en-US'
 [252] bbl.pm:676> INFO - Writing 'thesis.bbl' with encoding 'UTF-8'
 [260] bbl.pm:779> INFO - Output to thesis.bbl
-[261] Biber.pm:131> WARN - ISBN '978-3-662-49351-9 978-3-662-49352-6' in entry 'knothe_finite_2017' is invalid - run biber with '--validate_datamodel' for details.
-[261] Biber.pm:133> INFO - WARNINGS: 1
+[260] Biber.pm:131> WARN - ISBN '978-3-662-49351-9 978-3-662-49352-6' in entry 'knothe_finite_2017' is invalid - run biber with '--validate_datamodel' for details.
+[260] Biber.pm:133> INFO - WARNINGS: 1
