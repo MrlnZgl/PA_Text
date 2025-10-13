@@ -331,6 +331,55 @@
       \verb PDF:/Users/marleneziegler/Zotero/storage/HDAHRXNT/Jagota et al. - Finite Element Method An Overview.pdf:application/pdf
       \endverb
     \endentry
+    \entry{steinke_finite-elemente-methode_2015}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=939c6b9e504e512f32f602665aacd551}{%
+           family={Steinke},
+           familyi={S\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Berlin, Heidelberg}%
+      }
+      \list{publisher}{1}{%
+        {Springer Berlin Heidelberg}%
+      }
+      \strng{namehash}{939c6b9e504e512f32f602665aacd551}
+      \strng{fullhash}{939c6b9e504e512f32f602665aacd551}
+      \strng{fullhashraw}{939c6b9e504e512f32f602665aacd551}
+      \strng{bibnamehash}{939c6b9e504e512f32f602665aacd551}
+      \strng{authorbibnamehash}{939c6b9e504e512f32f602665aacd551}
+      \strng{authornamehash}{939c6b9e504e512f32f602665aacd551}
+      \strng{authorfullhash}{939c6b9e504e512f32f602665aacd551}
+      \strng{authorfullhashraw}{939c6b9e504e512f32f602665aacd551}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{isbn}{978-3-642-53936-7 978-3-642-53937-4}
+      \field{langid}{german}
+      \field{shorttitle}{Finite-Elemente-Methode}
+      \field{title}{Finite-Elemente-Methode: Rechnergestützte Einführung}
+      \field{urlday}{13}
+      \field{urlmonth}{10}
+      \field{urlyear}{2025}
+      \field{year}{2015}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.1007/978-3-642-53937-4
+      \endverb
+      \verb{file}
+      \verb PDF:/Users/marleneziegler/Zotero/storage/UFWRTJ6W/Steinke - 2015 - Finite-Elemente-Methode Rechnergestützte Einführung.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://link.springer.com/10.1007/978-3-642-53937-4
+      \endverb
+      \verb{url}
+      \verb https://link.springer.com/10.1007/978-3-642-53937-4
+      \endverb
+    \endentry
     \entry{gao_implementing_2012}{article}{}{}
       \name{author}{2}{}{%
         {{hash=7a0b1a1f91828e25a65fe807d6e1c651}{%
@@ -467,8 +516,8 @@
       \strng{authornamehash}{2db29ad368f10affecdcddbfcf27c0da}
       \strng{authorfullhash}{2db29ad368f10affecdcddbfcf27c0da}
       \strng{authorfullhashraw}{2db29ad368f10affecdcddbfcf27c0da}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{The Nelder–Mead or simplex search algorithm is one of the best known algorithms for unconstrained optimization of non–smooth functions. Even though the basic algorithm is quite simple, it is implemented in many different ways. Apart from some minor computational details, the main difference between various implementations lies in the selection of convergence (or termination) tests, which are used to break the iteration process. A fairly simple efficiency analysis of each iteration step reveals a potential computational bottleneck in the domain convergence test. To be efficient, such a test has to be sublinear in the number of vertices of the working simplex. We have tested some of the most common implementations of the Nelder–Mead algorithm, and none of them is efficient in this sense. Therefore, we propose a simple and efficient domain convergence test and discuss some of its properties. This test is based on tracking the volume of the working simplex throughout the iterations. Similar termination tests can also be applied in some other simplex–based direct search methods. (© 2004 {WILEY}-{VCH} Verlag {GmbH} \& Co. {KGaA}, Weinheim)}
@@ -522,8 +571,8 @@
       \strng{authornamehash}{c883f46bc4773c0e0cd4ad615f0e1a00}
       \strng{authorfullhash}{c883f46bc4773c0e0cd4ad615f0e1a00}
       \strng{authorfullhashraw}{c883f46bc4773c0e0cd4ad615f0e1a00}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{day}{1}
@@ -572,8 +621,8 @@
       \strng{authornamehash}{2c1eaca0798b8b612bf77d164f377c2d}
       \strng{authorfullhash}{2c1eaca0798b8b612bf77d164f377c2d}
       \strng{authorfullhashraw}{2c1eaca0798b8b612bf77d164f377c2d}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{langid}{english}
@@ -694,8 +743,8 @@
       \strng{authornamehash}{ea23efa540ff1bbc8f185cfcf11baa14}
       \strng{authorfullhash}{ea23efa540ff1bbc8f185cfcf11baa14}
       \strng{authorfullhashraw}{ea23efa540ff1bbc8f185cfcf11baa14}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{One of the fundamental diﬃculties in engineering design is the multiplicity of local solutions. This has triggered great eﬀorts to develop global search algorithms. Globality, however, often has a prohibitively high numerical cost for real problems. A ﬁxed cost local search, which sequentially becomes global is developed. Globalization is achieved by probabilistic restart. A spatial probability of starting a local search is built based on past searches. An improved Nelder–Mead algorithm makes the local optimizer. It accounts for variable bounds. It is additionally made more robust by reinitializing degenerated simplexes. The resulting method, called Globalized Bounded Nelder–Mead ({GBNM}) algorithm, is particularly adapted to tackle multimodal, discontinuous optimization problems, for which it is uncertain that a global optimization can be aﬀorded. Diﬀerent strategies for restarting the local search are discussed. Numerical experiments are given on analytical test functions and composite laminate design problems. The {GBNM} method compares favorably to an evolutionary algorithm, both in terms of numerical cost and accuracy.}
@@ -755,8 +804,8 @@
       \strng{authornamehash}{46e1e984eed95a6cd71d481048428b0a}
       \strng{authorfullhash}{46e1e984eed95a6cd71d481048428b0a}
       \strng{authorfullhashraw}{46e1e984eed95a6cd71d481048428b0a}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Computing the mechanical response of materials requires accurate constitutive descriptions, especially their plastic behavior. Furthermore, the ability of a model to be used as a predictive, rather than a descriptive, tool motivates the development of physically based constitutive models. This work investigates combining a homogenized viscoplastic self-consistent ({VPSC}) approach to reduce the development time for a high-resolution viscoplastic model based on the fast Fourier transform ({FFT}). An optimization scheme based on a least-squares algorithm is presented. The constitutive responses of copper, interstitial-free steel, and pearlite are investigated, and the model parameters are presented. Optimized parameters from the low-fidelity model provide close agreement ({<}2 {MPa}, {\textasciitilde}1 \% error) with stress-strain data at low strains ({<}10 \%) in the high-fidelity {FFT} model. Simple adjustments to constitutive law parameters bring the {FFT} stress-strain curve in alignment with experimental data at strains greater than 10 \%. A two-phase constitutive law is developed for a pearlitic steel using a single stress-strain curve, supplemented by data for the constituent phases. Sources of error and methods of using material information are discussed that lead to optimal estimates of initial parameter values.}
@@ -1182,8 +1231,8 @@
       \strng{authornamehash}{c864b7007c941ffc332092379117a089}
       \strng{authorfullhash}{c864b7007c941ffc332092379117a089}
       \strng{authorfullhashraw}{c864b7007c941ffc332092379117a089}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0022-4065, 2575-6230}
@@ -1229,8 +1278,8 @@
       \strng{authornamehash}{2fbf993e385893c08adb04300d6702c8}
       \strng{authorfullhash}{2fbf993e385893c08adb04300d6702c8}
       \strng{authorfullhashraw}{2fbf993e385893c08adb04300d6702c8}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{The Nelder–Mead simplex search as one of the oldest direct search methods is still in use today. Despite its ﬂaws, such as possible convergence to nonstationary points, in practice the algorithm offers a competitive performance compared to other direct search algorithms. However, we show that some of the most common initialization procedures can increase the runtime of the algorithm by orders of magnitude, even on a trivial spherical test function. These results also hold for the Nelder–Mead variant with sufﬁcient decrease condition and oriented restarts by Kelley and the variant with adaptive parameters by Gao and Han. As a remedy, we recommend to normalize the search space and to choose the initial simplex independent of the starting point.}
@@ -1391,8 +1440,8 @@
       \list{publisher}{1}{%
         {Springer Berlin Heidelberg}%
       }
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labeltitlesource}{title}
       \field{isbn}{978-3-540-72235-9}
       \field{langid}{german}
@@ -1444,8 +1493,8 @@
       \strng{authornamehash}{03bb87af5002912166633c72cb8b17c0}
       \strng{authorfullhash}{03bb87af5002912166633c72cb8b17c0}
       \strng{authorfullhashraw}{03bb87af5002912166633c72cb8b17c0}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{isbn}{978-3-662-49351-9 978-3-662-49352-6}
@@ -1497,6 +1546,63 @@
       \verb{file}
       \verb PDF:/Users/marleneziegler/Zotero/storage/XDDFW8EJ/Voce1955.pdf:application/pdf
       \endverb
+    \endentry
+    \entry{erhunmwun_review_2017}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=d314eed197c47ecf1fd13cb08edaa8e0}{%
+           family={Erhunmwun},
+           familyi={E\bibinitperiod},
+           given={I.\bibnamedelimi D.},
+           giveni={I\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=af2c205c245a52efef1f6a28af435ad9}{%
+           family={Ikponmwosa},
+           familyi={I\bibinitperiod},
+           given={U.\bibnamedelimi B.},
+           giveni={U\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+      }
+      \strng{namehash}{de06cc8be51dff832ccf29ca91e1a608}
+      \strng{fullhash}{de06cc8be51dff832ccf29ca91e1a608}
+      \strng{fullhashraw}{de06cc8be51dff832ccf29ca91e1a608}
+      \strng{bibnamehash}{de06cc8be51dff832ccf29ca91e1a608}
+      \strng{authorbibnamehash}{de06cc8be51dff832ccf29ca91e1a608}
+      \strng{authornamehash}{de06cc8be51dff832ccf29ca91e1a608}
+      \strng{authorfullhash}{de06cc8be51dff832ccf29ca91e1a608}
+      \strng{authorfullhashraw}{de06cc8be51dff832ccf29ca91e1a608}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In this work, we have discussed what Finite Element Method ({FEM}) is, its historical development, advantages and its future. The eventual intension of using {FEM} is to determine the nodal solution of a particular problem under study. The power of {FEM} is its ability to discretize complex problems and analyse it part by part. Irrespective of the geometry of the problem, with proper mesh refinement, {FEM} provides very accurate solution. Therefore, {FEM} is a technique in which a given domain is represented as a collection of simple domains, called finite elements, so that it is possible to systematically construct the approximation functions needed in a variational or weighted-residual approximation of the solution of a problem over each element.Keywords: Weak Formulation, Discretisation, Numerical methods, Finite element method, Global equations, Nodal solution}
+      \field{day}{29}
+      \field{issn}{2659-1499}
+      \field{journaltitle}{Journal of Applied Sciences and Environmental Management}
+      \field{langid}{english}
+      \field{month}{11}
+      \field{number}{5}
+      \field{title}{Review on finite element method}
+      \field{urlday}{9}
+      \field{urlmonth}{10}
+      \field{urlyear}{2025}
+      \field{volume}{21}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \field{pages}{999\bibrangedash 1002}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.4314/jasem.v21i5.30
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/Users/marleneziegler/Zotero/storage/TPP7D7V5/Erhunmwun und Ikponmwosa - 2017 - Review on finite element method.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.ajol.info/index.php/jasem/article/view/163366
+      \endverb
+      \verb{url}
+      \verb https://www.ajol.info/index.php/jasem/article/view/163366
+      \endverb
+      \keyw{Discretisation,Finite element method,Global equations,Nodal solution,Numerical methods,Weak Formulation}
     \endentry
   \enddatalist
 \endrefsection

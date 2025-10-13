@@ -11,20 +11,20 @@
 \contentsline {section}{\numberline {2.4}Mathematical basics}{6}{section.2.4}%
 \contentsline {subsection}{\numberline {2.4.1}Numerical optimization}{6}{subsection.2.4.1}%
 \contentsline {subsection}{\numberline {2.4.2}Root mean squared error}{7}{subsection.2.4.2}%
-\contentsline {chapter}{\numberline {3}Script setup}{8}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Input data}{8}{section.3.1}%
-\contentsline {subsection}{\numberline {3.1.1}Load cases and evaluated reactions}{9}{subsection.3.1.1}%
-\contentsline {subsection}{\numberline {3.1.2}Load parameters and load reactions}{10}{subsection.3.1.2}%
-\contentsline {section}{\numberline {3.2}Error calculation}{11}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Preprocessing}{13}{section.3.3}%
-\contentsline {section}{\numberline {3.4}Optimisation process}{16}{section.3.4}%
-\contentsline {section}{\numberline {3.5}Storage of data}{18}{section.3.5}%
-\contentsline {chapter}{\numberline {4}Results}{20}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Verification}{20}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Validation}{22}{section.4.2}%
-\contentsline {section}{\numberline {4.3}shear and normal strain tests combined}{26}{section.4.3}%
-\contentsline {section}{\numberline {4.4}cyclic tests}{26}{section.4.4}%
-\contentsline {chapter}{\numberline {5}Conclusion}{27}{chapter.5}%
+\contentsline {chapter}{\numberline {3}Script setup}{9}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Input data}{9}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Load cases and evaluated reactions}{10}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}Load parameters and load reactions}{11}{subsection.3.1.2}%
+\contentsline {section}{\numberline {3.2}Error calculation}{12}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Preprocessing}{14}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Optimisation process}{17}{section.3.4}%
+\contentsline {section}{\numberline {3.5}Storage of data}{19}{section.3.5}%
+\contentsline {chapter}{\numberline {4}Results}{21}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Verification}{21}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Validation}{23}{section.4.2}%
+\contentsline {section}{\numberline {4.3}shear and normal strain tests combined}{27}{section.4.3}%
+\contentsline {section}{\numberline {4.4}cyclic tests}{27}{section.4.4}%
+\contentsline {chapter}{\numberline {5}Conclusion}{28}{chapter.5}%
 \contentsline {chapter}{\nonumberline Bibliography}{i}{chapter*.23}%
 \setcounter {tocdepth}{0}
 \contentsline {chapter}{\numberline {A}Appendix}{iv}{appendix.1.A}%

@@ -10,7 +10,9 @@ This chapter lays the foundations to understand this thesis. First \acrfull{md} 
 \section{Molecular dynamics} \label{sec: MDBasics}
 Adhesive joints are important because of XXX FÜR POLYMERE. The extension of usage in further applications depends on a profound understanding of their material behaviour. For investigations on atomistic level \acrfull{md} is a widely used approach  \cite{ries_mechanical_2024}. From the interactions with neighbouring atoms Newtons equation is solved for every atom. These interactions are modelled via potentials. Non-bonded interactions like van der Waals potentials are considered within a cutoff radius. The total potential energy of the system helps to identify the acting forces and accelerations of each particle. To follow the movements of the particles time integration is necessary. Usual are small time step sizes in femtoseconds what makes only small time scales possible with suitable computational costs \cite{ries_mechanical_2024}. Similar restriction holds for the system size, due to the increasing number of interactions with increasing domain dimensions. However, small dimensions lead to large surface-to-volume ratios which result in significant free surface effects. To avoid them \acrfull{pbc} are used. They constrain the simulated region as if it is integrated in an infinitely large volume. Regarding the particle tracking, a particle which leaves the system at one surface enters the system then at the opposite surface. For the deformation of the whole system is restricted in a way that parallel surfaces remain parallel during loading procedures. This boundary conditions result in a simulation of an infinitively long concatenation of the same element in each direction \cite{gorbunov_periodic_2022}.
 With these adaptions the results from \acrshort{md} simulations can be transferred to a larger system. 
-Thus, \acrshort{md} simulations allow building samples with prescribed properties followed by deformation tests to study the material behaviour \cite{buyukozturk_structural_2011}. During a deformation test stress and strain values are measured for every simulation time step. This leads to discrete points describing the stress and strain evolutions over the loading process. To deduce general stress-strain curves from this discrete points, a mathematical expression is required. This is done by constitutive models, which describe the general qualitative relation between stresses and strains \cite{mergheim_lecture_nodate}. Through material parameters the material specific properties are considered.
+Thus, \acrshort{md} simulations allow building samples with prescribed properties followed by deformation tests to study the material behaviour \cite{buyukozturk_structural_2011}. 
+
+During a deformation test stress and strain values are measured for every simulation time step. This leads to discrete points describing the stress and strain evolutions over the loading process. To deduce general stress-strain curves from this discrete points, a mathematical expression is required. This is done by constitutive models, which describe the general qualitative relation between stresses and strains \cite{mergheim_lecture_nodate}. Through material parameters the material specific properties are considered.
 Depending on the deformation regime for that the constitutive model holds, different material parameters are useful. Polymers are usually modelled with elastoplastic models. In the elastic regime the material  parameters  Young's modulus $E$ and Poisson's ratio $\nu$ are used to specify the material. They show elastic behaviour until a yield strength is reached. 
 Then, the plastification begins which can be described by various hardening models depending on the material characteristics \cite{mergheim_lecture_nodate}. 
 
@@ -25,6 +27,8 @@ This work focusses on the investigations by \citet{ries_deciphering_nodate} who 
     \varepsilon_{pl}: \text{ Plastic strain} \\
     \alpha, \beta,  \gamma: \text{ Hardening parameters}
 \end{gather*}
+HIER VOCE BILD DIREKT EINFÜGEN??
+
 Together with the elastic material parameters Young's modulus $E$ and Poisson's ratio $\nu$, six constitutive parameters are available to fit the stress-strain pairs measured through \acrshort{md} simulation. Their values are calculated with an external minimization algorithm. The detailed procedure is described in \cite{ries_deciphering_nodate}. The procedure of \citet{ries_deciphering_nodate} is important since their data are used for the model assessment of the optimization procedure developed in this work. A detailed description of the optimization setup is given in \autoref{chap: modelsAndMethods}. In the verification studies the optimization procedure is tested with mixing ratios 4:3, 6:3 and 8:3. To evaluate its performance the \acrlong{omp} are compared to the material parameter governed by \citet{ries_deciphering_nodate}. Though a valid comparison is only possible if, first, the stress strain data are collected under similar loading conditions. And, second, the same constitutive model is used to govern the material parameter values. Thus, a detailed understanding of the methods used by \citet{ries_deciphering_nodate} is necessary, since they are adopted to the simulation process used in this work.  
 
 
@@ -32,7 +36,7 @@ Together with the elastic material parameters Young's modulus $E$ and Poisson's 
 \section{Finite Element Method} \label{sec: FEMBasics}
 
 The \acrfull{fem} is a widely used approach for XXX. 
-The purpose of \acrshort{fem} is to find solutions for field problems in complex regimes \cite{willner_vorlesungsskript_nodate}. However, an analytical solution is only possible for simple problem formulations. Therefore, in \acrshort{fem} the regime is discretized into a finite number of elements. The element behaviour is characterized by approximation functions with a finite number of parameters. Assembling the approximation functions of all elements leads to an equation system to approximate the solution for the whole regime \cite{jagota_finite_nodate}. The \acrshort{fem} is mostly used in structural mechanics to provide information about forces and deformations. The general procedure of the \acrshort{fem} is presented in the following: \\
+The purpose of \acrshort{fem} is to find solutions for field problems in complex regimes \cite{willner_vorlesungsskript_nodate}. However, an analytical solution is only possible for simple problem formulations. Therefore, in \acrshort{fem} the regime is discretized into a finite number of elements. The element behaviour is characterized by approximation functions with a finite number of parameters. Assembling the approximation functions of all elements leads to an equation system to approximate the solution for the whole regime \cite{jagota_finite_nodate}. The \acrshort{fem} is mostly used in structural mechanics to provide information about forces and deformations. The general procedure of the \acrshort{fem}, based on \citet{willner_vorlesungsskript_nodate} and \citet{steinke_finite-elemente-methode_2015}, is presented in the following: \\
 
 \begin{align*}
     &\text{1. Discretization} \\
@@ -87,7 +91,7 @@ As described in XXX, the aim of this work is to create a new procedure to determ
 
 \section{ABAQUS Scripting Interface} \label{sec: AbaqusBasics}
 
-The task addressed in this thesis was implemented using \name{Abaqus}/\acrshort{cae} 2024. The commercial software is a widespread tool for \acrshort{fem} analysis. At the Institute of Applied Mechanics (LTM) of the FAU, the software is frequently used, which simplifes its use for potential users. In addition, \name{Abaqus} has an integrated \name{Python}-based scripting tool called "Abaqus Scripting Interface". It works as an \acrfull{api} to use the object-oriented programming language \name{Python} in the \name{Abaqus} environment (USERGUIDE QUELLE). The "Abaqus Scripting Interface" allows access to the functionalities of \name{Abaqus}/\acrshort{cae} from scripts. Functions, such as the creation and modification of models and jobs, can be controlled via code. As well, the output data written for successful executed jobs can be processed (USWRGUIDE QUELLE). Since it is a \name{Python} extension, the standard programming functionalities are available too. The integration of \name{Abaqus} functionalities in a standard program structure, makes the "Abaqus Scripting Interface" the perfect tool for the task of this work. Due to this property, the realisation of the project is possible in a single script, whose structure is shown in \autoref{chap: modelsAndMethods}. NOCH WAS ZU INPUT FILE MIT PARAMETERN UND SCHNELL DADURCH? \\
+The task addressed in this thesis was implemented using \name{Abaqus}/\acrshort{cae} 2024. The commercial software is a widespread tool for \acrshort{fem} analysis. At the Institute of Applied Mechanics (LTM) of the FAU, the software is frequently used, which simplifes its use for potential users. In addition, \name{Abaqus} has an integrated \name{Python}-based scripting tool called "Abaqus Scripting Interface". It works as an \acrfull{api} to use the object-oriented programming language \name{Python} in the \name{Abaqus} environment (USERGUIDE QUELLE). The "Abaqus Scripting Interface" allows access to the functionalities of \name{Abaqus}/\acrshort{cae} from scripts. Functions, such as the creation and modification of models and jobs, can be controlled via code. As well, the output data written for successful executed jobs can be processed (USWRGUIDE QUELLE). Since it is a \name{Python} extension, the standard programming functionalities are available too. The integration of \name{Abaqus} functionalities in a standard program structure, makes the "Abaqus Scripting Interface" the perfect tool for the task of this work. Due to this property, the realisation of the project is possible in a single script whose structure is shown in \autoref{chap: modelsAndMethods}. The implementation permits a parameter-based analysis what makes value adaptions very fast and easy. If these parameter values are stored in an input file, the user only needs to modify this file without changing the code in the script. This enables fast parameter studies with multiple values. This feature is used in this work to test multiple combinations of material parameters.  
 
 
 ZIEL MONTAG: BASICS FERTIG STELLEN, DANN JONAS UND THERESA GEBEN. IPNUT FILE, EASYPBC, RMSE
@@ -106,12 +110,22 @@ ZIEL MONTAG: BASICS FERTIG STELLEN, DANN JONAS UND THERESA GEBEN. IPNUT FILE, EA
 
 \subsection{EasyPBC plugin} \label{subsec: EasPBC}
 
-EasyPBC is an \name{Abaqus} plugin to automatically create \acrfull{pbc}. The plugin is developed by XX. The plugin is no official tool, thus it is not online available. Due to the utilisation in previous works, the plugin was easily available. EasyPBC is a tool which creates \acrshort{pbc} via constraints in \name{Abaqus}
+EasyPBC is an \name{Abaqus} plugin to automatically create \acrfull{pbc}. The plugin is developed by XX. It is no official \name{Abaqus} extension, thus it is not online available. Due to the utilisation in previous works, the plugin was already in use at the institute. The \acrshort{pbc} must constrain parallel surfaces to stay parallel during deformation. To realise this property in \name{Abaqus}, EasyPBC generates node sets of the surface nodes. Opposing nodes are linked via constraint equations to link their motion. In addition, reference points are created with each one linked to a different surface. Therefore, applying load to a reference point causes corresponding reactions on the connected surface. This connection is used in this work to facilitate the load application. 
 
-- bei eva nachgucken
-- create PBCs auomatisch
-- needs elastic material parameters
-- reference points are connected to surfaces --> apply load homogeneous on surface
+% the entire surface can be loaded by applying a load at the corresponding reference point.  
+
+% for every surface one corresponding reference point is created. The reference points are linked  
+
+
+% REFERENCE POINTS FÜR LASTANGRIFF 
+
+% - plane surfaces remain plane after deformation
+% - wird auf knoten angewendet
+% - displacement bc 
+% - bei eva nachgucken
+% - create PBCs auomatisch
+% - needs elastic material parameters
+% - reference points are connected to surfaces --> apply load homogeneous on surface
 
 
 
@@ -120,7 +134,7 @@ EasyPBC is an \name{Abaqus} plugin to automatically create \acrfull{pbc}. The pl
 To find the values of material parameters fitting best the material behaviour measured in the MD-simulation a mathematical formulation is necessary. This leads to an optimization problem, where a calculated error, defined as an objective function of the material parameter values, should be minimized. We first discuss the numerical method to minimize the error and then the construction of the error value.
 
 \subsection{Numerical optimization} \label{subsec: numericalOptimization}
-To solve the optimization problem various mathematical algorithms are available. We decided to use the Nelder-Mead algorithm, which is a widely used gradient-free optimization algorithm \cite{gao_implementing_2012}. In a gradient-free algorithm the derivates of the function are not included in the process. Our objective function is based on results from a finite-element-analysis, which makes it impossible to determine its derivatives directly. Therefore, only gradient-free algorithms come into account. In addition, ignoring the derivatives saves significant computational costs, which leads to fast convergence times \cite{pham_comparative_2011}. Due to its simple structure the algorithm is a standard feature in many numerical libraries \cite{singer_efficient_2004}. In \name{python} it is available in the SciPy.optimize-class. In \autoref{sec: optimizationCode} the function call is described in detail. Here we focus on the procedure of the algorithm. The algorithm is capable to find a local minimum of a scalar function depending on $n$ optimization variables. In this work the optimization variables are the material parameters. The definition of the objective function can be found in \autoref{chap: modelsAndMethods}. Assuming the objective function is known, the first step is to create $n+1$ points $\mathbf{P}$ in an $n$-dimensional space. In the initial step of the algorithm the position of the points has to be determined. This is done by an initial guess $\hat{x}$ for every optimization variable value. To process six optimization variables the initial guess would look like
+To solve the optimization problem various mathematical algorithms are available. We decided to use the Nelder-Mead algorithm, which is a widely used gradient-free optimization algorithm \cite{gao_implementing_2012}. In a gradient-free algorithm the derivates of the function are not included in the process. Our objective function is based on results from a finite-element-analysis, which makes it impossible to determine its derivatives directly. Therefore, only gradient-free algorithms come into account. In addition, ignoring the derivatives saves significant computational costs, which leads to fast convergence times \cite{pham_comparative_2011}. Due to its simple structure, the algorithm is a standard feature in many numerical libraries \cite{singer_efficient_2004}. In \name{python} it is available in the SciPy.optimize-class. In \autoref{sec: optimizationCode} the function call is described in detail. Here we focus on the procedure of the algorithm. The algorithm is capable to find a local minimum of a scalar function depending on $n$ optimization variables. In this work the optimization variables are the material parameters. The definition of the objective function can be found in \autoref{chap: modelsAndMethods}. Assuming the objective function is known, the first step is to create $n+1$ points $\mathbf{P}$ in an $n$-dimensional space. In the initial step of the algorithm the position of the points has to be determined. This is done by an initial guess $\hat{x}$ for every optimization variable value. To process six optimization variables the initial guess would look like
 \begin{gather*}
     \mathbf{\hat{x}} = [\hat{x}^0, \hat{x}^1, \hat{x}^2, \hat{x}^3, \hat{x}^4, \hat{x}^5] \\
     \text{with } \hat{x}^i \equiv \text{initial guess of the $i$-th optimization variable}
@@ -129,8 +143,32 @@ To solve the optimization problem various mathematical algorithms are available.
 Based on this the initial points $\mathbf{\hat{P}_i}$ are constructed. The first one is defined as $\mathbf{\hat{P}_1} = \mathbf{\hat{x}}$. For the other points the value of one variable in the initial guess is changed each. The points result in an $n$ dimensional simplex. In the next step the function values corresponding to the points $\mathbf{P_i}$ are evaluated and sorted by size. The highest function value $y_h$ thus maps the worst value combination $\mathbf{P_h}$ of the optimization parameters. Afterwards a centroid of all points of the simplex except $\mathbf{P_h}$ is determined. Now there are four possible operations to improve the position of $\mathbf{P_h}$. Reflection and expansion of $\mathbf{P_h}$ at the centroid are the first two. Before the new point $\mathbf{P^{*}}$ is positioned the corresponding function value needs to be evaluated. Only if $y^{*}$ is smaller than $y_l$, $\mathbf{P^{*}}$ is set as new point $\mathbf{P_i}$ in the simplex. If $y^{*}$ is larger than $y_l$, the new point is even worse than $\mathbf{P_h}$. Therefore, the operations contraction or shrinking have to be performed. They should find a position $\mathbf{P^{**}}$ between $\mathbf{P_h}$ and its reflection $\mathbf{P^{*}}$ which leads to a better function value $y^{**}$. This needs multiple iterations because for every guess $\mathbf{P^{**}}$ the function has to be evaluated. Only when a better position $\mathbf{P_h}$ is replaced by $\mathbf{P^{*}}$ or $\mathbf{P^{**}}$ and the algorithm starts again with the new simplex \cite{nelder_simplex_1965}. Therefore, multiple function evaluations are necessary during one iteration of the optimization. If the variations of the functions values $y_i$ fall under a certain limit, the minimum with its corresponding parameter values is found. To ensure a successful search the initial simplex should be scaled regularly \cite{baudin_nelder-mead_nodate} which is possible through a regular distribution of the points $\mathbf{\hat{P}_i}$ in space. This can be difficult if the values of the optimization variables differ much in size. Therefore, it is necessary to normalize the variable values within the range of 0 to 1.
 
 \subsection{Root mean squared error} \label{subsec: RMSE}
-The numerical algorithm can only find adequate results, if the definition of the objective function is suitable. 
+To use the Nelder-Mead algorithm, we need to construct an objective function that returns a scalar value. It should be preempted at this point that several values must be minimized for an adequate optimization result. In order to handle this issue, it is necessary to condense all applicable data into a single value. As a representative value we choose the \acrfull{rmse}. It is a frequently used value to express variations of two data sets - usually a reference data set $f$ and a test data set $\hat{f}$. (QUELLE) The \acrshort{rmse} is based on the difference between the data points at position $i$. This deviation is composed for all points, and then combined in the following formula
 
+\begin{equation} \label{eq: RMSE}
+    \text{RMSE} = \sqrt{\frac{1}{N}\sum_{i=1}^{N} (f_i - \hat{f}_i)^2}
+\end{equation}
+
+With this definition, the proportion of all deviations in the \acrshort{rmse} is equal. The value of the \acrshort{rmse} is always positive and tends towards zero for perfectly matching data sets. In addition, the unit of the \acrshort{rmse} matches that of the data points. This characteristic is advantageous for the evaluation of its value. Since we must include the deviations between $M$ multiple data sets, we extend the formulation to 
+
+\begin{equation} \label{eq: multiRMSE}
+    \text{RMSE} = \sqrt{\frac{1}{M} \sum_{j=1}^{M} \left[ \frac{1}{N} \sum_{i=1}^{N} (f_i - \hat{f}_i)^2 \right] _j}
+\end{equation}
+
+The application of this formula in the developed code is explained in \autoref{sec: errorCalculation}.
+
+
+%The numerical algorithm can only find adequate results, if the definition of the objective function is suitable. 
+
+% verwendet weil:
+
+% - fehler mitteln
+% - alle werte mit einbeziehen
+% - fehlereinheit in einheit der größe (wenn eine größe (stress oder strin) gemessen wird)
+% - gilt nicht wenn stress und strain gemischt wird
+% - most common
+% - fehlr größe ist nicht quadriert 
+% - - fitting über den gasmten kurvenverlauf --> alle punkte sollen gleich eingehen
 
 
 
