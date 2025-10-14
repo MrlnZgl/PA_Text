@@ -10,7 +10,7 @@
 \contentsline {figure}{\numberline {3.4}{\ignorespaces Loop conditions in preprocessing}}{16}{figure.caption.19}%
 \contentsline {figure}{\numberline {3.5}{\ignorespaces Flowchart code}}{17}{figure.caption.20}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces optimization progress of material parameters}}{21}{figure.caption.22}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Progress of material parameters during the verification study.}}{21}{figure.caption.22}%
 \contentsline {figure}{\numberline {4.2}{\ignorespaces (a) Evolution of the stress–strain curves during optimization for an exemplary test, (b) final stress–strain curves for the complete test study.}}{23}{figure.caption.23}%
 \contentsline {figure}{\numberline {4.3}{\ignorespaces parameter influence on voce-hardening curve}}{23}{figure.caption.24}%
 \contentsline {figure}{\numberline {4.4}{\ignorespaces rmse for multiple tests}}{24}{figure.caption.25}%

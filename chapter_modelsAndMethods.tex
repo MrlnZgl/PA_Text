@@ -379,7 +379,7 @@ maxiter & Number of iterations & scalar & Maximum number of iterations  as termi
 
 In the following section, we describe the optimisation process. We start the process by calling the Scipy-minimize function. We pass this function various parameters, listed in \autoref{tab: minimizeFunctionInput}. The minimize function itself calls our self-written optimisation function, where the evaluation takes place. The initial guess stores an array with start values for all parameters that should be optimized. Additionally, we pass information about the models that we created in the preprocessing and the load parameters. We use all models created in the purple box for one optimisation call.
 We start the process with the step \benennung{Rewrite material parameters} for all models. Since they all describe the same material, we write the same values for every model. For the minimization computation, optimisation parameters are scaled in the bounds from zero to one. To rewrite the values in the models, we have to rescale them first. Then we can use the rescaled parameters to compute the values for the plastic stress function with the formula for VOCE-hardening (\autoref{eq: voce}). In the following we remove the elastic material and substitute it with a hyperelastic material which is suitable for high non-linear deformations. Therefore, we have to convert the Young's modulus and the Poisson's ratio into the hyperelastic parameters $C_{10}$ and $D_1$ via the relations
-\begin{gather}
+\begin{gather}\label{eq: elasticParams}
     C_{10} = \frac{E}{4(1+ \nu)} \\
     D_1 = \frac{6(1-2\nu)}{E}.
 \end{gather}
