@@ -15,16 +15,16 @@
 		\setentrycounter[]{page}\glsnumberformat{13\delimN 14}}}\glsgroupskip
 \glsgroupheading{F}\relax \glsresetentrylist %
 \glossentry{fem}{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{4\delimR 6}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{5\delimR 7}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{9}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{11}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{15}}}\glsgroupskip
+		\setentrycounter[]{page}\glsnumberformat{16}}}\glsgroupskip
 \glsgroupheading{M}\relax \glsresetentrylist %
 \glossentry{md}{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{3\delimR 5}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{3\delimR 6}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{9}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{11}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{15}}}%
+		\setentrycounter[]{page}\glsnumberformat{16}}}%
 \glossentry{mdb}{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{15}}}%
 \glossentry{mse}{\glossaryentrynumbers{\relax 
@@ -36,19 +36,19 @@
 \glossentry{olr}{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{11\delimR 13}}}%
 \glossentry{omp}{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{4}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{5}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{9}}}\glsgroupskip
 \glsgroupheading{P}\relax \glsresetentrylist %
 \glossentry{pbc}{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{3\delimN 4}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{6}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{7}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{10}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{15}}}\glsgroupskip
 \glsgroupheading{R}\relax \glsresetentrylist %
 \glossentry{rlr}{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{11\delimR 13}}}%
 \glossentry{rmse}{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{7\delimN 8}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{8}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{12\delimN 13}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{19}}}%
 \end{theglossary}\glossarypostamble

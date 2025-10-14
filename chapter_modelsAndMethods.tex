@@ -271,10 +271,13 @@ Before starting with the optimisation process, we need preprocessing steps to cr
 
 \begin{table}[h!]
     \centering
-    % ---------- Erste Subtable ----------
+    \caption{Loop conditions in preprocessing}
+    \label{tab:loop_conditions}
     \begin{subtable}[t]{0.45\textwidth}
         \centering
         \renewcommand{\arraystretch}{1.1}
+        \caption{Arrangement of initial value combination of material parameters}
+        \label{tab:material_combinations}
         \begin{tabular}{L{0.31\textwidth}|C{0.08\textwidth}C{0.08\textwidth}C{0.08\textwidth}C{0.08\textwidth}C{0.08\textwidth}}
             \toprule
             \multirow{2}{0.31\textwidth}{\textbf{Material Parameter}} & \multicolumn{5}{c}{\textbf{Combination}} \\
@@ -288,14 +291,13 @@ Before starting with the optimisation process, we need preprocessing steps to cr
             $\gamma$ & $\gamma_1$ & $\gamma_2$ & $\gamma_3$ & $\gamma_4$ & $\gamma_5$ \\ 
             \bottomrule
         \end{tabular}
-        \caption{Arrangement of initial value combination of material parameters}
-        \label{tab:material_combinations}
-    \end{subtable}
+    \end{subtable}  
     \hfill
-    % ---------- Zweite Subtable ----------
     \begin{subtable}[t]{0.45\textwidth}
         \centering
         \renewcommand{\arraystretch}{1.1}
+        \caption{Model creation for load case and parameter combinations}
+        \label{tab:model_creation}
         \begin{tabular}{L{0.25\textwidth}|C{0.2\textwidth}C{0.35\textwidth}}
             \toprule
             \multirow{2}{0.25\textwidth}{\textbf{Model}} & \multirow{2}{0.2\textwidth}{\centering \textbf{Load case}} & \multirow{2}{0.35\textwidth}{\centering \textbf{Load parameters}} \\ 
@@ -308,16 +310,10 @@ Before starting with the optimisation process, we need preprocessing steps to cr
             Model 5 & G12 & Data set 3 \\
             \bottomrule
         \end{tabular}
-        \caption{Model creation for load case and parameter combinations}
-        \label{tab:model_creation}
-    \end{subtable}
-
-    % ---------- Gemeinsame Caption ----------
-    \caption{Loop conditions in preprocessing}
-    \label{tab:loop_conditions}
+    \end{subtable}    
 \end{table}
 
-
+FORMATIEREN
 
 
 Afterwards we start the first loop with \benennung{Create model}. As discussed in \autoref{sec: FEMBasics} we model a cube with size 1x1x1. We mesh the cube with 6x6x6 elements. Because of the regular geometry, we work with hexagonal structured elements to keep the model simple. The number of elements is a compromise between a coarse mesh for fast computation and a minimum number to avoid convergence errors. Although we use a hyperelastic material in our optimisation process, we first have to build the model with elastic material. We apply isotropic behaviour and define Young's modulus and Poisson ratio as the initial values. The elastic material is necessary due to the usage of EasyPBC in the step \benennung{Create job}. We use the load case defined in the input file to create a job. As discussed in \autoref{subsec: EasPBC}, we use EasyPBC for the automatic construction of \acrshort{pbc}. Aside from that, we adopt the generated load application corresponding to the load case. Since the load acts on a reference point, connected to the whole loaded surface, a homogeneous load contribution is ensured.
@@ -330,7 +326,7 @@ However, the settings from EasyPBC contain some default values, we adjust in the
         \begin{minipage}[T!][9cm][T!]{0.35\textwidth}
             \includegraphics[width=1.0\textwidth]{Amplitude.pdf}
             \vfill{}
-            \caption{Definition of load amplitude in \name{Abaqus}}
+            \caption*{(a) Definition of load amplitude in \name{Abaqus}}
             \label{fig:amplitudemenu}
         \end{minipage}
         \hspace{0.08\textwidth} % Horizontal space between the minipage

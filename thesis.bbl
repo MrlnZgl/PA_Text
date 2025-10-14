@@ -249,8 +249,8 @@
       \strng{authorfullhash}{307c6b6216d9aa3ade2026596cfd8d03}
       \strng{authorfullhashraw}{307c6b6216d9aa3ade2026596cfd8d03}
       \field{extraname}{1}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Adhesive joints provide a better strength-to-weight ratio than traditional fastening methods and thus play a vital role in lightweight and cost-efficient engineering designs. The interaction of adherend and adhesive causes a region with different local resin-to-hardener ratios, e.g., due to demixing during curing or sterically hindered diffusion. Consequently, this interphase exhibits a mechanical behavior that differs from that of the bulk adhesive, immediately implying thickness-dependent properties of the joint, which should be, but are not yet, addressed in engineering. Additionally, these local gradients of structural and especially mechanical properties are, if at all, very difficult to assess by experimental methods. As a remedy, we derive the elastoplastic material parameters for bulk adhesives covering a wide range of mixing ratios. To this end, we simulate the curing and deformation of pure epoxy with reactive, coarse-grained molecular dynamics ({CGMD}) and introduce an extrapolation scheme to obtain the quasi-static material response. The latter removes the viscous contributions, which facilitates the comparison of ultra-fast {MD} with conventional mechanical testing. Based on these results, we calibrate elastoplastic constitutive models with {VOCE}-type hardening and obtain mixing ratio-dependent Young’s modulus, Poisson’s ratio, yield stress, and hardening parameters. Finally, we obtain the correlation between these material parameters and structural characteristics, such as density and curing degree, for a wide range of mixing ratios. With these results, we can then conclude on the local mechanical properties of interphases, based on {CGMD} simulations of the curing of adhesive joints, which inherently provide the local structure gradients in the vicinity of the adherends, [14].}
@@ -279,8 +279,8 @@
       \strng{authornamehash}{86f3b574956f6683d5c37e8e3933af13}
       \strng{authorfullhash}{86f3b574956f6683d5c37e8e3933af13}
       \strng{authorfullhashraw}{86f3b574956f6683d5c37e8e3933af13}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{howpublished}{Vorlesungsskript}
@@ -320,8 +320,8 @@
       \strng{authornamehash}{2fe8a850e95311c4d84af8da6209f864}
       \strng{authorfullhash}{2fe8a850e95311c4d84af8da6209f864}
       \strng{authorfullhashraw}{2fe8a850e95311c4d84af8da6209f864}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{The finite element method ({FEM}) is a numerical analysis technique for obtaining approximate solutions to a wide variety of engineering problems. A finite element model of a problem gives a piecewise approximation to the governing equations. The basic premise of the {FEM} is that a solution region can be analytically modeled or approximated by replacing it with an assemblage of discrete elements (discretization). Since these elements can be put together in a variety of ways, they can be used to represent exceedingly complex shapes.}
@@ -398,8 +398,8 @@
       \strng{authorfullhash}{c583923b2f80eaac8753b4dce37681fe}
       \strng{authorfullhashraw}{c583923b2f80eaac8753b4dce37681fe}
       \field{extraname}{1}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{langid}{english}
@@ -721,6 +721,70 @@
       \verb PDF:/Users/marleneziegler/Zotero/storage/UEV6HMPJ/Baudin - Nelder-Mead User’s Manual.pdf:application/pdf
       \endverb
     \endentry
+    \entry{morrow_method_2010}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=1b70604b417431c8f684f74208f370dd}{%
+           family={Morrow},
+           familyi={M\bibinitperiod},
+           given={Duane\bibnamedelima A.},
+           giveni={D\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=120be8d7d419ac4c67dcff5c8d439835}{%
+           family={Haut\bibnamedelima Donahue},
+           familyi={H\bibinitperiod\bibinitdelim D\bibinitperiod},
+           given={Tammy},
+           giveni={T\bibinitperiod}}}%
+        {{hash=29666b8dfd2700a7c101c5fbff681786}{%
+           family={Odegard},
+           familyi={O\bibinitperiod},
+           given={Gregory\bibnamedelima M.},
+           giveni={G\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=a17434be854d0f0dfb23ca5f05196b4e}{%
+           family={Kaufman},
+           familyi={K\bibinitperiod},
+           given={Kenton\bibnamedelima R.},
+           giveni={K\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \strng{namehash}{75bb481d2d4f8232e8d32a2fc4cecfd8}
+      \strng{fullhash}{1f97a1257c7692b9961703ea66c3042f}
+      \strng{fullhashraw}{1f97a1257c7692b9961703ea66c3042f}
+      \strng{bibnamehash}{75bb481d2d4f8232e8d32a2fc4cecfd8}
+      \strng{authorbibnamehash}{75bb481d2d4f8232e8d32a2fc4cecfd8}
+      \strng{authornamehash}{75bb481d2d4f8232e8d32a2fc4cecfd8}
+      \strng{authorfullhash}{1f97a1257c7692b9961703ea66c3042f}
+      \strng{authorfullhashraw}{1f97a1257c7692b9961703ea66c3042f}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1025-5842, 1476-8259}
+      \field{journaltitle}{Computer Methods in Biomechanics and Biomedical Engineering}
+      \field{langid}{english}
+      \field{month}{4}
+      \field{number}{2}
+      \field{shortjournal}{Computer Methods in Biomechanics and Biomedical Engineering}
+      \field{title}{A method for assessing the fit of a constitutive material model to experimental stress–strain data}
+      \field{urlday}{13}
+      \field{urlmonth}{10}
+      \field{urlyear}{2025}
+      \field{volume}{13}
+      \field{year}{2010}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{247\bibrangedash 256}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1080/10255840903170686
+      \endverb
+      \verb{file}
+      \verb PDF:/Users/marleneziegler/Zotero/storage/NGVKGFDT/Morrow et al. - 2010 - A method for assessing the fit of a constitutive material model to experimental stress–strain data.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://www.tandfonline.com/doi/abs/10.1080/10255840903170686
+      \endverb
+      \verb{url}
+      \verb http://www.tandfonline.com/doi/abs/10.1080/10255840903170686
+      \endverb
+    \endentry
     \entry{kraj_damage_nodate}{article}{}{}
       \name{author}{2}{}{%
         {{hash=09ceedd197eee41b67ab0450252dc693}{%
@@ -742,8 +806,8 @@
       \strng{authornamehash}{80845606484d2deb2432d8b1571cba5f}
       \strng{authorfullhash}{80845606484d2deb2432d8b1571cba5f}
       \strng{authorfullhashraw}{80845606484d2deb2432d8b1571cba5f}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{langid}{english}
@@ -894,8 +958,8 @@
       \strng{authornamehash}{46e1e984eed95a6cd71d481048428b0a}
       \strng{authorfullhash}{46e1e984eed95a6cd71d481048428b0a}
       \strng{authorfullhashraw}{46e1e984eed95a6cd71d481048428b0a}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Computing the mechanical response of materials requires accurate constitutive descriptions, especially their plastic behavior. Furthermore, the ability of a model to be used as a predictive, rather than a descriptive, tool motivates the development of physically based constitutive models. This work investigates combining a homogenized viscoplastic self-consistent ({VPSC}) approach to reduce the development time for a high-resolution viscoplastic model based on the fast Fourier transform ({FFT}). An optimization scheme based on a least-squares algorithm is presented. The constitutive responses of copper, interstitial-free steel, and pearlite are investigated, and the model parameters are presented. Optimized parameters from the low-fidelity model provide close agreement ({<}2 {MPa}, {\textasciitilde}1 \% error) with stress-strain data at low strains ({<}10 \%) in the high-fidelity {FFT} model. Simple adjustments to constitutive law parameters bring the {FFT} stress-strain curve in alignment with experimental data at strains greater than 10 \%. A two-phase constitutive law is developed for a pearlitic steel using a single stress-strain curve, supplemented by data for the constituent phases. Sources of error and methods of using material information are discussed that lead to optimal estimates of initial parameter values.}
@@ -961,8 +1025,8 @@
       \strng{authornamehash}{c1036102fd7ce95bdbcb2e8f96a7b201}
       \strng{authorfullhash}{f600785ea2a61cd548845f37e97a068b}
       \strng{authorfullhashraw}{f600785ea2a61cd548845f37e97a068b}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{The results of studying of the physical-mechanical properties of {DGEBA}-epoxy resin cured by 4,4'-diaminodiphenylmethane ({DDM}) are presented. The molar ratio of the concentrations of amine ({NH}) and epoxy ({EP}) groups are: 0.5; 0.6; 0.7; 0.75; 0.8; 0.9; 1; 1.11; 1.25; 1.33; 1.43; 1.66; 2. Samples of the cured resin were examined in tension and three-point bending according to {ASTM} D638-10 and {ASTM} D 3039 standards, respectively, using the Zwick / Roel {TC}-{FR}010 universal testing machine. As a result, the dependencies of the resins physical-mechanical properties (modulus of elasticity, strength, elongation at break, glass temperature) on the {NH} / {EP} ratio and the curing temperature were obtained.}
@@ -1021,8 +1085,8 @@
       \strng{authornamehash}{ca3e4df1402b8ee99b3d90c71994ff8a}
       \strng{authorfullhash}{ca3e4df1402b8ee99b3d90c71994ff8a}
       \strng{authorfullhashraw}{ca3e4df1402b8ee99b3d90c71994ff8a}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{In this paper, we compare the practicaladhesionmeasurementsof alkyd, vinyl, epoxy, and polyurethanepaints on cold-rolledsteel usingthe pull-offand three-pointflexuretests. It has been shown that (a) in the pull-offtest, theultimateloadand ultimatestrainvaluesdependon the studarea. Duringtrimming, cracks are created within the system which are responsiblefor a large decrease in the parameters measured. On the other hand, it is impossibleto differentiatebetweenthe failure initiationand the failurepropagationzones; (b) in the three-pointflexuretest,the area(W) subtendedby the load/displacemenct urvescorrespondingto sampleswithand withoutstiffenerdoesnot dependon the bondedwidthor on the substratecompliance. Aftercarryingout sucha mechanicaltest,it is alsopossibleto discriminatebetweenfailureinitiationand failurepropagationusing appropriatetools for observation,such as scanningelectronmicroscopy,and for analysis,such as electronmicroprobeanalysisand Fouriertransforminfraredspectroscopy.W is shownto be representativeof the failureinitiationenergy.}
@@ -1427,8 +1491,8 @@
       \strng{authornamehash}{da3f66e030665163e8c7981a2e4e1345}
       \strng{authorfullhash}{da3f66e030665163e8c7981a2e4e1345}
       \strng{authorfullhashraw}{da3f66e030665163e8c7981a2e4e1345}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
       \field{abstract}{The Nelder-Mead simplex method is an optimization routine that works well with irregular objective functions. For a function of n parameters, it compares the objective function at the n + 1 vertices of a simplex and updates the worst vertex through simplex search steps. However, a standard serial implementation can be prohibitively expensive for optimizations over a large number of parameters. We describe an implementation of the Nelder-Mead method in parallel using a distributed memory. For p processors, each processor is assigned (n + 1)/ p vertices at each iteration. Each processor then updates its worst local vertices, communicates the results, and a new simplex is formed with the vertices from all processors. We also describe how the algorithm can be implemented with only two {MPI} commands. In simulations, our implementation exhibits large speedups and is scalable to large problem sizes.}
@@ -1605,8 +1669,8 @@
       \strng{authornamehash}{03bb87af5002912166633c72cb8b17c0}
       \strng{authorfullhash}{03bb87af5002912166633c72cb8b17c0}
       \strng{authorfullhashraw}{03bb87af5002912166633c72cb8b17c0}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{isbn}{978-3-662-49351-9 978-3-662-49352-6}
@@ -1646,8 +1710,8 @@
       \strng{authornamehash}{933c8b4c9db8294ed74d9206427c9083}
       \strng{authorfullhash}{933c8b4c9db8294ed74d9206427c9083}
       \strng{authorfullhashraw}{933c8b4c9db8294ed74d9206427c9083}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{A Practical Strain-Hardening Function}
@@ -1680,8 +1744,8 @@
       \strng{authornamehash}{de06cc8be51dff832ccf29ca91e1a608}
       \strng{authorfullhash}{de06cc8be51dff832ccf29ca91e1a608}
       \strng{authorfullhashraw}{de06cc8be51dff832ccf29ca91e1a608}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{In this work, we have discussed what Finite Element Method ({FEM}) is, its historical development, advantages and its future. The eventual intension of using {FEM} is to determine the nodal solution of a particular problem under study. The power of {FEM} is its ability to discretize complex problems and analyse it part by part. Irrespective of the geometry of the problem, with proper mesh refinement, {FEM} provides very accurate solution. Therefore, {FEM} is a technique in which a given domain is represented as a collection of simple domains, called finite elements, so that it is possible to systematically construct the approximation functions needed in a variational or weighted-residual approximation of the solution of a problem over each element.Keywords: Weak Formulation, Discretisation, Numerical methods, Finite element method, Global equations, Nodal solution}
@@ -1945,8 +2009,8 @@
       \strng{authornamehash}{aa630315250f87fdf3ca00efd2ea2d72}
       \strng{authorfullhash}{85470c8597c48da8652ce8e4ccdd6bb0}
       \strng{authorfullhashraw}{85470c8597c48da8652ce8e4ccdd6bb0}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{This paper evaluates the accuracy of popular anisotropic yield functions based on the root-mean square error ({RMSE}) of the yield stresses and the R-values. The yield functions include Hill48, Yld89, Yld91, Yld96, Yld2000-2d, {BBC}2000 and Yld2000-18p yield criteria. Two kind steels and five kind aluminum alloys are selected for the accuracy evaluation. The anisotropic coefficients in yield functions are computed from the experimental data. The downhill simplex method is utilized for the parameter evaluation for the yield function except Hill48 and Yld89 yield functions after the error functions are constructed. The yield stresses and the R-values at every 15°from the rolling direction ({RD}) and the yield stress and R-value at equibiaxial tension conditions are predicted from each yield function. The predicted yield stresses and R-values are then compared with the experimental data. The root-mean square errors ({RMSE}) are computed to quantitatively evaluate the yield function. The {RMSEs} are calculated for the yield stresses and the R-values separately because the yield stress difference is much smaller that the difference in the R-values. The {RMSEs} of different yield functions are compared for each material. The Hill48 and Yld89 yield functions are the worst choices for the anisotropic description of the yield stress anisotropy while Yld91 yield function is the last choice for the modeling of the R-value directionality. Yld2000-2d and {BBC}2000 yield function have the same accuracy on the modeling of both the yield stress anisotropy and the R-value anisotropy. The best choice is Yld2000-18 yield function to accurately describe the yield tress and R-value directionalities of sheet metals.}
@@ -2001,8 +2065,8 @@
       \strng{authornamehash}{35e2019fb4886bfd8343df812e9ab8b6}
       \strng{authorfullhash}{35e2019fb4886bfd8343df812e9ab8b6}
       \strng{authorfullhashraw}{35e2019fb4886bfd8343df812e9ab8b6}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Machine learning ({ML}) may provide a new methodology to directly learn from raw data to develop constitutive models for soils by using pure mathematic skills. It has presented success and versatility in cases of simple stress paths due to its strong non-linear mapping capacity without limitations of constitutive formulations. However, current studies on the {ML}-based constitutive modeling of soils is still very limited. This study comprehensively reviews the application of {ML} algorithms in the development of constitutive models of soils and compares the performance of different {ML} algorithms. First, the basic principles of typical {ML} algorithms used in describing soil behaviors are briefly elaborated. The main characteristics and the limitations of such {ML} algorithms are summarized and compared. Then, the methodology of developing a {ML}-based soil model is reviewed from six aspects, such as adopted {ML} algorithms, data source, framework of the {ML}-based model, training strategy, generalization ability and application scope. Finally, five new {ML}-based models are developed using five typical {ML} algorithms (i.e. {BPNN}, {RBF}, {LSTM}, {GRU} and {BiLSTM} that can predict multi outputs together) based on same set of experimental results of sand, and compare each other in terms of the predictive accuracy and generalization ability. Results show the long short-term memory ({LSTM}) neural network and its variants are most suitable for developing constitutive models. Moreover, some useful suggestions for developing the {ML}-based soil model are also provided for the community.}
@@ -2034,71 +2098,6 @@
       \endverb
       \verb{url}
       \verb https://link.springer.com/10.1007/s11831-020-09524-z
-      \endverb
-    \endentry
-    \entry{morrow_method_2010}{article}{}{}
-      \name{author}{4}{}{%
-        {{hash=1b70604b417431c8f684f74208f370dd}{%
-           family={Morrow},
-           familyi={M\bibinitperiod},
-           given={Duane\bibnamedelima A.},
-           giveni={D\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
-        {{hash=120be8d7d419ac4c67dcff5c8d439835}{%
-           family={Haut\bibnamedelima Donahue},
-           familyi={H\bibinitperiod\bibinitdelim D\bibinitperiod},
-           given={Tammy},
-           giveni={T\bibinitperiod}}}%
-        {{hash=29666b8dfd2700a7c101c5fbff681786}{%
-           family={Odegard},
-           familyi={O\bibinitperiod},
-           given={Gregory\bibnamedelima M.},
-           giveni={G\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
-        {{hash=a17434be854d0f0dfb23ca5f05196b4e}{%
-           family={Kaufman},
-           familyi={K\bibinitperiod},
-           given={Kenton\bibnamedelima R.},
-           giveni={K\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
-      }
-      \strng{namehash}{75bb481d2d4f8232e8d32a2fc4cecfd8}
-      \strng{fullhash}{1f97a1257c7692b9961703ea66c3042f}
-      \strng{fullhashraw}{1f97a1257c7692b9961703ea66c3042f}
-      \strng{bibnamehash}{75bb481d2d4f8232e8d32a2fc4cecfd8}
-      \strng{authorbibnamehash}{75bb481d2d4f8232e8d32a2fc4cecfd8}
-      \strng{authornamehash}{75bb481d2d4f8232e8d32a2fc4cecfd8}
-      \strng{authorfullhash}{1f97a1257c7692b9961703ea66c3042f}
-      \strng{authorfullhashraw}{1f97a1257c7692b9961703ea66c3042f}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issn}{1025-5842, 1476-8259}
-      \field{journaltitle}{Computer Methods in Biomechanics and Biomedical Engineering}
-      \field{langid}{english}
-      \field{month}{4}
-      \field{number}{2}
-      \field{shortjournal}{Computer Methods in Biomechanics and Biomedical Engineering}
-      \field{title}{A method for assessing the fit of a constitutive material model to experimental stress–strain data}
-      \field{urlday}{13}
-      \field{urlmonth}{10}
-      \field{urlyear}{2025}
-      \field{volume}{13}
-      \field{year}{2010}
-      \field{dateera}{ce}
-      \field{urldateera}{ce}
-      \true{nocite}
-      \field{pages}{247\bibrangedash 256}
-      \range{pages}{10}
-      \verb{doi}
-      \verb 10.1080/10255840903170686
-      \endverb
-      \verb{file}
-      \verb PDF:/Users/marleneziegler/Zotero/storage/NGVKGFDT/Morrow et al. - 2010 - A method for assessing the fit of a constitutive material model to experimental stress–strain data.pdf:application/pdf
-      \endverb
-      \verb{urlraw}
-      \verb http://www.tandfonline.com/doi/abs/10.1080/10255840903170686
-      \endverb
-      \verb{url}
-      \verb http://www.tandfonline.com/doi/abs/10.1080/10255840903170686
       \endverb
     \endentry
     \entry{li_robust_2023}{article}{}{}
@@ -2142,8 +2141,8 @@
       \strng{authornamehash}{b89b4e080dc52d0e634dc5e2a7397402}
       \strng{authorfullhash}{4a6d6bd0d206de3269b06cd3e0a19e11}
       \strng{authorfullhashraw}{4a6d6bd0d206de3269b06cd3e0a19e11}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{13596454}
