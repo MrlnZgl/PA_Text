@@ -248,6 +248,7 @@
       \strng{authornamehash}{7e55bb33d66f2ee4694731e2599d8639}
       \strng{authorfullhash}{307c6b6216d9aa3ade2026596cfd8d03}
       \strng{authorfullhashraw}{307c6b6216d9aa3ade2026596cfd8d03}
+      \field{extraname}{1}
       \field{sortinit}{7}
       \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
@@ -380,6 +381,95 @@
       \verb https://link.springer.com/10.1007/978-3-642-53937-4
       \endverb
     \endentry
+    \entry{dassault_systems_abaqus_2015-1}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=c583923b2f80eaac8753b4dce37681fe}{%
+           family={Systems},
+           familyi={S\bibinitperiod},
+           given={Dassault},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{c583923b2f80eaac8753b4dce37681fe}
+      \strng{fullhash}{c583923b2f80eaac8753b4dce37681fe}
+      \strng{fullhashraw}{c583923b2f80eaac8753b4dce37681fe}
+      \strng{bibnamehash}{c583923b2f80eaac8753b4dce37681fe}
+      \strng{authorbibnamehash}{c583923b2f80eaac8753b4dce37681fe}
+      \strng{authornamehash}{c583923b2f80eaac8753b4dce37681fe}
+      \strng{authorfullhash}{c583923b2f80eaac8753b4dce37681fe}
+      \strng{authorfullhashraw}{c583923b2f80eaac8753b4dce37681fe}
+      \field{extraname}{1}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{langid}{english}
+      \field{title}{Abaqus Scripting User's Guide}
+      \field{year}{2015}
+      \field{dateera}{ce}
+      \verb{file}
+      \verb PDF:/Users/marleneziegler/Zotero/storage/DRUQ7Y5A/Abaqus Scripting User's Guide.pdf:application/pdf
+      \endverb
+    \endentry
+    \entry{omairey_development_2019}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=b164d993c39f4fb3b89581835000ab89}{%
+           family={Omairey},
+           familyi={O\bibinitperiod},
+           given={Sadik\bibnamedelima L.},
+           giveni={S\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=e51e01a7e0ade448f2459963aeb252b1}{%
+           family={Dunning},
+           familyi={D\bibinitperiod},
+           given={Peter\bibnamedelima D.},
+           giveni={P\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=24bb15c9a83eb93b30b692279e500b9c}{%
+           family={Sriramula},
+           familyi={S\bibinitperiod},
+           given={Srinivas},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{27aace48eaa3dea3a27691916a491ba2}
+      \strng{fullhash}{27aace48eaa3dea3a27691916a491ba2}
+      \strng{fullhashraw}{27aace48eaa3dea3a27691916a491ba2}
+      \strng{bibnamehash}{27aace48eaa3dea3a27691916a491ba2}
+      \strng{authorbibnamehash}{27aace48eaa3dea3a27691916a491ba2}
+      \strng{authornamehash}{27aace48eaa3dea3a27691916a491ba2}
+      \strng{authorfullhash}{27aace48eaa3dea3a27691916a491ba2}
+      \strng{authorfullhashraw}{27aace48eaa3dea3a27691916a491ba2}
+      \field{extraname}{1}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0177-0667, 1435-5663}
+      \field{journaltitle}{Engineering with Computers}
+      \field{langid}{english}
+      \field{month}{4}
+      \field{number}{2}
+      \field{shortjournal}{Engineering with Computers}
+      \field{title}{Development of an {ABAQUS} plugin tool for periodic {RVE} homogenisation}
+      \field{urlday}{13}
+      \field{urlmonth}{10}
+      \field{urlyear}{2025}
+      \field{volume}{35}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{567\bibrangedash 577}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1007/s00366-018-0616-4
+      \endverb
+      \verb{file}
+      \verb PDF:/Users/marleneziegler/Zotero/storage/M4N4U9P8/Omairey et al. - 2019 - Development of an ABAQUS plugin tool for periodic RVE homogenisation.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://link.springer.com/10.1007/s00366-018-0616-4
+      \endverb
+      \verb{url}
+      \verb http://link.springer.com/10.1007/s00366-018-0616-4
+      \endverb
+    \endentry
     \entry{gao_implementing_2012}{article}{}{}
       \name{author}{2}{}{%
         {{hash=7a0b1a1f91828e25a65fe807d6e1c651}{%
@@ -401,8 +491,8 @@
       \strng{authornamehash}{06e9e94332657d5a1d7c5393513fd38d}
       \strng{authorfullhash}{06e9e94332657d5a1d7c5393513fd38d}
       \strng{authorfullhashraw}{06e9e94332657d5a1d7c5393513fd38d}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{In this paper, we ﬁrst prove that the expansion and contraction steps of the Nelder-Mead simplex algorithm possess a descent property when the objective function is uniformly convex. This property provides some new insights on why the standard Nelder-Mead algorithm becomes inefﬁcient in high dimensions. We then propose an implementation of the Nelder-Mead method in which the expansion, contraction, and shrink parameters depend on the dimension of the optimization problem. Our numerical experiments show that the new implementation outperforms the standard Nelder-Mead method for high dimensional problems.}
@@ -462,8 +552,8 @@
       \strng{authornamehash}{d6d90dd15f3b10b575a0fe9b8d013f62}
       \strng{authorfullhash}{d6d90dd15f3b10b575a0fe9b8d013f62}
       \strng{authorfullhashraw}{d6d90dd15f3b10b575a0fe9b8d013f62}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Derivative free optimization algorithms are often used when it is difficult to find function derivatives, or if finding such derivatives are time consuming. The Nelder Mead's simplex method is one of the most popular derivative free optimization algorithms in the fields of engineering, statistics, and sciences. This algorithm is favored and widely used because of its fast convergence and simplicity. The simplex method converges really well with small scale problems of some variables. However, it does not have much success with large-scale problems of multiple variables. This factor has reduced its popularity in optimization sciences significantly. Two solutions of quasi-gradients are introduced to improve it in terms of the convergence rate and the convergence speed. The improved algorithm with higher success rate and faster convergence which still maintains the simplicity is the key feature of this paper. This algorithm will be compared on several benchmark functions with other popular optimization algorithms such as the genetic algorithm, the differential evolution algorithm, the particle swarm algorithm, and the original simplex method. Then, the comparing results will be reported and discussed.}
@@ -485,7 +575,7 @@
       \verb 10.1109/TII.2011.2166799
       \endverb
       \verb{file}
-      \verb Full Text PDF:/Users/marleneziegler/Zotero/storage/4XHLN8VG/Pham et al. - 2011 - Comparative Study of Derivative Free Optimization Algorithms.pdf:application/pdf
+      \verb Full Text PDF:/Users/marleneziegler/Zotero/storage/4XHLN8VG/Pham et al. - 2011 - Comparative Study of Derivative Free Optimization Algorithms.pdf:application/pdf;s11831-020-09524-z:/Users/marleneziegler/Zotero/storage/2BDAVSSH/s11831-020-09524-z.pdf:application/pdf
       \endverb
       \verb{urlraw}
       \verb https://ieeexplore.ieee.org/document/6011694/
@@ -679,8 +769,8 @@
       \strng{authornamehash}{413eba48fd96db4099753e792e1fc966}
       \strng{authorfullhash}{413eba48fd96db4099753e792e1fc966}
       \strng{authorfullhashraw}{413eba48fd96db4099753e792e1fc966}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Publication quality tables in Latex – the booktabs package}
@@ -710,8 +800,8 @@
       \strng{authornamehash}{577df5ae5d853f485313ac11a5ef3baa}
       \strng{authorfullhash}{577df5ae5d853f485313ac11a5ef3baa}
       \strng{authorfullhashraw}{577df5ae5d853f485313ac11a5ef3baa}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Schriftenreihe Technische Mechanik}
@@ -1002,8 +1092,8 @@
       \strng{authornamehash}{cd3ab87691ec0249415afa374f54a326}
       \strng{authorfullhash}{dedbcbb7214733c79b5dd1bff2201ecb}
       \strng{authorfullhashraw}{dedbcbb7214733c79b5dd1bff2201ecb}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{09977538}
@@ -1062,8 +1152,8 @@
       \strng{authornamehash}{fd9022a9dbaa053ffe03e3d415f96453}
       \strng{authorfullhash}{fd9022a9dbaa053ffe03e3d415f96453}
       \strng{authorfullhashraw}{fd9022a9dbaa053ffe03e3d415f96453}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{This paper presents an overview and selection of material models that can describe nonlinear viscoelasticity ({NLVE}) of thermoset materials. To evaluate them, mechanical measurements with variable force-deformation-time regimes were performed on the example of encapsulation compounds consisting of different types of polyurethane. A digital twin of the experiment, based on Finite Element Analysis ({FEA}), was created, and used to determine the required {NLVE} model parameters. The parameter extraction has been done for the Bergstrom-Boyce-Model as well as the Three-Network-Model. First, the mechanical experiments were performed to establish a sufficient database for model calibration. The measurement setup for tensile and compression experiments and the test specimens are presented. Wide range deformation rates between 0.05 mm/min to 50 mm/min have been conducted to excite the specimens and their mechanical response. The investigated types of polyurethanes are characterized by significant {NLVE} behavior, which becomes visible in stress relaxations with different displacement excitations. In the second step, the model parameters determined and calibrated. This has been done with an inverse method by using the {FEM} response calculations of the digital experiment and optimize towards the root-mean-square error of the comparison with the real measurement curves. The workflows for the optimization have been efficiently implemented in a python environment which controls the {FEM} model in Ansys. As a result, it could be shown that the simulation results with reduced mesh density and datapoints are sufficient with error deviation {<}2\% and thus can be used speed up the model calibration by up to 900x. Both the {BB}- and the {TN}-model could be fitted to the experimental data well. In the future, the proposed {NLVE} models, data acquisition and parameterization method will bring large strain viscoelastic material behavior into electronic design support tools in a timely manner and with manageable expenses.}
@@ -1117,8 +1207,8 @@
       \strng{authornamehash}{963b4f4b0c7b19f9da1ddae5093ab1c8}
       \strng{authorfullhash}{963b4f4b0c7b19f9da1ddae5093ab1c8}
       \strng{authorfullhashraw}{963b4f4b0c7b19f9da1ddae5093ab1c8}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{A structural integrity assessment technique of pavements that considers the backcalculation of material properties is herein proposed. In order to carry out the backcalculation, a Nelder–Mead simplex ({NMS}) search is applied to estimate the elastic moduli of layered structures using the deflection data simulated by falling weight deflectometer ({FWD}) tests. In order to utilize a forward calculation engine of the numerical simulation in the {FWD} testing, a wave analysis program of layered pavement systems is used based on a spectral element method. The performance of the {NMS} inversion technique is evaluated based on a comparison with the Levenberg–Marquardt method. Copyright © 2009 John Wiley \& Sons, Ltd.}
@@ -1178,8 +1268,8 @@
       \strng{authornamehash}{d7111944d14993a497650890b26e8c59}
       \strng{authorfullhash}{d7111944d14993a497650890b26e8c59}
       \strng{authorfullhashraw}{d7111944d14993a497650890b26e8c59}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{One of the fundamental difficulties in engineering design is the multiplicity of local solutions. This has triggered much effort in the development of global search algorithms. Globality, however, often has a prohibitively high numerical cost for real problems. A fixed cost local search, which sequentially becomes global, is developed in this work. Globalization is achieved by probabilistic restarts. A spacial probability of starting a local search is built based on past searches. An improved Nelder–Mead algorithm is the local optimizer. It accounts for variable bounds and nonlinear inequality constraints. It is additionally made more robust by reinitializing degenerated simplexes. The resulting method, called the Globalized Bounded Nelder–Mead ({GBNM}) algorithm, is particularly adapted to tackling multimodal, discontinuous, constrained optimization problems, for which it is uncertain that a global optimization can be afforded. Numerical experiments are given on two analytical test functions and two composite laminate design problems. The {GBNM} method compares favorably with an evolutionary algorithm, both in terms of numerical cost and accuracy.}
@@ -1254,6 +1344,9 @@
       \range{pages}{5}
       \verb{doi}
       \verb 10.1080/00224065.1974.11980616
+      \endverb
+      \verb{file}
+      \verb PDF:/Users/marleneziegler/Zotero/storage/Y9Z4JZKR/Olsson - 1974 - A Sequential Simplex Program for Solving Minimization Problems.pdf:application/pdf
       \endverb
       \verb{urlraw}
       \verb https://www.tandfonline.com/doi/full/10.1080/00224065.1974.11980616
@@ -1386,8 +1479,8 @@
       \strng{authornamehash}{60286b65464dd5283f2ab92cce74d04f}
       \strng{authorfullhash}{60286b65464dd5283f2ab92cce74d04f}
       \strng{authorfullhashraw}{60286b65464dd5283f2ab92cce74d04f}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
       \field{abstract}{{THE} title problem concerns two isotropic phases firmly bonded together to form a mixture with any concentrations. An elementary account of several theoretical methods of attack is given, among them the derivation of inequalities between various moduli. The approach is completely general and exact. Additionally, the problem is fully solved when the phases have equal rigidities but different compressibilities, the geometry being entirely arbitrary.}
@@ -1422,12 +1515,31 @@
       \verb https://linkinghub.elsevier.com/retrieve/pii/002250966390036X
       \endverb
     \endentry
-    \entry{noauthor_abaqus_nodate}{article}{}{}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+    \entry{dassault_systems_abaqus_2015}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=c583923b2f80eaac8753b4dce37681fe}{%
+           family={Systems},
+           familyi={S\bibinitperiod},
+           given={Dassault},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{c583923b2f80eaac8753b4dce37681fe}
+      \strng{fullhash}{c583923b2f80eaac8753b4dce37681fe}
+      \strng{fullhashraw}{c583923b2f80eaac8753b4dce37681fe}
+      \strng{bibnamehash}{c583923b2f80eaac8753b4dce37681fe}
+      \strng{authorbibnamehash}{c583923b2f80eaac8753b4dce37681fe}
+      \strng{authornamehash}{c583923b2f80eaac8753b4dce37681fe}
+      \strng{authorfullhash}{c583923b2f80eaac8753b4dce37681fe}
+      \strng{authorfullhashraw}{c583923b2f80eaac8753b4dce37681fe}
+      \field{extraname}{2}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{langid}{english}
       \field{title}{Abaqus Analysis User's Guide, vol3}
+      \field{year}{2015}
+      \field{dateera}{ce}
       \true{nocite}
       \verb{file}
       \verb PDF:/Users/marleneziegler/Zotero/storage/HZTEXGLP/Abaqus Analysis User's Guide, vol3.pdf:application/pdf
@@ -1544,7 +1656,7 @@
       \field{dateera}{ce}
       \true{nocite}
       \verb{file}
-      \verb PDF:/Users/marleneziegler/Zotero/storage/XDDFW8EJ/Voce1955.pdf:application/pdf
+      \verb PDF:/Users/marleneziegler/Zotero/storage/XDDFW8EJ/Voce1955.pdf:application/pdf;s11831-020-09524-z:/Users/marleneziegler/Zotero/storage/SFQEC3RD/s11831-020-09524-z.pdf:application/pdf
       \endverb
     \endentry
     \entry{erhunmwun_review_2017}{article}{}{}
@@ -1603,6 +1715,465 @@
       \verb https://www.ajol.info/index.php/jasem/article/view/163366
       \endverb
       \keyw{Discretisation,Finite element method,Global equations,Nodal solution,Numerical methods,Weak Formulation}
+    \endentry
+    \entry{ries_applying_2022}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=6f008db3199f0b0c7775c2724b341494}{%
+           family={Ries},
+           familyi={R\bibinitperiod},
+           given={Maximilian},
+           giveni={M\bibinitperiod}}}%
+        {{hash=b1aa2b5319ae4a2e5fc9a84d8d83b9b0}{%
+           family={Seibert},
+           familyi={S\bibinitperiod},
+           given={Jakob},
+           giveni={J\bibinitperiod}}}%
+        {{hash=85eb99c254587a8b351349f7be9aa3f1}{%
+           family={Steinmann},
+           familyi={S\bibinitperiod},
+           given={Paul},
+           giveni={P\bibinitperiod}}}%
+        {{hash=577df5ae5d853f485313ac11a5ef3baa}{%
+           family={Pfaller},
+           familyi={P\bibinitperiod},
+           given={Sebastian},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{7e55bb33d66f2ee4694731e2599d8639}
+      \strng{fullhash}{664e137506c2cc51a829e93f4bac5bc7}
+      \strng{fullhashraw}{664e137506c2cc51a829e93f4bac5bc7}
+      \strng{bibnamehash}{7e55bb33d66f2ee4694731e2599d8639}
+      \strng{authorbibnamehash}{7e55bb33d66f2ee4694731e2599d8639}
+      \strng{authornamehash}{7e55bb33d66f2ee4694731e2599d8639}
+      \strng{authorfullhash}{664e137506c2cc51a829e93f4bac5bc7}
+      \strng{authorfullhashraw}{664e137506c2cc51a829e93f4bac5bc7}
+      \field{extraname}{2}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The addition of nano-sized filler particles enhances the mechanical performance of polymers. The resulting properties of the polymer nanocomposite depend on a complex interplay of influence factors such as material pairing, filler size, and content, as well as filler-matrix adhesion. As a complement to experimental studies, numerical methods, such as molecular dynamics ({MD}), facilitate an isolated examination of the individual factors in order to understand their interaction better. However, particle-based simulations are, in general, computationally very expensive, rendering a thorough investigation of nanocomposites’ mechanical behavior both expensive and time-consuming. Therefore, this paper presents a fast coarsegrained {MD} model for a generic nanoparticle-reinforced thermoplastic. First, we examine the matrix and filler phase individually, which exhibit isotropic elasto-viscoplastic and anisotropic elastic behavior, respectively. Based on this, we demonstrate that the effect of filler size, filler content, and filler-matrix adhesion on the stiffness and strength of the nanocomposite corresponds very well with experimental findings in the literature. Consequently, the presented computationally efficient {MD} model enables the analysis of a generic polymer nanocomposite. In addition to the obtained insights into mechanical behavior, the material characterization provides the basis for a future continuum mechanical description, which bridges the gap to the engineering scale.}
+      \field{issn}{1788618X}
+      \field{journaltitle}{Express Polymer Letters}
+      \field{langid}{english}
+      \field{number}{12}
+      \field{shortjournal}{Express Polym. Lett.}
+      \field{title}{Applying a generic and fast coarse-grained molecular dynamics model to extensively study the mechanical behavior of polymer nanocomposites}
+      \field{urlday}{13}
+      \field{urlmonth}{10}
+      \field{urlyear}{2025}
+      \field{volume}{16}
+      \field{year}{2022}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \field{pages}{1304\bibrangedash 1321}
+      \range{pages}{18}
+      \verb{doi}
+      \verb 10.3144/expresspolymlett.2022.94
+      \endverb
+      \verb{file}
+      \verb PDF:/Users/marleneziegler/Zotero/storage/JZA6W3ZR/Ries et al. - 2022 - Applying a generic and fast coarse-grained molecular dynamics model to extensively study the mechani.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://www.expresspolymlett.com/letolt.php?file=EPL-0012043&mi=c
+      \endverb
+      \verb{url}
+      \verb http://www.expresspolymlett.com/letolt.php?file=EPL-0012043&mi=c
+      \endverb
+    \endentry
+    \entry{omairey_development_2019-1}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=b164d993c39f4fb3b89581835000ab89}{%
+           family={Omairey},
+           familyi={O\bibinitperiod},
+           given={Sadik\bibnamedelima L.},
+           giveni={S\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=e51e01a7e0ade448f2459963aeb252b1}{%
+           family={Dunning},
+           familyi={D\bibinitperiod},
+           given={Peter\bibnamedelima D.},
+           giveni={P\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=24bb15c9a83eb93b30b692279e500b9c}{%
+           family={Sriramula},
+           familyi={S\bibinitperiod},
+           given={Srinivas},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{27aace48eaa3dea3a27691916a491ba2}
+      \strng{fullhash}{27aace48eaa3dea3a27691916a491ba2}
+      \strng{fullhashraw}{27aace48eaa3dea3a27691916a491ba2}
+      \strng{bibnamehash}{27aace48eaa3dea3a27691916a491ba2}
+      \strng{authorbibnamehash}{27aace48eaa3dea3a27691916a491ba2}
+      \strng{authornamehash}{27aace48eaa3dea3a27691916a491ba2}
+      \strng{authorfullhash}{27aace48eaa3dea3a27691916a491ba2}
+      \strng{authorfullhashraw}{27aace48eaa3dea3a27691916a491ba2}
+      \field{extraname}{2}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{{EasyPBC} is an {ABAQUS} {CAE} plugin developed to estimate the homogenised effective elastic properties of user created periodic representative volume element ({RVE}), all within {ABAQUS} without the need to use third-party software. The plugin automatically applies the concepts of the periodic {RVE} homogenisation method in the software’s user interface by categorising, creating, and linking sets necessary for achieving deformable periodic boundary surfaces, which can distort and no longer remain plane. Additionally, it allows the user to benefit from finite element analysis data within {ABAQUS} {CAE} interface after calculating homogenised properties. In this article, the algorithm of the plugin based on periodic {RVE} homogenisation method is explained, which could be developed for other commercial {FE} software packages. Furthermore, examples of its implementation and verification are illustrated.}
+      \field{issn}{0177-0667, 1435-5663}
+      \field{journaltitle}{Engineering with Computers}
+      \field{langid}{english}
+      \field{month}{4}
+      \field{number}{2}
+      \field{shortjournal}{Engineering with Computers}
+      \field{title}{Development of an {ABAQUS} plugin tool for periodic {RVE} homogenisation}
+      \field{urlday}{13}
+      \field{urlmonth}{10}
+      \field{urlyear}{2025}
+      \field{volume}{35}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \field{pages}{567\bibrangedash 577}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1007/s00366-018-0616-4
+      \endverb
+      \verb{file}
+      \verb PDF:/Users/marleneziegler/Zotero/storage/EPQZLVZM/Omairey et al. - 2019 - Development of an ABAQUS plugin tool for periodic RVE homogenisation.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://link.springer.com/10.1007/s00366-018-0616-4
+      \endverb
+      \verb{url}
+      \verb http://link.springer.com/10.1007/s00366-018-0616-4
+      \endverb
+    \endentry
+    \entry{hodson_root-mean-square_2022}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=5ba5fb88ac81a702d61f44f2f4ee46ea}{%
+           family={Hodson},
+           familyi={H\bibinitperiod},
+           given={Timothy\bibnamedelima O.},
+           giveni={T\bibinitperiod\bibinitdelim O\bibinitperiod}}}%
+      }
+      \strng{namehash}{5ba5fb88ac81a702d61f44f2f4ee46ea}
+      \strng{fullhash}{5ba5fb88ac81a702d61f44f2f4ee46ea}
+      \strng{fullhashraw}{5ba5fb88ac81a702d61f44f2f4ee46ea}
+      \strng{bibnamehash}{5ba5fb88ac81a702d61f44f2f4ee46ea}
+      \strng{authorbibnamehash}{5ba5fb88ac81a702d61f44f2f4ee46ea}
+      \strng{authornamehash}{5ba5fb88ac81a702d61f44f2f4ee46ea}
+      \strng{authorfullhash}{5ba5fb88ac81a702d61f44f2f4ee46ea}
+      \strng{authorfullhashraw}{5ba5fb88ac81a702d61f44f2f4ee46ea}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{The root-mean-squared error ({RMSE}) and mean absolute error ({MAE}) are widely used metrics for evaluating models. Yet, there remains enduring confusion over their use, such that a standard practice is to present both, leaving it to the reader to decide which is more relevant. In a recent reprise to the 200-year debate over their use, Willmott and Matsuura (2005) and Chai and Draxler (2014) give arguments for favoring one metric or the other. However, this comparison can present a false dichotomy. Neither metric is inherently better: {RMSE} is optimal for normal (Gaussian) errors, and {MAE} is optimal for Laplacian errors. When errors deviate from these distributions, other metrics are superior.}
+      \field{day}{19}
+      \field{issn}{1991-959X}
+      \field{journaltitle}{Geoscientific Model Development}
+      \field{month}{7}
+      \field{note}{Publisher: Copernicus {GmbH}}
+      \field{number}{14}
+      \field{shorttitle}{Root-mean-square error ({RMSE}) or mean absolute error ({MAE})}
+      \field{title}{Root-mean-square error ({RMSE}) or mean absolute error ({MAE}): when to use them or not}
+      \field{urlday}{13}
+      \field{urlmonth}{10}
+      \field{urlyear}{2025}
+      \field{volume}{15}
+      \field{year}{2022}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \field{pages}{5481\bibrangedash 5487}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.5194/gmd-15-5481-2022
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/Users/marleneziegler/Zotero/storage/MQ7NVUTN/Hodson - 2022 - Root-mean-square error (RMSE) or mean absolute error (MAE) when to use them or not.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://gmd.copernicus.org/articles/15/5481/2022/gmd-15-5481-2022.html
+      \endverb
+      \verb{url}
+      \verb https://gmd.copernicus.org/articles/15/5481/2022/gmd-15-5481-2022.html
+      \endverb
+    \endentry
+    \entry{huh_accuracy_2010}{inproceedings}{}{}
+      \name{author}{7}{}{%
+        {{hash=95e5a54e017fbd73a80b430150934d79}{%
+           family={Huh},
+           familyi={H\bibinitperiod},
+           given={Hoon},
+           giveni={H\bibinitperiod}}}%
+        {{hash=7b21637942fb70827a2755a0ec33d37a}{%
+           family={Lou},
+           familyi={L\bibinitperiod},
+           given={Yanshan},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=7627c1e3bc808b8c0715c23b6aebafc1}{%
+           family={Bae},
+           familyi={B\bibinitperiod},
+           given={Gihyun},
+           giveni={G\bibinitperiod}}}%
+        {{hash=f7d52e97d9621b0fcd2c65e808d76889}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Changsoo},
+           giveni={C\bibinitperiod}}}%
+        {{hash=1df726ade59d3ed30b01b09863822d3b}{%
+           family={Barlat},
+           familyi={B\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod}}}%
+        {{hash=81c7be05cfec9142ba17bee741f3a4e2}{%
+           family={Moon},
+           familyi={M\bibinitperiod},
+           given={Y.\bibnamedelimi H.},
+           giveni={Y\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=eb49e8bc825f28044bf27525a7602111}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={M.\bibnamedelimi G.},
+           giveni={M\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Pohang (Republic of Korea)}%
+      }
+      \strng{namehash}{aa630315250f87fdf3ca00efd2ea2d72}
+      \strng{fullhash}{85470c8597c48da8652ce8e4ccdd6bb0}
+      \strng{fullhashraw}{85470c8597c48da8652ce8e4ccdd6bb0}
+      \strng{bibnamehash}{aa630315250f87fdf3ca00efd2ea2d72}
+      \strng{authorbibnamehash}{aa630315250f87fdf3ca00efd2ea2d72}
+      \strng{authornamehash}{aa630315250f87fdf3ca00efd2ea2d72}
+      \strng{authorfullhash}{85470c8597c48da8652ce8e4ccdd6bb0}
+      \strng{authorfullhashraw}{85470c8597c48da8652ce8e4ccdd6bb0}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This paper evaluates the accuracy of popular anisotropic yield functions based on the root-mean square error ({RMSE}) of the yield stresses and the R-values. The yield functions include Hill48, Yld89, Yld91, Yld96, Yld2000-2d, {BBC}2000 and Yld2000-18p yield criteria. Two kind steels and five kind aluminum alloys are selected for the accuracy evaluation. The anisotropic coefficients in yield functions are computed from the experimental data. The downhill simplex method is utilized for the parameter evaluation for the yield function except Hill48 and Yld89 yield functions after the error functions are constructed. The yield stresses and the R-values at every 15°from the rolling direction ({RD}) and the yield stress and R-value at equibiaxial tension conditions are predicted from each yield function. The predicted yield stresses and R-values are then compared with the experimental data. The root-mean square errors ({RMSE}) are computed to quantitatively evaluate the yield function. The {RMSEs} are calculated for the yield stresses and the R-values separately because the yield stress difference is much smaller that the difference in the R-values. The {RMSEs} of different yield functions are compared for each material. The Hill48 and Yld89 yield functions are the worst choices for the anisotropic description of the yield stress anisotropy while Yld91 yield function is the last choice for the modeling of the R-value directionality. Yld2000-2d and {BBC}2000 yield function have the same accuracy on the modeling of both the yield stress anisotropy and the R-value anisotropy. The best choice is Yld2000-18 yield function to accurately describe the yield tress and R-value directionalities of sheet metals.}
+      \field{eventtitle}{{NUMIFORM} 2010: Proceedings of the 10th International Conference on Numerical Methods in Industrial Forming Processes Dedicated to Professor O. C. Zienkiewicz (1921–2009)}
+      \field{langid}{english}
+      \field{title}{Accuracy Analysis of Anisotropic Yield Functions based on the Root-Mean Square Error}
+      \field{urlday}{13}
+      \field{urlmonth}{10}
+      \field{urlyear}{2025}
+      \field{year}{2010}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \field{pages}{739\bibrangedash 746}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1063/1.3457629
+      \endverb
+      \verb{file}
+      \verb PDF:/Users/marleneziegler/Zotero/storage/KE54YCPV/Huh et al. - 2010 - Accuracy Analysis of Anisotropic Yield Functions based on the Root-Mean Square Error.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://pubs.aip.org/aip/acp/article/1252/1/739-746/868380
+      \endverb
+      \verb{url}
+      \verb https://pubs.aip.org/aip/acp/article/1252/1/739-746/868380
+      \endverb
+    \endentry
+    \entry{zhang_state---art_2021}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=bdc8ddf3308282dd254c42506f4e77a7}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Pin},
+           giveni={P\bibinitperiod}}}%
+        {{hash=f59eebc0e98202fcb9d18f219ae83c33}{%
+           family={Yin},
+           familyi={Y\bibinitperiod},
+           given={Zhen-Yu},
+           giveni={Z\bibinithyphendelim Y\bibinitperiod}}}%
+        {{hash=d65679fdd8a70ed38c7a8504a7ca39d5}{%
+           family={Jin},
+           familyi={J\bibinitperiod},
+           given={Yin-Fu},
+           giveni={Y\bibinithyphendelim F\bibinitperiod}}}%
+      }
+      \strng{namehash}{35e2019fb4886bfd8343df812e9ab8b6}
+      \strng{fullhash}{35e2019fb4886bfd8343df812e9ab8b6}
+      \strng{fullhashraw}{35e2019fb4886bfd8343df812e9ab8b6}
+      \strng{bibnamehash}{35e2019fb4886bfd8343df812e9ab8b6}
+      \strng{authorbibnamehash}{35e2019fb4886bfd8343df812e9ab8b6}
+      \strng{authornamehash}{35e2019fb4886bfd8343df812e9ab8b6}
+      \strng{authorfullhash}{35e2019fb4886bfd8343df812e9ab8b6}
+      \strng{authorfullhashraw}{35e2019fb4886bfd8343df812e9ab8b6}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Machine learning ({ML}) may provide a new methodology to directly learn from raw data to develop constitutive models for soils by using pure mathematic skills. It has presented success and versatility in cases of simple stress paths due to its strong non-linear mapping capacity without limitations of constitutive formulations. However, current studies on the {ML}-based constitutive modeling of soils is still very limited. This study comprehensively reviews the application of {ML} algorithms in the development of constitutive models of soils and compares the performance of different {ML} algorithms. First, the basic principles of typical {ML} algorithms used in describing soil behaviors are briefly elaborated. The main characteristics and the limitations of such {ML} algorithms are summarized and compared. Then, the methodology of developing a {ML}-based soil model is reviewed from six aspects, such as adopted {ML} algorithms, data source, framework of the {ML}-based model, training strategy, generalization ability and application scope. Finally, five new {ML}-based models are developed using five typical {ML} algorithms (i.e. {BPNN}, {RBF}, {LSTM}, {GRU} and {BiLSTM} that can predict multi outputs together) based on same set of experimental results of sand, and compare each other in terms of the predictive accuracy and generalization ability. Results show the long short-term memory ({LSTM}) neural network and its variants are most suitable for developing constitutive models. Moreover, some useful suggestions for developing the {ML}-based soil model are also provided for the community.}
+      \field{issn}{1134-3060, 1886-1784}
+      \field{journaltitle}{Archives of Computational Methods in Engineering}
+      \field{langid}{english}
+      \field{month}{8}
+      \field{number}{5}
+      \field{shortjournal}{Arch Computat Methods Eng}
+      \field{title}{State-of-the-Art Review of Machine Learning Applications in Constitutive Modeling of Soils}
+      \field{urlday}{13}
+      \field{urlmonth}{10}
+      \field{urlyear}{2025}
+      \field{volume}{28}
+      \field{year}{2021}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \field{pages}{3661\bibrangedash 3686}
+      \range{pages}{26}
+      \verb{doi}
+      \verb 10.1007/s11831-020-09524-z
+      \endverb
+      \verb{file}
+      \verb PDF:/Users/marleneziegler/Zotero/storage/6N64LXTH/Zhang et al. - 2021 - State-of-the-Art Review of Machine Learning Applications in Constitutive Modeling of Soils.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://link.springer.com/10.1007/s11831-020-09524-z
+      \endverb
+      \verb{url}
+      \verb https://link.springer.com/10.1007/s11831-020-09524-z
+      \endverb
+    \endentry
+    \entry{morrow_method_2010}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=1b70604b417431c8f684f74208f370dd}{%
+           family={Morrow},
+           familyi={M\bibinitperiod},
+           given={Duane\bibnamedelima A.},
+           giveni={D\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=120be8d7d419ac4c67dcff5c8d439835}{%
+           family={Haut\bibnamedelima Donahue},
+           familyi={H\bibinitperiod\bibinitdelim D\bibinitperiod},
+           given={Tammy},
+           giveni={T\bibinitperiod}}}%
+        {{hash=29666b8dfd2700a7c101c5fbff681786}{%
+           family={Odegard},
+           familyi={O\bibinitperiod},
+           given={Gregory\bibnamedelima M.},
+           giveni={G\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=a17434be854d0f0dfb23ca5f05196b4e}{%
+           family={Kaufman},
+           familyi={K\bibinitperiod},
+           given={Kenton\bibnamedelima R.},
+           giveni={K\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \strng{namehash}{75bb481d2d4f8232e8d32a2fc4cecfd8}
+      \strng{fullhash}{1f97a1257c7692b9961703ea66c3042f}
+      \strng{fullhashraw}{1f97a1257c7692b9961703ea66c3042f}
+      \strng{bibnamehash}{75bb481d2d4f8232e8d32a2fc4cecfd8}
+      \strng{authorbibnamehash}{75bb481d2d4f8232e8d32a2fc4cecfd8}
+      \strng{authornamehash}{75bb481d2d4f8232e8d32a2fc4cecfd8}
+      \strng{authorfullhash}{1f97a1257c7692b9961703ea66c3042f}
+      \strng{authorfullhashraw}{1f97a1257c7692b9961703ea66c3042f}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1025-5842, 1476-8259}
+      \field{journaltitle}{Computer Methods in Biomechanics and Biomedical Engineering}
+      \field{langid}{english}
+      \field{month}{4}
+      \field{number}{2}
+      \field{shortjournal}{Computer Methods in Biomechanics and Biomedical Engineering}
+      \field{title}{A method for assessing the fit of a constitutive material model to experimental stress–strain data}
+      \field{urlday}{13}
+      \field{urlmonth}{10}
+      \field{urlyear}{2025}
+      \field{volume}{13}
+      \field{year}{2010}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \field{pages}{247\bibrangedash 256}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1080/10255840903170686
+      \endverb
+      \verb{file}
+      \verb PDF:/Users/marleneziegler/Zotero/storage/NGVKGFDT/Morrow et al. - 2010 - A method for assessing the fit of a constitutive material model to experimental stress–strain data.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://www.tandfonline.com/doi/abs/10.1080/10255840903170686
+      \endverb
+      \verb{url}
+      \verb http://www.tandfonline.com/doi/abs/10.1080/10255840903170686
+      \endverb
+    \endentry
+    \entry{li_robust_2023}{article}{}{}
+      \name{author}{6}{}{%
+        {{hash=fc816674154b501a58d36fd1978aad3b}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Qing-Jie},
+           giveni={Q\bibinithyphendelim J\bibinitperiod}}}%
+        {{hash=4ad638005803048c87b2ff1f8b467726}{%
+           family={Cinbiz},
+           familyi={C\bibinitperiod},
+           given={Mahmut\bibnamedelima Nedim},
+           giveni={M\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+        {{hash=5d6038c292fe254b531b0db4830097e3}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Yin},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=954a8b117e47bd74e7e7fc588d404cc1}{%
+           family={He},
+           familyi={H\bibinitperiod},
+           given={Qi},
+           giveni={Q\bibinitperiod}}}%
+        {{hash=39283157e2d5ad0678ff6febca51c621}{%
+           family={Beausoleil},
+           familyi={B\bibinitperiod},
+           given={Geoffrey},
+           giveni={G\bibinitperiod}}}%
+        {{hash=dadde2f83fe38bb817cb3efc30aa28cb}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Ju},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{b89b4e080dc52d0e634dc5e2a7397402}
+      \strng{fullhash}{4a6d6bd0d206de3269b06cd3e0a19e11}
+      \strng{fullhashraw}{4a6d6bd0d206de3269b06cd3e0a19e11}
+      \strng{bibnamehash}{b89b4e080dc52d0e634dc5e2a7397402}
+      \strng{authorbibnamehash}{b89b4e080dc52d0e634dc5e2a7397402}
+      \strng{authornamehash}{b89b4e080dc52d0e634dc5e2a7397402}
+      \strng{authorfullhash}{4a6d6bd0d206de3269b06cd3e0a19e11}
+      \strng{authorfullhashraw}{4a6d6bd0d206de3269b06cd3e0a19e11}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{13596454}
+      \field{journaltitle}{Acta Materialia}
+      \field{langid}{english}
+      \field{month}{8}
+      \field{shortjournal}{Acta Materialia}
+      \field{title}{Robust deep learning framework for constitutive relations modeling}
+      \field{urlday}{13}
+      \field{urlmonth}{10}
+      \field{urlyear}{2025}
+      \field{volume}{254}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \field{pages}{118959}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.actamat.2023.118959
+      \endverb
+      \verb{file}
+      \verb PDF:/Users/marleneziegler/Zotero/storage/REFJ8A9X/Li et al. - 2023 - Robust deep learning framework for constitutive relations modeling.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S1359645423002902
+      \endverb
+      \verb{url}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S1359645423002902
+      \endverb
     \endentry
   \enddatalist
 \endrefsection

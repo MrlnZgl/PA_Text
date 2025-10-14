@@ -2402,12 +2402,16 @@
     <bcf:citekey order="25" intorder="1">jagota_finite_nodate</bcf:citekey>
     <bcf:citekey order="26" intorder="1">ries_deciphering_nodate</bcf:citekey>
     <bcf:citekey order="27" intorder="1">ries_deciphering_nodate</bcf:citekey>
-    <bcf:citekey order="28" intorder="1">gao_implementing_2012</bcf:citekey>
-    <bcf:citekey order="29" intorder="1">pham_comparative_2011</bcf:citekey>
-    <bcf:citekey order="30" intorder="1">singer_efficient_2004</bcf:citekey>
-    <bcf:citekey order="31" intorder="1">nelder_simplex_1965</bcf:citekey>
-    <bcf:citekey order="32" intorder="1">baudin_nelder-mead_nodate</bcf:citekey>
-    <bcf:citekey order="33" intorder="1" nocite="1">*</bcf:citekey>
+    <bcf:citekey order="28" intorder="1">dassault_systems_abaqus_2015-1</bcf:citekey>
+    <bcf:citekey order="29" intorder="1">dassault_systems_abaqus_2015-1</bcf:citekey>
+    <bcf:citekey order="30" intorder="1">omairey_development_2019</bcf:citekey>
+    <bcf:citekey order="31" intorder="1">omairey_development_2019</bcf:citekey>
+    <bcf:citekey order="32" intorder="1">gao_implementing_2012</bcf:citekey>
+    <bcf:citekey order="33" intorder="1">pham_comparative_2011</bcf:citekey>
+    <bcf:citekey order="34" intorder="1">singer_efficient_2004</bcf:citekey>
+    <bcf:citekey order="35" intorder="1">nelder_simplex_1965</bcf:citekey>
+    <bcf:citekey order="36" intorder="1">baudin_nelder-mead_nodate</bcf:citekey>
+    <bcf:citekey order="37" intorder="1" nocite="1">*</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">
