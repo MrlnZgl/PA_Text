@@ -17,80 +17,119 @@ In this section, the results for the verification study of the optimization proc
     \caption{Progress of material parameters during the verification study.}
     \label{fig:verifMaterialParams}
 \end{figure}
-
-First, the material parameters are presented, since their optimization is the main purpose of the procedure. The progress of each material parameter during the optimization is plotted in \autoref{fig:verifMaterialParams}. The first two subplots show the elastic parameters Young's modulus $E$ and Poisson's ratio $\nu$. As explained in section XX, in the \acrshort{fem} model $C_{10}$ and $D_1$ were used as elastic parameters. However, since $E$ and $\nu$ are the more illustrative quantities, only these are represented. With \autoref{eq: elasticParams} and \ref{eq: elasticParams} the parameters can easily be converted into each other. The remaining plots show the parameters, which define the plastic hardening. It should be stated, that in all performed tests, the values of all parameters converge. Furthermore, a trend towards a certain value can be seen for  all parameters except gamma. However, in all plots there is at least one outlier test. The earlier end of particular curves coheres on the internal convergence criterion of the Nelder-Mead algorithm as stated in XX. 
-
-COMPARISON WITH GUNNARS DATA\\
-EVALUATIONS ANZAHL MIT RMSE PLOT ÜBEREINSTIMMEN
+PAPERDATEN EINFÜGEN ALS PUNKTE \\
+ACHSENBESCHRIFTUNG ANPASSEN IN ALLEN MATERIALPLOTS \\
+PARAMETER JEWEILS IN ALLEN PLOTS GLEICH SKALIEREN \\
 
 
-For all parameters a state of convergence is reached independent of the initial value combination. 
-
-However, the resulting values for one parameter differ for different tests. 
-
-
-    In the first row the elastic material parameters are presented. For a better understanding, we transformed the hyper-elastic parameters \(C10\) and \(D1\) into Young's modulus \(E\) and Poisson ratio \(\nu\). In the second row the plastic material parameters are presented. For elastic and plastic parameters we can observe convergence for every parameter combination. However, the converged solutions differ from each other for most of the combinations. 
-For a detailed discussion of possible reasons we separate between elastic and plastic material behavior. Since our tested material shows an elastic response only up to the second data point, there might be not enough optimization points to find an unique solution for the elastic material parameters. Nevertheless, we have to investigate other characteristic quantities to ensure our assumption and understand the influence of the plastic parameters. In \autoref{fig:progress stress-strain curve} the progress of the stress-strain curve in normal direction during one exemplary test together with the target curve from the MD simulation is presented. The optimized curve matches the target curve after only  \(25 \%\) of the evaluations. Since the stress-strain curve is one of our target data this progress indicates a correct optimization behavior of our algorithm. To support this assumption the final stress-strain curves of the test series are depicted in \autoref{fig:final stress-strain curves}. Despite the high variance of the final material parameters, the stress-strain curves all matches the target data for the stress-strain curve in normal direction. Because of this deviation we depicted the influence of the parameters on the trend of the VOCE-hardening curve shown in \autoref{fig:Parameter influence on VOCE-hardening curve}. The parameter alpha has the greatest impact on the shape of the curve, while a variety of \(50\%\) in the parameter gamma has hardly any visible effect. This leads to a high flexibility in adjusting the shape of the curve and as a consequence to multiple possible parameter combinations to fit the target curve. To support our assumption we check the quality of the optimization result by plotting the progress of the root mean squared error (RSME) for all the tests in \autoref{fig:rmse progress}. We observe that a common minimum RMSE value is reached in all optimization runs, indicating that the results are of equivalent quality. 
-The results of this verification tests lead to some states about the quality of the optimization algorithm. The results of the stress-strain data show a good match of the optimized curve with the target data for every test which is confirmed by the RMSE. In contrast we observe a high variance in final the material parameters found by the algorithm. These results suggest that the algorithm can generally find parameter values to match the target data. However, the variance in these optimal parameters shows that multiple parameter combinations lead to the same quality of result. This behavior may be due to the relatively large number of optimization parameters compared to the dimension of the target data. To verify this assumption we reduced the number of material parameters. Since only the first point of the target data lies in the elastic domain, we fixed the elastic material behavior and computed them directly from the data of the first point. Then we tested this new configuration of the algorithm with the current target data and two other data sets.
-
-
-% \begin{figure}[H]
-%     \centering
-%     \subfigure[evolution of stress-strain curve]{
-%         \includegraphics[width=0.47\textwidth]{verfiy_stress_strain_progress.pdf}
-%         \label{fig:progress stress-strain curve}
-%     }
-%     \subfigure[final stress-strain curves]{     
-%         \includegraphics[width=0.47\textwidth]{verify_stress_strain_combined.pdf}
-%         \label{fig:final stress-strain curves}
-%     }
-%     \caption{a) evolution of the stress-strain curves during optimization for exemplary test, b) final stress-strain curves for complete test study}
-%     \label{fig:complete}
-% \end{figure}
+First, the material parameters are presented, since their optimization is the main purpose of the procedure. The progress of each material parameter during the optimization is plotted in \autoref{fig:verifMaterialParams}. The first two subplots show the elastic parameters Young's modulus $E$ and Poisson's ratio $\nu$. As explained in section XX, in the \acrshort{fem} model $C_{10}$ and $D_1$ were used as elastic parameters. However, since $E$ and $\nu$ are the more illustrative quantities, only these are represented. With \autoref{eq: elasticParams} and \ref{eq: elasticParams} the parameters can easily be converted into each other. The remaining plots show the parameters, which define the plastic hardening. It should be stated, that in all performed tests, the values of all parameters converge. Furthermore, a trend towards a certain value can be seen for all parameters except gamma. However, in all plots there is at least one outlier test. The earlier end of particular curves coheres on the internal convergence criterion of the Nelder-Mead algorithm as stated in XX.  To verify the quality of the \acrlong{omp}, the load reactions are considered. 
 
 \begin{figure}[H]
 \centering
-
 \begin{subfigure}[t]{0.495\textwidth}
     \centering
     \includegraphics[width=\textwidth]{Vald_6To3_Params3_4_stress_strain_progress.pdf}
     \caption{Evolution of stress–strain curve}
-    \label{fig:verif_progress_stress_strain_curve}
+    \label{fig:verifStressStrainProgress}
 \end{subfigure}
 \hfill
 \begin{subfigure}[t]{0.495\textwidth}
     \centering
     \includegraphics[width=\textwidth]{Vald_6To3_Params2_stress_strain_combined.pdf}
     \caption{Final stress–strain curves}
-    \label{fig:verif_final_stress_strain_curves}
+    \label{fig:verifStressStrainFinal}
 \end{subfigure}
-
-\caption{%
-    (a) Evolution of the stress–strain curves during optimization for an exemplary test,
-    (b) final stress–strain curves for the complete test study.%
-}
-\label{fig:complete}
+\caption{Verification results for load reaction $\sigma_{xx}$}
+\label{fig:verifStressStrainCurves}
 \end{figure}
 
+In \autoref{fig:verifStressStrainCurves}, the load reactions $\sigma_{xx}$ are plotted against the applied strain $\varepsilon_{xx}$. The progress of the values during an exemplary test is shown in \autoref{fig:verifStressStrainProgress}. The \acrlong{rlr} are plotted as black dots with corresponding standard deviations. The \acrlong{olr} match the \acrlong{rlr} almost perfect already after 50 \% of the performed evaluations. The standard deviations are much higher than the difference between the reference points and the \acrlong{olr}. In \autoref{fig:verifStressStrainFinal} the \acrlong{olr} after the final evaluation of each test are plotted. All curves perfectly fit the points of the \acrlong{rlr}. However, $\varepsilon_{yy}$ and $\varepsilon_{zz}$ were used as \acrlong{er} as well. Because of the isotropic material behaviour, their load reactions are equal in size. Therefore, only one load reaction ($\varepsilon_{yy}$) is plotted in XX after the final evaluation. Similar, as for the stress load reactions, a high correlation between the \acrlong{olr} and the \acrlong{rlr} can be seen. The observations of all \acrlong{er} suggest that in all tests the \acrshort{rmse} was effectively reduced. To support this assumption the progress of the \acrshort{rmse} for all the tests in \autoref{fig:verifRMSEProgress}. We observe that in all tests the \acrshort{rmse} is reduced up to a limit value between 1 and 2. The value decreases quite fast in the first optimisation iterations, and then approaches slowly to its minimum value.
+
+\begin{figure}[H]
+\centering
+\begin{subfigure}[t]{0.495\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{Vald_6To3_Params3_rsme_lin_plot.pdf}
+    \caption{rmse for multiple tests}
+    \label{fig:verifRMSEProgress}
+\end{subfigure}
+\hfill
+\begin{subfigure}[t]{0.495\textwidth}
+    \centering
+    \centering
+    \includegraphics[width=\textwidth]{Vald_6to3_Params3_strain_strain.pdf}
+    \caption{strain strain plot}
+    \label{fig:verfiStrainStrain}
+\end{subfigure}
+\caption{Verification results for load reaction $\sigma_{xx}$}
+\label{fig:voceAndRMSEVerif}
+\end{figure}
+
+\paragraph{Discussion}
+The results of the \acrlong{olr} presented in Figure XX bis XX indicate an effective error reduction of the script for all tests. Independent of the initial value combination, equally high correlation levels are reached. On the contrary, the \acrlong{omp} demonstrate ambiguous values, which implies issues in finding a unique minimum. These results illustrate, that multiple \acrlong{omp} yield equal load reactions. To understand this phenomenon, the impact of the material parameters on the load reactions are analysed in detail. As described in \autoref{subsec:loadParameters}, the most load steps are placed in the plastic domain of the material, which is known from further investigations (QUELLE). Only the first load step represents elastic behaviour. Therefore, the focus is taken on the plastic parameters. Via the VOCE-function (\autoref{eq: voce}) the connection between the plastic material parameters and the stress load reaction $\sigma_{xx}$ is given. In \autoref{fig:voceCurve} a curve for exemplary plastic parameters is giving. The impact of each parameter on the trend of the curve is plotted by adjusting its value sequentially. The plastic yield $\sigma_0$ stays constant, since it only acts as an offset value, which influences the point at which the material starts to plastify. The parameter $\alpha$ has the greatest impact on the shape of the curve, while a variety of \(50\%\) in the parameter $\gamma$ has hardly any visible effect. The small influence of $\gamma$ explains its high variance in \autoref{fig:verifMaterialParams}. In general, the plot indicates a high flexibility in adjusting the shape of the curve through different value combinations. This consideration verifies the assumption, that various material parameter combinations lead to similar load reactions. \\
+
+COMPARISON WITH GUNNARS DATA
 
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.5\textwidth]{voce_curve.pdf}
     \caption{parameter influence on voce-hardening curve}
-    \label{fig:Parameter influence on VOCE-hardening curve}
-\end{figure}
-PICTURES with Krümmung und Steigung --> parameters to characterize curve
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[width = 0.7\textwidth]{Vald_6To3_Params3_rsme_lin_plot.pdf}
-    \caption{rmse for multiple tests}
-    \label{fig:rmse progress}
+    \label{fig:voceCurve}
 \end{figure}
 
+%\paragraph{Conclusion}
+The presented results show, that the optimization process generally works. It is able to reduce the error of the load reactions within an adequate number of function evaluations. However, the code is unable to find unique material parameters. To improve this, the solution space is decreased. As already stated, the elastic parameters affect only the first load step. Thus, it is possible to compute their values directly via
 
+\begin{gather}\label{eq: EandNu}
+    E = \frac{\Delta\sigma_{xx_1}}{\Delta\varepsilon_{xx_1}} \hspace{1.5cm}
+    \nu = \frac{\Delta\varepsilon_{yy_1}}{\Delta\varepsilon_{xx_1}}
+\end{gather}
+    
+Then, only the plastic material parameters need to be optimised. By adapting the process in this way, the optimisation should lead to unique values for the remaining material parameters. In the validation study this configuration is tested for material with mixing ratios 4:3, 6:3 and 8:3. \\
+
+
+% To combine these observations, a detailed investigation of the 
+
+
+% a common minimum  value is reached in all optimization runs, indicating that the results are of equivalent quality. 
+
+
+% Despite the high variance of the final material parameters, the stress-strain curves all matches the target data for the stress-strain curve in normal direction. Because of this deviation we depicted the influence of the parameters on the trend of the VOCE-hardening curve shown in \autoref{fig:Parameter influence on VOCE-hardening curve}.  This leads to a high flexibility in adjusting the shape of the curve and as a consequence to multiple possible parameter combinations to fit the target curve. 
+
+
+
+
+
+
+EVALUATIONS ANZAHL MIT RMSE PLOT ÜBEREINSTIMMEN \\
+IN RMSE PLOT ACHSEN BESCHRIFTUNG ZU TOTAL ERROR ÄNDERN NUR IN DENEN IN DENEN ES STIMMT \\
+TARGET DATA DURCH RLR ERSETZEN \\
+
+
+% For all parameters a state of convergence is reached independent of the initial value combination. 
+
+% However, the resulting values for one parameter differ for different tests. 
+
+
+%     In the first row the elastic material parameters are presented. For a better understanding, we transformed the hyper-elastic parameters \(C10\) and \(D1\) into Young's modulus \(E\) and Poisson ratio \(\nu\). In the second row the plastic material parameters are presented. For elastic and plastic parameters we can observe convergence for every parameter combination. However, the converged solutions differ from each other for most of the combinations. 
+% For a detailed discussion of possible reasons we separate between elastic and plastic material behavior. Since our tested material shows an elastic response only up to the second data point, there might be not enough optimization points to find an unique solution for the elastic material parameters. Nevertheless, we have to investigate other characteristic quantities to ensure our assumption and understand the influence of the plastic parameters. In \autoref{fig:progress stress-strain curve} the progress of the stress-strain curve in normal direction during one exemplary test together with the target curve from the MD simulation is presented. The optimized curve matches the target curve after only  \(25 \%\) of the evaluations. Since the stress-strain curve is one of our target data this progress indicates a correct optimization behavior of our algorithm. To support this assumption the final stress-strain curves of the test series are depicted in \autoref{fig:final stress-strain curves}. 
+
+
+
+
+% The results of this verification tests lead to some states about the quality of the optimization algorithm. The results of the stress-strain data show a good match of the optimized curve with the target data for every test which is confirmed by the RMSE. In contrast we observe a high variance in final the material parameters found by the algorithm. These results suggest that the algorithm can generally find parameter values to match the target data. However, the variance in these optimal parameters shows that multiple parameter combinations lead to the same quality of result. This behavior may be due to the relatively large number of optimization parameters compared to the dimension of the target data. To verify this assumption we reduced the number of material parameters. Since only the first point of the target data lies in the elastic domain, we fixed the elastic material behavior and computed them directly from the data of the first point. Then we tested this new configuration of the algorithm with the current target data and two other data sets.
+
+
+
+
+\newpage
 \section{Validation}\label{sec: validation}
-To improve our algorithm we reduced the number of optimization parameters by fixing the elastic material parameters. The results of this implementation for three different data sets will be discussed in this section.
+ In the validation study the elastic parameters $E$ and $\nu$ were fixed. The results of this implementation for three different data sets will be discussed in this section.
+\paragraph{Test series 6:3}
+In the first test series, the same material as in \autoref{sec: verification}, with mixing ratio 6:3, is used. According to \autoref{eq: EandNu} the elastic parameters are determined to 
+\begin{equation*}
+    E = 2916 \hspace{1.5cm} \nu = 0.41 
+\end{equation*}
 
 \begin{figure}[H]
     \centering
@@ -99,94 +138,81 @@ To improve our algorithm we reduced the number of optimization parameters by fix
     \label{fig:validation material params 6to3}
 \end{figure}
 
-In the first step we used the same data set as in \autoref{verification} to test the modified algorithm. The optimized plastic material parameters are shown in \autoref{fig:validation material params 6to3}.  In all tests, the values of the plastic yield, alpha and beta demonstrate a converging trend towards a singular solution. The only exception to this is gamma whose converged values vary for each individual test. As was outlined in the preceding discussion, gamma exerts minimal influence on the trend of the hardening curve. Consequently, the focus shall be directed towards the plastic yield, alpha and beta, which indicate an improvement in their optimization behavior.
-The quality of this optimized parameters is ensured through the match of the stress-strain curves with the target data. As demonstrated in \autoref{fig:validationStressStrain6to3} the final stress-strain curves exhibit a strong correlation with the target data. The evolution of the RMSE XXX supports this results with small values for every test. A comparison of the results of the present study with those of the verification study reveals an equivalent level of optimization quality. Additionally, the results of the material parameters indicate a positive impact of the algorithm modification, showing a unique solution for the important parameters. 
-    
-
-\begin{figure}[H]
-    \centering
-    \begin{minipage}[t]{0.495\textwidth}
-        \centering
-        \includegraphics[width=\textwidth]{Vald_6To3_fixEP1_stress_strain_combined.pdf}
-        \caption*{(a) Final stress-strain curves}
-        \label{fig:validationStressStrain6to3}
-    \end{minipage}
-    \hfill
-    \begin{minipage}[t]{0.495\textwidth}
-        \centering
-        \includegraphics[width=\textwidth]{Vald_6To3_fixEP1_rsme_lin_plot.pdf}
-        \caption*{(b) RMSE evolution}
-        \label{subfigure:validation-rmse-6to3}
-    \end{minipage}
-    \caption{Results of validation tests with 6to3 dataset}
-    \label{fig:validation results 6to3}
-\end{figure}
+The optimised plastic material parameters are shown in \autoref{fig:validation material params 6to3}.  In all tests, the values of $\sigma_0$, $\alpha$ and $\beta$ demonstrate a converging trend towards a singular value. Just for $\gamma$ the converged values vary for each individual test. Similar to the verification study, the quality of the \acrlong{omp} is verified by the \acrlong{olr}. In \autoref{fig:validStressStrain6to3} the final \acrlong{olr} $\sigma_{xx}$ for all tests are plotted. The curves of all tests show a perfect match of the \acrlong{rlr}. The results of the \acrlong{eer} $\varepsilon_{yy}$ and $\varepsilon_{zz}$ are added in Attachment XX, since their presentation would be beyond the scope of this work. It can be stated, that in all tests the \acrlong{olr} match the \acrlong{rlr} of the lateral strains. Their influence on the optimisation is implicitly included in the \acrshort{rmse}, which is depicted in \autoref{fig:validRMSE6to3}. Similar to the verification study, the \acrshort{rmse} decreases rapidly in the beginning, and then holds a minimum value until the test is finished.
 
 
-
-To verify our algorithm independent of the used target data set, we made the same tests with two additional data sets. In the following we present the results of studies for mixing ratio 4:3 and 8:3. 
-
-% \begin{figure}[H]
-%     \centering
-%     \subfigure[evolution of material 4:3]{
-%         \includegraphics[width=1.0\textwidth]{valid4to3_material_params.pdf}
-% 		\label{fig:material params 4to3}
-%     }
-%     \subfigure[evolution of 8:4]{
-%         \includegraphics[width=1.0\textwidth]{valid8to3_material_paramspdf.pdf}
-%         \label{fig:material params 8to3}
-%     }
-%     \caption{Evolution of material parameters for a) mixing ratio 4:3 and b) mixing ratio 8:3}
-%     \label{fig:validation material params}
-% \end{figure}
+% The quality of this optimized parameters is ensured through the match of the stress-strain curves with the target data. As demonstrated in \autoref{fig:validStressStrain6to3} the final stress-strain curves exhibit a strong correlation with the target data. The evolution of the RMSE XXX supports this results with small values for every test. A comparison of the results of the present study with those of the verification study reveals an equivalent level of optimization quality. Additionally, the results of the material parameters indicate a positive impact of the algorithm modification, showing a unique solution for the important parameters. 
 
 \begin{figure}[H]
 \centering
-
-% (a)
-\begin{subfigure}[t]{1.0\textwidth}
+\begin{subfigure}[t]{0.495\textwidth}
     \centering
-    \includegraphics[width=0.66\textwidth]{Vald_4To3_fixEP1_material_params.pdf}
-    \caption{Evolution of material 4:3}
-    \label{fig:material_params_4to3}
+    \includegraphics[width=\textwidth]{Vald_6To3_fixEP1_stress_strain_combined.pdf}
+    \caption{ Final stress-strain curves}
+    \label{fig:validStressStrain6to3}
 \end{subfigure}
-\begin{subfigure}[t]{1.0\textwidth}
+\hfill
+\begin{subfigure}[t]{0.495\textwidth}
     \centering
-    \includegraphics[width=0.66\textwidth]{Vald_8To3_fixEP1_material_params.pdf}
-    \caption{Evolution of 8:3}
-    \label{fig:material_params_8to3}
+    \centering
+    \includegraphics[width=\textwidth]{Vald_6To3_fixEP1_rsme_lin_plot.pdf}
+    \caption{RMSE evolution}
+    \label{fig:validRMSE6to3}
 \end{subfigure}
-
-\caption{Evolution of material parameters for (a) mixing ratio 4:3 and (b) mixing ratio 8:3.}
-\label{fig:validation_material_params}
+\caption{Verification results for load reaction $\sigma_{xx}$}
+\label{fig:validRes6to3}
 \end{figure}
 
 
-The evolution of the plastic material parameters for the mixing ratios 4:3 and 8:3 in plotted in \autoref{fig:validation material params}. We can observe a similar convergence behaviour as in the validation study with mixing ratio 6:3. Only test case 3 for mixing ratio 8:3 shows a deviation provided that all values converge quite late. Since we chose the initial values randomly this might occur through an unfavourable combination of values. 
-In \autoref{fig:validation results} we represent the optimized stress-strain curves and the evolution of the RMSE. For all tests the stress-strain values correlate with the target data. The equivalent level of the RMSE for the converged solutions indicate a similar quality of the optimization result for all tests. These results indicate an improvement of the solution results through determining the elastic parameters.
-    
-% \begin{figure}[H]
-%     \centering
-%     \subfigure[stress-strain curves]{
-%         \includegraphics[width=0.47\textwidth]{valid4to3_stress_strain_combined.pdf}
-% 		\label{fig:validation stress-strain curves 4to3}
-%     }
-%     \subfigure[RMSE evolution]{
-%         \includegraphics[width=0.47\textwidth]{valid4to3_rmse.pdf}
-%         \label{fig:validation rmse 4to3}
-%     }
-%     \subfigure[Final stress-strain curves]{
-%         \includegraphics[width=0.47\textwidth]{valid8to3_stress_strain_combined.pdf}
-% 		\label{fig:validation stress-strain curves 8to3}
-%     }
-%     \subfigure[RMSE evolution]{
-%         \includegraphics[width=0.47\textwidth]{valid8to3_rmse.pdf}
-%         \label{fig:validation rmse 8to3}
-%     }
-%     \caption{Results of validation tests with mixing ratios 4:3 and 8:3: a) final stress-strain curves for mixing ratio 4:3, b) RMSE for mixing ratio 8:3, c) final stress-strain curves for mixing ratio 4:3, d) RMSE for mixing ratio 8:3}
-%     \label{fig:validation results}
-% \end{figure}
 
+
+% As was outlined in the preceding discussion, gamma exerts minimal influence on the trend of the hardening curve. Consequently, the focus shall be directed towards the plastic yield, alpha and beta, which indicate an improvement in their optimization behavior.
+
+\paragraph{Test series 4:3 and 8:3}
+In the following the results from the validation studies for materials with mixing ratio 4:3 and 8:3 are presented. The results of these two test series are discussed together, since their results lead to similar conclusions. In addition, the discussions of the \acrlong{omp} and the \acrshort{rmse} are reduced on the final values. Since these two validation series focus on the improvement of the final values of \acrlong{omp}, no relevant information is neglected through this diminution. The corresponding evolution plots are added in Attachment XX. The plastic material parameters and the \acrshort{rmse} show the same trends for both mixing ratios as for the mixing ratio 6:3. The final values of the plastic material parameters and the \acrshort{rmse} are summarised in \autoref{tab:validMaterialParams4To3} and \autoref{tab:validMaterialParams8To3}. The fixed elastic parameters are included as well. 
+For both mixing ratios the tests result in unique material parameters. Similar thing holds for the \acrshort{rmse}, which reaches the same low level for all tests. Finally, the representative optimised load reaction $\sigma_{xx}$ is evaluated in XX and XX. Their trends during the loading process match the \acrlong{rlr} in all performed tests.
+
+\begin{table}[h!]
+\centering
+\caption{Extracted material parameters for mixing ratio 4:3}
+\label{tab:validMaterialParams4To3}
+\renewcommand{\arraystretch}{1.2}
+\begin{tabular}{L{0.08\textwidth}|C{0.08\textwidth}C{0.08\textwidth}C{0.08\textwidth}C{0.08\textwidth}C{0.08\textwidth}C{0.08\textwidth}C{0.08\textwidth}}
+\toprule
+\textbf{Test} & \textbf{E (MPa)} & $\boldsymbol{\nu}$ & $\boldsymbol{\sigma_0}$ \textbf{(MPa)} & $\boldsymbol{\alpha}$ & $\boldsymbol{\beta}$ & $\boldsymbol{\gamma}$ & \textbf{\acrshort{rmse}}\\
+\midrule
+1 & 2478 & 0.43 & 28.48 & 66.97 & 50.54 & 45.74 & 0.68 \\
+2 & 2478 & 0.43 & 30.60 & 68.21 & 44.95 & 17.99 & 0.70 \\
+3 & 2478 & 0.43 & 30.89 & 68.40 & 44.31 & 13.80 & 0.70 \\
+4 & 2478& 0.43 & 31.37 & 68.01 & 43.97 & 13.25 & 0.70 \\
+5 & 2478 & 0.43 & 30.03 & 67.99 & 46.39 & 23.78 & 0.69 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{table}[h!]
+\centering
+\caption{Extracted material parameters with RMSE values for mixing ratio 8:3}
+\label{tab:validMaterialParams8To3}
+\renewcommand{\arraystretch}{1.2}
+\begin{tabular}{L{0.08\textwidth}|C{0.08\textwidth}C{0.08\textwidth}C{0.08\textwidth}C{0.08\textwidth}C{0.08\textwidth}C{0.08\textwidth}C{0.08\textwidth}}
+\toprule
+\textbf{Test} & \textbf{E (MPa)} & $\boldsymbol{\nu}$ & $\boldsymbol{\sigma_0}$ \textbf{(MPa)} & $\boldsymbol{\alpha}$ & $\boldsymbol{\beta}$ & $\boldsymbol{\gamma}$ & \textbf{\acrshort{rmse}}\\
+\midrule
+1 & 2636 & 0.42 & 44.45 & 60.27 & 51.33 & 60.00 & 0.58 \\
+2 & 2636 & 0.42 & 46.39 & 63.09 & 43.52 & 20.25 & 0.61 \\
+3 & 2636 & 0.42 & 46.69 & 64.12 & 41.94 & 9.06 & 0.62 \\
+4 & 2636 & 0.42 & 44.45 & 60.26 & 51.32 & 60.00 & 0.58 \\
+5 & 2636 & 0.42 & 45.97 & 61.62 & 46.00 & 35.83 & 0.60 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+
+
+
+% The evolution of the plastic material parameters for the mixing ratios 4:3 and 8:3 in plotted in \autoref{fig:validation material params}. We can observe a similar convergence behaviour as in the validation study with mixing ratio 6:3. Only test case 3 for mixing ratio 8:3 shows a deviation provided that all values converge quite late. Since we chose the initial values randomly this might occur through an unfavourable combination of values. 
+% In \autoref{fig:validation results} we represent the optimized stress-strain curves and the evolution of the RMSE. For all tests the stress-strain values correlate with the target data. The equivalent level of the RMSE for the converged solutions indicate a similar quality of the optimization result for all tests. These results indicate an improvement of the solution results through determining the elastic parameters.
 
 \begin{figure}[H]
 \centering
@@ -196,46 +222,35 @@ In \autoref{fig:validation results} we represent the optimized stress-strain cur
     \centering
     \includegraphics[width=\textwidth]{Vald_4To3_fixEP1_stress_strain_combined.pdf}
     \caption{Stress–strain curves (4:3)}
-    \label{fig:validation_stress_strain_4to3}
+    \label{fig:validStressStrain4to3}
 \end{subfigure}
 \hfill
-\begin{subfigure}[t]{0.495\textwidth}
-    \centering
-    \includegraphics[width=\textwidth]{Vald_4To3_fixEP1_rsme_lin_plot.pdf}
-    \caption{RMSE evolution (4:3)}
-    \label{fig:validation_rmse_4to3}
-\end{subfigure}
-
-\vspace{1em} % kleiner vertikaler Abstand zwischen den Reihen
-
-% --- untere Reihe: 8:3 ---
 \begin{subfigure}[t]{0.495\textwidth}
     \centering
     \includegraphics[width=\textwidth]{Vald_8To3_fixEP1_stress_strain_combined.pdf}
     \caption{Stress–strain curves (8:3)}
-    \label{fig:validation_stress_strain_8to3}
+    \label{fig:validStressStrain8to3}
 \end{subfigure}
-\hfill
-\begin{subfigure}[t]{0.495\textwidth}
-    \centering
-    \includegraphics[width=\textwidth]{Vald_8To3_fixEP1_rsme_lin_plot.pdf}
-    \caption{RMSE evolution (8:3)}
-    \label{fig:validation_rmse_8to3}
-\end{subfigure}
-
-\caption{Results of validation tests with mixing ratios 4:3 and 8:3:
-(a,b) show the final stress–strain curves and RMSE evolution for mixing ratio 4:3;
-(c,d) show the corresponding results for mixing ratio 8:3.}
-\label{fig:validation_results}
+\caption{Results of validation tests with mixing ratios 4:3 and 8:3:}
+\label{fig:validStressStrain4and8}
 \end{figure}
 
-Overall these results demonstrate the reliability of the optimization algorithm for the load case of a single tensile strain in one direction with fixed elastic parameters. The specification of the elastic parameter values improves the optimization performance in a way that for the plastic yield, alpha and beta independent of the initial values a singular solution can be found. However, the manual specification of Youngs modulus and Poisson ratio is only possible for target data sets with exactly one data point in the elastic domain of the material. For data sets with multiple points in the elastic domain a manual specification becomes complicated quite fast. Additional, for materials with completely unknown material behaviour, the point of transition between elastic and plastic behaviour is still unknown. In order to process such data sets too, we need to integrate the elastic parameters in the optimization process. In doing so the singularity of the solution should be maintained. Therefore the algorithm needs additional information about the mechanical material behaviour. In the following step we tried to do so through the combination of two load cases. Additional to the already tested tensile strain we applied a shear strain. As described in section XX the shear modulus contains information about Youngs modulus and  Poisson ratio what might improve the performance of the optimizatoin process. The information contained within the shear modulus about Youngs modulus and Poisson ratio might enclose the necessary restrictions to reduce the solution variability. 
 
-Warum sinusförmige belastung? Jz schon mit zyklischen versuchen kommen?
+\paragraph{Discussion}
+The performed validation studies demonstrate an improved convergence behaviour of the optimisation. For all mixing ratios, unique values of the material parameters are determined independent of the initial value combination. The \acrshort{rmse} and the stress load reaction ensure a high correlation to the \acrlong{rlr}. These results improve the reliability of the developed optimisation script. Therefore, it can be stated that for a single linear applied load case with fixed elastic parameters the script is able to find unique plastic parameters which appropriately describe the material behaviour.
 
 
-\section{shear and normal strain tests combined}
+% Overall, these results demonstrate the reliability of the optimization algorithm for the load case of a single tensile strain in one direction with fixed elastic parameters. The specification of the elastic parameter values improves the optimization performance in a way, that the plastic yield $\sigma_0$, $\alpha$ and $\beta$ can be 
 
+% However, the manual specification of Youngs modulus and Poisson ratio is only possible for target data sets with exactly one data point in the elastic domain of the material. For data sets with multiple points in the elastic domain a manual specification becomes complicated quite fast. Additional, for materials with completely unknown material behaviour, the point of transition between elastic and plastic behaviour is still unknown. In order to process such data sets too, we need to integrate the elastic parameters in the optimization process. In doing so the singularity of the solution should be maintained. Therefore the algorithm needs additional information about the mechanical material behaviour. In the following step we tried to do so through the combination of two load cases. Additional to the already tested tensile strain we applied a shear strain. As described in section XX the shear modulus contains information about Youngs modulus and  Poisson ratio what might improve the performance of the optimizatoin process. The information contained within the shear modulus about Youngs modulus and Poisson ratio might enclose the necessary restrictions to reduce the solution variability. 
+
+% Warum sinusförmige belastung? Jz schon mit zyklischen versuchen kommen?
+
+
+\section{Tensile-Shear combination}
+In this section the optimisation results for sinusoidal load application are presented. First through the load case E11 a tensile strain  XX is applied. 
+
+\subsection{Tensile tests}
 \begin{figure}[H]
     \centering
     \begin{minipage}[t]{0.495\textwidth}
@@ -262,6 +277,8 @@ Warum sinusförmige belastung? Jz schon mit zyklischen versuchen kommen?
     \label{fig:tensileMatParams}
 \end{figure}
 
+
+\subsection{Shear tests}
 \begin{figure}[H]
     \centering
     \begin{minipage}[t]{0.495\textwidth}

@@ -21,16 +21,22 @@
 \contentsline {section}{\numberline {3.2}Error calculation}{12}{section.3.2}%
 \contentsline {section}{\numberline {3.3}Preprocessing}{14}{section.3.3}%
 \contentsline {section}{\numberline {3.4}Optimisation process}{17}{section.3.4}%
-\contentsline {section}{\numberline {3.5}Storage of data}{19}{section.3.5}%
+\contentsline {section}{\numberline {3.5}Data storage}{19}{section.3.5}%
 \contentsline {chapter}{\numberline {4}Results}{21}{chapter.4}%
 \contentsline {section}{\numberline {4.1}Verification}{21}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Validation}{24}{section.4.2}%
-\contentsline {section}{\numberline {4.3}shear and normal strain tests combined}{28}{section.4.3}%
-\contentsline {section}{\numberline {4.4}cyclic tests}{30}{section.4.4}%
-\contentsline {chapter}{\numberline {5}Conclusion}{31}{chapter.5}%
-\contentsline {chapter}{\nonumberline Bibliography}{i}{chapter*.34}%
-\setcounter {tocdepth}{0}
+\contentsline {paragraph}{\nonumberline Discussion}{23}{paragraph*.27}%
+\contentsline {section}{\numberline {4.2}Validation}{25}{section.4.2}%
+\contentsline {paragraph}{\nonumberline Test series 6:3}{25}{paragraph*.30}%
+\contentsline {paragraph}{\nonumberline Test series 4:3 and 8:3}{26}{paragraph*.34}%
+\contentsline {paragraph}{\nonumberline Discussion}{27}{paragraph*.39}%
+\contentsline {section}{\numberline {4.3}Tensile-Shear combination}{27}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Tensile tests}{28}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}Shear tests}{29}{subsection.4.3.2}%
+\contentsline {section}{\numberline {4.4}cyclic tests}{29}{section.4.4}%
+\contentsline {chapter}{\numberline {5}Conclusion}{30}{chapter.5}%
+\contentsline {chapter}{\nonumberline Bibliography}{i}{chapter*.44}%
 \contentsline {chapter}{\numberline {A}Appendix}{v}{appendix.1.A}%
-\contentsline {section}{\numberline {A.1}Section}{v}{section.1.A.1}%
-\contentsline {chapter}{\numberline {B}Appendix}{vi}{appendix.1.B}%
+\contentsline {section}{\numberline {A.1}Results}{vi}{section.1.A.1}%
+\contentsline {chapter}{\numberline {B}Appendix}{vii}{appendix.1.B}%
+\setcounter {tocdepth}{0}
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

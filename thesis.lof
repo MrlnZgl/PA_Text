@@ -10,20 +10,20 @@
 \contentsline {figure}{\numberline {3.4}{\ignorespaces Loop conditions in preprocessing}}{16}{figure.caption.19}%
 \contentsline {figure}{\numberline {3.5}{\ignorespaces Flowchart code}}{17}{figure.caption.20}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Progress of material parameters during the verification study.}}{21}{figure.caption.22}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces (a) Evolution of the stress–strain curves during optimization for an exemplary test, (b) final stress–strain curves for the complete test study.}}{23}{figure.caption.23}%
-\contentsline {figure}{\numberline {4.3}{\ignorespaces parameter influence on voce-hardening curve}}{23}{figure.caption.24}%
-\contentsline {figure}{\numberline {4.4}{\ignorespaces rmse for multiple tests}}{24}{figure.caption.25}%
-\contentsline {figure}{\numberline {4.5}{\ignorespaces progress of material parameters for validation tests}}{24}{figure.caption.26}%
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Results of validation tests with 6to3 dataset}}{25}{figure.caption.27}%
-\contentsline {figure}{\numberline {4.7}{\ignorespaces Evolution of material parameters for (a) mixing ratio 4:3 and (b) mixing ratio 8:3.}}{26}{figure.caption.28}%
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Results of validation tests with mixing ratios 4:3 and 8:3: (a,b) show the final stress–strain curves and RMSE evolution for mixing ratio 4:3; (c,d) show the corresponding results for mixing ratio 8:3.}}{27}{figure.caption.29}%
-\contentsline {figure}{\numberline {4.9}{\ignorespaces Results of tensile tests with 6to3 dataset}}{28}{figure.caption.30}%
-\contentsline {figure}{\numberline {4.10}{\ignorespaces progress of material parameters for tensile tests}}{29}{figure.caption.31}%
-\contentsline {figure}{\numberline {4.11}{\ignorespaces Results of tensile tests with 6to3 dataset}}{29}{figure.caption.32}%
-\contentsline {figure}{\numberline {4.12}{\ignorespaces progress of material parameters for shear tests}}{30}{figure.caption.33}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Progress of material parameters during the verification study.}}{21}{figure.caption.23}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Verification results for load reaction $\sigma _{xx}$}}{22}{figure.caption.24}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Verification results for load reaction $\sigma _{xx}$}}{23}{figure.caption.25}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces parameter influence on voce-hardening curve}}{24}{figure.caption.28}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces progress of material parameters for validation tests}}{25}{figure.caption.31}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Verification results for load reaction $\sigma _{xx}$}}{26}{figure.caption.32}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Results of validation tests with mixing ratios 4:3 and 8:3:}}{27}{figure.caption.37}%
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Results of tensile tests with 6to3 dataset}}{28}{figure.caption.40}%
+\contentsline {figure}{\numberline {4.9}{\ignorespaces progress of material parameters for tensile tests}}{28}{figure.caption.41}%
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Results of tensile tests with 6to3 dataset}}{29}{figure.caption.42}%
+\contentsline {figure}{\numberline {4.11}{\ignorespaces progress of material parameters for shear tests}}{29}{figure.caption.43}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {A.1}{\ignorespaces Evolution of material parameters for (a) mixing ratio 4:3 and (b) mixing ratio 8:3.}}{vi}{figure.caption.45}%
 \addvspace {10\p@ }
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
