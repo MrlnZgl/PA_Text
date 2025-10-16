@@ -556,6 +556,9 @@ INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/graphics/color.sty
 INPUT ./thesis.aux
 INPUT ./thesis.aux
 INPUT thesis.aux
+INPUT ./indroduction.aux
+INPUT ./indroduction.aux
+INPUT indroduction.aux
 INPUT ./chapter_basics.aux
 INPUT ./chapter_basics.aux
 INPUT chapter_basics.aux
@@ -715,6 +718,12 @@ INPUT ./thesis.lot
 INPUT ./thesis.lot
 INPUT thesis.lot
 OUTPUT thesis.lot
+INPUT ./indroduction.tex
+INPUT ./indroduction.tex
+OUTPUT indroduction.aux
+INPUT ./indroduction.tex
+INPUT ./indroduction.tex
+INPUT indroduction.tex
 INPUT ./chapter_basics.tex
 INPUT ./chapter_basics.tex
 OUTPUT chapter_basics.aux
@@ -750,6 +759,11 @@ INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy5.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/ecrm0600.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/ecsx1200.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/ecti1095.tfm
+INPUT ./images/NelderMeadAlg.pdf
+INPUT ./images/NelderMeadAlg.pdf
+INPUT ./images/NelderMeadAlg.pdf
+INPUT ./images/NelderMeadAlg.pdf
 INPUT ./chapter_modelsAndMethods.tex
 INPUT ./chapter_modelsAndMethods.tex
 OUTPUT chapter_modelsAndMethods.aux
@@ -767,7 +781,6 @@ INPUT ./images/error_plot.pdf
 INPUT ./images/error_plot.pdf
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/ecrm0700.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/ecrm0500.tfm
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/ecti1095.tfm
 INPUT ./images/Amplitude.pdf
 INPUT ./images/Amplitude.pdf
 INPUT ./images/Amplitude.pdf
@@ -871,6 +884,9 @@ INPUT ./images/Vald_8To3_fixEP1_material_params.pdf
 INPUT ./images/Vald_8To3_fixEP1_material_params.pdf
 INPUT ./images/Vald_8To3_fixEP1_material_params.pdf
 INPUT thesis.aux
+INPUT ./indroduction.aux
+INPUT ./indroduction.aux
+INPUT indroduction.aux
 INPUT ./chapter_basics.aux
 INPUT ./chapter_basics.aux
 INPUT chapter_basics.aux

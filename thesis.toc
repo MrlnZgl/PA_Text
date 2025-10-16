@@ -2,41 +2,41 @@
 \contentsline {chapter}{Acronyms}{II}{section*.2}%
 \contentsline {chapter}{List of Figures}{III}{chapter*.4}%
 \contentsline {chapter}{List of Tables}{IV}{chapter*.5}%
-\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}%
-\contentsline {chapter}{\numberline {2}Basics}{3}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Molecular dynamics}{3}{section.2.1}%
-\contentsline {paragraph}{\nonumberline Constitutive models}{3}{paragraph*.7}%
-\contentsline {paragraph}{\nonumberline Previous work}{4}{paragraph*.10}%
-\contentsline {section}{\numberline {2.2}Finite Element Method}{5}{section.2.2}%
-\contentsline {paragraph}{\nonumberline Application}{6}{paragraph*.12}%
-\contentsline {section}{\numberline {2.3}ABAQUS Scripting Interface}{6}{section.2.3}%
-\contentsline {subsection}{\numberline {2.3.1}EasyPBC plugin}{7}{subsection.2.3.1}%
-\contentsline {section}{\numberline {2.4}Mathematical basics}{7}{section.2.4}%
-\contentsline {subsection}{\numberline {2.4.1}Numerical optimization}{7}{subsection.2.4.1}%
-\contentsline {subsection}{\numberline {2.4.2}Root mean squared error}{8}{subsection.2.4.2}%
-\contentsline {chapter}{\numberline {3}Script setup}{9}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Input data}{9}{section.3.1}%
-\contentsline {subsection}{\numberline {3.1.1}Load cases and evaluated reactions}{10}{subsection.3.1.1}%
-\contentsline {subsection}{\numberline {3.1.2}Load parameters and load reactions}{11}{subsection.3.1.2}%
-\contentsline {section}{\numberline {3.2}Error calculation}{12}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Preprocessing}{14}{section.3.3}%
-\contentsline {section}{\numberline {3.4}Optimisation process}{17}{section.3.4}%
-\contentsline {section}{\numberline {3.5}Data storage}{19}{section.3.5}%
-\contentsline {chapter}{\numberline {4}Results}{21}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Verification}{21}{section.4.1}%
-\contentsline {paragraph}{\nonumberline Discussion}{23}{paragraph*.27}%
-\contentsline {section}{\numberline {4.2}Validation}{25}{section.4.2}%
-\contentsline {paragraph}{\nonumberline Test series 6:3}{25}{paragraph*.30}%
-\contentsline {paragraph}{\nonumberline Test series 4:3 and 8:3}{26}{paragraph*.34}%
-\contentsline {paragraph}{\nonumberline Discussion}{27}{paragraph*.39}%
-\contentsline {section}{\numberline {4.3}Tensile-Shear combination}{27}{section.4.3}%
-\contentsline {subsection}{\numberline {4.3.1}Tensile tests}{28}{subsection.4.3.1}%
-\contentsline {subsection}{\numberline {4.3.2}Shear tests}{29}{subsection.4.3.2}%
-\contentsline {section}{\numberline {4.4}cyclic tests}{29}{section.4.4}%
-\contentsline {chapter}{\numberline {5}Conclusion}{30}{chapter.5}%
-\contentsline {chapter}{\nonumberline Bibliography}{i}{chapter*.44}%
+\contentsline {chapter}{\numberline {1}Introduction}{2}{chapter.1}%
+\contentsline {chapter}{\numberline {2}Basics}{4}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Molecular dynamics}{4}{section.2.1}%
+\contentsline {paragraph}{\nonumberline Constitutive models}{4}{paragraph*.7}%
+\contentsline {paragraph}{\nonumberline Previous work}{5}{paragraph*.10}%
+\contentsline {section}{\numberline {2.2}Finite Element Method}{6}{section.2.2}%
+\contentsline {paragraph}{\nonumberline Application}{7}{paragraph*.12}%
+\contentsline {section}{\numberline {2.3}ABAQUS Scripting Interface}{7}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}EasyPBC plugin}{8}{subsection.2.3.1}%
+\contentsline {section}{\numberline {2.4}Mathematical basics}{8}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}Numerical optimization}{8}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {2.4.2}Root mean squared error}{10}{subsection.2.4.2}%
+\contentsline {chapter}{\numberline {3}Script setup}{12}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Input data}{12}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Load cases and evaluated reactions}{13}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}Load parameters and load reactions}{14}{subsection.3.1.2}%
+\contentsline {section}{\numberline {3.2}Error calculation}{15}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Preprocessing}{17}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Optimisation process}{20}{section.3.4}%
+\contentsline {section}{\numberline {3.5}Data storage}{22}{section.3.5}%
+\contentsline {chapter}{\numberline {4}Results}{24}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Verification}{24}{section.4.1}%
+\contentsline {paragraph}{\nonumberline Discussion}{26}{paragraph*.28}%
+\contentsline {section}{\numberline {4.2}Validation}{28}{section.4.2}%
+\contentsline {paragraph}{\nonumberline Test series 6:3}{28}{paragraph*.31}%
+\contentsline {paragraph}{\nonumberline Test series 4:3 and 8:3}{29}{paragraph*.35}%
+\contentsline {paragraph}{\nonumberline Discussion}{30}{paragraph*.40}%
+\contentsline {section}{\numberline {4.3}Tensile-Shear combination}{30}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Tensile tests}{31}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}Shear tests}{32}{subsection.4.3.2}%
+\contentsline {section}{\numberline {4.4}cyclic tests}{32}{section.4.4}%
+\contentsline {chapter}{\numberline {5}Conclusion}{33}{chapter.5}%
+\contentsline {chapter}{\nonumberline Bibliography}{i}{chapter*.45}%
 \contentsline {chapter}{\numberline {A}Appendix}{v}{appendix.1.A}%
 \contentsline {section}{\numberline {A.1}Results}{vi}{section.1.A.1}%
-\contentsline {chapter}{\numberline {B}Appendix}{vii}{appendix.1.B}%
+\contentsline {chapter}{\numberline {B}Appendix}{viii}{appendix.1.B}%
 \setcounter {tocdepth}{0}
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

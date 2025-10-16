@@ -295,13 +295,12 @@ Before starting with the optimisation process, we need preprocessing steps to cr
     \hfill
     \begin{subtable}[t]{0.45\textwidth}
         \centering
-        \renewcommand{\arraystretch}{1.1}
+        \renewcommand{\arraystretch}{1.17}
         \caption{Model creation for load case and parameter combinations}
         \label{tab:model_creation}
         \begin{tabular}{L{0.25\textwidth}|C{0.2\textwidth}C{0.35\textwidth}}
             \toprule
-            \multirow{2}{0.25\textwidth}{\textbf{Model}} & \multirow{2}{0.2\textwidth}{\centering \textbf{Load case}} & \multirow{2}{0.35\textwidth}{\centering \textbf{Load parameters}} \\ 
-            & & \\ \midrule
+            {\textbf{Model}} & \textbf{Load case} &  \textbf{Load parameters} \\ \midrule
             Model 0 & E11 & Data set 1 \\ \hline
             Model 1 & E11 & Data set 2 \\\hline
             Model 2 & E11 & Data set 3 \\\hline
@@ -395,25 +394,22 @@ To evaluate the optimization process at the end, parameter values need to be rec
     \centering
     \renewcommand{\arraystretch}{1.2}
     \caption{Overview of the performed tests with corresponding input parameters}
-    \label{tab: testSeries}
-    \begin{tabular}{L{0.3\textwidth}C{0.08\textwidth}C{0.13\textwidth}}
+    \label{tab:storageData}
+    \begin{tabular}{L{0.3\textwidth}|C{0.1\textwidth}L{0.5\textwidth}}
     \toprule
    \textbf{Stored parameters} & \textbf{Data format} & \textbf{Explanation}\\ \midrule
-   Abaqus model &  & \\
-   input parameters & json & \\
-   material parameters & csv \\
-   weigthed MSE & csv & \\
-   RMSE & csv & \\
-   optimised load reactions & csv & \\
-   Scipy.minimize message & csv & \\
-
-   
+   Input parameters & JSON & Copy of the input file with current initial value combination\\ \hline
+   Material parameters & CSV & Table with all material parameters for each evaluation\\\hline
+   weighted \acrshort{mse} & CSV & File per job with weighted \acrshort{mse} per evaluation \\\hline
+   \acrshort{rmse} & CSV & File with \acrshort{rmse} per job, each stored alone, with weight for load case, and weight for load parameters \\\hline
+   Total error & CSV & Total error after each evaluation \\\hline
+   Optimised load reactions & CSV & File per job with all optimised load reactions in one evaluation \\\hline
+   Scipy.minimize message & TXT & Final message about the termination status of the scipy-function\\
     \bottomrule
     \end{tabular}
     
 \end{table}
 
-TABELLE
 MINIMIZE FUNCTION IN FLOWCHART INTEGRIEREN
 
 

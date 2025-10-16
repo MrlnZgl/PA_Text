@@ -2,28 +2,29 @@
 \thispagestyle {plain}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Exemplary stress-strain curve for elastoplastic materials based on \blx@tocontentsinit {0}\cite {mergheim_lecture_nodate}}}{4}{figure.caption.8}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Exemplary stress-strain curve for elastoplastic materials based on \blx@tocontentsinit {0}\cite {mergheim_lecture_nodate}}}{5}{figure.caption.8}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Visulisation of the Nelder-Mead algorithm for three optimisation parameters }}{10}{figure.caption.13}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Illustration of load case E11 with its corresponding evaluated stress and strain reactions $\sigma _{xx}, \varepsilon _{yy}$ and $\varepsilon _{zz}$}}{11}{figure.caption.14}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Exemplary \acrlong {rlr} $\sigma ^{\scriptscriptstyle \text {RLR}}$ and \acrlong {olr} $\sigma ^{\scriptscriptstyle \text {OLR}}$ with visualization of error calculation}}{13}{figure.caption.16}%
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Boundary condition menu in \textsc {Abaqus}}}{16}{figure.caption.19}%
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Loop conditions in preprocessing}}{16}{figure.caption.19}%
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Flowchart code}}{17}{figure.caption.20}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Illustration of load case E11 with its corresponding evaluated stress and strain reactions $\sigma _{xx}, \varepsilon _{yy}$ and $\varepsilon _{zz}$}}{14}{figure.caption.15}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Exemplary \acrlong {rlr} $\sigma ^{\scriptscriptstyle \text {RLR}}$ and \acrlong {olr} $\sigma ^{\scriptscriptstyle \text {OLR}}$ with visualization of error calculation}}{16}{figure.caption.17}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Boundary condition menu in \textsc {Abaqus}}}{19}{figure.caption.20}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Loop conditions in preprocessing}}{19}{figure.caption.20}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Flowchart code}}{20}{figure.caption.21}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Progress of material parameters during the verification study.}}{21}{figure.caption.23}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Verification results for load reaction $\sigma _{xx}$}}{22}{figure.caption.24}%
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Verification results for load reaction $\sigma _{xx}$}}{23}{figure.caption.25}%
-\contentsline {figure}{\numberline {4.4}{\ignorespaces parameter influence on voce-hardening curve}}{24}{figure.caption.28}%
-\contentsline {figure}{\numberline {4.5}{\ignorespaces progress of material parameters for validation tests}}{25}{figure.caption.31}%
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Verification results for load reaction $\sigma _{xx}$}}{26}{figure.caption.32}%
-\contentsline {figure}{\numberline {4.7}{\ignorespaces Results of validation tests with mixing ratios 4:3 and 8:3:}}{27}{figure.caption.37}%
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Results of tensile tests with 6to3 dataset}}{28}{figure.caption.40}%
-\contentsline {figure}{\numberline {4.9}{\ignorespaces progress of material parameters for tensile tests}}{28}{figure.caption.41}%
-\contentsline {figure}{\numberline {4.10}{\ignorespaces Results of tensile tests with 6to3 dataset}}{29}{figure.caption.42}%
-\contentsline {figure}{\numberline {4.11}{\ignorespaces progress of material parameters for shear tests}}{29}{figure.caption.43}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Progress of material parameters during the verification study.}}{24}{figure.caption.24}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Verification results for load reaction $\sigma _{xx}$}}{25}{figure.caption.25}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Verification results for load reaction $\sigma _{xx}$}}{26}{figure.caption.26}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces parameter influence on voce-hardening curve}}{27}{figure.caption.29}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces progress of material parameters for validation tests}}{28}{figure.caption.32}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Verification results for load reaction $\sigma _{xx}$}}{29}{figure.caption.33}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Results of validation tests with mixing ratios 4:3 and 8:3:}}{30}{figure.caption.38}%
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Results of tensile tests with 6to3 dataset}}{31}{figure.caption.41}%
+\contentsline {figure}{\numberline {4.9}{\ignorespaces progress of material parameters for tensile tests}}{31}{figure.caption.42}%
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Results of tensile tests with 6to3 dataset}}{32}{figure.caption.43}%
+\contentsline {figure}{\numberline {4.11}{\ignorespaces progress of material parameters for shear tests}}{32}{figure.caption.44}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {A.1}{\ignorespaces Evolution of material parameters for (a) mixing ratio 4:3 and (b) mixing ratio 8:3.}}{vi}{figure.caption.45}%
+\contentsline {figure}{\numberline {A.1}{\ignorespaces Evolution of material parameters for (a) mixing ratio 4:3 and (b) mixing ratio 8:3.}}{vi}{figure.caption.46}%
 \addvspace {10\p@ }
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
