@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.8.30)  16 OCT 2025 18:08
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.8.30)  17 OCT 2025 16:46
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -1703,11 +1703,11 @@ l.92
 ] (./thesis.toc
 
 LaTeX Font Warning: Font shape `U/wasy/b/n' in size <8> not available
-(Font)              Font shape `U/wasy/m/n' tried instead on input line 7.
+(Font)              Font shape `U/wasy/m/n' tried instead on input line 8.
 
 
 LaTeX Font Warning: Font shape `U/wasy/b/n' in size <6> not available
-(Font)              Font shape `U/wasy/m/n' tried instead on input line 7.
+(Font)              Font shape `U/wasy/m/n' tried instead on input line 8.
 
 )
 \tf@toc=\write10
@@ -1740,80 +1740,76 @@ LaTeX Font Warning: Font shape `U/wasy/b/n' in size <6> not available
 [4
 
 ]
+\openout2 = `indroduction.aux'.
+
+ (./indroduction.tex
+chapter 1.
+
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.189 	\include{indroduction}
-                              [1
+l.9 
+     [1
 
-]
-\openout2 = `indroduction.aux'.
 
- (./indroduction.tex
-chapter 1.
-)
+
+])
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.189 	\include{indroduction}
-                              [2
-
-
-]
+l.186 	\include{indroduction}
+                              [2]
 \openout2 = `chapter_basics.aux'.
 
  (./chapter_basics.tex
+chapter 2.
+
 
 [3
 
 
 
-]
-chapter 2.
-
-
-[4
 
 ]
-<./images/elastoplasticityCurve.pdf, id=190, 276.9988pt x 238.94278pt>
+<./images/elastoplasticityCurve.pdf, id=219, 276.9988pt x 238.94278pt>
 File: ./images/elastoplasticityCurve.pdf Graphic file (type pdf)
 <use ./images/elastoplasticityCurve.pdf>
-Package pdftex.def Info: ./images/elastoplasticityCurve.pdf  used on input line 22.
+Package pdftex.def Info: ./images/elastoplasticityCurve.pdf  used on input line 21.
 (pdftex.def)             Requested size: 209.12778pt x 180.40253pt.
 
 
 LaTeX Font Warning: Font shape `U/wasy/b/n' in size <9> not available
-(Font)              Font shape `U/wasy/m/n' tried instead on input line 34.
+(Font)              Font shape `U/wasy/m/n' tried instead on input line 33.
 
 
 LaTeX Font Warning: Font shape `U/wasy/b/n' in size <5> not available
-(Font)              Font shape `U/wasy/m/n' tried instead on input line 34.
+(Font)              Font shape `U/wasy/m/n' tried instead on input line 33.
 
 
 
-[5 <./images/elastoplasticityCurve.pdf>]
+[4 <./images/elastoplasticityCurve.pdf>]
+
+[5]
 
 [6]
 
 [7]
-
-[8]
-<./images/NelderMeadAlg.pdf, id=318, 556.58783pt x 586.24869pt>
+<./images/NelderMeadAlg.pdf, id=351, 556.58783pt x 586.24869pt>
 File: ./images/NelderMeadAlg.pdf Graphic file (type pdf)
 <use ./images/NelderMeadAlg.pdf>
 Package pdftex.def Info: ./images/NelderMeadAlg.pdf  used on input line 175.
 (pdftex.def)             Requested size: 334.60571pt x 352.44966pt.
 
 
-[9]
+[8]
 
-[10 <./images/NelderMeadAlg.pdf>])
+[9 <./images/NelderMeadAlg.pdf>])
 
-[11]
+[10]
 \openout2 = `chapter_modelsAndMethods.aux'.
 
  (./chapter_modelsAndMethods.tex
@@ -1825,7 +1821,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 12--14
 
 
 
-[12
+[11
 
 
 
@@ -1835,16 +1831,16 @@ Overfull \hbox (5.17746pt too wide) in paragraph at lines 114--125
  [][] 
  []
 
-<./images/cube_loading_plain_white_new.pdf, id=397, 1199.23032pt x 766.36313pt>
+<./images/cube_loading_plain_white_new.pdf, id=430, 1199.23032pt x 766.36313pt>
 File: ./images/cube_loading_plain_white_new.pdf Graphic file (type pdf)
 <use ./images/cube_loading_plain_white_new.pdf>
 Package pdftex.def Info: ./images/cube_loading_plain_white_new.pdf  used on input line 139.
 (pdftex.def)             Requested size: 292.7776pt x 187.08821pt.
 
 
-[13]
+[12]
 
-[14 <./images/cube_loading_plain_white_new.pdf>]
+[13 <./images/cube_loading_plain_white_new.pdf>]
 Overfull \hbox (3.30347pt too wide) in paragraph at lines 162--162
  []|\T1/cmr/bx/n/10.95 Trajectory| 
  []
@@ -1861,17 +1857,17 @@ Overfull \hbox (0.8973pt too wide) in paragraph at lines 159--176
 
 
 
-[15]
-<./images/error_plot.pdf, id=475, 578.16pt x 433.62pt>
+[14]
+<./images/error_plot.pdf, id=509, 578.16pt x 433.62pt>
 File: ./images/error_plot.pdf Graphic file (type pdf)
 <use ./images/error_plot.pdf>
 Package pdftex.def Info: ./images/error_plot.pdf  used on input line 188.
 (pdftex.def)             Requested size: 271.86356pt x 203.89406pt.
 
 
-[16 <./images/error_plot.pdf>]
+[15 <./images/error_plot.pdf>]
 
-[17]
+[16]
 Overfull \hbox (3.03304pt too wide) in paragraph at lines 288--288
  []|$\OML/cmm/m/it/10.95 ^^[[]$| 
  []
@@ -1906,53 +1902,46 @@ Package caption Warning: \label without proper reference on input line 329.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `fig:amplitudemenu' on page 18 undefined on input line 319.
+LaTeX Warning: Reference `fig:amplitudemenu' on page 17 undefined on input line 319.
 
 
 
-[18]
-<./images/Amplitude.pdf, id=583, 326.40144pt x 429.84439pt>
+[17]
+<./images/Amplitude.pdf, id=616, 326.40144pt x 429.84439pt>
 File: ./images/Amplitude.pdf Graphic file (type pdf)
 <use ./images/Amplitude.pdf>
 Package pdftex.def Info: ./images/Amplitude.pdf  used on input line 326.
 (pdftex.def)             Requested size: 146.39198pt x 192.79198pt.
-
-
-LaTeX Warning: Unexpected alignment T! on input line 330.
-
-<./images/BC.pdf, id=584, 280.44232pt x 435.72568pt>
+<./images/BC.pdf, id=617, 280.44232pt x 435.72568pt>
 File: ./images/BC.pdf Graphic file (type pdf)
 <use ./images/BC.pdf>
-Package pdftex.def Info: ./images/BC.pdf  used on input line 333.
+Package pdftex.def Info: ./images/BC.pdf  used on input line 335.
 (pdftex.def)             Requested size: 146.39198pt x 227.44962pt.
-
-LaTeX Warning: Unexpected alignment T! on input line 337.
-
-<./images/complete_flowchart_new.pdf, id=585, 845.04674pt x 1195.01572pt>
+<./images/complete_flowchart_new.pdf, id=618, 845.04674pt x 1195.01572pt>
 File: ./images/complete_flowchart_new.pdf Graphic file (type pdf)
 <use ./images/complete_flowchart_new.pdf>
-Package pdftex.def Info: ./images/complete_flowchart_new.pdf  used on input line 346.
+Package pdftex.def Info: ./images/complete_flowchart_new.pdf  used on input line 347.
 (pdftex.def)             Requested size: 418.25555pt x 591.4708pt.
 
 
-[19 <./images/Amplitude.pdf> <./images/BC.pdf>]
+[18 <./images/Amplitude.pdf> <./images/BC.pdf>]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 
-[20 <./images/complete_flowchart_new.pdf>]
+[19 <./images/complete_flowchart_new.pdf>]
 
-[21]
+[20]
 
-[22])
+[21])
 
-[23]
+[22]
 \openout2 = `chapter_results.aux'.
 
  (./chapter_results.tex
 chapter 4.
-<./images/Vald_6To3_Params3_material_params.pdf, id=670, 1084.05pt x 722.7pt>
+<./images/Vald_6To3_Params3_material_params.pdf, id=705, 1084.05pt x 722.7pt>
 File: ./images/Vald_6To3_Params3_material_params.pdf Graphic file (type pdf)
 <use ./images/Vald_6To3_Params3_material_params.pdf>
 Package pdftex.def Info: ./images/Vald_6To3_Params3_material_params.pdf  used on input line 16.
@@ -1964,35 +1953,35 @@ Underfull \hbox (badness 10000) in paragraph at lines 20--23
 
 
 
-[24
+[23
 
 
 
 
  <./images/Vald_6To3_Params3_material_params.pdf>]
-<./images/Vald_6To3_Params3_4_stress_strain_progress.pdf, id=869, 534.73091pt x 394.03673pt>
+<./images/Vald_6To3_Params3_4_stress_strain_progress.pdf, id=902, 534.73091pt x 394.03673pt>
 File: ./images/Vald_6To3_Params3_4_stress_strain_progress.pdf Graphic file (type pdf)
 <use ./images/Vald_6To3_Params3_4_stress_strain_progress.pdf>
 Package pdftex.def Info: ./images/Vald_6To3_Params3_4_stress_strain_progress.pdf  used on input line 31.
 (pdftex.def)             Requested size: 207.03445pt x 152.56139pt.
-<./images/Vald_6To3_Params2_stress_strain_combined.pdf, id=870, 534.86673pt x 393.0182pt>
+<./images/Vald_6To3_Params2_stress_strain_combined.pdf, id=903, 534.86673pt x 393.0182pt>
 File: ./images/Vald_6To3_Params2_stress_strain_combined.pdf Graphic file (type pdf)
 <use ./images/Vald_6To3_Params2_stress_strain_combined.pdf>
 Package pdftex.def Info: ./images/Vald_6To3_Params2_stress_strain_combined.pdf  used on input line 38.
 (pdftex.def)             Requested size: 207.03445pt x 152.12506pt.
-<./images/Vald_6To3_Params3_rsme_lin_plot.pdf, id=888, 524.07568pt x 396.27507pt>
+<./images/Vald_6To3_Params3_rsme_lin_plot.pdf, id=921, 524.07568pt x 396.27507pt>
 File: ./images/Vald_6To3_Params3_rsme_lin_plot.pdf Graphic file (type pdf)
 <use ./images/Vald_6To3_Params3_rsme_lin_plot.pdf>
 Package pdftex.def Info: ./images/Vald_6To3_Params3_rsme_lin_plot.pdf  used on input line 52.
 (pdftex.def)             Requested size: 207.03445pt x 156.5481pt.
-<./images/Vald_6to3_Params3_strain_strain.pdf, id=889, 578.16pt x 433.62pt>
+<./images/Vald_6to3_Params3_strain_strain.pdf, id=922, 578.16pt x 433.62pt>
 File: ./images/Vald_6to3_Params3_strain_strain.pdf Graphic file (type pdf)
 <use ./images/Vald_6to3_Params3_strain_strain.pdf>
 Package pdftex.def Info: ./images/Vald_6to3_Params3_strain_strain.pdf  used on input line 60.
 (pdftex.def)             Requested size: 207.03445pt x 155.27602pt.
 
 
-[25 <./images/Vald_6To3_Params3_4_stress_strain_progress.pdf> <./images/Vald_6To3_Params2_stress_strain_combined.pdf
+[24 <./images/Vald_6To3_Params3_4_stress_strain_progress.pdf> <./images/Vald_6To3_Params2_stress_strain_combined.pdf
 
 pdfTeX warning: pdflatex (file ./images/Vald_6To3_Params2_stress_strain_combined.pdf): PDF inclusion: multiple pdfs with page group included in a single page
 >]
@@ -2000,14 +1989,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 69--71
 
  []
 
-<./images/voce_curve.pdf, id=1083, 578.16pt x 433.62pt>
+<./images/voce_curve.pdf, id=1117, 578.16pt x 433.62pt>
 File: ./images/voce_curve.pdf Graphic file (type pdf)
 <use ./images/voce_curve.pdf>
 Package pdftex.def Info: ./images/voce_curve.pdf  used on input line 76.
 (pdftex.def)             Requested size: 209.12778pt x 156.84413pt.
 
 
-[26 <./images/Vald_6To3_Params3_rsme_lin_plot.pdf> <./images/Vald_6to3_Params3_strain_strain.pdf>]
+[25 <./images/Vald_6To3_Params3_rsme_lin_plot.pdf> <./images/Vald_6to3_Params3_strain_strain.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 89--90
 
  []
@@ -2019,25 +2008,25 @@ Underfull \hbox (badness 10000) in paragraph at lines 105--108
 
 
 
-[27 <./images/voce_curve.pdf>]
-<./images/Vald_6To3_fixEP1_material_params.pdf, id=1132, 722.7pt x 722.7pt>
+[26 <./images/voce_curve.pdf>]
+<./images/Vald_6To3_fixEP1_material_params.pdf, id=1167, 722.7pt x 722.7pt>
 File: ./images/Vald_6To3_fixEP1_material_params.pdf Graphic file (type pdf)
 <use ./images/Vald_6To3_fixEP1_material_params.pdf>
 Package pdftex.def Info: ./images/Vald_6To3_fixEP1_material_params.pdf  used on input line 137.
 (pdftex.def)             Requested size: 292.7776pt x 292.7801pt.
-<./images/Vald_6To3_fixEP1_stress_strain_combined.pdf, id=1145, 539.70009pt x 400.58649pt>
+<./images/Vald_6To3_fixEP1_stress_strain_combined.pdf, id=1180, 539.70009pt x 400.58649pt>
 File: ./images/Vald_6To3_fixEP1_stress_strain_combined.pdf Graphic file (type pdf)
 <use ./images/Vald_6To3_fixEP1_stress_strain_combined.pdf>
 Package pdftex.def Info: ./images/Vald_6To3_fixEP1_stress_strain_combined.pdf  used on input line 151.
 (pdftex.def)             Requested size: 207.03445pt x 153.66698pt.
-<./images/Vald_6To3_fixEP1_rsme_lin_plot.pdf, id=1146, 525.30623pt x 398.79568pt>
+<./images/Vald_6To3_fixEP1_rsme_lin_plot.pdf, id=1181, 525.30623pt x 398.79568pt>
 File: ./images/Vald_6To3_fixEP1_rsme_lin_plot.pdf Graphic file (type pdf)
 <use ./images/Vald_6To3_fixEP1_rsme_lin_plot.pdf>
 Package pdftex.def Info: ./images/Vald_6To3_fixEP1_rsme_lin_plot.pdf  used on input line 159.
 (pdftex.def)             Requested size: 207.03445pt x 157.17267pt.
 
 
-[28 <./images/Vald_6To3_fixEP1_material_params.pdf>]
+[27 <./images/Vald_6To3_fixEP1_material_params.pdf>]
 Overfull \hbox (2.40775pt too wide) in paragraph at lines 183--183
  \T1/cmr/bx/n/10.95 (MPa)| 
  []
@@ -2070,75 +2059,70 @@ Overfull \hbox (2.90195pt too wide) in paragraph at lines 201--202
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<./images/Vald_4To3_fixEP1_stress_strain_combined.pdf, id=1175, 536.83992pt x 404.62839pt>
+<./images/Vald_4To3_fixEP1_stress_strain_combined.pdf, id=1209, 536.83992pt x 404.62839pt>
 File: ./images/Vald_4To3_fixEP1_stress_strain_combined.pdf Graphic file (type pdf)
 <use ./images/Vald_4To3_fixEP1_stress_strain_combined.pdf>
 Package pdftex.def Info: ./images/Vald_4To3_fixEP1_stress_strain_combined.pdf  used on input line 224.
 (pdftex.def)             Requested size: 207.03445pt x 156.0448pt.
-<./images/Vald_8To3_fixEP1_stress_strain_combined.pdf, id=1176, 537.94751pt x 401.28662pt>
+<./images/Vald_8To3_fixEP1_stress_strain_combined.pdf, id=1210, 537.94751pt x 401.28662pt>
 File: ./images/Vald_8To3_fixEP1_stress_strain_combined.pdf Graphic file (type pdf)
 <use ./images/Vald_8To3_fixEP1_stress_strain_combined.pdf>
 Package pdftex.def Info: ./images/Vald_8To3_fixEP1_stress_strain_combined.pdf  used on input line 231.
 (pdftex.def)             Requested size: 207.03445pt x 154.43765pt.
 
 
-[29 <./images/Vald_6To3_fixEP1_stress_strain_combined.pdf> <./images/Vald_6To3_fixEP1_rsme_lin_plot.pdf>]
-<./images/Tensile_6to3_015_fixENu_normal_stress_strain_combined.pdf, id=1203, 539.86765pt x 400.39548pt>
+[28 <./images/Vald_6To3_fixEP1_stress_strain_combined.pdf> <./images/Vald_6To3_fixEP1_rsme_lin_plot.pdf>]
+<./images/Tensile_6to3_015_fixENu_normal_stress_strain_combined.pdf, id=1237, 539.86765pt x 400.39548pt>
 File: ./images/Tensile_6to3_015_fixENu_normal_stress_strain_combined.pdf Graphic file (type pdf)
 <use ./images/Tensile_6to3_015_fixENu_normal_stress_strain_combined.pdf>
 Package pdftex.def Info: ./images/Tensile_6to3_015_fixENu_normal_stress_strain_combined.pdf  used on input line 259.
 (pdftex.def)             Requested size: 207.03445pt x 153.54483pt.
-<./images/Tensile_6to3_015_fixENu_rsme_lin_plot.pdf, id=1204, 528.67764pt x 396.41512pt>
+<./images/Tensile_6to3_015_fixENu_rsme_lin_plot.pdf, id=1238, 528.67764pt x 396.41512pt>
 File: ./images/Tensile_6to3_015_fixENu_rsme_lin_plot.pdf Graphic file (type pdf)
 <use ./images/Tensile_6to3_015_fixENu_rsme_lin_plot.pdf>
 Package pdftex.def Info: ./images/Tensile_6to3_015_fixENu_rsme_lin_plot.pdf  used on input line 266.
 (pdftex.def)             Requested size: 207.03445pt x 155.23639pt.
 
 
-[30 <./images/Vald_4To3_fixEP1_stress_strain_combined.pdf> <./images/Vald_8To3_fixEP1_stress_strain_combined.pdf>]
-<./images/Tensile_6to3_015_fixENu_material_params.pdf, id=1232, 722.7pt x 722.7pt>
+[29 <./images/Vald_4To3_fixEP1_stress_strain_combined.pdf> <./images/Vald_8To3_fixEP1_stress_strain_combined.pdf>]
+<./images/Tensile_6to3_015_fixENu_material_params.pdf, id=1266, 722.7pt x 722.7pt>
 File: ./images/Tensile_6to3_015_fixENu_material_params.pdf Graphic file (type pdf)
 <use ./images/Tensile_6to3_015_fixENu_material_params.pdf>
 Package pdftex.def Info: ./images/Tensile_6to3_015_fixENu_material_params.pdf  used on input line 276.
 (pdftex.def)             Requested size: 292.7776pt x 292.7801pt.
-<./images/Shear_6to3_015_fixENu_500_shear_stress_strain_combined_.pdf, id=1233, 528.98103pt x 414.58348pt>
+<./images/Shear_6to3_015_fixENu_500_shear_stress_strain_combined_.pdf, id=1267, 528.98103pt x 414.58348pt>
 File: ./images/Shear_6to3_015_fixENu_500_shear_stress_strain_combined_.pdf Graphic file (type pdf)
 <use ./images/Shear_6to3_015_fixENu_500_shear_stress_strain_combined_.pdf>
 Package pdftex.def Info: ./images/Shear_6to3_015_fixENu_500_shear_stress_strain_combined_.pdf  used on input line 287.
 (pdftex.def)             Requested size: 207.03445pt x 162.26257pt.
-<./images/Shear_6to3_015_fixENu_500_rsme_lin_plot.pdf, id=1234, 523.26724pt x 394.66045pt>
+<./images/Shear_6to3_015_fixENu_500_rsme_lin_plot.pdf, id=1268, 523.26724pt x 394.66045pt>
 File: ./images/Shear_6to3_015_fixENu_500_rsme_lin_plot.pdf Graphic file (type pdf)
 <use ./images/Shear_6to3_015_fixENu_500_rsme_lin_plot.pdf>
 Package pdftex.def Info: ./images/Shear_6to3_015_fixENu_500_rsme_lin_plot.pdf  used on input line 294.
 (pdftex.def)             Requested size: 207.03445pt x 156.1451pt.
 
 
-[31 <./images/Tensile_6to3_015_fixENu_normal_stress_strain_combined.pdf> <./images/Tensile_6to3_015_fixENu_rsme_lin_plot.pdf> <./images/Tensile_6to3_015_fixENu_material_params.pdf>]
-<./images/Shear_6to3_015_fixENu_500_material_params.pdf, id=1259, 722.7pt x 722.7pt>
+[30 <./images/Tensile_6to3_015_fixENu_normal_stress_strain_combined.pdf> <./images/Tensile_6to3_015_fixENu_rsme_lin_plot.pdf> <./images/Tensile_6to3_015_fixENu_material_params.pdf>]
+<./images/Shear_6to3_015_fixENu_500_material_params.pdf, id=1293, 722.7pt x 722.7pt>
 File: ./images/Shear_6to3_015_fixENu_500_material_params.pdf Graphic file (type pdf)
 <use ./images/Shear_6to3_015_fixENu_500_material_params.pdf>
 Package pdftex.def Info: ./images/Shear_6to3_015_fixENu_500_material_params.pdf  used on input line 305.
 (pdftex.def)             Requested size: 292.7776pt x 292.7801pt.
 )
 
-[32 <./images/Shear_6to3_015_fixENu_500_shear_stress_strain_combined_.pdf> <./images/Shear_6to3_015_fixENu_500_rsme_lin_plot.pdf> <./images/Shear_6to3_015_fixENu_500_material_params.pdf>]
+[31 <./images/Shear_6to3_015_fixENu_500_shear_stress_strain_combined_.pdf> <./images/Shear_6to3_015_fixENu_500_rsme_lin_plot.pdf> <./images/Shear_6to3_015_fixENu_500_material_params.pdf>]
 chapter 5.
 
 
-[33
+[32
 
 
 
 ]
 chapter without number
 
-Overfull \hbox (3.49103pt too wide) in paragraph at lines 219--219
+Overfull \hbox (3.49103pt too wide) in paragraph at lines 216--216
 []\T1/cmr/m/n/10.95 M. \T1/cmr/m/sc/10.95 Ries \T1/cmr/m/n/10.95 et al. ``DE-CI-PHER-ING ELASTO-PLAS-TIC PROP-ER-TIES FROM ATOM-
- []
-
-
-Overfull \hbox (2.90967pt too wide) in paragraph at lines 219--219
-\T1/cmr/m/n/10.95 tive pa-ram-e-ters''. In: \T1/cmr/m/it/10.95 Com-pu-ta-tional Op-ti-miza-tion and Ap-pli-ca-tions \T1/cmr/m/n/10.95 51.1 (Jan. 2012).
  []
 
 
@@ -2147,14 +2131,19 @@ Overfull \hbox (2.90967pt too wide) in paragraph at lines 219--219
 
 
 ]
+Overfull \hbox (2.90967pt too wide) in paragraph at lines 216--216
+\T1/cmr/m/n/10.95 tive pa-ram-e-ters''. In: \T1/cmr/m/it/10.95 Com-pu-ta-tional Op-ti-miza-tion and Ap-pli-ca-tions \T1/cmr/m/n/10.95 51.1 (Jan. 2012).
+ []
+
+
 
 [2]
-Overfull \hbox (28.54956pt too wide) in paragraph at lines 219--219
+Overfull \hbox (28.54956pt too wide) in paragraph at lines 216--216
 []\T1/cmr/m/n/10.95 J.[]H. \T1/cmr/m/sc/10.95 Yi \T1/cmr/m/n/10.95 & S. \T1/cmr/m/sc/10.95 Mun\T1/cmr/m/n/10.95 . ``Back-cal-cu-lat-ing pave-ment struc-tural prop-er-ties us-ing a Nelder^^UMead
  []
 
 
-Overfull \hbox (58.42772pt too wide) in paragraph at lines 219--219
+Overfull \hbox (58.42772pt too wide) in paragraph at lines 216--216
 \T1/cmr/m/it/10.95 Ge-ome-chan-ics \T1/cmr/m/n/10.95 33.11 (2009). _eprint: https://onlinelibrary.wiley.com/doi/pdf/10.1002/nag.769,
  []
 
@@ -2163,23 +2152,25 @@ Overfull \hbox (58.42772pt too wide) in paragraph at lines 219--219
 [3]
 
 [4]
+
+[5]
 \openout2 = `appendix.aux'.
 
  (./appendix.tex
 chapter A.
-<./images/Vald_4To3_fixEP1_material_params.pdf, id=1430, 722.7pt x 722.7pt>
+<./images/Vald_4To3_fixEP1_material_params.pdf, id=1480, 722.7pt x 722.7pt>
 File: ./images/Vald_4To3_fixEP1_material_params.pdf Graphic file (type pdf)
 <use ./images/Vald_4To3_fixEP1_material_params.pdf>
 Package pdftex.def Info: ./images/Vald_4To3_fixEP1_material_params.pdf  used on input line 10.
 (pdftex.def)             Requested size: 276.05019pt x 276.05139pt.
-<./images/Vald_8To3_fixEP1_material_params.pdf, id=1431, 722.7pt x 722.7pt>
+<./images/Vald_8To3_fixEP1_material_params.pdf, id=1481, 722.7pt x 722.7pt>
 File: ./images/Vald_8To3_fixEP1_material_params.pdf Graphic file (type pdf)
 <use ./images/Vald_8To3_fixEP1_material_params.pdf>
 Package pdftex.def Info: ./images/Vald_8To3_fixEP1_material_params.pdf  used on input line 16.
 (pdftex.def)             Requested size: 276.05019pt x 276.05139pt.
 
 
-[5
+[6
 
 
 ]
@@ -2187,13 +2178,13 @@ Overfull \vbox (26.5544pt too high) has occurred while \output is active []
 
 
 
-[6 <./images/Vald_4To3_fixEP1_material_params.pdf> <./images/Vald_8To3_fixEP1_material_params.pdf>]
+[7 <./images/Vald_4To3_fixEP1_material_params.pdf> <./images/Vald_8To3_fixEP1_material_params.pdf>]
 
-[7]
+[8]
 chapter B.
 )
 
-[8
+[9
 
 ] (./thesis.aux (./indroduction.aux) (./chapter_basics.aux) (./chapter_modelsAndMethods.aux) (./chapter_results.aux) (./appendix.aux))
  ***********
@@ -2211,18 +2202,18 @@ Package logreq Info: Writing requests to 'thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 66017 strings out of 473190
- 1537902 string characters out of 5715800
- 2781480 words of memory out of 5000000
- 88061 multiletter control sequences out of 15000+600000
- 594979 words of font info for 133 fonts, out of 8000000 for 9000
+ 66032 strings out of 473190
+ 1538495 string characters out of 5715800
+ 2781881 words of memory out of 5000000
+ 88071 multiletter control sequences out of 15000+600000
+ 594981 words of font info for 133 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 108i,17n,120p,10984b,2362s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx0900.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1095.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx2074.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfcc1000.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfcc1095.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm0500.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm0600.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm0900.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx1095.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx1200.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx1440.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx2074.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfti1095.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sftt1095.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb>
-Output written on thesis.pdf (48 pages, 2660046 bytes).
+ 108i,17n,120p,10984b,2363s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx0900.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1095.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx2074.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfcc0900.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfcc1095.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm0500.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm0600.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm0900.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx1095.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx1200.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx1440.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx2074.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfti1095.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sftt1095.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb>
+Output written on thesis.pdf (48 pages, 2668091 bytes).
 PDF statistics:
- 1738 PDF objects out of 2073 (max. 8388607)
- 1369 compressed objects within 14 object streams
- 189 named destinations out of 1000 (max. 500000)
+ 1789 PDF objects out of 2073 (max. 8388607)
+ 1419 compressed objects within 15 object streams
+ 194 named destinations out of 1000 (max. 500000)
  518 words of extra memory for PDF output out of 10000 (max. 10000000)
 
