@@ -249,63 +249,173 @@ The performed validation studies demonstrate an improved convergence behaviour o
 
 
 \section{Tensile-Shear combination}
-In this section the optimisation results for sinusoidal load application are presented. First a tensile strain  XX is applied with the load case E11. In the second test series the same load parameters are adapted as shear load case G12, and finally, the load cases are combined in a single optimisation. In all test series mixing ratio 6:3 was simulated. The load parameters follow the first quarter of a sinus function up to a maximum amplitude of 15 \%. 
+In this section the optimisation results for sinusoidal load application are presented. Similar to the validation studies, we calculated the elastic parameters previously with the first stress-strain data. First a tensile strain  XX is applied with the load case E11. In the second test series the same load parameters are adapted as shear load case G12, and finally, the load cases are combined in a single optimisation. In all test series, mixing ratio 6:3 was simulated. The load parameters follow the first quarter of a sinus function up to a maximum amplitude of 15 \%. 
 
-\subsection{Tensile tests}
+\paragraph{Tensile tests}
+In the first test series, a single tensile load case is applied. Similar as in the last validation studies, we focus on the final results of the script. Therefore, the material parameters from the final evaluation are summarised in \autoref{tab:tensileMatparams}. All tests lead to unique values for the plastic yield, alpha and beta. The values of gamma show high variances. 
+
+\begin{table}[h!]
+\centering
+\caption{Extracted material parameters with RMSE values (rounded to two decimals)}
+\label{tab:tensileMatparams}
+\renewcommand{\arraystretch}{1.1}
+\begin{tabular}{L{0.08\textwidth}|C{0.08\textwidth}C{0.08\textwidth}C{0.08\textwidth}C{0.08\textwidth}C{0.08\textwidth}C{0.08\textwidth}}
+\toprule
+\textbf{Test} & \textbf{E (MPa)} & $\boldsymbol{\nu}$ & $\boldsymbol{\sigma_0}$ \textbf{(MPa)} & $\boldsymbol{\alpha}$ & $\boldsymbol{\beta}$ & $\boldsymbol{\gamma}$ \\
+\midrule
+202 & 2599 & 0.42 & 45.50 & 78.14 & 31.23 & 55.46  \\
+283 & 2599 & 0.42 & 46.37 & 84.24 & 28.15 & 0.00 \\
+365 & 2599 & 0.42 & 45.47 & 77.64 & 31.49 & 59.95 \\
+132 & 2599 & 0.42 & 46.61 & 82.87 & 28.31 & 10.97 \\
+183 & 2599 & 0.42 & 46.07 & 81.84 & 29.18 & 22.11 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+To classify the results, the load reactions $\sigma_{xx}$ and the \acrshort{rmse} value are plotted in \autoref{fig:tensileResults6to3}. The \acrlong{olr} show a high correlation to the \acrlong{rlr}. We have deliberately omitted the standard deviations in this plot, as this would otherwise reduce clarity. The \acrshort{rmse} starts at quite high values,c ompared to the ones in the validation studies. However, the value decreases fast after the first evaluations, and convergences to a limit value around 2. 
+
+% \begin{figure}[H]
+%     \centering
+%     \begin{minipage}[t]{0.495\textwidth}
+%         \centering
+%         \includegraphics[width=\textwidth]{Tensile_6to3_015_fixENu_normal_stress_strain_combined.pdf}
+%         \caption*{(a) Final stress-strain curves}
+%         \label{fig:tensileStressStrain6to3}
+%     \end{minipage}
+%     \hfill
+%     \begin{minipage}[t]{0.495\textwidth}
+%         \centering
+%         \includegraphics[width=\textwidth]{Tensile_6to3_015_fixENu_rsme_lin_plot.pdf}
+%         \caption*{(b) RMSE evolution}
+%         \label{subfigure:tensileRMSE}
+%     \end{minipage}
+%     \caption{Results of tensile tests with 6to3 dataset}
+%     \label{fig:tensileResults6to3}
+% \end{figure}
+
 \begin{figure}[H]
+\centering
+\begin{subfigure}[t]{0.495\textwidth}
     \centering
-    \begin{minipage}[t]{0.495\textwidth}
-        \centering
-        \includegraphics[width=\textwidth]{Tensile_6to3_015_fixENu_normal_stress_strain_combined.pdf}
-        \caption*{(a) Final stress-strain curves}
-        \label{fig:tensileStressStrain6to3}
-    \end{minipage}
-    \hfill
-    \begin{minipage}[t]{0.495\textwidth}
-        \centering
-        \includegraphics[width=\textwidth]{Tensile_6to3_015_fixENu_rsme_lin_plot.pdf}
-        \caption*{(b) RMSE evolution}
-        \label{subfigure:tensileRMSE}
-    \end{minipage}
-    \caption{Results of tensile tests with 6to3 dataset}
-    \label{fig:tensileResults6to3}
+    \includegraphics[width=\textwidth]{Tensile_6to3_015_fixENu_normal_stress_strain_combined.pdf}
+    \caption{Final stress-strain curves}
+    \label{fig:tensileStressStrain6to3}
+\end{subfigure}
+\hfill
+\begin{subfigure}[t]{0.495\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{Tensile_6to3_015_fixENu_rsme_lin_plot.pdf}
+    \caption{RMSE evolution}
+    \label{subfigure:tensileRMSE}
+\end{subfigure}
+\caption{Results of tensile tests with 6to3 dataset}
+\label{fig:tensileResults6to3}
+\end{figure}
+
+
+
+\paragraph{Shear tests}
+In the next test series, a single shear strain is applied. The computation of the elastic parameters, needs to be adapted, since the Young's modulus cannot be computed direclty. from the shear stress, we first calculate the shear modulus $G$ with the following formula
+\begin{equation}
+    G = \frac{\Delta\sigma_{xy}}{2\Delta\varepsilon_{xy}} = 1619 MPa
+\end{equation}
+which can be transferred into $E$ through
+\begin{equation}
+    E = 2G(1+\nu) 
+\end{equation}
+We chose the value of $\nu$ in a way, that the resulting Young's modulus is XXX. The final values for all material parameters are listed in \autoref{tab:shearMatParams}. In this study, the value of $\sigma_0$ ran into the limits in every test, since the upper limit is 50 MPa and the lower limit 15 MPa. For gamma the limits of 0  and 100 are reached as well. For $\alpha$ and $\beta$ similar values are reached for all tests except test number 2. 
+
+\begin{table}[h!]
+\centering
+\caption{Extracted material parameters with RMSE values (rounded to two decimals)}
+\label{tab:shearMatParams}
+\renewcommand{\arraystretch}{1.1}
+\begin{tabular}{L{0.08\textwidth}|C{0.08\textwidth}C{0.08\textwidth}C{0.08\textwidth}C{0.08\textwidth}C{0.08\textwidth}C{0.08\textwidth}}
+\toprule
+\textbf{Test} & \textbf{E (MPa)} & $\boldsymbol{\nu}$ & $\boldsymbol{\sigma_0}$ \textbf{(MPa)} & $\boldsymbol{\alpha}$ & $\boldsymbol{\beta}$ & $\boldsymbol{\gamma}$ \\
+\midrule
+311 & 4402 & 0.36 & 15.00 & 103.41 & 128.88 & 100.00 \\
+241 & 4402 & 0.36 & 50.00 & 76.72 & 69.66 & 0.00 \\
+289 & 4402 & 0.36 & 50.00 & 76.71 & 69.79 & 0.00 \\
+349 & 4402 & 0.36 & 50.00 & 70.51 & 78.81 & 100.00  \\
+361 & 4402 & 0.36 & 50.00 & 70.69 & 77.88 & 98.32 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+In \autoref{fig:shearResults6to3} the load reactions $\sigma_{xx}$ and the \acrshort{rmse} are plotted. In both plost test 2 acts as an outlier. In the remaining tests, the \acrlong{rlr} were matched very accurate. The trend for tes number 2 differs, but still shows a high correlation. The \acrshort{rmse} trend looks similar as for the tensile tests. Test number 2 converges at a slighter higher limit value. 
+
+
+% \begin{figure}[H]
+%     \centering
+%     \begin{minipage}[t]{0.495\textwidth}
+%         \centering
+%         \includegraphics[width=\textwidth]{Shear_6to3_015_fixENu_500_shear_stress_strain_combined_.pdf}
+%         \caption*{(a) Final stress-strain curves}
+%         \label{fig:shearStressStrain6to3}
+%     \end{minipage}
+%     \hfill
+%     \begin{minipage}[t]{0.495\textwidth}
+%         \centering
+%         \includegraphics[width=\textwidth]{Shear_6to3_015_fixENu_500_rsme_lin_plot.pdf}
+%         \caption*{(b) RMSE evolution}
+%         \label{subfigure:shearRMSE}
+%     \end{minipage}
+%     \caption{Results of tensile tests with 6to3 dataset}
+%     \label{fig:shearResults6to3}
+% \end{figure}
+
+\begin{figure}[H]
+\centering
+\begin{subfigure}[t]{0.495\textwidth}
+    \centering
+     \includegraphics[width=\textwidth]{Shear_6to3_015_fixENu_500_shear_stress_strain_combined_.pdf}
+        \caption{Final stress-strain curves}
+        \label{subfig:shearStressStrain6to3}
+\end{subfigure}
+\hfill
+\begin{subfigure}[t]{0.495\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{Shear_6to3_015_fixENu_500_rsme_lin_plot.pdf}
+        \caption{ RMSE evolution}
+        \label{subfig:shearRMSE}
+\end{subfigure}
+\caption{Results of shear tests with 6to3 dataset}
+\label{fig:shearResults6to3}
+\end{figure}
+
+\paragraph{Tensile-Shear combination}
+
+\begin{figure}[H]
+\centering
+\begin{subfigure}[t]{0.495\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{Combi_6to3_015_fixENu_500a_normal_stress_strain_combined.pdf}
+    \caption{Final tensile stress-strain curves}
+    \label{subfig:CombiTensileStressStrainCurve}
+\end{subfigure}
+\hfill
+\begin{subfigure}[t]{0.495\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{Combi_6to3_015_fixENu_500a_shear_stress_strain.pdf}
+    \caption{Final shear stress strain}
+    \label{subfig:CombiShearStressStrain}
+\end{subfigure}
+\caption{Results of combi tests with 6to3 dataset}
+\label{fig:CombiResults6to3}
 \end{figure}
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.7\textwidth]{Tensile_6to3_015_fixENu_material_params.pdf}
-    \caption{progress of material parameters for tensile tests}
-    \label{fig:tensileMatParams}
+    \includegraphics[width=0.495\textwidth]{Combi_6to3_015_fixENu_500a_rsme.pdf}
+    \caption{RMSE Combi tests}
+    \label{fig:combiRMSE}
 \end{figure}
 
-
-\subsection{Shear tests}
-\begin{figure}[H]
-    \centering
-    \begin{minipage}[t]{0.495\textwidth}
-        \centering
-        \includegraphics[width=\textwidth]{Shear_6to3_015_fixENu_500_shear_stress_strain_combined_.pdf}
-        \caption*{(a) Final stress-strain curves}
-        \label{fig:shearStressStrain6to3}
-    \end{minipage}
-    \hfill
-    \begin{minipage}[t]{0.495\textwidth}
-        \centering
-        \includegraphics[width=\textwidth]{Shear_6to3_015_fixENu_500_rsme_lin_plot.pdf}
-        \caption*{(b) RMSE evolution}
-        \label{subfigure:shearRMSE}
-    \end{minipage}
-    \caption{Results of tensile tests with 6to3 dataset}
-    \label{fig:shearResults6to3}
-\end{figure}
+\paragraph{Discussion}
 
 
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.7\textwidth]{Shear_6to3_015_fixENu_500_material_params.pdf}
-    \caption{progress of material parameters for shear tests}
-    \label{fig:shearMatParams}
-\end{figure}
+
 
 
 \section{cyclic tests}

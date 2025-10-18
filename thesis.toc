@@ -31,13 +31,15 @@
 \contentsline {paragraph}{\nonumberline Test series 4:3 and 8:3}{28}{paragraph*.37}%
 \contentsline {paragraph}{\nonumberline Discussion}{29}{paragraph*.42}%
 \contentsline {section}{\numberline {4.3}Tensile-Shear combination}{29}{section.4.3}%
-\contentsline {subsection}{\numberline {4.3.1}Tensile tests}{30}{subsection.4.3.1}%
-\contentsline {subsection}{\numberline {4.3.2}Shear tests}{31}{subsection.4.3.2}%
-\contentsline {section}{\numberline {4.4}cyclic tests}{31}{section.4.4}%
-\contentsline {chapter}{\numberline {5}Conclusion}{32}{chapter.5}%
-\contentsline {chapter}{\nonumberline Bibliography}{i}{chapter*.47}%
+\contentsline {paragraph}{\nonumberline Tensile tests}{30}{paragraph*.44}%
+\contentsline {paragraph}{\nonumberline Shear tests}{30}{paragraph*.48}%
+\contentsline {paragraph}{\nonumberline Tensile-Shear combination}{32}{figure.caption.54}%
+\contentsline {paragraph}{\nonumberline Discussion}{32}{paragraph*.56}%
+\contentsline {section}{\numberline {4.4}cyclic tests}{32}{section.4.4}%
+\contentsline {chapter}{\numberline {5}Conclusion}{33}{chapter.5}%
+\contentsline {chapter}{\nonumberline Bibliography}{i}{chapter*.57}%
 \contentsline {chapter}{\numberline {A}Appendix}{vi}{appendix.1.A}%
 \contentsline {section}{\numberline {A.1}Results}{vii}{section.1.A.1}%
-\contentsline {chapter}{\numberline {B}Appendix}{ix}{appendix.1.B}%
+\contentsline {chapter}{\numberline {B}Appendix}{x}{appendix.1.B}%
 \setcounter {tocdepth}{0}
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

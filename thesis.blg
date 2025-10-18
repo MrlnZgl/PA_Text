@@ -1,18 +1,18 @@
 [0] Config.pm:308> INFO - This is Biber 2.20
 [0] Config.pm:311> INFO - Logfile is 'thesis.blg'
-[37] biber-darwin:340> INFO - === Fri Oct 17, 2025, 16:46:45
-[53] Biber.pm:420> INFO - Reading 'thesis.bcf'
-[91] Biber.pm:991> INFO - Using all citekeys in bib section 0
-[99] Biber.pm:4463> INFO - Processing section 0
-[104] Biber.pm:4654> INFO - Looking for bibtex file 'literature.bib' for section 0
-[108] bibtex.pm:1713> INFO - LaTeX decoding ...
-[159] bibtex.pm:1519> INFO - Found BibTeX data source 'literature.bib'
-[318] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[318] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[318] Biber.pm:4283> INFO - Sorting list 'none/global//global/global/global' of type 'entry' with template 'none' and locale 'en-US'
-[318] Biber.pm:4289> INFO - No sort tailoring available for locale 'en-US'
-[349] bbl.pm:676> INFO - Writing 'thesis.bbl' with encoding 'UTF-8'
-[366] bbl.pm:779> INFO - Output to thesis.bbl
-[367] Biber.pm:131> WARN - ISBN '978-3-662-49351-9 978-3-662-49352-6' in entry 'knothe_finite_2017' is invalid - run biber with '--validate_datamodel' for details.
-[367] Biber.pm:131> WARN - ISBN '978-3-642-53936-7 978-3-642-53937-4' in entry 'steinke_finite-elemente-methode_2015' is invalid - run biber with '--validate_datamodel' for details.
-[367] Biber.pm:133> INFO - WARNINGS: 2
+[57] biber-darwin:340> INFO - === Sat Oct 18, 2025, 09:04:37
+[70] Biber.pm:420> INFO - Reading 'thesis.bcf'
+[133] Biber.pm:991> INFO - Using all citekeys in bib section 0
+[145] Biber.pm:4463> INFO - Processing section 0
+[153] Biber.pm:4654> INFO - Looking for bibtex file 'literature.bib' for section 0
+[160] bibtex.pm:1713> INFO - LaTeX decoding ...
+[240] bibtex.pm:1519> INFO - Found BibTeX data source 'literature.bib'
+[494] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[494] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[494] Biber.pm:4283> INFO - Sorting list 'none/global//global/global/global' of type 'entry' with template 'none' and locale 'en-US'
+[494] Biber.pm:4289> INFO - No sort tailoring available for locale 'en-US'
+[522] bbl.pm:676> INFO - Writing 'thesis.bbl' with encoding 'UTF-8'
+[542] bbl.pm:779> INFO - Output to thesis.bbl
+[542] Biber.pm:131> WARN - ISBN '978-3-642-53936-7 978-3-642-53937-4' in entry 'steinke_finite-elemente-methode_2015' is invalid - run biber with '--validate_datamodel' for details.
+[542] Biber.pm:131> WARN - ISBN '978-3-662-49351-9 978-3-662-49352-6' in entry 'knothe_finite_2017' is invalid - run biber with '--validate_datamodel' for details.
+[542] Biber.pm:133> INFO - WARNINGS: 2
