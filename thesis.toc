@@ -33,7 +33,7 @@
 \contentsline {section}{\numberline {4.3}Tensile-Shear combination}{29}{section.4.3}%
 \contentsline {paragraph}{\nonumberline Tensile tests}{30}{paragraph*.44}%
 \contentsline {paragraph}{\nonumberline Shear tests}{30}{paragraph*.48}%
-\contentsline {paragraph}{\nonumberline Tensile-Shear combination}{32}{figure.caption.54}%
+\contentsline {paragraph}{\nonumberline Tensile-Shear combination}{31}{paragraph*.52}%
 \contentsline {paragraph}{\nonumberline Discussion}{32}{paragraph*.56}%
 \contentsline {section}{\numberline {4.4}cyclic tests}{32}{section.4.4}%
 \contentsline {chapter}{\numberline {5}Conclusion}{33}{chapter.5}%

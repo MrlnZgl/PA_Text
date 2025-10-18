@@ -129,7 +129,7 @@ TARGET DATA DURCH RLR ERSETZEN \\
 \paragraph{Test series 6:3}
 In the first test series, the same material as in \autoref{sec: verification}, with mixing ratio 6:3, is used. According to \autoref{eq: EandNu} the elastic parameters are determined to 
 \begin{equation*}
-    E = 2916 \hspace{1.5cm} \nu = 0.41 
+    E = 2916\unit{MPa} \hspace{1.5cm} \nu = 0.41 
 \end{equation*}
 
 \begin{figure}[H]
@@ -274,25 +274,6 @@ In the first test series, a single tensile load case is applied. Similar as in t
 
 To classify the results, the load reactions $\sigma_{xx}$ and the \acrshort{rmse} value are plotted in \autoref{fig:tensileResults6to3}. The \acrlong{olr} show a high correlation to the \acrlong{rlr}. We have deliberately omitted the standard deviations in this plot, as this would otherwise reduce clarity. The \acrshort{rmse} starts at quite high values,c ompared to the ones in the validation studies. However, the value decreases fast after the first evaluations, and convergences to a limit value around 2. 
 
-% \begin{figure}[H]
-%     \centering
-%     \begin{minipage}[t]{0.495\textwidth}
-%         \centering
-%         \includegraphics[width=\textwidth]{Tensile_6to3_015_fixENu_normal_stress_strain_combined.pdf}
-%         \caption*{(a) Final stress-strain curves}
-%         \label{fig:tensileStressStrain6to3}
-%     \end{minipage}
-%     \hfill
-%     \begin{minipage}[t]{0.495\textwidth}
-%         \centering
-%         \includegraphics[width=\textwidth]{Tensile_6to3_015_fixENu_rsme_lin_plot.pdf}
-%         \caption*{(b) RMSE evolution}
-%         \label{subfigure:tensileRMSE}
-%     \end{minipage}
-%     \caption{Results of tensile tests with 6to3 dataset}
-%     \label{fig:tensileResults6to3}
-% \end{figure}
-
 \begin{figure}[H]
 \centering
 \begin{subfigure}[t]{0.495\textwidth}
@@ -315,9 +296,9 @@ To classify the results, the load reactions $\sigma_{xx}$ and the \acrshort{rmse
 
 
 \paragraph{Shear tests}
-In the next test series, a single shear strain is applied. The computation of the elastic parameters, needs to be adapted, since the Young's modulus cannot be computed direclty. from the shear stress, we first calculate the shear modulus $G$ with the following formula
+In the next test series, a single shear strain is applied. The computation of the elastic parameters, needs to be adapted, since the Young's modulus cannot be computed directly. From the shear stress, we first calculate the shear modulus $G$ with the following formula
 \begin{equation}
-    G = \frac{\Delta\sigma_{xy}}{2\Delta\varepsilon_{xy}} = 1619 MPa
+    G = \frac{\Delta\sigma_{xy}}{2\Delta\varepsilon_{xy}} = 1619\unit{MPa}
 \end{equation}
 which can be transferred into $E$ through
 \begin{equation}
@@ -332,7 +313,7 @@ We chose the value of $\nu$ in a way, that the resulting Young's modulus is XXX.
 \renewcommand{\arraystretch}{1.1}
 \begin{tabular}{L{0.08\textwidth}|C{0.08\textwidth}C{0.08\textwidth}C{0.08\textwidth}C{0.08\textwidth}C{0.08\textwidth}C{0.08\textwidth}}
 \toprule
-\textbf{Test} & \textbf{E (MPa)} & $\boldsymbol{\nu}$ & $\boldsymbol{\sigma_0}$ \textbf{(MPa)} & $\boldsymbol{\alpha}$ & $\boldsymbol{\beta}$ & $\boldsymbol{\gamma}$ \\
+\textbf{Test} & \textbf{E (\unit{MPa})} & $\boldsymbol{\nu}$ & $\boldsymbol{\sigma_0}$ \textbf{(MPa)} & $\boldsymbol{\alpha}$ & $\boldsymbol{\beta}$ & $\boldsymbol{\gamma}$ \\
 \midrule
 311 & 4402 & 0.36 & 15.00 & 103.41 & 128.88 & 100.00 \\
 241 & 4402 & 0.36 & 50.00 & 76.72 & 69.66 & 0.00 \\
@@ -345,25 +326,6 @@ We chose the value of $\nu$ in a way, that the resulting Young's modulus is XXX.
 
 In \autoref{fig:shearResults6to3} the load reactions $\sigma_{xx}$ and the \acrshort{rmse} are plotted. In both plost test 2 acts as an outlier. In the remaining tests, the \acrlong{rlr} were matched very accurate. The trend for tes number 2 differs, but still shows a high correlation. The \acrshort{rmse} trend looks similar as for the tensile tests. Test number 2 converges at a slighter higher limit value. 
 
-
-% \begin{figure}[H]
-%     \centering
-%     \begin{minipage}[t]{0.495\textwidth}
-%         \centering
-%         \includegraphics[width=\textwidth]{Shear_6to3_015_fixENu_500_shear_stress_strain_combined_.pdf}
-%         \caption*{(a) Final stress-strain curves}
-%         \label{fig:shearStressStrain6to3}
-%     \end{minipage}
-%     \hfill
-%     \begin{minipage}[t]{0.495\textwidth}
-%         \centering
-%         \includegraphics[width=\textwidth]{Shear_6to3_015_fixENu_500_rsme_lin_plot.pdf}
-%         \caption*{(b) RMSE evolution}
-%         \label{subfigure:shearRMSE}
-%     \end{minipage}
-%     \caption{Results of tensile tests with 6to3 dataset}
-%     \label{fig:shearResults6to3}
-% \end{figure}
 
 \begin{figure}[H]
 \centering
@@ -385,6 +347,13 @@ In \autoref{fig:shearResults6to3} the load reactions $\sigma_{xx}$ and the \acrs
 \end{figure}
 
 \paragraph{Tensile-Shear combination}
+
+In this test series, the previously presented load cases were combined. Similar, we fixed the elastic parameters before we started the optimisation. However, the defined values for $E$ and $\nu$ must represent the elastic behaviour for both load cases. A comparison of the values we chose in the separate tests shows a high variation. XXX WARUM 
+We defined the values as the ones for the simple shear series. The plastic parameters, optimised in this test series are summarised in table XXX. The plastic yield runs into its upper limit of 50 MPa in every test. For alpha and beta the script found similar values for all initial value combinations. Gamma runs into its lower limit of zero in 4 out of 5 cases. 
+
+TABELLE MATERIALPARAMETER
+
+\autoref{fig:CombiResults6to3} depicts the \acrlong{olr} $\sigma_{xx}$ for both load cases. For the tensile load case \autoref{subfig:CombiTensileStressStrainCurve} shows high deviations between the \acrlong{rlr} and the \acrlong{olr}. Only the first and the last point of the reference points is matched with the optimisation tests. In between, the optimised stresses are consequently higher than the reference data. In contrast, the optimised shear stresses show a high correlation to the reference stresses.
 
 \begin{figure}[H]
 \centering
