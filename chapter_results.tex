@@ -353,7 +353,7 @@ We defined the values as the ones for the simple shear series. The plastic param
 
 TABELLE MATERIALPARAMETER
 
-\autoref{fig:CombiResults6to3} depicts the \acrlong{olr} $\sigma_{xx}$ for both load cases. For the tensile load case \autoref{subfig:CombiTensileStressStrainCurve} shows high deviations between the \acrlong{rlr} and the \acrlong{olr}. Only the first and the last point of the reference points is matched with the optimisation tests. In between, the optimised stresses are consequently higher than the reference data. In contrast, the optimised shear stresses show a high correlation to the reference stresses.
+\autoref{fig:CombiResults6to3} depicts the \acrlong{olr} $\sigma_{xx}$ for both load cases. For the tensile load case \autoref{subfig:CombiTensileStressStrainCurve} shows high deviations between the \acrlong{rlr} and the \acrlong{olr}. Only the first and the last point of the reference points is matched by the optimisation tests. In between, the optimised stresses are consequently higher than the reference data. In contrast, the optimised shear stresses show a high correlation to the reference stresses. The optimised shear stresses are slightly lower than the reference data. \autoref{fig:combiRMSE} shows the total error of this test series. Qualitatively, the progress of the error is similar to the ones shown before. However, the absolute value of the error is around 12, which is significantly higher than in all the other studies. We observe this behaviour in all tests within this series. 
 
 \begin{figure}[H]
 \centering
@@ -382,6 +382,40 @@ TABELLE MATERIALPARAMETER
 \end{figure}
 
 \paragraph{Discussion}
+The recently presented results expose some properties of the optmiation script, which need to be discussed. The tensile load case showed similar behaviour as the validation tests. The material parameters $\sigma_0$, $\alpha$ and $\beta$ were determined uniquely, which lead to adequate stress-strain curves. In contrast to the \acrshort{rmse} of the validation results, the \acrshort{rmse} in this study converges at a higher value. This could be explained through the different reference data, used for the studies. In the sinusoidal data set, used in the tensile data set, much more data points are included (see XXX). Therefore, more deviations are possible, which leads to a higher absolute error. Especially, at the end of the loading process, the data become frequent, which makes it impossible to match all with a continuous function. \\
+The tests for the simple shear load case show in the load reactions similar results. The \acrlong{olr} match the reference data as good as possible with this frequent number of data points. However, test number 2 behaves like an outlier. Looking at the material parameters (see XX), this behaviour becomes understandable. There, test 2 two hits the lower limit of the plastic yield, and as a Consequence, for alpha and beta different values were determined too. However, in all tests $\sigma_0$ hits one of its limits, which is a behaviour we never saw before in one of the tensile load cases. Therefore, a connection with the new load case of shear load, seems obvious. One possible problem could be the information content of a singular shear test. As \acrlong{er} we only used the corresponding shear stress $\sigma_{xy}$. If this data contain less information, a unique definition of the material parameters is not possible, which is similar to the results of the verification tests (see XX). The value of the plastic yield determines the stress value, where the plastification starts. Difficulties with the definition of this value, could indicate incorrect interpretation of the limit between the elastic and the plastic regime. These problems could occur from the distribution of the reference data in the domains. The ensity of the reference data gets higher with increasing load. Therefore, at the transition from elastic to plastic behaviour, only a few points are given, which restrains a clear separation. In addition, for the definition of the elastic parameters multiple combinations were possibly as described in XX. The influence of different elastic parameters needs additional investigations in some future works, since their impact on the optimisation of the plastic yield is not known so far. Another fact, that could explain difficulties with the shear load case, are the reference data itself. The relaxation procedure, which was used in the \acrshort{md} simulations to eliminate the viscous parts of the stress response, was used only for tensile load applications before. Therefore, the accuracy of this procedure for simple shear is not verified so far. 
+
+Consequently, the optimisation of the remaining plastic parameters, is affect by the behaviour of the plastic yield. Since it hits its limit, the algorotihm has reduced options to optimise the other parameters. Therefore, the similarity of the hardening parameters is a logical consequence of the behaviour of $\sigma_0$. 
+
+In the combined tests, the problems about the shear loading transferred. The plastic yield showed similar behaviour, such that its upper limit was hit in every test. In addition, the elastic parameters computed from the tensile reference data were different from the ones computed from the shear reference data. These two data lead to an insufficient fitting of the tensile load reactions (seeXX). In the tensile stress-sstrain plot (XX) the slope of the fixed elastic curve is much higher than the reference data, which leads to a higher plastic stress, than the stress in the reference data. Therefore, it is impossible for the script to fit the reference data in the further loading process. We assume the reasons for this inadequate optimisation behaviour in the shear load case. The problems mentioned before, are also valid in combination with other load cases. Therefore, a detailed study about the optimisation behaviour for shear load application is necessary, before further combinations of load cases should be tested. 
+
+
+
+% - tensile alleine: läuft
+% - shear alleine: läuft, aber plasti yield in limit
+% - zusammen : läuft nicht
+% - problem 1 : elastischen parameter passen nicht zusammen --> warum? 
+% --> vlt doch nicht glieches verhalten bei unterschiedlichen belastungen
+% --> zu wenige datenpunkte im elastischen bereich 
+% --> bei diesen datensätzen unklar, wie lange im elastischen beriech belastet wird--> unklar, mit welchen datenpunkten überhaupt sinnvolle elast parameter berechent werden können
+
+
+% - problem 2: kurvenform wird fur tensile nicht getroffen 
+% --> kurvenformen von zug und scherung passen anscheinend nicht zusammen
+% --> oder liegt das daran dass elastische parameter schon falsch sin? 
+% --> außerdme unklar ab wann plastifiziert wird -> nachdem plastic yield in schranke gelaufen ist, zeugt das schon von optimierungsproblemen 
+% --> vor allem bei der scherung, weil das dort auch shcon einzeln passiert ist 
+% --> dort ascheinend schwierig kurve anzunähern ohne in die gernze zu laufen; aber trd ist kurvenfit rel gut; widerspruch 
+% --> allg problem, des algortithmus, start der plastifizierung zu bestimmen--> tendenziell wird elastischer bereich als zu groß angenommen bei scherung 
+
+% --> vlt ist problem mit lokalen minima in der funktion 
+% --> vlt jz zu viele daten auf einen wert reduziert --> dadurch nimmt gewichtung eines einzelnen datenpunkts ab
+% --> vlt bei scherung zu wenig datenpunkte im vorderen bereich (vorgegeben durch md daten); wenn dannn sigma0 nicht gefundne wird, schon verloren
+% --> allg einzelner scherversuch vlt zu wening inforamtion um werte zu finen (poisson ratio kannz b eig gar nicht dasraus bestimmt werden --> unbekannt wie diese in den plastischen bereich eingeht); selbst einfluss auf elastischen bereich unbekannt; was wäre, wenn G aus anderen E und nu erzielt worden wäre?
+% --> muss auf jedne fall noch weiter untersucht werden
+% --> vlt funktioniert relaxationsverfahren für shear tests nicht so gut
+% --> andere datensätze in den scherung mit was andere kombiniert wird: liegt das an den datensätzen oder an dem load case?
+
 
 
 

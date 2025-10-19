@@ -35,8 +35,8 @@
 \contentsline {paragraph}{\nonumberline Shear tests}{30}{paragraph*.48}%
 \contentsline {paragraph}{\nonumberline Tensile-Shear combination}{31}{paragraph*.52}%
 \contentsline {paragraph}{\nonumberline Discussion}{32}{paragraph*.56}%
-\contentsline {section}{\numberline {4.4}cyclic tests}{32}{section.4.4}%
-\contentsline {chapter}{\numberline {5}Conclusion}{33}{chapter.5}%
+\contentsline {section}{\numberline {4.4}cyclic tests}{33}{section.4.4}%
+\contentsline {chapter}{\numberline {5}Conclusion}{34}{chapter.5}%
 \contentsline {chapter}{\nonumberline Bibliography}{i}{chapter*.57}%
 \contentsline {chapter}{\numberline {A}Appendix}{vi}{appendix.1.A}%
 \contentsline {section}{\numberline {A.1}Results}{vii}{section.1.A.1}%
