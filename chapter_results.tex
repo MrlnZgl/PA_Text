@@ -17,8 +17,7 @@ In this section, the results for the verification study of the optimisation proc
     \caption{Progress of material parameters during the verification study.}
     \label{fig:verifMaterialParams}
 \end{figure}
-PAPERDATEN EINFÜGEN ALS PUNKTE \\
-ACHSENBESCHRIFTUNG ANPASSEN IN ALLEN MATERIALPLOTS \\
+
 PARAMETER JEWEILS IN ALLEN PLOTS GLEICH SKALIEREN \\
 
 
@@ -279,7 +278,7 @@ To classify the results, the load reactions $\sigma_{xx}$ and the \acrshort{rmse
 \begin{subfigure}[t]{0.495\textwidth}
     \centering
     \includegraphics[width=\textwidth]{Tensile_6to3_015_fixENu_normal_stress_strain_combined.pdf}
-    \caption{Final stress-strain curves}
+    \caption{Final tensile stress-strain curves}
     \label{fig:tensileStressStrain6to3}
 \end{subfigure}
 \hfill
@@ -331,7 +330,7 @@ In \autoref{fig:shearResults6to3} the load reactions $\sigma_{xx}$ and the \acrs
 \centering
 \begin{subfigure}[t]{0.495\textwidth}
     \centering
-     \includegraphics[width=\textwidth]{Shear_6to3_015_fixENu_500_shear_stress_strain_combined_.pdf}
+     \includegraphics[width=\textwidth]{Shear_6to3_015_fixENu_500_shear_stress_strain.pdf}
         \caption{Final stress-strain curves}
         \label{subfig:shearStressStrain6to3}
 \end{subfigure}
@@ -387,9 +386,9 @@ The tests for the simple shear load case show in the load reactions similar resu
 
 Consequently, the optimisation of the remaining plastic parameters, is affect by the behaviour of the plastic yield. Since it hits its limit, the algorotihm has reduced options to optimise the other parameters. Therefore, the similarity of the hardening parameters is a logical consequence of the behaviour of $\sigma_0$. 
 
-In the combined tests, the problems about the shear loading transferred. The plastic yield showed similar behaviour, such that its upper limit was hit in every test. In addition, the elastic parameters computed from the tensile reference data were different from the ones computed from the shear reference data. These two data lead to an insufficient fitting of the tensile load reactions (seeXX). In the tensile stress-sstrain plot (XX) the slope of the fixed elastic curve is much higher than the reference data, which leads to a higher plastic stress, than the stress in the reference data. Therefore, it is impossible for the script to fit the reference data in the further loading process. We assume the reasons for this inadequate optimisation behaviour in the shear load case. The problems mentioned before, are also valid in combination with other load cases. Therefore, a detailed study about the optimisation behaviour for shear load application is necessary, before further combinations of load cases should be tested. 
+In the combined tests, the problems about the shear loading transferred. The plastic yield showed similar behaviour, such that its upper limit was hit in every test. In addition, the elastic parameters computed from the tensile reference data were different from the ones computed from the shear reference data. These two data lead to an insufficient fitting of the tensile load reactions (seeXX). In the tensile stress-strain plot (XX) the slope of the fixed elastic curve is much higher than the reference data, which leads to a higher plastic stress, than the stress in the reference data. Therefore, it is impossible for the script to fit the reference data in the further loading process. We assume the reasons for this inadequate optimisation behaviour in the shear load case. The problems mentioned before, are also valid in combination with other load cases. Therefore, a detailed study about the optimisation behaviour for shear load application is necessary in the future.
 
-
+NOCH AUF SINUSFÖRMIGES VERHALTNE EINGEHEN   
 
 % - tensile alleine: läuft
 % - shear alleine: läuft, aber plasti yield in limit
@@ -421,7 +420,42 @@ In the combined tests, the problems about the shear loading transferred. The pla
 
 
 
-\section{cyclic tests}
+\section{Cyclic Tests}
+IN this section results from tests with cyclic load parameters are presented. We applied a complete sinus period as a tensile load case E11. To gain more information about the elastic behaviour, we combined load parameters with amplitudes of 1\%, 5 \% and 8\% in the optimisation. For this study, the elastic parameters where part of the optimisation, because the values we computed from each data set for $E$ and $\nu$ were different. The material parameters from the final optimisation evaluation are presented in XX for all tests. Each test leads to different material parameters. Beta and Gamma run into their limits in certain tests. 
+
+TABELLE MATWRIALPARAMETER
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\textwidth]{combined_cyclic_stress_strain.pdf}
+    \caption{Stress Strain plots for 1,5,8 \%}
+    \label{fig:cycliclStressStrain}
+\end{figure}
+
+To evaluate the quality of the material parameters, we study the \acrlong{olr} $\sigma_{xx}$ for each amplitude in XX. For more clarity, the evolution of the load reactions of each amplitude are plotted separately. In addition, only one exemplary test is shown. A degradation of the match of the \acrlong{rlr} can be observed for the amplitude of 1\%. for the amplitued of 5 adn 8 \% we notice a positive progress during the optimisation run. Especially, in the first rise, both load reactions match adequately with their corresponding reference data. However, during the unloading the error increases for both amplitudes. For 8\% amplitude the deviation is clearly visible. 
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\textwidth]{CyclicTest_1_5_8Percent_autoInc_4_stress_time.pdf}
+    \caption{Stress Time plots for 1,5,8 \%}
+    \label{fig:cyclicSterssTime}
+\end{figure}
+
+Since the visualization in the stress-strain plot is confusion through the period, we plotted the final load reactions from the same exemplary test over a normalised simulation time in XX. For 1 \% amplitude, the \acrlong{olr} have constantly smaller magnitudes than the reference data. nervertheless, the reference and the optimised data both follow a sinusoidal function during the whole simulation time.  For the other two amplitudes, the data match in the first increasing load steps. During the rest of the loading path, the deviations increase with their maximum values right before or when the maximum stress magnitude is reached. 
+
+
+RMSE AUSWERTEN
+
+\paragraph{Discussion}
+The presented test series gave us additional information about the capabilities of our script. First, the script is able to run an optimisation with three load parameter sets at a time. Since the \acrshort{rmse} decreases, the optmisation principally works. However, the result quality is, measured at the load reactions $\sigma_{xx}$, insufficient. Only the first loading path is adequately depicted with the optmisation. During the negative loading, the deviations increase, which could be explained through changes in the material properties. We assume, that in both cases the plastic regime is reached before the maximum amplitude is reached. Therefore, a hardening process started, which leads to mateiral damage. However, not only the palstic behaviour is influenced. Even in the elastic domain, the slope of the reference curve changes after the first loading sequence. This observation indicates material damage which influences the elastic and the plastic material properties. Since the damage models included in \name{Abaqus} do not handle material damage in the elastic region, a self-written user-subroutine is necessary to depict the damage behaviour. The inclusion of material damage would lead to an improvement of the script to process cyclic load parameters, which should be part of future investigations. 
+
+
+- drei load paraameter. set auf jeinmal getestet: geht prinzipell
+- cyclcic load geht nicht:
+- bei 1 % noch am ehesten 
+- dort vmtl nur elastisches verhalten, müsste einzeln untersucht werden,ob man das abbilden kann
+- die anderen beiden nicht, weil spätestens bei negativer belastung passen olr und rlr nicht merh zusammen --> schäädigung tritt auf, die wir niht abbilden können 
+- further invstigations
+
 
 
 
