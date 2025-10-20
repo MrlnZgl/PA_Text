@@ -7,7 +7,7 @@
 
 
 
-\chapter{Script setup} \label{chap: modelsAndMethods}
+\chapter{Script setup} \label{chap:modelsAndMethods}
 
 The remarks in \autoref{chap: basics} demonstrate the necessity of an easy and fast procedure to determine material parameters for materials modelled with \acrshort{md} simulations. Deformation tests in \acrshort{md} simulations provide information about the mechanical behaviour of the materials. The aim of the developed optimisation process is to find material parameters which best represent this behaviour.
 In the following chapter we describe workflow of the optimisation script. First we have a closer look at the structure of the process. Then we introduce the required input data. At the end the implementation is explained. \\
@@ -149,7 +149,7 @@ The \acrlong{rlr} represent the material response during the \acrshort{md} simul
 To perform the comparison of material behaviours we need analogous data from the \acrshort{fem} simulation. In the way described in \autoref{sec: optimisationCode} we can read out stress and strain values in all directions. Similar to the \acrlong{rlr} we extract the values corresponding to the \acrlong{er}. These values are called \acrlong{olr}. \\
 \autoref{tab: testSeries} shows the investigated load cases and load parameters.
 In the verification and validation studies we apply linear strain up to a maximum value of 20 \%. For the validation studies we use different mixing ratios which show different mechanical behaviours. Then we investigate a tensile strain following a sinus function over time with a maximum amplitude of 15 \% strain. We only consider the first quarter of one period up to the maximum value as a preparation for studies with cyclic loading. In this preparing study we want to investigate how non-linear loadings are handled. Then we use the same load parameters but apply them as shear strain. In the next step we use the same load parameters but combine the load cases of E11 and G12. Important to notice is that the previously introduced load parameters proceed in a wide strain range. Assuming that the material starts to plastify quite fast, the majority of the loading steps are located in the plastic domain of the material. Conversely, the load parameters contain only little information about the elastic material behaviour. In \autoref{sec: verification} the issue about this unequal distribution in the material domains becomes clear.    
-As a last study we investigate  a full period of a sinusoidal loading for a tensile load case in $xx$-direction. We use amplitudes of 1 \%, 5 \% and 8 \%. Through the use of this load parameters we try to get a larger proportion of data points in the elastic domain.
+As a last study we investigate one and a half period of a sinusoidal loading for a tensile load case in $xx$-direction. We use amplitudes of 1 \%, 5 \% and 8 \%. Through the use of this load parameters we try to get a larger proportion of data points in the elastic domain.
 
 \begin{table}[H]
     \centering
@@ -169,7 +169,7 @@ As a last study we investigate  a full period of a sinusoidal loading for a tens
     Shear strain  & G12 & Sinus (\(\frac{1}{2}\pi\)) & 15\% & 6:3 & \(\sigma_{xy}\)\\ \hline
     \multirow{2}{0.15\textwidth}{Normal \& Shear strain} & E11 & Sinus (\(\frac{1}{2}\pi\)) & 15\% & 6:3 & \(\sigma_{xx}, \varepsilon_{yy}, \varepsilon_{zz}, \sigma_{xy}\)\\ 
                             & G12 &       &      &     \\ \hline
-    \multirow{2}{0.15\textwidth}{Normal strain} & E11 & Sinus (\(2\pi\)) & 1\%  & 6:3 & \(\sigma_{xx}, \varepsilon_{yy}, \varepsilon_{zz}\)\\ 
+    \multirow{2}{0.15\textwidth}{Normal strain} & E11 & Sinus (\(3\pi\)) & 1\%  & 6:3 & \(\sigma_{xx}, \varepsilon_{yy}, \varepsilon_{zz}\)\\ 
                 &     &       & 5\%  &  & \(\sigma_{xx}, \varepsilon_{yy}, \varepsilon_{zz}\)\\ 
                 &     &       & 8\%  & & \(\sigma_{xx}, \varepsilon_{yy}, \varepsilon_{zz}\)\\ \bottomrule
     \end{tabular}

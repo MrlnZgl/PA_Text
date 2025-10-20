@@ -20,13 +20,8 @@
 
 
 
-\usepackage[
-bookmarksnumbered=true,
-hidelinks,
-bookmarksopen =true,
-bookmarksdepth=2
-]
-{hyperref}
+
+
 
 % widow/orphan 
 \clubpenalty = 10000  
@@ -199,6 +194,16 @@ bookmarksdepth=2
 \makeatother
 
 %Set up of Captions
+\usepackage[]{appendix}
+\usepackage{graphicx}
+\usepackage{pdfpages}
+\usepackage{comment}
+
+\usepackage{booktabs}
+\usepackage{multirow}
+\usepackage{array}
+\usepackage{subcaption}
+
 \usepackage[
 	margin=10pt,
 	format=plain,
@@ -223,14 +228,14 @@ bookmarksdepth=2
 \newacronym{lp}{LP}{load parameters}
 \newacronym{ls}{LS}{load step}
 \newacronym{rlr}{RLR}{reference load reactions}
-\newacronym{olr}{OLR}{optimized load reactions}
+\newacronym{olr}{OLR}{optimised load reactions}
 \newacronym{esr}{ESR}{evaluated stress reactions}
 \newacronym{eer}{EER}{evaluated strain reactions}
 \newacronym{md}{MD}{molecular dynamics}
 \newacronym{pbc}{PBC}{periodic boundary conditions}
 \newacronym{mpv}{MPV}{material parameter values}
 \newacronym{fem}{FEM}{finite element method}
-\newacronym{omp}{OMP}{optimized material parameters}
+\newacronym{omp}{OMP}{optimised material parameters}
 \newacronym{odb}{ODB}{output database}
 \newacronym{mdb}{MDB}{model database}
 \newacronym{cae}{CAE}{computer aided engineering}
@@ -269,6 +274,14 @@ bookmarksdepth=2
 % Pfeil in Zeichnungen
 \newcommand{\pfeil} {Latex[scale width =0.8, scale length=1.2,bend]}
 
+\usepackage[
+bookmarksnumbered=true,
+hidelinks,
+bookmarksopen =true,
+bookmarksdepth=2
+]{hyperref}
+
+%\usepackage{hyperref}
 %Überschriften
 \setcounter{secnumdepth}{2} % Zahlen nur bis section
 \setcounter{tocdepth}{1}	% nur bis section in ToC
@@ -282,5 +295,4 @@ bookmarksdepth=2
 \newcommand{\eigenname}[1]{"#1"}
 \newcommand{\benennung}[1]{\textit{#1}}
 
-\usepackage[]{appendix}
 

@@ -4,14 +4,7 @@
 		titlepage=firstiscover,
 	]{scrreprt}
 	\input{preamble}
-	\usepackage{graphicx}
-	\usepackage{pdfpages}
-	\usepackage{comment}
-	\usepackage{caption}
-	\usepackage{booktabs}
-	\usepackage{multirow}
-	\usepackage{array}
-	\usepackage{subcaption}
+
     \graphicspath{ {./images/} }
 	
 	
@@ -187,9 +180,9 @@
 	\include{chapter_basics}
     \include{chapter_modelsAndMethods}
     \include{chapter_results}
+    \include{conclusion}
     
     
-    \chapter{Conclusion}
 	
 
 	
@@ -201,7 +194,7 @@
 	%----------------------------------------------
 	% Bibliograhy
 	%----------------------------------------------
-	 \nocite{*} %print every bibtex key
+	%\nocite{*} %print every bibtex key
 	
 	\pagestyle{fancy}
 	\fancyhead{}
@@ -217,7 +210,7 @@
 	
 	\newpage
 	
-	\addtocontents{toc}{\protect\setcounter{tocdepth}{0}}
+	%\addtocontents{toc}{\protect\setcounter{tocdepth}{0}}
 	\include{appendix}
 	
 	\end{document}

@@ -30,17 +30,19 @@
 \contentsline {paragraph}{\nonumberline Test series 6:3}{27}{paragraph*.33}%
 \contentsline {paragraph}{\nonumberline Test series 4:3 and 8:3}{28}{paragraph*.37}%
 \contentsline {paragraph}{\nonumberline Discussion}{29}{paragraph*.42}%
-\contentsline {section}{\numberline {4.3}Tensile-Shear combination}{29}{section.4.3}%
-\contentsline {paragraph}{\nonumberline Tensile tests}{30}{paragraph*.44}%
-\contentsline {paragraph}{\nonumberline Shear tests}{30}{paragraph*.48}%
-\contentsline {paragraph}{\nonumberline Tensile-Shear combination}{31}{paragraph*.52}%
-\contentsline {paragraph}{\nonumberline Discussion}{32}{paragraph*.56}%
-\contentsline {section}{\numberline {4.4}Cyclic Tests}{33}{section.4.4}%
-\contentsline {paragraph}{\nonumberline Discussion}{35}{paragraph*.60}%
-\contentsline {chapter}{\numberline {5}Conclusion}{36}{chapter.5}%
+\contentsline {section}{\numberline {4.3}Tensile-Shear combination}{30}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Tensile tests}{30}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}Shear tests}{31}{subsection.4.3.2}%
+\contentsline {subsection}{\numberline {4.3.3}Tensile-Shear combination}{32}{subsection.4.3.3}%
+\contentsline {subsection}{\numberline {4.3.4}Discussion}{33}{subsection.4.3.4}%
+\contentsline {section}{\numberline {4.4}Cyclic Tests}{34}{section.4.4}%
+\contentsline {paragraph}{\nonumberline Discussion}{36}{paragraph*.54}%
+\contentsline {chapter}{\numberline {5}Conclusion}{37}{chapter.5}%
+\contentsline {paragraph}{\nonumberline Summary}{37}{paragraph*.56}%
+\contentsline {paragraph}{\nonumberline Conclusion}{37}{paragraph*.58}%
+\contentsline {paragraph}{\nonumberline Outlook}{38}{paragraph*.60}%
 \contentsline {chapter}{\nonumberline Bibliography}{i}{chapter*.61}%
-\contentsline {chapter}{\numberline {A}Appendix}{vi}{appendix.1.A}%
-\contentsline {section}{\numberline {A.1}Results}{vii}{section.1.A.1}%
-\contentsline {chapter}{\numberline {B}Appendix}{x}{appendix.1.B}%
-\setcounter {tocdepth}{0}
+\contentsline {chapter}{\numberline {A}Appendix}{iii}{appendix.1.A}%
+\contentsline {section}{\numberline {A.1}Results}{iv}{section.1.A.1}%
+\contentsline {chapter}{\numberline {B}Appendix}{vii}{appendix.1.B}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
