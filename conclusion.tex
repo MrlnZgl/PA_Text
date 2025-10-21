@@ -16,7 +16,7 @@ The developed optimisation script is able to minimise the error between the refe
 
 
 \paragraph{Outlook}
-The processing of shear load cases should be part of future investigations. Here, the focus should be taken on the transition from elastic to plastic material behaviour. The tests performed in this work demonstrate problems with the definition of the plastic yield, which represents the starting point of the plastic regime. 
+The processing of shear load cases should be part of future investigations. Here, the focus should be taken on the transition from elastic to plastic material behaviour. The tests performed in this work demonstrate problems with the definition of the yield stress, which represents the starting point of the plastic regime. 
 For an adequate representation of cyclic loading, a damage model should be included in the \name{Abaqus} model. Due to the unusual material behaviour, a user-subroutine would be necessary to realise this. 
 Furthermore, the properties of the numerical optimisation algorithm could be part of further works. In this work, the initial value combinations were picked arbitrary. Since this could facilitate getting stuck in local minima, the impact of the initial value combination on the optimisation process should be studied. In addition, the choice of the numerical algorithm could be reflected. The sensitivity of the algorithm to the initial values could be reduced by choosing a different algorithm. 
 
@@ -39,7 +39,7 @@ Furthermore, the properties of the numerical optimisation algorithm could be par
 
 % 3.: verification and validaiton: for linear tensile load works fine 
 % tensile: tensile as sin function works too
-% shear: plastic yield runs into limit in all tests --> difiiculties in finding limit between el and plastic domain
+% shear: yield stress runs into limit in all tests --> difiiculties in finding limit between el and plastic domain
 % tensile and shear combined: problems of shear are transferred, and elastic params are not similar --> not possible to match obth curves at a time --> error much higher than before, plot stress strain tens 
 % cyclic: works just until unloading stars, because of material damage, cannot represent mat damage, because elastic behaviour is influenced too --> have to write own usersubroutine 
 

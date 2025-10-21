@@ -183,8 +183,8 @@
       \strng{authornamehash}{6f008db3199f0b0c7775c2724b341494}
       \strng{authorfullhash}{6f008db3199f0b0c7775c2724b341494}
       \strng{authorfullhashraw}{6f008db3199f0b0c7775c2724b341494}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
       \field{abstract}{In the pursuit of lighter designs, many industries are shifting from conventional fasteners to adhesive joints, which offer a better strength-to-weight ratio and facilitate the use of fiber-reinforced polymers. However, modeling adhesive joints presents major challenges due to the complex behavior of polymeric adhesives and the microstructural changes induced by the substrates. As a result, various simulation methods have been developed to capture the behavior of adhesive joints across different scales. Molecular dynamics studies address atomistic and nanoscale phenomena, while continuum approaches – such as the finite element method, cohesive zone models, and peridynamics – focus on meso and macro scales. Additionally, multiscale methods combine particle and continuum approaches to provide a more comprehensive understanding of the adhesive bond behavior. This review paper offers an overview of the most relevant numerical methods employed to examine the mechanical behavior of adhesive joints and illustrates the simulations’ applications through examples from the literature.}
@@ -215,6 +215,120 @@
       \verb https://www.cmms.agh.edu.pl/2024_4_1010/
       \endverb
     \endentry
+    \entry{tuckerman_understanding_2000}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=3dfd41d12a2896dd0ca93271e1d9e9cc}{%
+           family={Tuckerman},
+           familyi={T\bibinitperiod},
+           given={Mark\bibnamedelima E.},
+           giveni={M\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=3fb90bbe2266169b3ee467645ec481dd}{%
+           family={Martyna},
+           familyi={M\bibinitperiod},
+           given={Glenn\bibnamedelima J.},
+           giveni={G\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \strng{namehash}{a450f9a72984af20a77a01510d522562}
+      \strng{fullhash}{a450f9a72984af20a77a01510d522562}
+      \strng{fullhashraw}{a450f9a72984af20a77a01510d522562}
+      \strng{bibnamehash}{a450f9a72984af20a77a01510d522562}
+      \strng{authorbibnamehash}{a450f9a72984af20a77a01510d522562}
+      \strng{authornamehash}{a450f9a72984af20a77a01510d522562}
+      \strng{authorfullhash}{a450f9a72984af20a77a01510d522562}
+      \strng{authorfullhashraw}{a450f9a72984af20a77a01510d522562}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{day}{1}
+      \field{issn}{1520-6106, 1520-5207}
+      \field{journaltitle}{The Journal of Physical Chemistry B}
+      \field{langid}{english}
+      \field{month}{1}
+      \field{number}{2}
+      \field{shortjournal}{J. Phys. Chem. B}
+      \field{shorttitle}{Understanding Modern Molecular Dynamics}
+      \field{title}{Understanding Modern Molecular Dynamics: Techniques and Applications}
+      \field{urlday}{21}
+      \field{urlmonth}{10}
+      \field{urlyear}{2025}
+      \field{volume}{104}
+      \field{year}{2000}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{159\bibrangedash 178}
+      \range{pages}{20}
+      \verb{doi}
+      \verb 10.1021/jp992433y
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/Users/marleneziegler/Zotero/storage/FHL6BL3S/Tuckerman und Martyna - 2000 - Understanding Modern Molecular Dynamics Techniques and Applications.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://pubs.acs.org/doi/10.1021/jp992433y
+      \endverb
+      \verb{url}
+      \verb https://pubs.acs.org/doi/10.1021/jp992433y
+      \endverb
+    \endentry
+    \entry{van_gunsteren_computer_1990}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=c2764fa76dea50db0808261f86e0fbf9}{%
+           family={Gunsteren},
+           familyi={G\bibinitperiod},
+           given={Wilfred\bibnamedelima F.},
+           giveni={W\bibinitperiod\bibinitdelim F\bibinitperiod},
+           prefix={van},
+           prefixi={v\bibinitperiod}}}%
+        {{hash=0131f528b6f755e84b5897b737920cb6}{%
+           family={Berendsen},
+           familyi={B\bibinitperiod},
+           given={Herman\bibnamedelimb J.\bibnamedelimi C.},
+           giveni={H\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \strng{namehash}{6a8390de802118c7abb495c1e4b794cf}
+      \strng{fullhash}{6a8390de802118c7abb495c1e4b794cf}
+      \strng{fullhashraw}{6a8390de802118c7abb495c1e4b794cf}
+      \strng{bibnamehash}{6a8390de802118c7abb495c1e4b794cf}
+      \strng{authorbibnamehash}{6a8390de802118c7abb495c1e4b794cf}
+      \strng{authornamehash}{6a8390de802118c7abb495c1e4b794cf}
+      \strng{authorfullhash}{6a8390de802118c7abb495c1e4b794cf}
+      \strng{authorfullhashraw}{6a8390de802118c7abb495c1e4b794cf}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{During recent decades it has become feasible to simulate the dynamics of molecular systems on a computer. The method of molecular dynamics ({MD}) solves Newton's equations of motion for a molecular system, which results in trajectories for all atoms in the system. From these atomic trajectories a variety of properties can be calculated. The aim of computer simulations of molecular systems is to compute macroscopic behavior from microscopic interactions. The main contributions a microscopic consideration can offer are (1) the understanding and (2) interpretation of experimental results, (3) semiquantitative estimates of experimental results, and (4) the capability to interpolate or extrapolate experimental data into regions that are only difficultly accessible in the laboratory. One of the two basic problems in the field of molecular modeling and simulation is how to efficiently search the vast configuration space which is spanned by all possible molecular conformations for the global low (free) energy regions which will be populated by a molecular system in thermal equilibrium. The other basic problem is the derivation of a sufficiently accurate interaction energy function or force field for the molecular system of interest. An important part of the art of computer simulation is to choose the unavoidable assumptions, approximations and simplifications of the molecular model and computational procedure such that their contributions to the overall inaccuracy are of comparable size, without affecting significantly the property of interest. Methodology and some practical applications of computer simulation in the field of (bio)chemistry will be reviewed.}
+      \field{issn}{1521-3773}
+      \field{journaltitle}{Angewandte Chemie International Edition in English}
+      \field{langid}{english}
+      \field{note}{\_eprint: https://onlinelibrary.wiley.com/doi/pdf/10.1002/anie.199009921}
+      \field{number}{9}
+      \field{shorttitle}{Computer Simulation of Molecular Dynamics}
+      \field{title}{Computer Simulation of Molecular Dynamics: Methodology, Applications, and Perspectives in Chemistry}
+      \field{urlday}{21}
+      \field{urlmonth}{10}
+      \field{urlyear}{2025}
+      \field{volume}{29}
+      \field{year}{1990}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{992\bibrangedash 1023}
+      \range{pages}{32}
+      \verb{doi}
+      \verb 10.1002/anie.199009921
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/Users/marleneziegler/Zotero/storage/V7F84KFN/van Gunsteren und Berendsen - 1990 - Computer Simulation of Molecular Dynamics Methodology, Applications, and Perspectives in Chemistry.pdf:application/pdf;Snapshot:/Users/marleneziegler/Zotero/storage/GHGR435E/anie.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://onlinelibrary.wiley.com/doi/abs/10.1002/anie.199009921
+      \endverb
+      \verb{url}
+      \verb https://onlinelibrary.wiley.com/doi/abs/10.1002/anie.199009921
+      \endverb
+      \keyw{Computer chemistry,Force field calculations,Molecular dynamics}
+    \endentry
     \entry{gorbunov_periodic_2022}{article}{}{}
       \name{author}{3}{}{%
         {{hash=b0c088d4f1d5f6d9722e7e8923e9c73c}{%
@@ -241,8 +355,8 @@
       \strng{authornamehash}{4528bcd79165d32fbaa1e7f2afb1e338}
       \strng{authorfullhash}{4528bcd79165d32fbaa1e7f2afb1e338}
       \strng{authorfullhashraw}{4528bcd79165d32fbaa1e7f2afb1e338}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{00104655}
@@ -365,6 +479,103 @@
       \verb Mergheim - Lecture Notes Materials Modelling and Simulation.pdf:/Users/marleneziegler/Zotero/storage/ERK7B84V/Mergheim - Lecture Notes Materials Modelling and Simulation.pdf:application/pdf
       \endverb
     \endentry
+    \entry{ward_mechanical_2013}{book}{}{}
+      \name{author}{3}{}{%
+        {{hash=1c70a0a3a08b36e26a557a8e3ea073ef}{%
+           family={Ward},
+           familyi={W\bibinitperiod},
+           given={Ian\bibnamedelima Macmillan},
+           giveni={I\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=1c70a0a3a08b36e26a557a8e3ea073ef}{%
+           family={Ward},
+           familyi={W\bibinitperiod},
+           given={Ian\bibnamedelima Macmillan},
+           giveni={I\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=a2f9240df908018183380a6eb31c64d9}{%
+           family={Sweeney},
+           familyi={S\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Chichester}%
+      }
+      \list{publisher}{1}{%
+        {Wiley}%
+      }
+      \strng{namehash}{534bd8fbfd1e1df6b8077b31537d3541}
+      \strng{fullhash}{534bd8fbfd1e1df6b8077b31537d3541}
+      \strng{fullhashraw}{534bd8fbfd1e1df6b8077b31537d3541}
+      \strng{bibnamehash}{534bd8fbfd1e1df6b8077b31537d3541}
+      \strng{authorbibnamehash}{534bd8fbfd1e1df6b8077b31537d3541}
+      \strng{authornamehash}{534bd8fbfd1e1df6b8077b31537d3541}
+      \strng{authorfullhash}{534bd8fbfd1e1df6b8077b31537d3541}
+      \strng{authorfullhashraw}{534bd8fbfd1e1df6b8077b31537d3541}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{3. ed}
+      \field{isbn}{978-1-4443-1950-7}
+      \field{langid}{english}
+      \field{pagetotal}{461}
+      \field{title}{Mechanical properties of solid polymers}
+      \field{year}{2013}
+      \field{dateera}{ce}
+      \verb{file}
+      \verb PDF:/Users/marleneziegler/Zotero/storage/M56545QM/Ward et al. - 2013 - Mechanical properties of solid polymers.pdf:application/pdf
+      \endverb
+    \endentry
+    \entry{saabye_ottosen_mechanics_2005}{book}{}{}
+      \name{author}{2}{}{%
+        {{hash=7f56449d37f6fc34829190622879539a}{%
+           family={Saabye\bibnamedelima Ottosen},
+           familyi={S\bibinitperiod\bibinitdelim O\bibinitperiod},
+           given={Niels},
+           giveni={N\bibinitperiod}}}%
+        {{hash=b0062346a77f52980119eec1d216d85d}{%
+           family={Ristinmaa},
+           familyi={R\bibinitperiod},
+           given={Matti},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{d2c0c05544bbadc1257d52758361aa09}
+      \strng{fullhash}{d2c0c05544bbadc1257d52758361aa09}
+      \strng{fullhashraw}{d2c0c05544bbadc1257d52758361aa09}
+      \strng{bibnamehash}{d2c0c05544bbadc1257d52758361aa09}
+      \strng{authorbibnamehash}{d2c0c05544bbadc1257d52758361aa09}
+      \strng{authornamehash}{d2c0c05544bbadc1257d52758361aa09}
+      \strng{authorfullhash}{d2c0c05544bbadc1257d52758361aa09}
+      \strng{authorfullhashraw}{d2c0c05544bbadc1257d52758361aa09}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-0-08-044606-6}
+      \field{langid}{english}
+      \field{title}{The Mechanics of Constitutive Modeling}
+      \field{urlday}{21}
+      \field{urlmonth}{10}
+      \field{urlyear}{2025}
+      \field{year}{2005}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.1016/B978-0-08-044606-6.X5000-0
+      \endverb
+      \verb{file}
+      \verb 1---Notations-and-Cartesian-Tensor_2005_The-Mechanics-of-Constitutive-Modeli:/Users/marleneziegler/Zotero/storage/GZMZESTK/1---Notations-and-Cartesian-Tensor_2005_The-Mechanics-of-Constitutive-Modeli.pdf:application/pdf;2---Strain-Tensor_2005_The-Mechanics-of-Constitutive-Modeling:/Users/marleneziegler/Zotero/storage/TQ3BL9X4/2---Strain-Tensor_2005_The-Mechanics-of-Constitutive-Modeling.pdf:application/pdf;3---Stress-Tensor_2005_The-Mechanics-of-Constitutive-Modeling:/Users/marleneziegler/Zotero/storage/HJVDPQ6Y/3---Stress-Tensor_2005_The-Mechanics-of-Constitutive-Modeling.pdf:application/pdf;4---Hyper-Elasticity_2005_The-Mechanics-of-Constitutive-Modeling:/Users/marleneziegler/Zotero/storage/X8DXBEJI/4---Hyper-Elasticity_2005_The-Mechanics-of-Constitutive-Modeling.pdf:application/pdf;5---Cauchy-Elasticity_2005_The-Mechanics-of-Constitutive-Modeling:/Users/marleneziegler/Zotero/storage/2LLF9F5L/5---Cauchy-Elasticity_2005_The-Mechanics-of-Constitutive-Modeling.pdf:application/pdf;6---Representation-Theorems_2005_The-Mechanics-of-Constitutive-Modeling:/Users/marleneziegler/Zotero/storage/2VA94MVL/6---Representation-Theorems_2005_The-Mechanics-of-Constitutive-Modeling.pdf:application/pdf;7---Hypo---Elasticity_2005_The-Mechanics-of-Constitutive-Modeling:/Users/marleneziegler/Zotero/storage/EZBALU6Y/7---Hypo---Elasticity_2005_The-Mechanics-of-Constitutive-Modeling.pdf:application/pdf;8---Failure-and-Initial-Yield-Crite_2005_The-Mechanics-of-Constitutive-Model:/Users/marleneziegler/Zotero/storage/UD5T95EM/8---Failure-and-Initial-Yield-Crite_2005_The-Mechanics-of-Constitutive-Model.pdf:application/pdf;9---Introduction-to-Plasticity-Theo_2005_The-Mechanics-of-Constitutive-Model:/Users/marleneziegler/Zotero/storage/E6UEUWET/9---Introduction-to-Plasticity-Theo_2005_The-Mechanics-of-Constitutive-Model.pdf:application/pdf;10---General-Plasticity-Theory_2005_The-Mechanics-of-Constitutive-Modeling:/Users/marleneziegler/Zotero/storage/T2MLDN6K/10---General-Plasticity-Theory_2005_The-Mechanics-of-Constitutive-Modeling.pdf:application/pdf;11---Plastic-Collapse-Theorems_2005_The-Mechanics-of-Constitutive-Modeling:/Users/marleneziegler/Zotero/storage/XVLNRC7M/11---Plastic-Collapse-Theorems_2005_The-Mechanics-of-Constitutive-Modeling.pdf:application/pdf;12---Common-Plasticity-Models_2005_The-Mechanics-of-Constitutive-Modeling:/Users/marleneziegler/Zotero/storage/IK7P68F2/12---Common-Plasticity-Models_2005_The-Mechanics-of-Constitutive-Modeling.pdf:application/pdf;13---Nonlinear-Kinematic-Hardening-L_2005_The-Mechanics-of-Constitutive-Mode:/Users/marleneziegler/Zotero/storage/8W6RP9CG/13---Nonlinear-Kinematic-Hardening-L_2005_The-Mechanics-of-Constitutive-Mode.pdf:application/pdf;14---Introduction-to-Time-Dependent-Mater_2005_The-Mechanics-of-Constitutive:/Users/marleneziegler/Zotero/storage/LFAFYZS9/14---Introduction-to-Time-Dependent-Mater_2005_The-Mechanics-of-Constitutive.pdf:application/pdf;15---Creep-and-Viscoplasticity_2005_The-Mechanics-of-Constitutive-Modeling:/Users/marleneziegler/Zotero/storage/PFWRVW6X/15---Creep-and-Viscoplasticity_2005_The-Mechanics-of-Constitutive-Modeling.pdf:application/pdf;16---Nonlinear-Finite-Element-Metho_2005_The-Mechanics-of-Constitutive-Model:/Users/marleneziegler/Zotero/storage/UHVNDIGZ/16---Nonlinear-Finite-Element-Metho_2005_The-Mechanics-of-Constitutive-Model.pdf:application/pdf;17---Solution-of-Nonlinear-Equilibrium-E_2005_The-Mechanics-of-Constitutive-:/Users/marleneziegler/Zotero/storage/GQ379WBY/17---Solution-of-Nonlinear-Equilibrium-E_2005_The-Mechanics-of-Constitutive-.pdf:application/pdf;18---Integration-of-Constitutive-Equa_2005_The-Mechanics-of-Constitutive-Mod:/Users/marleneziegler/Zotero/storage/5UWPTQZ9/18---Integration-of-Constitutive-Equa_2005_The-Mechanics-of-Constitutive-Mod.pdf:application/pdf;19---Solution-of-Dynamic-Finite-Element-_2005_The-Mechanics-of-Constitutive-:/Users/marleneziegler/Zotero/storage/XEZVTHA8/19---Solution-of-Dynamic-Finite-Element-_2005_The-Mechanics-of-Constitutive-.pdf:application/pdf;20---Basic-Principles-of-Thermodynam_2005_The-Mechanics-of-Constitutive-Mode:/Users/marleneziegler/Zotero/storage/DIZWV9Y7/20---Basic-Principles-of-Thermodynam_2005_The-Mechanics-of-Constitutive-Mode.pdf:application/pdf;21---Thermodynamic-Framework-for-Constitut_2005_The-Mechanics-of-Constitutiv:/Users/marleneziegler/Zotero/storage/9ARJEAK6/21---Thermodynamic-Framework-for-Constitut_2005_The-Mechanics-of-Constitutiv.pdf:application/pdf;23---Thermo-Plasticity_2005_The-Mechanics-of-Constitutive-Modeling:/Users/marleneziegler/Zotero/storage/7PWDXWNH/23---Thermo-Plasticity_2005_The-Mechanics-of-Constitutive-Modeling.pdf:application/pdf;24---Uniqueness-and-Discontinuous-Bifur_2005_The-Mechanics-of-Constitutive-M:/Users/marleneziegler/Zotero/storage/2RBZLNPB/24---Uniqueness-and-Discontinuous-Bifur_2005_The-Mechanics-of-Constitutive-M.pdf:application/pdf;A---Convexity---Minimization-of-Function-Sub_2005_The-Mechanics-of-Constitut:/Users/marleneziegler/Zotero/storage/MQ8D6GLS/A---Convexity---Minimization-of-Function-Sub_2005_The-Mechanics-of-Constitut.pdf:application/pdf;Index_2005_The-Mechanics-of-Constitutive-Modeling:/Users/marleneziegler/Zotero/storage/3RBRATNV/Index_2005_The-Mechanics-of-Constitutive-Modeling.pdf:application/pdf;No-title-available_2005_The-Mechanics-of-Constitutive-Modeling:/Users/marleneziegler/Zotero/storage/HULAHC3R/No-title-available_2005_The-Mechanics-of-Constitutive-Modeling.pdf:application/pdf;PDF:/Users/marleneziegler/Zotero/storage/PYLM6NTI/22---Plasticity--Viscoplasticity-and-Visc_2005_The-Mechanics-of-Constitutive.pdf:application/pdf;Preface_2005_The-Mechanics-of-Constitutive-Modeling:/Users/marleneziegler/Zotero/storage/9A76PCG9/Preface_2005_The-Mechanics-of-Constitutive-Modeling.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/B9780080446066X50000
+      \endverb
+      \verb{url}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/B9780080446066X50000
+      \endverb
+    \endentry
     \entry{ries_deciphering_nodate}{article}{}{}
       \name{author}{4}{}{%
         {{hash=6f008db3199f0b0c7775c2724b341494}{%
@@ -396,8 +607,8 @@
       \strng{authornamehash}{7e55bb33d66f2ee4694731e2599d8639}
       \strng{authorfullhash}{307c6b6216d9aa3ade2026596cfd8d03}
       \strng{authorfullhashraw}{307c6b6216d9aa3ade2026596cfd8d03}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Adhesive joints provide a better strength-to-weight ratio than traditional fastening methods and thus play a vital role in lightweight and cost-efficient engineering designs. The interaction of adherend and adhesive causes a region with different local resin-to-hardener ratios, e.g., due to demixing during curing or sterically hindered diffusion. Consequently, this interphase exhibits a mechanical behavior that differs from that of the bulk adhesive, immediately implying thickness-dependent properties of the joint, which should be, but are not yet, addressed in engineering. Additionally, these local gradients of structural and especially mechanical properties are, if at all, very difficult to assess by experimental methods. As a remedy, we derive the elastoplastic material parameters for bulk adhesives covering a wide range of mixing ratios. To this end, we simulate the curing and deformation of pure epoxy with reactive, coarse-grained molecular dynamics ({CGMD}) and introduce an extrapolation scheme to obtain the quasi-static material response. The latter removes the viscous contributions, which facilitates the comparison of ultra-fast {MD} with conventional mechanical testing. Based on these results, we calibrate elastoplastic constitutive models with {VOCE}-type hardening and obtain mixing ratio-dependent Young’s modulus, Poisson’s ratio, yield stress, and hardening parameters. Finally, we obtain the correlation between these material parameters and structural characteristics, such as density and curing degree, for a wide range of mixing ratios. With these results, we can then conclude on the local mechanical properties of interphases, based on {CGMD} simulations of the curing of adhesive joints, which inherently provide the local structure gradients in the vicinity of the adherends, [14].}
@@ -433,6 +644,60 @@
       \verb PDF:/Users/marleneziegler/Zotero/storage/XDDFW8EJ/Voce1955.pdf:application/pdf;s11831-020-09524-z:/Users/marleneziegler/Zotero/storage/SFQEC3RD/s11831-020-09524-z.pdf:application/pdf
       \endverb
     \endentry
+    \entry{jung_methode_2013}{book}{}{}
+      \name{author}{2}{}{%
+        {{hash=0aaee0a6a24347fba616ac7e4685885b}{%
+           family={Jung},
+           familyi={J\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+        {{hash=982f90e1e565fa3dc17732e06cc18f5f}{%
+           family={Langer},
+           familyi={L\bibinitperiod},
+           given={Ulrich},
+           giveni={U\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Wiesbaden}%
+      }
+      \list{publisher}{1}{%
+        {Springer Fachmedien Wiesbaden}%
+      }
+      \strng{namehash}{dd62324fbd7263da97d4c8dcc718d07e}
+      \strng{fullhash}{dd62324fbd7263da97d4c8dcc718d07e}
+      \strng{fullhashraw}{dd62324fbd7263da97d4c8dcc718d07e}
+      \strng{bibnamehash}{dd62324fbd7263da97d4c8dcc718d07e}
+      \strng{authorbibnamehash}{dd62324fbd7263da97d4c8dcc718d07e}
+      \strng{authornamehash}{dd62324fbd7263da97d4c8dcc718d07e}
+      \strng{authorfullhash}{dd62324fbd7263da97d4c8dcc718d07e}
+      \strng{authorfullhashraw}{dd62324fbd7263da97d4c8dcc718d07e}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{isbn}{978-3-658-01100-0 978-3-658-01101-7}
+      \field{langid}{german}
+      \field{shorttitle}{Methode der finiten Elemente für Ingenieure}
+      \field{title}{Methode der finiten Elemente für Ingenieure: Eine Einführung in die numerischen Grundlagen und Computersimulation}
+      \field{urlday}{21}
+      \field{urlmonth}{10}
+      \field{urlyear}{2025}
+      \field{year}{2013}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.1007/978-3-658-01101-7
+      \endverb
+      \verb{file}
+      \verb PDF:/Users/marleneziegler/Zotero/storage/BP9U7ZSJ/Jung und Langer - 2013 - Methode der finiten Elemente für Ingenieure Eine Einführung in die numerischen Grundlagen und Compu.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://link.springer.com/10.1007/978-3-658-01101-7
+      \endverb
+      \verb{url}
+      \verb https://link.springer.com/10.1007/978-3-658-01101-7
+      \endverb
+    \endentry
     \entry{willner_vorlesungsskript_nodate}{unpublished}{}{}
       \name{author}{1}{}{%
         {{hash=86f3b574956f6683d5c37e8e3933af13}{%
@@ -452,8 +717,8 @@
       \strng{authornamehash}{86f3b574956f6683d5c37e8e3933af13}
       \strng{authorfullhash}{86f3b574956f6683d5c37e8e3933af13}
       \strng{authorfullhashraw}{86f3b574956f6683d5c37e8e3933af13}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{howpublished}{Vorlesungsskript}
@@ -493,8 +758,8 @@
       \strng{authornamehash}{2fe8a850e95311c4d84af8da6209f864}
       \strng{authorfullhash}{2fe8a850e95311c4d84af8da6209f864}
       \strng{authorfullhashraw}{2fe8a850e95311c4d84af8da6209f864}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{The finite element method ({FEM}) is a numerical analysis technique for obtaining approximate solutions to a wide variety of engineering problems. A finite element model of a problem gives a piecewise approximation to the governing equations. The basic premise of the {FEM} is that a solution region can be analytically modeled or approximated by replacing it with an assemblage of discrete elements (discretization). Since these elements can be put together in a variety of ways, they can be used to represent exceedingly complex shapes.}
@@ -570,8 +835,8 @@
       \strng{authornamehash}{c583923b2f80eaac8753b4dce37681fe}
       \strng{authorfullhash}{c583923b2f80eaac8753b4dce37681fe}
       \strng{authorfullhashraw}{c583923b2f80eaac8753b4dce37681fe}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{langid}{english}
@@ -640,6 +905,62 @@
       \endverb
       \verb{url}
       \verb http://link.springer.com/10.1007/s00366-018-0616-4
+      \endverb
+    \endentry
+    \entry{rios_derivative-free_2013}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=b211bfd66b490ce7ed453051f870a42d}{%
+           family={Rios},
+           familyi={R\bibinitperiod},
+           given={Luis\bibnamedelima Miguel},
+           giveni={L\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=79205641d71085e7e4cddeee22235517}{%
+           family={Sahinidis},
+           familyi={S\bibinitperiod},
+           given={Nikolaos\bibnamedelima V.},
+           giveni={N\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+      }
+      \strng{namehash}{092b7b5277e1c36d3fd513b66ee584f0}
+      \strng{fullhash}{092b7b5277e1c36d3fd513b66ee584f0}
+      \strng{fullhashraw}{092b7b5277e1c36d3fd513b66ee584f0}
+      \strng{bibnamehash}{092b7b5277e1c36d3fd513b66ee584f0}
+      \strng{authorbibnamehash}{092b7b5277e1c36d3fd513b66ee584f0}
+      \strng{authornamehash}{092b7b5277e1c36d3fd513b66ee584f0}
+      \strng{authorfullhash}{092b7b5277e1c36d3fd513b66ee584f0}
+      \strng{authorfullhashraw}{092b7b5277e1c36d3fd513b66ee584f0}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{This paper addresses the solution of bound-constrained optimization problems using algorithms that require only the availability of objective function values but no derivative information. We refer to these algorithms as derivative-free algorithms. Fueled by a growing number of applications in science and engineering, the development of derivativefree optimization algorithms has long been studied, and it has found renewed interest in recent time. Along with many derivative-free algorithms, many software implementations have also appeared. The paper presents a review of derivative-free algorithms, followed by a systematic comparison of 22 related implementations using a test set of 502 problems. The test bed includes convex and nonconvex problems, smooth as well as nonsmooth problems. The algorithms were tested under the same conditions and ranked under several criteria, including their ability to ﬁnd near-global solutions for nonconvex problems, improve a given starting point, and reﬁne a near-optimal solution. A total of 112,448 problem instances were solved. We ﬁnd that the ability of all these solvers to obtain good solutions diminishes with increasing problem size. For the problems used in this study, {TOMLAB}/{MULTIMIN}, {TOMLAB}/{GLCCLUSTER}, {MCS} and {TOMLAB}/{LGO} are better, on average, than other derivative-free solvers in terms of solution quality within 2,500 function evaluations. These global solvers outperform local solvers even for convex problems. Finally, {TOMLAB}/{OQNLP}, {NEWUOA}, and {TOMLAB}/{MULTIMIN} show superior performance in terms of reﬁning a nearoptimal solution.}
+      \field{issn}{0925-5001, 1573-2916}
+      \field{journaltitle}{Journal of Global Optimization}
+      \field{langid}{english}
+      \field{month}{7}
+      \field{number}{3}
+      \field{shortjournal}{J Glob Optim}
+      \field{shorttitle}{Derivative-free optimization}
+      \field{title}{Derivative-free optimization: a review of algorithms and comparison of software implementations}
+      \field{urlday}{21}
+      \field{urlmonth}{10}
+      \field{urlyear}{2025}
+      \field{volume}{56}
+      \field{year}{2013}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{1247\bibrangedash 1293}
+      \range{pages}{47}
+      \verb{doi}
+      \verb 10.1007/s10898-012-9951-y
+      \endverb
+      \verb{file}
+      \verb PDF:/Users/marleneziegler/Zotero/storage/SCLNE3I6/Rios und Sahinidis - 2013 - Derivative-free optimization a review of algorithms and comparison of software implementations.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://link.springer.com/10.1007/s10898-012-9951-y
+      \endverb
+      \verb{url}
+      \verb https://link.springer.com/10.1007/s10898-012-9951-y
       \endverb
     \endentry
     \entry{gao_implementing_2012}{article}{}{}
@@ -724,8 +1045,8 @@
       \strng{authornamehash}{d6d90dd15f3b10b575a0fe9b8d013f62}
       \strng{authorfullhash}{d6d90dd15f3b10b575a0fe9b8d013f62}
       \strng{authorfullhashraw}{d6d90dd15f3b10b575a0fe9b8d013f62}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Derivative free optimization algorithms are often used when it is difficult to find function derivatives, or if finding such derivatives are time consuming. The Nelder Mead's simplex method is one of the most popular derivative free optimization algorithms in the fields of engineering, statistics, and sciences. This algorithm is favored and widely used because of its fast convergence and simplicity. The simplex method converges really well with small scale problems of some variables. However, it does not have much success with large-scale problems of multiple variables. This factor has reduced its popularity in optimization sciences significantly. Two solutions of quasi-gradients are introduced to improve it in terms of the convergence rate and the convergence speed. The improved algorithm with higher success rate and faster convergence which still maintains the simplicity is the key feature of this paper. This algorithm will be compared on several benchmark functions with other popular optimization algorithms such as the genetic algorithm, the differential evolution algorithm, the particle swarm algorithm, and the original simplex method. Then, the comparing results will be reported and discussed.}
@@ -778,8 +1099,8 @@
       \strng{authornamehash}{2db29ad368f10affecdcddbfcf27c0da}
       \strng{authorfullhash}{2db29ad368f10affecdcddbfcf27c0da}
       \strng{authorfullhashraw}{2db29ad368f10affecdcddbfcf27c0da}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{The Nelder–Mead or simplex search algorithm is one of the best known algorithms for unconstrained optimization of non–smooth functions. Even though the basic algorithm is quite simple, it is implemented in many different ways. Apart from some minor computational details, the main difference between various implementations lies in the selection of convergence (or termination) tests, which are used to break the iteration process. A fairly simple efficiency analysis of each iteration step reveals a potential computational bottleneck in the domain convergence test. To be efficient, such a test has to be sublinear in the number of vertices of the working simplex. We have tested some of the most common implementations of the Nelder–Mead algorithm, and none of them is efficient in this sense. Therefore, we propose a simple and efficient domain convergence test and discuss some of its properties. This test is based on tracking the volume of the working simplex throughout the iterations. Similar termination tests can also be applied in some other simplex–based direct search methods. (© 2004 {WILEY}-{VCH} Verlag {GmbH} \& Co. {KGaA}, Weinheim)}
@@ -833,8 +1154,8 @@
       \strng{authornamehash}{c883f46bc4773c0e0cd4ad615f0e1a00}
       \strng{authorfullhash}{c883f46bc4773c0e0cd4ad615f0e1a00}
       \strng{authorfullhashraw}{c883f46bc4773c0e0cd4ad615f0e1a00}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{day}{1}
@@ -883,8 +1204,8 @@
       \strng{authornamehash}{2c1eaca0798b8b612bf77d164f377c2d}
       \strng{authorfullhash}{2c1eaca0798b8b612bf77d164f377c2d}
       \strng{authorfullhashraw}{2c1eaca0798b8b612bf77d164f377c2d}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{langid}{english}
@@ -914,8 +1235,8 @@
       \strng{authornamehash}{ea23efa540ff1bbc8f185cfcf11baa14}
       \strng{authorfullhash}{ea23efa540ff1bbc8f185cfcf11baa14}
       \strng{authorfullhashraw}{ea23efa540ff1bbc8f185cfcf11baa14}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{One of the fundamental diﬃculties in engineering design is the multiplicity of local solutions. This has triggered great eﬀorts to develop global search algorithms. Globality, however, often has a prohibitively high numerical cost for real problems. A ﬁxed cost local search, which sequentially becomes global is developed. Globalization is achieved by probabilistic restart. A spatial probability of starting a local search is built based on past searches. An improved Nelder–Mead algorithm makes the local optimizer. It accounts for variable bounds. It is additionally made more robust by reinitializing degenerated simplexes. The resulting method, called Globalized Bounded Nelder–Mead ({GBNM}) algorithm, is particularly adapted to tackle multimodal, discontinuous optimization problems, for which it is uncertain that a global optimization can be aﬀorded. Diﬀerent strategies for restarting the local search are discussed. Numerical experiments are given on analytical test functions and composite laminate design problems. The {GBNM} method compares favorably to an evolutionary algorithm, both in terms of numerical cost and accuracy.}

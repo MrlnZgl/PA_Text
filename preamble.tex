@@ -240,6 +240,7 @@
 \newacronym{mdb}{MDB}{model database}
 \newacronym{cae}{CAE}{computer aided engineering}
 \newacronym{api}{API}{application programming interface}
+\newacronym{fe}{FE}{finite element}
 
 
 
@@ -286,9 +287,10 @@ bookmarksdepth=2
 \setcounter{secnumdepth}{2} % Zahlen nur bis section
 \setcounter{tocdepth}{1}	% nur bis section in ToC
 \renewcommand{\autodot}{}% Remove all end-of-counter dots
+\AtBeginDocument{
 \renewcommand{\chapterautorefname}{Chapter}
 \renewcommand{\sectionautorefname}{Section}
-\renewcommand{\subsectionautorefname}{Subsection}
+\renewcommand{\subsectionautorefname}{Subsection}}
 
 
 \newcommand{\name}[1]{\textsc{#1}}
