@@ -213,6 +213,7 @@
 	textformat=period,
 %	figurename=Bild,
 ]{caption}
+%\captionsetup[sub]{labelfont=bf,labelsep=period,labelformat=brace}
 \captionsetup[table]{aboveskip=4pt}
 \captionsetup[table]{belowskip=5pt}
 
@@ -292,9 +293,20 @@ bookmarksdepth=2
 \renewcommand{\sectionautorefname}{Section}
 \renewcommand{\subsectionautorefname}{Subsection}}
 
+% \makeatletter
+% \renewcommand{\p@subfigure}{\thefigure\,}
+% \renewcommand{\thesubfigure}{(\alph{subfigure})}
+
+% \renewcommand{\p@subtable}{\thetable~}  
+% \renewcommand{\thesubtable}{\alph{subtable}}
+% \DeclareCaptionLabelFormat{brace}{\alph{sub\@captype}}
+% \makeatother
+
+%\labelformat{\subfigure}{\thefigure #1}
 
 \newcommand{\name}[1]{\textsc{#1}}
 \newcommand{\eigenname}[1]{"#1"}
 \newcommand{\benennung}[1]{\textit{#1}}
+\newcommand{\phases}[1]{\textbf{#1}}
 
 

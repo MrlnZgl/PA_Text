@@ -6,28 +6,28 @@
 \contentsline {figure}{\numberline {2.2}{\ignorespaces Steps of the Nelder-Mead algorithm for an exemplary optimisation with three optimisation variables}}{8}{figure.caption.15}%
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {3.1}{\ignorespaces Illustration of exemplary load case E11 acting on the front surface in $xx$-direction (represented in green) with its exemplary evaluated stress and strain reactions $\sigma _{xx}, \varepsilon _{yy}$ and $\varepsilon _{zz}$ on the surfaces (represented in yellow)}}{12}{figure.caption.19}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Exemplary \acrlong {rlr} $\sigma ^{\scriptscriptstyle \text {RLR}}$ and \acrlong {olr} $\sigma ^{\scriptscriptstyle \text {OLR}}$ with visualization of error calculation}}{14}{figure.caption.21}%
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Loop conditions in preprocessing}}{18}{figure.caption.24}%
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Flowchart code}}{19}{figure.caption.25}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Exemplary \acrlong {rlr} $\sigma ^{\scriptscriptstyle \text {RLR}}$ and \acrlong {olr} $\sigma ^{\scriptscriptstyle \text {OLR}}$ with visualization of error calculation}}{14}{figure.caption.23}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Loop conditions in preprocessing}}{18}{figure.caption.26}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Flowchart code}}{19}{figure.caption.27}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Progress of material parameters during the verification study.}}{23}{figure.caption.28}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Verification results for load reaction $\sigma _{xx}$}}{24}{figure.caption.29}%
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Verification results for load reaction $\sigma _{xx}$}}{25}{figure.caption.30}%
-\contentsline {figure}{\numberline {4.4}{\ignorespaces parameter influence on voce-hardening curve}}{26}{figure.caption.33}%
-\contentsline {figure}{\numberline {4.5}{\ignorespaces progress of material parameters for validation tests}}{27}{figure.caption.36}%
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Verification results for load reaction $\sigma _{xx}$}}{28}{figure.caption.37}%
-\contentsline {figure}{\numberline {4.7}{\ignorespaces Results of validation tests with mixing ratios 4:3 and 8:3:}}{29}{figure.caption.42}%
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Results of tensile tests with 6to3 dataset}}{31}{figure.caption.46}%
-\contentsline {figure}{\numberline {4.9}{\ignorespaces Results of shear tests with 6to3 dataset}}{32}{figure.caption.48}%
-\contentsline {figure}{\numberline {4.10}{\ignorespaces Results of combi tests with 6to3 dataset}}{33}{figure.caption.50}%
-\contentsline {figure}{\numberline {4.11}{\ignorespaces RMSE Combi tests}}{33}{figure.caption.51}%
-\contentsline {figure}{\numberline {4.12}{\ignorespaces Stress Strain plots for 1,5,8 \%}}{35}{figure.caption.53}%
-\contentsline {figure}{\numberline {4.13}{\ignorespaces Stress Time plots for 1,5,8 \%}}{36}{figure.caption.54}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Evolution of the optimised material parameters Young's Modulus $E$, Poisson's Ratio $\nu $, yield stress $\sigma _0$, and the hardening coefficients $\alpha $, $\beta $ and $\gamma $ during the optimisation evaluations for material with mixing ratio 6:3 under linear tensile strain up to 20 \%}}{23}{figure.caption.30}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Verification results for load reaction $\sigma _{xx}$}}{24}{figure.caption.31}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Verification results for load reaction $\sigma _{xx}$}}{25}{figure.caption.32}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces parameter influence on voce-hardening curve}}{26}{figure.caption.35}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces progress of material parameters for validation tests}}{27}{figure.caption.38}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Verification results for load reaction $\sigma _{xx}$}}{28}{figure.caption.39}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Results of validation tests with mixing ratios 4:3 and 8:3:}}{29}{figure.caption.44}%
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Results of tensile tests with 6to3 dataset}}{31}{figure.caption.48}%
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Results of shear tests with 6to3 dataset}}{32}{figure.caption.50}%
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Results of combi tests with 6to3 dataset}}{33}{figure.caption.52}%
+\contentsline {figure}{\numberline {4.11}{\ignorespaces RMSE Combi tests}}{33}{figure.caption.53}%
+\contentsline {figure}{\numberline {4.12}{\ignorespaces Stress Strain plots for 1,5,8\%}}{35}{figure.caption.55}%
+\contentsline {figure}{\numberline {4.13}{\ignorespaces Stress Time plots for 1,5,8 \%}}{36}{figure.caption.56}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {A.1}{\ignorespaces Evolution of material parameters for (a) mixing ratio 4:3 and (b) mixing ratio 8:3.}}{v}{figure.caption.64}%
-\contentsline {figure}{\numberline {A.2}{\ignorespaces progress of material parameters for tensile tests}}{vi}{figure.caption.65}%
-\contentsline {figure}{\numberline {A.3}{\ignorespaces progress of material parameters for shear tests}}{vi}{figure.caption.66}%
+\contentsline {figure}{\numberline {A.1}{\ignorespaces Evolution of material parameters for (a) mixing ratio 4:3 and (b) mixing ratio 8:3.}}{v}{figure.caption.66}%
+\contentsline {figure}{\numberline {A.2}{\ignorespaces progress of material parameters for tensile tests}}{vi}{figure.caption.67}%
+\contentsline {figure}{\numberline {A.3}{\ignorespaces progress of material parameters for shear tests}}{vi}{figure.caption.68}%
 \addvspace {10\p@ }
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

@@ -81,7 +81,7 @@ $\sigma_{xz}$ & $\varepsilon_{xz}$ \\
 \end{table}
 
 \paragraph{Application}
-In \autoref{tab: testSeries} the studied test cases are listed with the used load case and the selected \acrshort{er}s.
+In \autoref{tab: testSeries} the studied test cases are listed with the used load case and the selected \acrlong{er}s.
 For the verification of the code, we use a simple tensile load case E11.
 In all other directions, we impose no restrictions except \acrshort{pbc}. As \acrlong{er}, we use $\sigma_{xx}$ and the lateral strains $\varepsilon_{yy}$ and $\varepsilon_{zz}$. The normal stress permits to deduce the Young's modulus and the plastic parameters. The lateral strains are necessary for the identification of the Poisson's ratio. Applying a strain in $xx$-direction will lead to decreasing dimensions in $yy$- and $zz$-direction to keep a state of minimum stress. Simultaneously, this means that the lateral stresses do not contain any useful information, because they are numerically zero. 
 The validation study is realised with the same load case. Equivalent to the verification study, we take $\sigma_{xx}$,  $\varepsilon_{yy}$ and $\varepsilon_{zz}$ to extract information about all material parameters. 
@@ -97,16 +97,27 @@ As a last study, we investigate the application of cyclic loading as E11 load ca
 \end{figure}
 
 \subsection{Load parameters and load reactions}\label{subsec:loadParameters}
-For the optimisation process we use data from \acrshort{md} simulations as inputs. This data are referenced as \emph{reference data} in the following. They contain stress and strain components for all time steps during the loading process, in all normal and shear directions. Thus, we can register different trends of loading with the corresponding reactions.
-We split the reference data into \emph{load parameters} and \emph{\acrlong{rlr}}. The load parameters define the quantitative values of the prescribed load case. 
-Since we defined the load cases identical to the ones in the \acrshort{md} simulations, we can process the data from the load parameters directly. 
-If the load case is known, we can easily extract the load parameters from the reference data and transfer them into the \acrshort{fe} model. A detailed description of the load application in \name{Abaqus} can be found in \autoref{sec: preprocessing}. 
-The \acrlong{rlr} represent the material response during the \acrshort{md} simulation. From this, we extract the stress and strain components according to the chosen \acrlong{er}. 
-We neglect the remaining stress and strain components, since they contain little information about the material behaviour.
+For the optimisation process we use data from \acrshort{md} simulations as inputs.
+This data are referenced as \emph{reference data} in the following. They contain stress and strain components for every time step from the \acrshort{md} simulation, in all normal and shear directions.
+We split the reference data into \emph{load parameters} and \emph{\acrlong{rlr}}.
+Load parameters refer to the quantitative values of the prescribed load case during the loading procedure.
+Since we only process load cases identical to the ones in the \acrshort{md} simulations, we can transfer the load parameters directly in the \acrshort{fe} model.
+A detailed description of the load application in \name{Abaqus} can be found in \autoref{sec: preprocessing}. \\
+\indent The \acrlong{rlr} represent the material response during the \acrshort{md} simulation.
+From these data we extract the stress and strain components according to the chosen \acrlong{er}, and neglect the remaining components, since they contain little information about the material behaviour.
+As a result, we can register the \acrlong{rlr} for the corresponding load parameters to monitor the evolution of the material behaviour during the loading process.
 To perform the inverse parameter identification, we need corresponding data from the \acrshort{fe} simulation.
-In the way described in \autoref{sec: optimisationCode}, we can read out stress and strain components in all directions. Similar to the \acrlong{rlr} we extract the values corresponding to the \acrlong{er}. These values are called \emph{\acrlong{olr}}. \\
-\indent In \autoref{tab: testSeries} the test series with their loading conditions are listed.
-In the verification and validation studies we apply linear strain up to a maximum value of 20 \%. For the validation studies we use different mixing ratios which show different mechanical behaviours. As a preparation for studies with cyclic loading, we investigate a pure tensile strain following the first quarter sinus period over time with a maximum amplitude of 15 \% strain. With this loading trajectory, we study the optimisation behaviour for non-linear loading parameters.
+In the way described in \autoref{sec: optimisationCode}, we can read out stress and strain components in all directions during the loading process.
+Similar to the \acrlong{rlr} we extract the components corresponding to the \acrlong{er}.
+These values are called \emph{\acrlong{olr}}. 
+For an appropriate comparison, we must register the optimised and the \acrlong{rlr} at equivalent points in the loading period.
+In \autoref{sec: preprocessing} we explain, how this is implemented in the script.
+
+\paragraph{Application}
+In \autoref{tab: testSeries}, the test series with their loading conditions are listed.
+In the verification and validation studies, we apply linear strain up to a maximum value of 20 \%.
+We analyse different mixing ratios in the validation studies, which demonstrate different mechanical behaviours.
+As a preparation for studies with cyclic loading, we investigate a pure tensile strain following the first quarter sinus period over time with a maximum amplitude of 15 \% strain. With this loading trajectory, we study the optimisation behaviour for non-linear loading parameters.
 We reuse this load parameters, and apply them as a shear strain in load case G12. Since in the previous tests always the load case E11 is used, we test the script performance for another load case.
 To obtain more information about the material behaviour, we combine the load cases of E11 and G12 in one optimisation. 
 As a last study we investigate one and a half period of a sinusoidal loading for a tensile load case in $xx$-direction. We use amplitudes of 1 \%, 5 \% and 8 \%. Important to notice is that the previously introduced load parameters proceed in a wide strain range. Assuming that the material starts to plastify quite fast, the majority of the loading steps are located in the plastic domain of the material. Conversely, the load parameters contain only little information about the elastic material behaviour. 
@@ -141,9 +152,12 @@ In \autoref{sec: verification} the issue about this unequal distribution in the 
 
 
 \section{Error Calculation}\label{sec: errorCalculation}
-For a representative value including all necessary data we use the \acrshort{rmse}, which is explained in \autoref{subsec: RMSE}. Therefore, we use \autoref{eq: multiRMSE}, and insert the \acrlong{rlr} and the \acrlong{olr} as data sets.
-The extraction of the load reactions is described in \autoref{sec: optimisationCode}.
-We compute the deviations of the \acrlong{olr} at each load step. \autoref{fig: erroPlot} displays this procedure for an exemplary set of \acrlong{rlr} and \acrlong{olr}. Here $\sigma_{xx}$ is the selected \acrlong{er}. For every load step LS their corresponding \acrfull{rlr} $\sigma_{\scriptscriptstyle\text{LS}}^{\scriptscriptstyle\text{RLR}}$ and \acrfull{olr} $\sigma_{\scriptscriptstyle\text{LS}}^{\scriptscriptstyle\text{OLR}}$ are logged. The blue arrow highlights their deviation $\Delta\sigma_{\scriptscriptstyle\text{LS}}$ for one exemplary load step, according to \autoref{eq: EMDifference}. 
+For a representative value including all necessary data, we select the \acrshort{rmse}, which is explained in \autoref{subsec: RMSE}.
+We insert the \acrlong{rlr} and the \acrlong{olr} as data sets in \autoref{eq: multiRMSE}.
+The extraction of the load reactions from the \acrshort{fe} simulation is described in \autoref{sec: optimisationCode}.
+The access to \acrlong{rlr} is explained in \autoref{subsec:loadParameters}.
+We compute the deviations of the \acrlong{olr} at each load step. \autoref{fig: erroPlot} displays this procedure for an exemplary set of \acrlong{rlr} and \acrlong{olr}. Here $\sigma_{xx}$ is the selected \acrlong{er}.
+For every load step LS their corresponding \acrfull{rlr} $\sigma_{\scriptscriptstyle\text{LS}}^{\scriptscriptstyle\text{RLR}}$ and \acrfull{olr} $\sigma_{\scriptscriptstyle\text{LS}}^{\scriptscriptstyle\text{OLR}}$ are logged. The blue arrow highlights their deviation $\Delta\sigma_{\scriptscriptstyle\text{LS}}$ for one exemplary load step, according to \autoref{eq: EMDifference}. 
 As described in \autoref{subsec:loadParameters}, the distribution of the data points is unfavourable for the determination of the elastic parameters. 
 To support the script in finding the elastic parameters, we applied a weight of 100 at the data point in the elastic domain, i.e. below 1 \% strain. This is done via an array $\boldsymbol{w}$ which entries are one except the first entry $w_{\scriptscriptstyle\text{1}}$. Formally, the applied weights have the inverse unit of the evaluated load reaction, i.e. for stress load reactions, $[w_{\text{LS}}] = \text{MPa}^{-1}$ would be the correct unit for the related weights.
 According to \autoref{eq: mse}, we calculate the mean value of the weighted arrays.
@@ -223,14 +237,15 @@ Before starting with the optimisation process, we need preprocessing steps to cr
 \end{table}
 
 The input file contains more parameters for different namings, which are neglected here. In attaachment XX the whole input file is included. 
-The user has multiple options to configure the optimisation process. It is possible to test multiple initial value combinations for the material parameters calling the script once. In \autoref{tab: inputParameterTable} this is visible in the column \benennung{Data format} of the values of all material parameters. This function is important to validate the optimisation results with varying input values. \\
-\indent In \autoref{fig: flowchart} the complete structure of the code is depicted. The white boxes show the individual steps referred to in the text in italics. The coloured boxes represent the performed loops. 
-The upper part belongs to the preprocessing, which starts with the step \benennung{Read input file}.
-In this step all entries from the input-file are extracted. 
-For every material parameter the script writes an array of initial values. Then the code loops over all array entries at a time to extract one initial value for each parameter. Therefore, the entries with the same index add up to one initial value combination which is visualised in \autoref{tab:material_combinations}. As a consequence all arrays need to be of same length. For all initial value combinations the code creates a new \acrfull{mdb} in \name{Abaqus}, and a new folder structure to set the working directory and store the results.
-
-
-
+The user has multiple options to configure the optimisation process. It is possible to test multiple initial value combinations for the material parameters calling the script once. In \autoref{tab: inputParameterTable} this is visible in the column \benennung{Data format} for the material parameters.
+Here, the user can pass an array with multiple initial value for every material parameter.
+This function is important to validate the optimisation results with varying input values. \\
+\indent In \autoref{fig: flowchart} the complete structure of the code is depicted. The white boxes show the individual phases referred to in the text in italics. The coloured boxes represent the performed loops. 
+The upper part belongs to the preprocessing, which starts with the phase \benennung{Read input file}. \\
+\indent In this phase all entries from the input-file are extracted. 
+To process the arrays with the initial material parameters, the script loops over all arrays at a time to extract one initial value for each parameter.
+The entries with the same index result in one initial value combination which is visualised in \autoref{tab:material_combinations}.
+As a consequence, all arrays need to be of same length. For every initial value combinations the script creates a new \acrfull{mdb} in \name{Abaqus}, and a new folder structure to set the working directory and store the results.
 
 \begin{table}[h!]
     \centering
@@ -239,7 +254,7 @@ For every material parameter the script writes an array of initial values. Then 
     \begin{subtable}[t]{0.45\textwidth}
         \centering
         \renewcommand{\arraystretch}{1.1}
-        \caption{Arrangement of initial value combination of material parameters}
+        \caption{Exemplary arrangement of initial value combination of material parameters for five combinations}
         \label{tab:material_combinations}
         \begin{tabular}{L{0.31\textwidth}|C{0.08\textwidth}C{0.08\textwidth}C{0.08\textwidth}C{0.08\textwidth}C{0.08\textwidth}}
             \toprule
@@ -259,7 +274,7 @@ For every material parameter the script writes an array of initial values. Then 
     \begin{subtable}[t]{0.45\textwidth}
         \centering
         \renewcommand{\arraystretch}{1.17}
-        \caption{Model creation for load case and parameter combinations}
+        \caption{Exemplary model creation for two load cases E11 and G12 in combination with three load parameter sets}
         \label{tab:model_creation}
         \begin{tabular}{L{0.25\textwidth}|C{0.2\textwidth}C{0.35\textwidth}}
             \toprule
@@ -275,9 +290,32 @@ For every material parameter the script writes an array of initial values. Then 
     \end{subtable}    
 \end{table}
 
-Afterwards we start the first loop with \benennung{Create model}. As discussed in \autoref{sec: FEMBasics} we model a cube with size 1x1x1. We mesh the cube with 6x6x6 elements. Because of the regular geometry, we work with hexagonal structured elements to keep the model simple. The number of elements is a compromise between a coarse mesh for fast computation and a minimum number to avoid convergence errors. Although we use a hyperelastic material in our optimisation process, we first have to build the model with elastic material. We apply isotropic behaviour and define Young's modulus and Poisson ratio as the initial values. \\
-\indent The elastic material is necessary due to the usage of EasyPBC in the step \benennung{Create job}. We use the load case defined in the input file to create a job. As discussed in \autoref{subsec: EasPBC}, we use EasyPBC for the automatic construction of \acrshort{pbc}. Aside from that, we adopt the generated load application corresponding to the load case. Since the load acts on a reference point, connected to the whole loaded surface, a homogeneous load contribution is ensured.
-However, the settings from EasyPBC contain some default values, we adjust in the step \benennung{Modify properties}. EasyPBC applies for every load case a uniform displacement with a standard fixed value, while we want to study the complete loading process. For a correct comparison of the loading reactions we have to evaluate the stresses and strains in the \acrshort{fe} simulation at the same step sizes as in the \acrshort{md} simulation. In \name{Abaqus} we can solve this issue by creating an amplitude to apply the load gradually (see \autoref{fig:amplitudemenu}). Therefore, we enter the load parameters as an amplitude at certain time steps. For the time steps we use consecutive numbers, since the steps sizes are already defined through the amplitude. The value in the boundary condition editor is then set to one because this only defines the factor by which the amplitude is multiplied (see \autoref{fig:bcmenu}). Afterwards we modify the increment settings. EasyPBC automatically creates increments with fixed size and without non-linear geometry effects. In order to avoid convergence errors, we use automatic incrementation. Especially in the first load steps, we observe large deformations. If we try to resolve such large deformations in one incrementation step, \name{Abaqus} runs into convergence errors. With automatic incrementation \name{Abaqus} can adapt the number of increments per load step dynamically dependent of the current deformation. The non-linear geometry effects have to be considered for the same reason. In the last step of preprocessing we store the model in a dictionary. We use this dictionary later to call the models for the optimisation. We perform the preprocessing for all prescribed load cases, highlighted in green in the flowchart. Furthermore, the purple area visualises the loop over the load parameters. This leads to individual models for every load case and every load parameter set, which is visualised in \autoref{tab:model_creation}.
+We start the first loop with the phase \benennung{Create model}. As discussed in \autoref{sec: FEMBasics}, we model a cube with size 1x1x1. We mesh the cube with 6x6x6 elements. Because of the regular geometry, discretising with hexagonal structured elements is feasible.
+The number of elements is a compromise between a coarse mesh for fast computation and a minimum number to avoid convergence errors.
+Although we use a hyperelastic material in our optimisation process, we first apply an elastic material.
+We assign isotropic behaviour and attribute $E$ and $\nu$ their initial values. \\
+\indent The elastic material is necessary because of the usage of EasyPBC in the phase \benennung{Create job}.
+We start EasyPBC, which creates a job with the load case prescribe in the input.
+As discussed in \autoref{subsec: EasPBC}, we use EasyPBC for the automatic construction of \acrshort{pbc}. Aside from that, we adopt the generated load application corresponding to the load case. \\
+\indent However, the settings from EasyPBC contain some default values, we adjust in the phase \benennung{Modify properties}. EasyPBC applies for every load case a uniform displacement with a constant default value.
+We need to adopt this value, since we want to apply the loading parameters from the \acrshort{md} simulations, which are not constant.
+In \name{Abaqus} we can solve this issue by creating an \emph{amplitude} to apply the load gradually (see \autoref{fig:amplitudemenu}).
+Therefore, we enter the load parameters as an amplitude at certain time steps.
+For the time steps we use sequential numbering. We use these time steps later to adapt the evaluation points of the \acrlong{olr}.
+The value in the boundary condition editor is then set to one because this only defines the factor by which the amplitude is multiplied (see \autoref{fig:bcmenu}).
+As a result, the load is applied step-wise with step sizes defined through the amplitude values, i.e. the load parameters. 
+In the \name{Abaqus} environment, these steps are referenced as \emph{load steps}.\\
+\indent We use the time steps, created in the amplitude menu as request points for the \acrlong{olr}.
+Thus, at every time step the \acrlong{olr} caused by the corresponding load step are written. 
+Through the transfer of the load steps from the reference data, the reference and the optimised load reactions are written at equivalent evaluation points in the loading process.\\
+\indent Afterwards, we modify the increment settings.
+EasyPBC automatically creates increments with fixed size and without non-linear geometry effects. 
+In order to avoid convergence errors, we use automatic incrementation.
+Especially in the first load steps, we observe large deformations.
+If we try to resolve such large deformations in one incrementation step, \name{Abaqus} runs into convergence errors.
+With automatic incrementation, \name{Abaqus} can dynamically adapt the number of increments per load step depending on the current deformation. The non-linear geometry effects must be considered for the same reason. \\
+\indent In the last step of preprocessing we \emph{store} the model in a dictionary. We use this dictionary later to call the models for the optimisation.
+We perform the preprocessing for all prescribed load cases which is highlighted in the green loop in \autoref{fig: flowchart}. Furthermore, the purple area in \autoref{fig: flowchart} visualises the loop over the load parameters. This leads to individual models for every load case and every load parameter set, which is exemplary listed for two load cases and three load parameter sets in \autoref{tab:model_creation}.
 
 \begin{figure}[H]
     \centering
@@ -313,7 +351,7 @@ However, the settings from EasyPBC contain some default values, we adjust in the
 \begin{table}[h!]
 \centering
 \renewcommand{\arraystretch}{1.2}
-\caption{Input parameters for SciPy minimize function}
+\caption{List of general input parameters for the scipy.minimize-function with the contents passed in the function-call}
 \label{tab: minimizeFunctionInput}
 \begin{tabular}{L{0.15\textwidth}|L{0.2\textwidth}C{0.12\textwidth}L{0.4\textwidth}}
 \toprule
@@ -338,19 +376,48 @@ maxiter & Number of iterations & scalar & Maximum number of iterations  as termi
 \end{tabular}
 \end{table}
 
-In the following section, we describe the optimisation process. We start the process by calling the Scipy-minimize function. We pass this function various parameters, listed in \autoref{tab: minimizeFunctionInput}. The minimize function itself calls our self-written optimisation function, where the evaluation takes place. The initial guess stores an array with start values for all parameters that should be optimised. Additionally, we pass information about the models that we created in the preprocessing and the load parameters. We use all models created in the purple box for one optimisation call.
-We start the process with the step \benennung{Rewrite material parameters} for all models. Since they all describe the same material, we write the same values for every model. For the minimisation computation, optimisation parameters are scaled in the bounds from zero to one. To rewrite the values in the models, we have to rescale them first. Then we can use the rescaled parameters to compute the values for the hardening-function with the formula for VOCE-hardening (\autoref{eq: voce}). In the following we remove the elastic material and substitute it with a hyperelastic material which is suitable for high non-linear deformations. Therefore, we have to convert the Young's modulus and the Poisson's ratio into the hyperelastic parameters $C_{10}$ and $D_1$ via the relations
+In the following section, we describe the optimisation process. We start the process by calling the \verb|scipy.minimize|-function. We pass this function various parameters, listed in \autoref{tab: minimizeFunctionInput}. The \verb|scipy.minimize|-function calls our self-written optimisation function, where the evaluation takes place. The \emph{initial guess} stores an array with start values for all parameters that should be optimised. Additionally, we pass information about the models that we created in the preprocessing and the load parameters. We use all models created in the preprocessing for one optimisation call. \\
+\indent We start the process with the phase \benennung{Rewrite material parameters} for all models.
+Since they all describe the same material, we write the same values for every model.
+For a better performance of the Nelder-Mead algorithm, the optimisation parameters are scaled in the bounds from zero to one.
+To rewrite the values in the models, we have to rescale them first.
+Then, we can use the rescaled parameters to compute the values for the hardening-function with the formula for VOCE-hardening (\autoref{eq: voce}).
+We remove the elastic material and substitute it with a hyperelastic material which is suitable for high non-linear deformations.
+To achieve this, we convert the Young's modulus and the Poisson's ratio into the hyperelastic parameters $C_{10}$ and $D_1$ via the relations
 \begin{gather}\label{eq: elasticParams}
     C_{10} = \frac{E}{4(1+ \nu)} \hspace{1.5cm}
     D_1 = \frac{6(1-2\nu)}{E}.
 \end{gather}
 
-Now we can update all material values. In the next steps we handle the models successively. We start the job of the first model to perform the \name{Abaqus} analysis and open the resulting \acrshort{odb} in \benennung{Run FE-simulation}. With step \benennung{Read stresses} the evaluation begins. We do this by reading the 'FieldOutput' variable 'S' and write the data in a stress directory. Since we need stress-values at all steps defined by the amplitude, we read out every frame from the \acrshort{odb}. One frame corresponds with one step in the loading process. Additionally, we loop over all directions ($xx$, $yy$, $zz$, $xy$, $yz$, $xz$). The same procedure is done for the strain values in \benennung{Read strains}. Here it is important to read out the correct strain variable 'NE' (nominal strain). For hyperelastic materials, \name{Abaqus} uses the logarithmic strain ('LE') as standard value. Because of its logarithmic scaling, we cannot compare them to the reference data. Then we store all values for all frames and directions in a dictionary, similar as for the stresses. Now we have collected all required data to perform the step \benennung{Compute error}. We do this in the way described in \autoref{sec: errorCalculation}. For a better structure of the code this part is outsourced in a separate function. We call this function and pass the stress and strain directories as well as the corresponding load parameters. Then the computation runs and the function returns the \acrshort{rmse} for this job. Multiplied with its corresponding weights for its load case and load parameters we add this value to the total error value. Now we restart the red loop by starting the FE-simulation for the next job which is visualised in the red box in the flowchart. Once all the jobs are processed, and we computed the total error value, we return it to our minimisation function. Through the internal Nelder-Mead algorithm the error is reduced and it returns the corresponding material parameters. Now one optimisation iteration is performed and it starts again. In the flowchart, the loop is visualised with the blue box. This process will run until our defined number of maximum iterations is reached or convergence is reached. When the changes in the error value are very small, the internal convergence criterion is reached and the algorithm stops.
+Now we can update the material parameters in all models. In the next steps, we handle the models successively.
+We start the job of the first model to perform the \name{Abaqus} analysis and open the resulting \emph{\acrfull{odb}} in the \benennung{Run FE-simulation} phase. In the \acrshort{odb} all simulation results are stored.\\
+\indent With the phase \benennung{Read stresses} the evaluation begins. First, we read the \emph{FieldOutput} variable 'S' and write the data in a directory. In the FieldOutput, \name{Abaqus} stores the values of various quantities, e.g. stresses, strains and energy components, during the simulation.
+The variable 'S' contains the stress components in all directions, i.e. the stress components of the optimised load reactions.
+We read out every \emph{frame} from the \acrshort{odb}, since one frame corresponds with one load step.
+Additionally, we loop over all directions ($xx$, $yy$, $zz$, $xy$, $yz$, $xz$). \\
+\indent We employ the same for the strain values in the phase \benennung{Read strains}.
+Here it is important to read out the correct strain variable 'NE' (nominal strain).
+For hyperelastic materials, \name{Abaqus} uses the logarithmic strain ('LE') as standard value. Because of its logarithmic scaling, we cannot compare them to the reference data. We store all values for all frames and directions in a dictionary, similar to the stress values.
+Consequently, all \acrlong{olr} are stored, and the step \benennung{Compute error} can be executed. \\
+\indent In this step, the error is computed as described in \autoref{sec: errorCalculation}.
+For a better structure of the code this part is captured in a separate function.
+We call this function, and pass the \acrlong{olr} and load parameters.
+The function compute the \acrshort{rmse} according to \autoref{eq: rmse} and returns it.
+Multiplied with its corresponding weights for the load case and the load parameters, we add this value to the total error according to \autoref{eq: multiRMSE}.
+Now we restart the \emph{job loop} in \autoref{fig: flowchart} by starting the FE-simulation for the next job.
+Once all the jobs are processed, and we computed the total error value, we return it to our minimisation function.
+The internal Nelder-Mead algorithm reduces the error and returns the corresponding material parameters.
+This completes one optimisation iteration. In \autoref{fig: flowchart}, the \emph{iteration loop} is visualised with the blue box.
+This process will run until the defined number of maximum iterations is exceeded, or convergence is reached. When the changes in the total error are very small, the internal convergence criterion is reached and the algorithm stops.
 
 
 \section{Data storage} \label{sec: dataStorage}
 
-To evaluate the optimisation process at the end, parameter values need to be recorded during the preprocessing and the optimisation process. This is the only way to ensure that the values of all iterations are saved, since the variable values are rewritten in every new iteration. In the preprocessing, we extract the input file with the current initial value combination. All files created from \name{Abaqus} like the CAE, \acrshort{odb} and the job-files are stored in a subfolder. In the optimisation part, multiple functions are called after the step \benennung{Compute error} to store the current variable values. The material parameters for every iteration are stored. In addition, we store multiple interim results during the error calculation. For every job the weighted \acrshort{mse}s are stored for every iteration, so that the impact and evolution of every evaluated reactions can be understood. To track the impact of the applied weights, all \acrshort{rmse} values are stored individually and weighted. In addition, we store the total error, which is the sum of all weighted \acrshort{rmse}s of one iteration. Finally, we have one file each for the material parameters, \acrshort{mse}s, \acrshort{rmse}s, and the total errors. All these files are handled in the same way. After the computation of the total error, all files are opened and the variable values of the current iteration are stored in a new line. The stress and strains are stored in separate files for each iteration. We create for each job a subfolder, where its stress and strain values are stored. For one iteration, a file is created which contains the stress and strain dictionaries from the steps \benennung{Read stress} and \benennung{Read strain}. This leads to as many files as iterations were performed for every job. At the end of the optimisation process, we store the final message returned from the Scipy.minimize function. \name{Python} automatically sends a message where the cause of termination is stated. This message becomes important if the algorithm stops before the maximum number of iterations is reached. Then we can reproduce whether this happens because the convergence limit is reached or a numerical error occurred. The described procedure to store the data is done for every initial value combination separately.
+To evaluate the optimisation process at the end, parameter values need to be recorded during the preprocessing and the optimisation process.
+This ensures that the values of all iterations are saved, since the variable values are rewritten in every new iteration.
+In the preprocessing, we extract the current initial value combination from the input file. \\
+\indent All files created from \name{Abaqus} like the CAE, \acrshort{odb} and the job-files are stored in a subfolder.
+In the optimisation part, multiple functions are called after the phase \benennung{Compute error} to store the current variable values. The material parameters for every iteration are stored. In addition, we store multiple interim results during the error calculation. For every job the weighted \acrshort{mse}s are stored for every iteration, so that the impact and evolution of every evaluated reactions can be understood. To track the impact of the applied weights, all \acrshort{rmse} values are stored individually and weighted. In addition, we store the total error, which is the sum of all weighted \acrshort{rmse}s of one iteration. Finally, we have one file each for the material parameters, \acrshort{mse}s, \acrshort{rmse}s, and the total errors. All these files are handled in the same way. After the computation of the total error, the variable values of the current iteration are stored. The stress and strains are stored in separate files for each iteration. We create for each job a subfolder, where its stress and strain values are stored. For one iteration, a file is created which contains the stress and strain dictionaries from the steps \benennung{Read stress} and \benennung{Read strain}. This leads to as many files as iterations were performed for every job. At the end of the optimisation process, we store the final message returned from the Scipy.minimize function. \name{Python} automatically sends a message where the cause of termination is stated. This message becomes important if the algorithm stops before the maximum number of iterations is reached. Then we can reproduce whether this happens because the convergence limit is reached or a numerical error occurred. The described procedure to store the data is done for every initial value combination separately.
 
 \begin{table}[H]
     \centering

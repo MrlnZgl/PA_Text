@@ -8,7 +8,7 @@
 \contentsline {section}{\numberline {2.1}Molecular dynamics}{3}{section.2.1}%
 \contentsline {paragraph}{\nonumberline Constitutive models}{3}{paragraph*.9}%
 \contentsline {paragraph}{\nonumberline Previous work}{4}{paragraph*.12}%
-\contentsline {section}{\numberline {2.2}Finite Element Method}{5}{section.2.2}%
+\contentsline {section}{\numberline {2.2}Finite element method}{5}{section.2.2}%
 \contentsline {paragraph}{\nonumberline Application}{6}{paragraph*.14}%
 \contentsline {section}{\numberline {2.3}ABAQUS Scripting Interface}{6}{section.2.3}%
 \contentsline {subsection}{\numberline {2.3.1}EasyPBC plugin}{7}{subsection.2.3.1}%
@@ -20,29 +20,30 @@
 \contentsline {subsection}{\numberline {3.1.1}Load cases and evaluated reactions}{11}{subsection.3.1.1}%
 \contentsline {paragraph}{\nonumberline Application}{11}{paragraph*.18}%
 \contentsline {subsection}{\numberline {3.1.2}Load parameters and load reactions}{12}{subsection.3.1.2}%
+\contentsline {paragraph}{\nonumberline Application}{13}{paragraph*.21}%
 \contentsline {section}{\numberline {3.2}Error Calculation}{13}{section.3.2}%
 \contentsline {section}{\numberline {3.3}Preprocessing}{15}{section.3.3}%
 \contentsline {section}{\numberline {3.4}Optimisation process}{19}{section.3.4}%
 \contentsline {section}{\numberline {3.5}Data storage}{21}{section.3.5}%
 \contentsline {chapter}{\numberline {4}Results}{23}{chapter.4}%
 \contentsline {section}{\numberline {4.1}Verification}{23}{section.4.1}%
-\contentsline {paragraph}{\nonumberline Discussion}{25}{paragraph*.32}%
+\contentsline {paragraph}{\nonumberline Discussion}{25}{paragraph*.34}%
 \contentsline {section}{\numberline {4.2}Validation}{27}{section.4.2}%
-\contentsline {paragraph}{\nonumberline Test series 6:3}{27}{paragraph*.35}%
-\contentsline {paragraph}{\nonumberline Test series 4:3 and 8:3}{28}{paragraph*.39}%
-\contentsline {paragraph}{\nonumberline Discussion}{29}{paragraph*.44}%
+\contentsline {paragraph}{\nonumberline Test series 6:3}{27}{paragraph*.37}%
+\contentsline {paragraph}{\nonumberline Test series 4:3 and 8:3}{28}{paragraph*.41}%
+\contentsline {paragraph}{\nonumberline Discussion}{29}{paragraph*.46}%
 \contentsline {section}{\numberline {4.3}Tensile-Shear combination}{30}{section.4.3}%
 \contentsline {subsection}{\numberline {4.3.1}Tensile tests}{30}{subsection.4.3.1}%
 \contentsline {subsection}{\numberline {4.3.2}Shear tests}{31}{subsection.4.3.2}%
 \contentsline {subsection}{\numberline {4.3.3}Tensile-Shear combination}{32}{subsection.4.3.3}%
 \contentsline {subsection}{\numberline {4.3.4}Discussion}{33}{subsection.4.3.4}%
 \contentsline {section}{\numberline {4.4}Cyclic Tests}{34}{section.4.4}%
-\contentsline {paragraph}{\nonumberline Discussion}{36}{paragraph*.56}%
+\contentsline {paragraph}{\nonumberline Discussion}{36}{paragraph*.58}%
 \contentsline {chapter}{\numberline {5}Conclusion}{37}{chapter.5}%
-\contentsline {paragraph}{\nonumberline Summary}{37}{paragraph*.58}%
-\contentsline {paragraph}{\nonumberline Conclusion}{37}{paragraph*.60}%
-\contentsline {paragraph}{\nonumberline Outlook}{38}{paragraph*.62}%
-\contentsline {chapter}{\nonumberline Bibliography}{i}{chapter*.63}%
+\contentsline {paragraph}{\nonumberline Summary}{37}{paragraph*.60}%
+\contentsline {paragraph}{\nonumberline Conclusion}{37}{paragraph*.62}%
+\contentsline {paragraph}{\nonumberline Outlook}{38}{paragraph*.64}%
+\contentsline {chapter}{\nonumberline Bibliography}{i}{chapter*.65}%
 \contentsline {chapter}{\numberline {A}Appendix}{iv}{appendix.1.A}%
 \contentsline {section}{\numberline {A.1}Results}{v}{section.1.A.1}%
 \contentsline {chapter}{\numberline {B}Appendix}{viii}{appendix.1.B}%

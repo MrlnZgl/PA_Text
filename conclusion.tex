@@ -5,6 +5,8 @@
 3. For which loading procedures gives the script adequate results? 
 
 
+LITERATURBEZUG
+
 \paragraph{Summary}
 In this thesis, an optimisation script to find material parameters for epoxys modelled with \acrshort{md} simulations, was developed. The mechanical behaviour of the material should be represented as good as possible through a constitutive model with corresponding material parameters. As constitutive model we use an elastoplastic model with a VOCE-hardening curve to describe the plastification. This model is defined with two elastic and four plastic material parameters. To monitor the quality of the material parameters, we perform simulations with the \acrshort{fem} software \name{Abaqus}. We implemented the whole optimisation procedure a single \name{Python} script, since \name{Abaqus} has an \acrlong{api} which enables the control via \name{Python} commands. \\
 Before we start the optimisation procedure, a model with requiered properties is created in the preprocessing. The optimisation is started with an initial guess for the material parameters. With these parameters we perform the \acrshort{fem} simulation, and read out the resulting load reactions. We compare the load reactions with the ones from the \acrshort{md} simulations, which we use as reference data. The deviations are summarised in a single \acrshort{rmse} value. This value is reduced through the numerical Nelder-Mead algorithm, which is able to optimise a scalar function in a multidimensional space. Therefore, the minimisation quantity needs to be a scalar value. The algorithm adapts the material parameters and a new evaluation starts. 
