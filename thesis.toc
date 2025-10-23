@@ -1,7 +1,7 @@
 \babel@toc {english}{}\relax 
 \contentsline {chapter}{Acronyms}{II}{section*.2}%
-\contentsline {chapter}{List of Figures}{III}{chapter*.4}%
-\contentsline {chapter}{List of Tables}{IV}{chapter*.5}%
+\contentsline {chapter}{List of Figures}{IV}{chapter*.4}%
+\contentsline {chapter}{List of Tables}{V}{chapter*.5}%
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}%
 \contentsline {paragraph}{\nonumberline Scope of this work}{1}{paragraph*.7}%
 \contentsline {chapter}{\numberline {2}Basics}{3}{chapter.2}%
@@ -31,7 +31,7 @@
 \contentsline {section}{\numberline {4.2}Validation}{27}{section.4.2}%
 \contentsline {paragraph}{\nonumberline Test series 6:3}{27}{paragraph*.37}%
 \contentsline {paragraph}{\nonumberline Test series 4:3 and 8:3}{28}{paragraph*.41}%
-\contentsline {paragraph}{\nonumberline Discussion}{29}{paragraph*.46}%
+\contentsline {paragraph}{\nonumberline Discussion}{30}{paragraph*.46}%
 \contentsline {section}{\numberline {4.3}Tensile-Shear combination}{30}{section.4.3}%
 \contentsline {subsection}{\numberline {4.3.1}Tensile tests}{30}{subsection.4.3.1}%
 \contentsline {subsection}{\numberline {4.3.2}Shear tests}{31}{subsection.4.3.2}%

@@ -10,13 +10,13 @@
 \contentsline {figure}{\numberline {3.3}{\ignorespaces Loop conditions in preprocessing}}{18}{figure.caption.26}%
 \contentsline {figure}{\numberline {3.4}{\ignorespaces Flowchart code}}{19}{figure.caption.27}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Evolution of the optimised material parameters Young's Modulus $E$, Poisson's Ratio $\nu $, yield stress $\sigma _0$, and the hardening coefficients $\alpha $, $\beta $ and $\gamma $ during the optimisation evaluations for material with mixing ratio 6:3 under linear tensile strain up to 20 \%}}{23}{figure.caption.30}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Verification results for load reaction $\sigma _{xx}$}}{24}{figure.caption.31}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Evolution of the optimised material parameters Young's Modulus $E$, Poisson's Ratio $\nu $, yield stress $\sigma _0$, and hardening coefficients $\alpha $, $\beta $ and $\gamma $ over the optimisation evaluations for material with mixing ratio 6:3 under linear tensile strain up to 20\% with respective reference values obtained by \citet {ries_deciphering_nodate}}}{23}{figure.caption.30}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Optimised load reactions $\sigma _{xx}$ for material with mixing ratio 6:3 under linear tensile strain with maximum amplitude of 20\% with the \acrfull {rlr} from the \acrshort {md} simulations with their standard deviations: (a) progress of the \acrlong {olr} during the optimisation for an exemplary test and (b) final \acrlong {olr} of all tests}}{24}{figure.caption.31}%
 \contentsline {figure}{\numberline {4.3}{\ignorespaces Verification results for load reaction $\sigma _{xx}$}}{25}{figure.caption.32}%
 \contentsline {figure}{\numberline {4.4}{\ignorespaces parameter influence on voce-hardening curve}}{26}{figure.caption.35}%
-\contentsline {figure}{\numberline {4.5}{\ignorespaces progress of material parameters for validation tests}}{27}{figure.caption.38}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Evolution of the optimised material parameters yield stress $\sigma _0$, and hardening coefficients $\alpha $, $\beta $ and $\gamma $ over the optimisation evaluations for material with mixing ratio 6:3 under linear tensile strain up to 20\% with predefined Young's modulus $E$ and Poisson's ratio $\nu $ with respective reference values obtained by \citet {ries_deciphering_nodate}}}{27}{figure.caption.38}%
 \contentsline {figure}{\numberline {4.6}{\ignorespaces Verification results for load reaction $\sigma _{xx}$}}{28}{figure.caption.39}%
-\contentsline {figure}{\numberline {4.7}{\ignorespaces Results of validation tests with mixing ratios 4:3 and 8:3:}}{29}{figure.caption.44}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Final optimised load reactions $\sigma _{xx}$ under linear tensile strain with maximum amplitude of 20\% with the \acrfull {rlr} from the \acrshort {md} simulations with their standard deviations: (a) for material with mixing ratio 4:3, and (b) material with mixing ratio 8:3}}{29}{figure.caption.44}%
 \contentsline {figure}{\numberline {4.8}{\ignorespaces Results of tensile tests with 6to3 dataset}}{31}{figure.caption.48}%
 \contentsline {figure}{\numberline {4.9}{\ignorespaces Results of shear tests with 6to3 dataset}}{32}{figure.caption.50}%
 \contentsline {figure}{\numberline {4.10}{\ignorespaces Results of combi tests with 6to3 dataset}}{33}{figure.caption.52}%

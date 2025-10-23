@@ -19,6 +19,48 @@
 
 \refsection{0}
   \datalist[entry]{none/global//global/global/global}
+    \entry{ries_deciphering_nodate}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=6f008db3199f0b0c7775c2724b341494}{%
+           family={Ries},
+           familyi={R\bibinitperiod},
+           given={Maximilian},
+           giveni={M\bibinitperiod}}}%
+        {{hash=f32fd56754a31e48c1a2f6e57bfc291b}{%
+           family={Losert},
+           familyi={L\bibinitperiod},
+           given={Maximilian},
+           giveni={M\bibinitperiod}}}%
+        {{hash=5c0eda5fdf0b290bcdfeff90c87beb84}{%
+           family={Tiefenthäler},
+           familyi={T\bibinitperiod},
+           given={Jonas},
+           giveni={J\bibinitperiod}}}%
+        {{hash=99fe00a4f6c8405d759cca2956788a20}{%
+           family={Possart},
+           familyi={P\bibinitperiod},
+           given={Gunnar},
+           giveni={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{7e55bb33d66f2ee4694731e2599d8639}
+      \strng{fullhash}{307c6b6216d9aa3ade2026596cfd8d03}
+      \strng{fullhashraw}{307c6b6216d9aa3ade2026596cfd8d03}
+      \strng{bibnamehash}{7e55bb33d66f2ee4694731e2599d8639}
+      \strng{authorbibnamehash}{7e55bb33d66f2ee4694731e2599d8639}
+      \strng{authornamehash}{7e55bb33d66f2ee4694731e2599d8639}
+      \strng{authorfullhash}{307c6b6216d9aa3ade2026596cfd8d03}
+      \strng{authorfullhashraw}{307c6b6216d9aa3ade2026596cfd8d03}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Adhesive joints provide a better strength-to-weight ratio than traditional fastening methods and thus play a vital role in lightweight and cost-efficient engineering designs. The interaction of adherend and adhesive causes a region with different local resin-to-hardener ratios, e.g., due to demixing during curing or sterically hindered diffusion. Consequently, this interphase exhibits a mechanical behavior that differs from that of the bulk adhesive, immediately implying thickness-dependent properties of the joint, which should be, but are not yet, addressed in engineering. Additionally, these local gradients of structural and especially mechanical properties are, if at all, very difficult to assess by experimental methods. As a remedy, we derive the elastoplastic material parameters for bulk adhesives covering a wide range of mixing ratios. To this end, we simulate the curing and deformation of pure epoxy with reactive, coarse-grained molecular dynamics ({CGMD}) and introduce an extrapolation scheme to obtain the quasi-static material response. The latter removes the viscous contributions, which facilitates the comparison of ultra-fast {MD} with conventional mechanical testing. Based on these results, we calibrate elastoplastic constitutive models with {VOCE}-type hardening and obtain mixing ratio-dependent Young’s modulus, Poisson’s ratio, yield stress, and hardening parameters. Finally, we obtain the correlation between these material parameters and structural characteristics, such as density and curing degree, for a wide range of mixing ratios. With these results, we can then conclude on the local mechanical properties of interphases, based on {CGMD} simulations of the curing of adhesive joints, which inherently provide the local structure gradients in the vicinity of the adherends, [14].}
+      \field{langid}{english}
+      \field{title}{{DECIPHERING} {ELASTOPLASTIC} {PROPERTIES} {FROM} {ATOMISTIC} {STRUCTURE}: {REACTIVE} {COARSE}-{GRAINED} {MD} {FOR} {EPOXIES}}
+      \verb{file}
+      \verb Ries et al. - DECIPHERING ELASTOPLASTIC PROPERTIES FROM ATOMISTI.pdf:/Users/marleneziegler/Zotero/storage/FHVAAHEP/Ries et al. - DECIPHERING ELASTOPLASTIC PROPERTIES FROM ATOMISTI.pdf:application/pdf
+      \endverb
+    \endentry
     \entry{campilho_extended_2011}{article}{}{}
       \name{author}{4}{}{%
         {{hash=a9d3a9cb7eb660a2fbeecf8cacbb0d78}{%
@@ -50,8 +92,8 @@
       \strng{authornamehash}{669702c758be4bee6d8a7ccd1009d2d6}
       \strng{authorfullhash}{2c2fc291bc8d357db82fbe4cde210982}
       \strng{authorfullhashraw}{2c2fc291bc8d357db82fbe4cde210982}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{09270256}
@@ -134,8 +176,8 @@
       \strng{authornamehash}{892ca040ef397cc5345a3c112d422ed8}
       \strng{authorfullhash}{f270d953e4a75673a2a05d64e8920fbe}
       \strng{authorfullhashraw}{f270d953e4a75673a2a05d64e8920fbe}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{This paper investigates comprehensive knowledge regarding joining {CFRP} and aluminium alloys in available literature in terms of available methods, bonding processing and mechanism and properties. The methods employed comprise the use of adhesive, self-piercing rivet, bolt, clinching and welding to join only {CFRP} and aluminium alloys. The non-thermal joining methods received great attention though the welding process has high potential in joining these materials. Except adhesive bonding and welding, other joining methods require the penetration of metallic pins through joining parts and therefore, surface preparation is unimportant. No model is found to predict the properties of jointed structures, which makes it difﬁcult to select one over another in applications. The choice of bonding methods depends primarily on the speciﬁc applications. The load-bearing mechanism of bolted joints is predominantly the friction that is the ﬁrst stage resistance. Hybrid joints performance is enhanced by combining rivets, clinch or bolts with adhesives.}
@@ -183,8 +225,8 @@
       \strng{authornamehash}{6f008db3199f0b0c7775c2724b341494}
       \strng{authorfullhash}{6f008db3199f0b0c7775c2724b341494}
       \strng{authorfullhashraw}{6f008db3199f0b0c7775c2724b341494}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
       \field{abstract}{In the pursuit of lighter designs, many industries are shifting from conventional fasteners to adhesive joints, which offer a better strength-to-weight ratio and facilitate the use of fiber-reinforced polymers. However, modeling adhesive joints presents major challenges due to the complex behavior of polymeric adhesives and the microstructural changes induced by the substrates. As a result, various simulation methods have been developed to capture the behavior of adhesive joints across different scales. Molecular dynamics studies address atomistic and nanoscale phenomena, while continuum approaches – such as the finite element method, cohesive zone models, and peridynamics – focus on meso and macro scales. Additionally, multiscale methods combine particle and continuum approaches to provide a more comprehensive understanding of the adhesive bond behavior. This review paper offers an overview of the most relevant numerical methods employed to examine the mechanical behavior of adhesive joints and illustrates the simulations’ applications through examples from the literature.}
@@ -236,8 +278,8 @@
       \strng{authornamehash}{a450f9a72984af20a77a01510d522562}
       \strng{authorfullhash}{a450f9a72984af20a77a01510d522562}
       \strng{authorfullhashraw}{a450f9a72984af20a77a01510d522562}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
       \field{day}{1}
@@ -294,8 +336,8 @@
       \strng{authornamehash}{6a8390de802118c7abb495c1e4b794cf}
       \strng{authorfullhash}{6a8390de802118c7abb495c1e4b794cf}
       \strng{authorfullhashraw}{6a8390de802118c7abb495c1e4b794cf}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
       \field{abstract}{During recent decades it has become feasible to simulate the dynamics of molecular systems on a computer. The method of molecular dynamics ({MD}) solves Newton's equations of motion for a molecular system, which results in trajectories for all atoms in the system. From these atomic trajectories a variety of properties can be calculated. The aim of computer simulations of molecular systems is to compute macroscopic behavior from microscopic interactions. The main contributions a microscopic consideration can offer are (1) the understanding and (2) interpretation of experimental results, (3) semiquantitative estimates of experimental results, and (4) the capability to interpolate or extrapolate experimental data into regions that are only difficultly accessible in the laboratory. One of the two basic problems in the field of molecular modeling and simulation is how to efficiently search the vast configuration space which is spanned by all possible molecular conformations for the global low (free) energy regions which will be populated by a molecular system in thermal equilibrium. The other basic problem is the derivation of a sufficiently accurate interaction energy function or force field for the molecular system of interest. An important part of the art of computer simulation is to choose the unavoidable assumptions, approximations and simplifications of the molecular model and computational procedure such that their contributions to the overall inaccuracy are of comparable size, without affecting significantly the property of interest. Methodology and some practical applications of computer simulation in the field of (bio)chemistry will be reviewed.}
@@ -418,8 +460,8 @@
       \strng{authornamehash}{3e73dc11c059d8f74ea16b91709d903c}
       \strng{authorfullhash}{50bfcce20be270c2879fabe70bff0083}
       \strng{authorfullhashraw}{50bfcce20be270c2879fabe70bff0083}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
       \field{abstract}{In this paper, the molecular dynamics ({MD}) simulation technique is described in the context of structural mechanics applications, providing a fundamental understanding of the atomistic approach, and demonstrating its applicability. Atomistic models provide a bottom-up description of material properties and processes, and {MD} simulation is capable of solving the dynamic evolution of equilibrium and non-equilibrium processes. The applicability of the technique to structural engineering problems is demonstrated through an interface debonding problem in a multi-layered material system usually encountered in composite structures. Interface debonding may lead to a possible premature failure of ﬁber reinforced polymer ({FRP}) bonded reinforced concrete ({RC}) structural elements subjected to moisture. Existing knowledge on meso-scale fracture mechanics may not fully explain the weakening of the interface between concrete and epoxy, when the interface is under moisture; there is a need to study the moisture affected debonding of the interface using a more fundamental approach that incorporates chemistry in the description of materials. The results of the atomistic modeling presented in this paper show that the adhesive strength (in terms of energy) between epoxy and silica is weakened in the presence of water through its interaction with epoxy. This is correlated with the existing meso-scale experimental data. This example demonstrates that {MD} simulation can be effectively used in studying the durability of the system through an understanding of how materials interact with the environment at the molecular level. In view of the limitation of {MD} simulation on both length- and time-scales, future research may focus on the development of a bridging technique between {MD} and ﬁnite element modeling ({FEM}) to be able to correlate the results from the nano- to the macro-scale.}
@@ -469,8 +511,8 @@
       \strng{authornamehash}{d43f009c41905de1e4436a9f1539b684}
       \strng{authorfullhash}{d43f009c41905de1e4436a9f1539b684}
       \strng{authorfullhashraw}{d43f009c41905de1e4436a9f1539b684}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{langid}{english}
@@ -511,8 +553,8 @@
       \strng{authornamehash}{534bd8fbfd1e1df6b8077b31537d3541}
       \strng{authorfullhash}{534bd8fbfd1e1df6b8077b31537d3541}
       \strng{authorfullhashraw}{534bd8fbfd1e1df6b8077b31537d3541}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{edition}{3. ed}
@@ -550,8 +592,8 @@
       \strng{authornamehash}{d2c0c05544bbadc1257d52758361aa09}
       \strng{authorfullhash}{d2c0c05544bbadc1257d52758361aa09}
       \strng{authorfullhashraw}{d2c0c05544bbadc1257d52758361aa09}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{isbn}{978-0-08-044606-6}
@@ -576,48 +618,6 @@
       \verb https://linkinghub.elsevier.com/retrieve/pii/B9780080446066X50000
       \endverb
     \endentry
-    \entry{ries_deciphering_nodate}{article}{}{}
-      \name{author}{4}{}{%
-        {{hash=6f008db3199f0b0c7775c2724b341494}{%
-           family={Ries},
-           familyi={R\bibinitperiod},
-           given={Maximilian},
-           giveni={M\bibinitperiod}}}%
-        {{hash=f32fd56754a31e48c1a2f6e57bfc291b}{%
-           family={Losert},
-           familyi={L\bibinitperiod},
-           given={Maximilian},
-           giveni={M\bibinitperiod}}}%
-        {{hash=5c0eda5fdf0b290bcdfeff90c87beb84}{%
-           family={Tiefenthäler},
-           familyi={T\bibinitperiod},
-           given={Jonas},
-           giveni={J\bibinitperiod}}}%
-        {{hash=99fe00a4f6c8405d759cca2956788a20}{%
-           family={Possart},
-           familyi={P\bibinitperiod},
-           given={Gunnar},
-           giveni={G\bibinitperiod}}}%
-      }
-      \strng{namehash}{7e55bb33d66f2ee4694731e2599d8639}
-      \strng{fullhash}{307c6b6216d9aa3ade2026596cfd8d03}
-      \strng{fullhashraw}{307c6b6216d9aa3ade2026596cfd8d03}
-      \strng{bibnamehash}{7e55bb33d66f2ee4694731e2599d8639}
-      \strng{authorbibnamehash}{7e55bb33d66f2ee4694731e2599d8639}
-      \strng{authornamehash}{7e55bb33d66f2ee4694731e2599d8639}
-      \strng{authorfullhash}{307c6b6216d9aa3ade2026596cfd8d03}
-      \strng{authorfullhashraw}{307c6b6216d9aa3ade2026596cfd8d03}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{Adhesive joints provide a better strength-to-weight ratio than traditional fastening methods and thus play a vital role in lightweight and cost-efficient engineering designs. The interaction of adherend and adhesive causes a region with different local resin-to-hardener ratios, e.g., due to demixing during curing or sterically hindered diffusion. Consequently, this interphase exhibits a mechanical behavior that differs from that of the bulk adhesive, immediately implying thickness-dependent properties of the joint, which should be, but are not yet, addressed in engineering. Additionally, these local gradients of structural and especially mechanical properties are, if at all, very difficult to assess by experimental methods. As a remedy, we derive the elastoplastic material parameters for bulk adhesives covering a wide range of mixing ratios. To this end, we simulate the curing and deformation of pure epoxy with reactive, coarse-grained molecular dynamics ({CGMD}) and introduce an extrapolation scheme to obtain the quasi-static material response. The latter removes the viscous contributions, which facilitates the comparison of ultra-fast {MD} with conventional mechanical testing. Based on these results, we calibrate elastoplastic constitutive models with {VOCE}-type hardening and obtain mixing ratio-dependent Young’s modulus, Poisson’s ratio, yield stress, and hardening parameters. Finally, we obtain the correlation between these material parameters and structural characteristics, such as density and curing degree, for a wide range of mixing ratios. With these results, we can then conclude on the local mechanical properties of interphases, based on {CGMD} simulations of the curing of adhesive joints, which inherently provide the local structure gradients in the vicinity of the adherends, [14].}
-      \field{langid}{english}
-      \field{title}{{DECIPHERING} {ELASTOPLASTIC} {PROPERTIES} {FROM} {ATOMISTIC} {STRUCTURE}: {REACTIVE} {COARSE}-{GRAINED} {MD} {FOR} {EPOXIES}}
-      \verb{file}
-      \verb Ries et al. - DECIPHERING ELASTOPLASTIC PROPERTIES FROM ATOMISTI.pdf:/Users/marleneziegler/Zotero/storage/FHVAAHEP/Ries et al. - DECIPHERING ELASTOPLASTIC PROPERTIES FROM ATOMISTI.pdf:application/pdf
-      \endverb
-    \endentry
     \entry{voce_practical_1948}{article}{}{}
       \name{author}{1}{}{%
         {{hash=933c8b4c9db8294ed74d9206427c9083}{%
@@ -632,8 +632,8 @@
       \strng{authornamehash}{933c8b4c9db8294ed74d9206427c9083}
       \strng{authorfullhash}{933c8b4c9db8294ed74d9206427c9083}
       \strng{authorfullhashraw}{933c8b4c9db8294ed74d9206427c9083}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{A Practical Strain-Hardening Function}
@@ -671,8 +671,8 @@
       \strng{authornamehash}{dd62324fbd7263da97d4c8dcc718d07e}
       \strng{authorfullhash}{dd62324fbd7263da97d4c8dcc718d07e}
       \strng{authorfullhashraw}{dd62324fbd7263da97d4c8dcc718d07e}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
       \field{isbn}{978-3-658-01100-0 978-3-658-01101-7}
@@ -717,8 +717,8 @@
       \strng{authornamehash}{86f3b574956f6683d5c37e8e3933af13}
       \strng{authorfullhash}{86f3b574956f6683d5c37e8e3933af13}
       \strng{authorfullhashraw}{86f3b574956f6683d5c37e8e3933af13}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{howpublished}{Vorlesungsskript}
@@ -758,8 +758,8 @@
       \strng{authornamehash}{2fe8a850e95311c4d84af8da6209f864}
       \strng{authorfullhash}{2fe8a850e95311c4d84af8da6209f864}
       \strng{authorfullhashraw}{2fe8a850e95311c4d84af8da6209f864}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{The finite element method ({FEM}) is a numerical analysis technique for obtaining approximate solutions to a wide variety of engineering problems. A finite element model of a problem gives a piecewise approximation to the governing equations. The basic premise of the {FEM} is that a solution region can be analytically modeled or approximated by replacing it with an assemblage of discrete elements (discretization). Since these elements can be put together in a variety of ways, they can be used to represent exceedingly complex shapes.}
@@ -792,8 +792,8 @@
       \strng{authornamehash}{939c6b9e504e512f32f602665aacd551}
       \strng{authorfullhash}{939c6b9e504e512f32f602665aacd551}
       \strng{authorfullhashraw}{939c6b9e504e512f32f602665aacd551}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
       \field{isbn}{978-3-642-53936-7 978-3-642-53937-4}
@@ -835,8 +835,8 @@
       \strng{authornamehash}{c583923b2f80eaac8753b4dce37681fe}
       \strng{authorfullhash}{c583923b2f80eaac8753b4dce37681fe}
       \strng{authorfullhashraw}{c583923b2f80eaac8753b4dce37681fe}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{langid}{english}
@@ -873,8 +873,8 @@
       \strng{authornamehash}{27aace48eaa3dea3a27691916a491ba2}
       \strng{authorfullhash}{27aace48eaa3dea3a27691916a491ba2}
       \strng{authorfullhashraw}{27aace48eaa3dea3a27691916a491ba2}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{{EasyPBC} is an {ABAQUS} {CAE} plugin developed to estimate the homogenised effective elastic properties of user created periodic representative volume element ({RVE}), all within {ABAQUS} without the need to use third-party software. The plugin automatically applies the concepts of the periodic {RVE} homogenisation method in the software’s user interface by categorising, creating, and linking sets necessary for achieving deformable periodic boundary surfaces, which can distort and no longer remain plane. Additionally, it allows the user to benefit from finite element analysis data within {ABAQUS} {CAE} interface after calculating homogenised properties. In this article, the algorithm of the plugin based on periodic {RVE} homogenisation method is explained, which could be developed for other commercial {FE} software packages. Furthermore, examples of its implementation and verification are illustrated.}
@@ -928,8 +928,8 @@
       \strng{authornamehash}{092b7b5277e1c36d3fd513b66ee584f0}
       \strng{authorfullhash}{092b7b5277e1c36d3fd513b66ee584f0}
       \strng{authorfullhashraw}{092b7b5277e1c36d3fd513b66ee584f0}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
       \field{abstract}{This paper addresses the solution of bound-constrained optimization problems using algorithms that require only the availability of objective function values but no derivative information. We refer to these algorithms as derivative-free algorithms. Fueled by a growing number of applications in science and engineering, the development of derivativefree optimization algorithms has long been studied, and it has found renewed interest in recent time. Along with many derivative-free algorithms, many software implementations have also appeared. The paper presents a review of derivative-free algorithms, followed by a systematic comparison of 22 related implementations using a test set of 502 problems. The test bed includes convex and nonconvex problems, smooth as well as nonsmooth problems. The algorithms were tested under the same conditions and ranked under several criteria, including their ability to ﬁnd near-global solutions for nonconvex problems, improve a given starting point, and reﬁne a near-optimal solution. A total of 112,448 problem instances were solved. We ﬁnd that the ability of all these solvers to obtain good solutions diminishes with increasing problem size. For the problems used in this study, {TOMLAB}/{MULTIMIN}, {TOMLAB}/{GLCCLUSTER}, {MCS} and {TOMLAB}/{LGO} are better, on average, than other derivative-free solvers in terms of solution quality within 2,500 function evaluations. These global solvers outperform local solvers even for convex problems. Finally, {TOMLAB}/{OQNLP}, {NEWUOA}, and {TOMLAB}/{MULTIMIN} show superior performance in terms of reﬁning a nearoptimal solution.}
@@ -984,8 +984,8 @@
       \strng{authornamehash}{06e9e94332657d5a1d7c5393513fd38d}
       \strng{authorfullhash}{06e9e94332657d5a1d7c5393513fd38d}
       \strng{authorfullhashraw}{06e9e94332657d5a1d7c5393513fd38d}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{In this paper, we ﬁrst prove that the expansion and contraction steps of the Nelder-Mead simplex algorithm possess a descent property when the objective function is uniformly convex. This property provides some new insights on why the standard Nelder-Mead algorithm becomes inefﬁcient in high dimensions. We then propose an implementation of the Nelder-Mead method in which the expansion, contraction, and shrink parameters depend on the dimension of the optimization problem. Our numerical experiments show that the new implementation outperforms the standard Nelder-Mead method for high dimensional problems.}
@@ -1154,8 +1154,8 @@
       \strng{authornamehash}{c883f46bc4773c0e0cd4ad615f0e1a00}
       \strng{authorfullhash}{c883f46bc4773c0e0cd4ad615f0e1a00}
       \strng{authorfullhashraw}{c883f46bc4773c0e0cd4ad615f0e1a00}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{day}{1}
@@ -1204,8 +1204,8 @@
       \strng{authornamehash}{2c1eaca0798b8b612bf77d164f377c2d}
       \strng{authorfullhash}{2c1eaca0798b8b612bf77d164f377c2d}
       \strng{authorfullhashraw}{2c1eaca0798b8b612bf77d164f377c2d}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{langid}{english}
@@ -1235,8 +1235,8 @@
       \strng{authornamehash}{ea23efa540ff1bbc8f185cfcf11baa14}
       \strng{authorfullhash}{ea23efa540ff1bbc8f185cfcf11baa14}
       \strng{authorfullhashraw}{ea23efa540ff1bbc8f185cfcf11baa14}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{One of the fundamental diﬃculties in engineering design is the multiplicity of local solutions. This has triggered great eﬀorts to develop global search algorithms. Globality, however, often has a prohibitively high numerical cost for real problems. A ﬁxed cost local search, which sequentially becomes global is developed. Globalization is achieved by probabilistic restart. A spatial probability of starting a local search is built based on past searches. An improved Nelder–Mead algorithm makes the local optimizer. It accounts for variable bounds. It is additionally made more robust by reinitializing degenerated simplexes. The resulting method, called Globalized Bounded Nelder–Mead ({GBNM}) algorithm, is particularly adapted to tackle multimodal, discontinuous optimization problems, for which it is uncertain that a global optimization can be aﬀorded. Diﬀerent strategies for restarting the local search are discussed. Numerical experiments are given on analytical test functions and composite laminate design problems. The {GBNM} method compares favorably to an evolutionary algorithm, both in terms of numerical cost and accuracy.}
@@ -1300,8 +1300,8 @@
       \strng{authornamehash}{75bb481d2d4f8232e8d32a2fc4cecfd8}
       \strng{authorfullhash}{1f97a1257c7692b9961703ea66c3042f}
       \strng{authorfullhashraw}{1f97a1257c7692b9961703ea66c3042f}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{1025-5842, 1476-8259}
