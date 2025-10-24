@@ -12,7 +12,7 @@
 The remarks in \autoref{chap: basics} demonstrate the necessity of an easy and fast procedure to determine material parameters for materials modelled with \acrshort{md} simulations. 
 To extract engineering quantities for materials modelled with \acrshort{md} simulations, an easy and fast procedure is needed to determine material parameters appropriate to the results from the \acrshort{md} simulations.
 With deformation tests in \acrshort{md} simulations the mechanical response can be recorded. The aim of the developed optimisation process is to find material parameters which best represent this mechanical behaviour.
-In this chapter, we describe the workflow of the optimisation script. First, we have a closer look at the structure of the process. Then, we introduce the required input data, and finally, the implementation is explained. \\
+In this chapter, we describe the workflow of the optimisation approach. First, we have a closer look at the structure of the process. Then, we introduce the required input data, and finally, the implementation is explained. \\
 
 In deformation tests performed with \acrshort{md} simulations, the material behaviour during the loading process is recorded (see \autoref{sec: MDBasics}). Therefore, stress and strain components in all directions at discrete simulation time steps are available. Stress and strain data, measured during a loading process, are referenced as \benennung{load reactions} in the following.
 In \autoref{subsec:loadParameters}, we present their structure in detail. To extract material parameters from these load reactions, a constitutive model is required, which describes the stress-strain relation of a material through a functional relationship.
@@ -111,14 +111,14 @@ In the way described in \autoref{sec: optimisationCode}, we can read out stress 
 Similar to the \acrlong{rlr} we extract the components corresponding to the \acrlong{er}.
 These values are called \emph{\acrlong{olr}}. 
 For an appropriate comparison, we must register the optimised and the \acrlong{rlr} at equivalent points in the loading period.
-In \autoref{sec: preprocessing} we explain, how this is implemented in the script.
+In \autoref{sec: preprocessing} we explain, how this is implemented in the algorithm.
 
 \paragraph{Application}
 In \autoref{tab: testSeries}, the test series with their loading conditions are listed.
 In the verification and validation studies, we apply linear strain up to a maximum value of 20 \%.
 We analyse different mixing ratios in the validation studies, which demonstrate different mechanical behaviours.
 As a preparation for studies with cyclic loading, we investigate a pure tensile strain following the first quarter sinus period over time with a maximum amplitude of 15 \% strain. With this loading trajectory, we study the optimisation behaviour for non-linear loading parameters.
-We reuse this load parameters, and apply them as a shear strain in load case G12. Since in the previous tests always the load case E11 is used, we test the script performance for another load case.
+We reuse this load parameters, and apply them as a shear strain in load case G12. Since in the previous tests always the load case E11 is used, we test the algorithm performance for another load case.
 To obtain more information about the material behaviour, we combine the load cases of E11 and G12 in one optimisation. 
 As a last study we investigate one and a half period of a sinusoidal loading for a tensile load case in $xx$-direction. We use amplitudes of 1 \%, 5 \% and 8 \%. Important to notice is that the previously introduced load parameters proceed in a wide strain range. Assuming that the material starts to plastify quite fast, the majority of the loading steps are located in the plastic domain of the material. Conversely, the load parameters contain only little information about the elastic material behaviour. 
 Through the use of load parameters with small amplitudes, we try to get a larger proportion of data points in the elastic domain.
@@ -159,7 +159,7 @@ The access to \acrlong{rlr} is explained in \autoref{subsec:loadParameters}.
 We compute the deviations of the \acrlong{olr} at each load step. \autoref{fig: erroPlot} displays this procedure for an exemplary set of \acrlong{rlr} and \acrlong{olr}. Here $\sigma_{xx}$ is the selected \acrlong{er}.
 For every load step LS their corresponding \acrfull{rlr} $\sigma_{\scriptscriptstyle\text{LS}}^{\scriptscriptstyle\text{RLR}}$ and \acrfull{olr} $\sigma_{\scriptscriptstyle\text{LS}}^{\scriptscriptstyle\text{OLR}}$ are logged. The blue arrow highlights their deviation $\Delta\sigma_{\scriptscriptstyle\text{LS}}$ for one exemplary load step, according to \autoref{eq: EMDifference}. 
 As described in \autoref{subsec:loadParameters}, the distribution of the data points is unfavourable for the determination of the elastic parameters. 
-To support the script in finding the elastic parameters, we applied a weight of 100 at the data point in the elastic domain, i.e. below 1 \% strain. This is done via an array $\boldsymbol{w}$ which entries are one except the first entry $w_{\scriptscriptstyle\text{1}}$. Formally, the applied weights have the inverse unit of the evaluated load reaction, i.e. for stress load reactions, $[w_{\text{LS}}] = \text{MPa}^{-1}$ would be the correct unit for the related weights.
+To support the algorithm in finding the elastic parameters, we applied a weight of 100 at the data point in the elastic domain, i.e. below 1 \% strain. This is done via an array $\boldsymbol{w}$ which entries are one except the first entry $w_{\scriptscriptstyle\text{1}}$. Formally, the applied weights have the inverse unit of the evaluated load reaction, i.e. for stress load reactions, $[w_{\text{LS}}] = \text{MPa}^{-1}$ would be the correct unit for the related weights.
 According to \autoref{eq: mse}, we calculate the mean value of the weighted arrays.
 The resulting value is called \emph{\acrfull{mse}} for one \acrlong{er}. We compute $\text{MSE}_{\sigma}$ or $\text{MSE}_{\varepsilon}$ for every selected \acrlong{er}. 
 
@@ -243,9 +243,9 @@ This function is important to validate the optimisation results with varying inp
 \indent In \autoref{fig: flowchart} the complete structure of the code is depicted. The white boxes show the individual phases referred to in the text in italics. The coloured boxes represent the performed loops. 
 The upper part belongs to the preprocessing, which starts with the phase \benennung{Read input file}. \\
 \indent In this phase all entries from the input-file are extracted. 
-To process the arrays with the initial material parameters, the script loops over all arrays at a time to extract one initial value for each parameter.
+To process the arrays with the initial material parameters, the algorithm loops over all arrays at a time to extract one initial value for each parameter.
 The entries with the same index result in one initial value combination which is visualised in \autoref{tab:material_combinations}.
-As a consequence, all arrays need to be of same length. For every initial value combinations the script creates a new \acrfull{mdb} in \name{Abaqus}, and a new folder structure to set the working directory and store the results.
+As a consequence, all arrays need to be of same length. For every initial value combinations the algorithm creates a new \acrfull{mdb} in \name{Abaqus}, and a new folder structure to set the working directory and store the results.
 
 \begin{table}[h!]
     \centering
@@ -439,7 +439,7 @@ In the optimisation part, multiple functions are called after the phase \benennu
     
 \end{table}
 
-MINIMIZE FUNCTION IN FLOWCHART INTEGRIEREN
+XX MINIMIZE FUNCTION IN FLOWCHART INTEGRIEREN, MAMAS KOMMENTARE EINARBEITEN
 
 
 % All data are stored in csv-format.

@@ -15,21 +15,19 @@ We applied a linear strain up to a maximum value of 20\%. As evaluated reactions
 \begin{figure}[H]
     \centering
     \includegraphics[width=1.0\textwidth]{Vald_6To3_Params2_material_params.pdf}
-    \caption{Evolution of the optimised material parameters Young's Modulus $E$, Poisson's Ratio $\nu$, yield stress $\sigma_0$, and hardening coefficients $\alpha$, $\beta$ and $\gamma$ over the optimisation evaluations for material with mixing ratio 6:3 under linear tensile strain up to 20\% with respective reference values obtained by \citet{ries_deciphering_nodate}}
+    \caption{Evolution of the optimised material parameters: (a) Young's Modulus $E$; (b) Poisson's Ratio $\nu$; (c) yield stress $\sigma_0$; hardening coefficients (d) $\alpha$; (e) $\beta$; (f) $\gamma$; over the optimisation evaluations for material with mixing ratio 6:3 under linear tensile strain; with respective reference values obtained by \citet{ries_deciphering_nodate}}
     \label{fig:verifMaterialParams}
 \end{figure}
 
-XXX SUBCAPTIONS EINFÜGEN
-
-First, the material parameters are presented, since their optimisation is the main purpose of the procedure. The progress of each material parameter during the optimisation is plotted in \autoref{fig:verifMaterialParams}. The subplots XX and XX show the elastic parameters Young's modulus and Poisson's ratio. As explained in \autoref{sec: optimisationCode}, in the \acrshort{fe} model, $C_{10}$ and $D_1$ were used as elastic parameters. However, since $E$ and $\nu$ are the more illustrative quantities, only these are represented. With \autoref{eq: elasticParams} the parameters can easily be converted into each other.
-The remaining plots XX bis XX show the yield stress and the hardening coefficients $\alpha$, $\beta$ and $\gamma$, which define the plastic hardening.
+First, the material parameters are presented, since their optimisation is the main purpose of the procedure. The progress of each material parameter during the optimisation is plotted in \autoref{fig:verifMaterialParams}. \autoref{fig:verifMaterialParams} (a) and (b) show the elastic parameters Young's modulus and Poisson's ratio. As explained in \autoref{sec: optimisationCode}, in the \acrshort{fe} model, $C_{10}$ and $D_1$ were used as elastic parameters. However, since $E$ and $\nu$ are the more illustrative quantities, only these are represented. With \autoref{eq: elasticParams} the parameters can easily be converted into each other.
+\autoref{fig:verifMaterialParams} (c)-(f) depict the yield stress and the hardening coefficients $\alpha$, $\beta$ and $\gamma$, which define the plastic hardening.
 The varying number of completed evaluations for the tests is caused by the internal convergence criterion of the Nelder-Mead algorithm, as stated in \autoref{subsec: numericaloptimisation}. If this criterion is met, the algorithm stops, even if the maximum number of iterations is not reached. \\
 \indent It should be stated, that in all performed tests, the values of all parameters converge. 
 To verify the quality of the optimised material parameters, we compare them with the material parameters determined by \citet{ries_deciphering_nodate}, which are added as black lines in the plots. 
-For $E$ and $\sigma_0$ (plot XX) tests 1, 3 and 4 are similar to the reference values, whereas test 2 and 5 results in much higher values.
-In plot XX the distribution is contrary, such that test 2 and 5 match the reference value, and tests 1, 3, and 4 lead to higher values for the Poisson's ratio.
+For $E$ and $\sigma_0$ (\autoref{fig:verifMaterialParams} (a) and (c)) tests 1, 3 and 4 are similar to the reference values, whereas test 2 and 5 results in much higher values.
+In \autoref{fig:verifMaterialParams} (b) the distribution is contrary, such that test 2 and 5 match the reference value, and tests 1, 3, and 4 lead to higher values for the Poisson's ratio.
 For $\alpha$ and $\beta$ all tests lead to values similar to the reference value.
-In plot XX the evolution of $\gamma$ is depicted. For all tests the parameters converges to another value. Only in test 4 the optimised value corresponds to the reference value. 
+In \autoref{fig:verifMaterialParams} (f) the evolution of $\gamma$ is depicted. For all tests the parameters converges to another value. Only in test 4 the optimised value corresponds to the reference value. 
 In general, the trend of the yield stress, $\alpha$ and $\beta$ ends in all tests to optimisation results similar to the corresponding reference values. For the elastic parameters, we observe contrary behaviour within all tests, where either the reference value for $E$ matches or the reference value for $\nu$. To verify the quality of the \acrlong{omp}, the load reactions are considered. 
 
 \begin{figure}[H]
@@ -47,11 +45,11 @@ In general, the trend of the yield stress, $\alpha$ and $\beta$ ends in all test
     \caption{}
     \label{fig:verifStressStrainFinal}
 \end{subfigure}
-\caption{Optimised load reactions $\sigma_{xx}$ for material with mixing ratio 6:3 under linear tensile strain with maximum amplitude of 20\% with the \acrfull{rlr} from the \acrshort{md} simulations with their standard deviations: (a) progress of the \acrlong{olr} during the optimisation for an exemplary test and (b) final \acrlong{olr} of all tests}
+\caption{Optimised and \acrfull{rlr} $\sigma_{xx}$ with standard deviations for material with mixing ratio 6:3 under linear tensile strain $\varepsilon_{xx}$: (a) progress of optimised $\sigma_{xx}$ during the optimisation for an exemplary test; (b) final optimised $\sigma_{xx}$ of all tests}
 \label{fig:verifStressStrainCurves}
 \end{figure}
 
-In \autoref{fig:verifStressStrainCurves}, the load reactions $\sigma_{xx}$ are plotted against the applied strain $\varepsilon_{xx}$. The progress of the values during an exemplary test is shown in \autoref{fig:verifStressStrainProgress}. The \acrlong{rlr} are plotted as black dots with corresponding standard deviations. The \acrlong{olr} match the \acrlong{rlr} almost perfect already after 50\% of the performed evaluations. The standard deviations are much higher than the difference between the reference points and the \acrlong{olr}. In \autoref{fig:verifStressStrainFinal} the \acrlong{olr} after the final evaluation of each test are plotted.
+In \autoref{fig:verifStressStrainCurves}, the load reactions $\sigma_{xx}$ are plotted against the applied strain $\varepsilon_{xx}$. The progress of the values during an exemplary test is shown in \autoref{fig:verifStressStrainCurves} (a). The \acrlong{rlr} are plotted as black dots with corresponding standard deviations. The \acrlong{olr} match the \acrlong{rlr} almost perfect already after 50\% of the performed evaluations. The standard deviations are much higher than the difference between the reference points and the \acrlong{olr}. In \autoref{fig:verifStressStrainFinal} the \acrlong{olr} after the final evaluation of each test are plotted.
 The curves of the \acrlong{olr} match the \acrlong{rlr} during the whole loading procedure.
 However, $\varepsilon_{yy}$ and $\varepsilon_{zz}$ were used as \acrlong{er} as well. Because of the isotropic material behaviour, their load reactions are equal in size. Therefore, only one load reaction ($\varepsilon_{yy}$) is plotted in \autoref{fig:verfiStrainStrain} after the final evaluation. Similar, as for the stress load reactions, a high correlation between the \acrlong{olr} and the \acrlong{rlr} can be seen. The observations of all \acrlong{er} suggest that in all tests the \acrshort{rmse} was effectively reduced. To support this assumption the progress of the \acrshort{rmse} for all the tests in \autoref{fig:verifRMSEProgress}. We observe that in all tests the \acrshort{rmse} is reduced up to a limit value between 1 and 2. The value decreases quite fast in the first optimisation iterations, and then approaches slowly to its minimum value.
 
@@ -71,12 +69,12 @@ However, $\varepsilon_{yy}$ and $\varepsilon_{zz}$ were used as \acrlong{er} as 
     \caption{strain strain plot}
     \label{fig:verfiStrainStrain}
 \end{subfigure}
-\caption{Verification results for load reaction $\sigma_{xx}$}
+\caption{Optimisation results for material with mixing ratio 6:3 under linear tensile strain: (a) progress of \acrfull{rmse} during the optimisation for all tests; (b) final \acrlong{olr} and \acrfull{rlr} $\varepsilon_{yy}$ over applied linear tensile strain $\varepsilon_{xx}$ for an exemplary test}
 \label{fig:voceAndRMSEVerif}
 \end{figure}
 
 \paragraph{Discussion}
-The results of the \acrlong{olr} presented in \autoref{fig:verifStressStrainCurves} and \autoref{fig:verfiStrainStrain} indicate an effective error reduction of the script for all tests. Independent of the initial value combination, equally high correlation levels are reached. Regarding the plastic parameters, in all tests the yield stress, $\alpha$ and $\beta$ are determined similar to their reference values, whereas $\gamma$ results in different values for every test.  
+The results of the \acrlong{olr} presented in \autoref{fig:verifStressStrainCurves} and \autoref{fig:verfiStrainStrain} indicate an effective error reduction of the algorithm for all tests. Independent of the initial value combination, equally high correlation levels are reached. Regarding the plastic parameters, in all tests the yield stress, $\alpha$ and $\beta$ are determined similar to their reference values, whereas $\gamma$ results in different values for every test.  
 The variety in the solutions for $E$ and $\nu$ indicates difficulties in the modelling of the elastic behaviour. 
 These results illustrate, that multiple \acrlong{omp} yield equal load reactions. To understand this phenomenon, the impact of the material parameters on the load reactions are analysed in detail.
 As described in \autoref{subsec:loadParameters}, most load steps are placed in the plastic domain of the material, which is known from further investigations (QUELLE).
@@ -91,12 +89,12 @@ In \autoref{fig:voceCurve} an exemplary trend of the VOCE-function is plotted wi
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.5\textwidth]{voce_curve.pdf}
-    \caption{parameter influence on voce-hardening curve}
+    \caption{Exemplary trend of VOCE-hardening function according to \autoref{eq: voce} with reference parameters $\alpha_0$, $\beta_0$ and $\gamma_0$; and visualisation of parameter influence on the curve trend through successive parameter adaptations}
     \label{fig:voceCurve}
 \end{figure}
 
 %\paragraph{Conclusion}
-The presented results show, that the optimisation process works in general. It is able to reduce the error of the load reactions within an adequate number of function evaluations. However, the script is unable to find unique material parameters. To improve this, the solution space is decreased. As already stated, the elastic parameters affect only the first load step. Thus, it is possible to compute their values directly via
+The presented results show, that the optimisation process works in general. It is able to reduce the error of the load reactions within an adequate number of function evaluations. However, the approach is unable to find unique material parameters. To improve this, the solution space is decreased. As already stated, the elastic parameters affect only the first load step. Thus, it is possible to compute their values directly via
 
 \begin{gather}\label{eq: EandNu}
     E = \frac{\Delta\sigma_{xx_1}}{\Delta\varepsilon_{xx_1}} \hspace{1.5cm}
@@ -123,7 +121,7 @@ In the first test series, the same material as in \autoref{sec: verification}, w
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.7\textwidth]{Vald_6To3_fixEP1_material_params.pdf}
-    \caption{Evolution of the optimised material parameters yield stress $\sigma_0$, and hardening coefficients $\alpha$, $\beta$ and $\gamma$ over the optimisation evaluations for material with mixing ratio 6:3 under linear tensile strain up to 20\% with predefined Young's modulus $E$ and Poisson's ratio $\nu$ with respective reference values obtained by \citet{ries_deciphering_nodate}}
+    \caption{Evolution of the optimised material parameters: (a) yield stress $\sigma_0$; hardening coefficients (b) $\alpha$; (c) $\beta$; (d) $\gamma$; over the optimisation evaluations for material with mixing ratio 6:3 under linear tensile strain with respective reference values obtained by \citet{ries_deciphering_nodate} and predefined elastic parameters Young's modulus $E$ and Poisson's ratio $\nu$}
     \label{fig:validation material params 6to3}
 \end{figure}
 
@@ -131,15 +129,16 @@ The optimised plastic material parameters are shown in \autoref{fig:validation m
 Equal to \autoref{fig:verifMaterialParams}, the corresponding reference data from \citet{ries_deciphering_nodate} are depicted in the plots.
 In all tests, the values of $\sigma_0$, $\alpha$ and $\beta$ demonstrate a converging trend towards the reference value.
 For $\gamma$ the converged values vary for each individual test.
-All performed tests lead to in $\gamma$ values higher than the reference value. Similar to the verification study, the quality of the \acrlong{omp} is verified by the \acrlong{olr}. In \autoref{fig:validStressStrain6to3} the final \acrlong{olr} $\sigma_{xx}$ for all tests are plotted. The curves of all tests show a perfect match of the \acrlong{rlr}. The results of the \acrlong{eer} $\varepsilon_{yy}$ and $\varepsilon_{zz}$ are added in Attachment XX, since their presentation would be beyond the scope of this work. It can be stated, that in all tests the \acrlong{olr} match the \acrlong{rlr} of the lateral strains. Their influence on the optimisation is implicitly included in the \acrshort{rmse}, which is depicted in \autoref{fig:validRMSE6to3}. Similar to the verification study, the \acrshort{rmse} decreases rapidly in the beginning, and then holds a minimum value.
+All performed tests lead to in $\gamma$ values higher than the reference value. Similar to the verification study, the quality of the \acrlong{omp} is verified by the \acrlong{olr}. In \autoref{fig:validStressStrain6to3} the final \acrlong{olr} $\sigma_{xx}$ for all tests are plotted. The curves of all tests show a perfect match of the \acrlong{rlr}. The results of the \acrlong{eer} $\varepsilon_{yy}$ and $\varepsilon_{zz}$ are added in Attachment XX, since their presentation would be beyond the scope of this work. It can be stated, that in all tests the \acrlong{olr} match the \acrlong{rlr} of the lateral strains. Their influence on the optimisation is implicitly included in the \acrshort{rmse}, which is depicted in \autoref{fig:validRes6to3} (b). Similar to the verification study, the \acrshort{rmse} decreases rapidly in the beginning, and then holds a minimum value.
 
-
+XX REFERENZEN FÜR SUBFIGURES ANPASSEN
+XX ZEITFORMEN KONTROLLIEREN
 \begin{figure}[H]
 \centering
 \begin{subfigure}[t]{0.495\textwidth}
     \centering
     \includegraphics[width=\textwidth]{Vald_6To3_fixEP1_stress_strain_combined.pdf}
-    \caption{ Final stress-strain curves}
+    \caption{}
     \label{fig:validStressStrain6to3}
 \end{subfigure}
 \hfill
@@ -147,10 +146,10 @@ All performed tests lead to in $\gamma$ values higher than the reference value. 
     \centering
     \centering
     \includegraphics[width=\textwidth]{Vald_6To3_fixEP1_rsme_lin_plot.pdf}
-    \caption{RMSE evolution}
+    \caption{}
     \label{fig:validRMSE6to3}
 \end{subfigure}
-\caption{Verification results for load reaction $\sigma_{xx}$}
+\caption{Optimisation results for material with mixing ratio 6:3 under linear tensile strain with predefined elastic parameters Young's modulus $E$ and Poisson's ratio $\nu$: (a) final \acrlong{olr} $\sigma_{xx}$ of all tests with corresponding \acrfull{rlr} with standard deviations; (b) progress of \acrfull{rmse} during the optimisation for all tests}
 \label{fig:validRes6to3}
 \end{figure}
 
@@ -161,7 +160,7 @@ All performed tests lead to in $\gamma$ values higher than the reference value. 
 
 \paragraph{Test series 4:3 and 8:3}
 Next, the results from the validation studies for materials with mixing ratio 4:3 and 8:3 are presented. The results of the two test series are discussed together, since they lead to similar conclusions. In addition, the discussions of the \acrlong{omp} and the \acrshort{rmse} are reduced on the final values.  Since these two validation series focus on the improvement of the final values of \acrlong{omp}, no relevant information is neglected through this diminution.
-The corresponding evolution plots are added in Attachment XX, where the plastic material parameters and the \acrshort{rmse} show the same trends for both mixing ratios as for the mixing ratio 6:3.
+The corresponding evolution plots are added in \autoref{app:additionalResults}, where the plastic material parameters and the \acrshort{rmse} show the same trends for both mixing ratios as for the mixing ratio 6:3.
 The final values of the plastic material parameters and the \acrshort{rmse} are summarised in \autoref{tab:validMaterialParams4To3} and \autoref{tab:validMaterialParams8To3}.
 The fixed elastic parameters, and the reference values are also included in the table.
 For both mixing ratios, the values for the yield stress, $\alpha$ and $\beta$ were determined within a small range of variations for all tests. All these determined values are close to their respective reference value.
@@ -169,7 +168,7 @@ Only $\gamma$ shows high variations between each test. For both mixing ratios, n
 
 \begin{table}[h!]
 \centering
-\caption{Final values for the optimised material parameters yield stress $\sigma_0$, and hardening coefficients $\alpha$, $\beta$ and $\gamma$ for material with mixing ratio 4:3 under linear tensile strain up to 20\% with predefined Young's modulus $E$ and Poisson's ratio $\nu$ and respective reference values obtained by \citet{ries_deciphering_nodate}}
+\caption{Final values for the optimised material parameters yield stress $\sigma_0$, and hardening coefficients $\alpha$, $\beta$ and $\gamma$ for material with mixing ratio 4:3 under linear tensile strain with predefined Young's modulus $E$ and Poisson's ratio $\nu$, and respective reference values obtained by \citet{ries_deciphering_nodate}}
 \label{tab:validMaterialParams4To3}
 \renewcommand{\arraystretch}{1.2}
 \begin{tabular}{L{0.12\textwidth}|C{0.08\textwidth}C{0.08\textwidth}C{0.08\textwidth}C{0.08\textwidth}C{0.08\textwidth}C{0.08\textwidth}C{0.08\textwidth}}
@@ -189,7 +188,7 @@ Only $\gamma$ shows high variations between each test. For both mixing ratios, n
 
 \begin{table}[h!]
 \centering
-\caption{Final values of the optimised material parameters yield stress $\sigma_0$, and hardening coefficients $\alpha$, $\beta$ and $\gamma$ for material with mixing ratio 8:3 under linear tensile strain up to 20\% with predefined Young's modulus $E$ and Poisson's ratio $\nu$ and respective reference values obtained by \citet{ries_deciphering_nodate}}
+\caption{Final values of the optimised material parameters yield stress $\sigma_0$, and hardening coefficients $\alpha$, $\beta$ and $\gamma$ for material with mixing ratio 8:3 under linear tensile strain with predefined Young's modulus $E$ and Poisson's ratio $\nu$ and respective reference values obtained by \citet{ries_deciphering_nodate}}
 \label{tab:validMaterialParams8To3}
 \renewcommand{\arraystretch}{1.2}
 \begin{tabular}{L{0.12\textwidth}|C{0.08\textwidth}C{0.08\textwidth}C{0.08\textwidth}C{0.08\textwidth}C{0.08\textwidth}C{0.08\textwidth}C{0.08\textwidth}}
@@ -231,13 +230,13 @@ Only $\gamma$ shows high variations between each test. For both mixing ratios, n
     \caption{}
     \label{fig:validStressStrain8to3}
 \end{subfigure}
-\caption{Final optimised load reactions $\sigma_{xx}$ under linear tensile strain with maximum amplitude of 20\% with the \acrfull{rlr} from the \acrshort{md} simulations with their standard deviations: (a) for material with mixing ratio 4:3, and (b) material with mixing ratio 8:3}
+\caption{Final optimised load reactions $\sigma_{xx}$ with corresponding \acrfull{rlr} with standard deviations under linear tensile strain: (a) for material with mixing ratio 4:3; (b) material with mixing ratio 8:3}
 \label{fig:validStressStrain4and8}
 \end{figure}
 
 
 \paragraph{Discussion}
-The performed validation studies demonstrate an improved convergence behaviour of the optimisation. For all mixing ratios, the optimised values for $\sigma_0$, $\alpha$ and $\beta$ show only small deviations to the corresponding  reference value, independent of the initial value combination. The value of $\gamma$ still varies in a wide range, and has no correlation with the reference value. However, the impact of $\gamma$ on the trend of the hardening curve is relatively small as demonstrated in \autoref{fig:voceCurve}. Therefore, its unique definition is challenging. The \acrshort{rmse} and the stress load reactions ensure a high correlation to the \acrlong{rlr}. These results improve the reliability of the developed optimisation script. Overall, it can be stated that for a single linear applied load case with fixed elastic parameters, the script is able to find plastic parameters within a small range of variations which appropriately match the material behaviour.
+The performed validation studies demonstrate an improved convergence behaviour of the optimisation. For all mixing ratios, the optimised values for $\sigma_0$, $\alpha$ and $\beta$ show only small deviations to the corresponding  reference value, independent of the initial value combination. The value of $\gamma$ still varies in a wide range, and has no correlation with the reference value. However, the impact of $\gamma$ on the trend of the hardening curve is relatively small as demonstrated in \autoref{fig:voceCurve}. Therefore, its unique definition is challenging. The \acrshort{rmse} and the stress load reactions ensure a high correlation to the \acrlong{rlr}. These results improve the reliability of the developed optimisation approach. Overall, it can be stated that for a single linear applied load case with fixed elastic parameters, the script is able to find plastic parameters within a small range of variations which appropriately match the material behaviour.
 
 
 % Overall, these results demonstrate the reliability of the optimisation algorithm for the load case of a single tensile strain in one direction with fixed elastic parameters. The specification of the elastic parameter values improves the optimisation performance in a way, that the yield stress $\sigma_0$, $\alpha$ and $\beta$ can be 
@@ -250,12 +249,12 @@ The performed validation studies demonstrate an improved convergence behaviour o
 \section{Tensile-Shear combination}
 In this section the optimisation results for sinusoidal load application are presented. Similar to the validation studies, we calculated the elastic parameters previously with the first stress-strain data. First a tensile strain is applied with the load case E11. In the second test series the same load parameters are adapted as shear load case G12, and finally, the load cases are combined in a single optimisation. In all test series, mixing ratio 6:3 was simulated. The load parameters follow the first quarter of a sinus function up to a maximum amplitude of 15 \%. 
 
-\subsection{Tensile tests}
-In the first test series, a single tensile load case is applied. Similar as in the last validation studies, we focus on the final results of the script. Therefore, the material parameters from the final evaluation are summarised in \autoref{tab:tensileMatparams}. All tests lead to unique values for the yield stress, $\alpha$ and $\beta$. The values of $\gamma$ show high variances. 
+\subsection{Pure tensile tests}
+In the first test series, a single tensile load case is applied. Similar as in the last validation studies, we focus on the final results of the optimisation apporach. Therefore, the material parameters from the final evaluation are summarised in \autoref{tab:tensileMatparams}. All tests lead to unique values for the yield stress, $\alpha$ and $\beta$. The values of $\gamma$ show high variances. 
 
 \begin{table}[h!]
 \centering
-\caption{Final values for the optimised material parameters yield stress $\sigma_0$, and hardening coefficients $\alpha$, $\beta$ and $\gamma$ for material with mixing ratio 6:3 under sinusoidal tensile strain with 15\%  amplitude with predefined Young's modulus $E$ and Poisson's ratio $\nu$}
+\caption{Final values for the optimised material parameters yield stress $\sigma_0$, and hardening coefficients $\alpha$, $\beta$ and $\gamma$ for material with mixing ratio 6:3 under sinusoidal tensile strain with predefined Young's modulus $E$ and Poisson's ratio $\nu$}
 \label{tab:tensileMatparams}
 \renewcommand{\arraystretch}{1.1}
 \begin{tabular}{L{0.08\textwidth}|C{0.08\textwidth}C{0.08\textwidth}C{0.08\textwidth}C{0.08\textwidth}C{0.08\textwidth}C{0.08\textwidth}}
@@ -278,23 +277,24 @@ To classify the results, the load reactions $\sigma_{xx}$ and the \acrshort{rmse
 \begin{subfigure}[t]{0.495\textwidth}
     \centering
     \includegraphics[width=\textwidth]{Tensile_6to3_015_fixENu_normal_stress_strain_combined.pdf}
-    \caption{Final tensile stress-strain curves}
+    \caption{}
     \label{fig:tensileStressStrain6to3}
 \end{subfigure}
 \hfill
 \begin{subfigure}[t]{0.495\textwidth}
     \centering
     \includegraphics[width=\textwidth]{Tensile_6to3_015_fixENu_rsme_lin_plot.pdf}
-    \caption{RMSE evolution}
+    \caption{}
     \label{subfigure:tensileRMSE}
 \end{subfigure}
-\caption{Results of tensile tests with 6to3 dataset}
+\caption{Optimisation results for material with mixing ratio 6:3 under sinusoidal tensile strain with predefined elastic parameters Young's modulus $E$ and Poisson's ratio $\nu$: (a) final \acrlong{olr} $\sigma_{xx}$ of all tests with corresponding \acrfull{rlr}; (b) progress of \acrfull{rmse} during the optimisation for all tests}
+\label{fig:validRes6to3}
 \label{fig:tensileResults6to3}
 \end{figure}
 
 
 
-\subsection{Shear tests}
+\subsection{Pure shear tests}
 In the next test series, a single shear strain is applied. The computation of the elastic parameters, needs to be adapted, since the Young's modulus cannot be computed directly. From the shear stress, we first calculate the shear modulus $G$ with the following formula
 \begin{equation}
     G = \frac{\Delta\sigma_{xy}}{2\Delta\varepsilon_{xy}} = 1619 \text{MPa}
@@ -307,7 +307,7 @@ We chose the value of $\nu$ in a way, that the resulting Young's modulus is belo
 
 \begin{table}[h!]
 \centering
-\caption{Final values for the optimised material parameters yield stress $\sigma_0$, and hardening coefficients $\alpha$, $\beta$ and $\gamma$ for material with mixing ratio 6:3 under sinusoidal shear strain with 15\%  amplitude with predefined Young's modulus $E$ and Poisson's ratio $\nu$}
+\caption{Final values for the optimised material parameters yield stress $\sigma_0$, and hardening coefficients $\alpha$, $\beta$ and $\gamma$ for material with mixing ratio 6:3 under sinusoidal shear strain with predefined Young's modulus $E$ and Poisson's ratio $\nu$}
 \label{tab:shearMatParams}
 \renewcommand{\arraystretch}{1.1}
 \begin{tabular}{L{0.08\textwidth}|C{0.08\textwidth}C{0.08\textwidth}C{0.08\textwidth}C{0.08\textwidth}C{0.08\textwidth}C{0.08\textwidth}}
@@ -334,28 +334,28 @@ The \acrshort{rmse} trend looks similar as for the tensile tests with test 2 con
 \begin{subfigure}[t]{0.495\textwidth}
     \centering
      \includegraphics[width=\textwidth]{Shear_6to3_015_fixENu_500_shear_stress_strain.pdf}
-        \caption{Final stress-strain curves}
+        \caption{}
         \label{subfig:shearStressStrain6to3}
 \end{subfigure}
 \hfill
 \begin{subfigure}[t]{0.495\textwidth}
     \centering
     \includegraphics[width=\textwidth]{Shear_6to3_015_fixENu_500_rsme_lin_plot.pdf}
-        \caption{ RMSE evolution}
+        \caption{}
         \label{subfig:shearRMSE}
 \end{subfigure}
-\caption{Results of shear tests with 6to3 dataset}
+\caption{Optimisation results for material with mixing ratio 6:3 under sinusoidal shear strain with predefined elastic parameters Young's modulus $E$ and Poisson's ratio $\nu$: (a) final \acrlong{olr} $\sigma_{xx}$ of all tests with corresponding \acrfull{rlr}; (b) progress of \acrfull{rmse} during the optimisation for all tests}
 \label{fig:shearResults6to3}
 \end{figure}
 
-\subsection{Tensile-Shear combination}\label{subsec:tensileShearCombi}
+\subsection{Combined tensile-shear tests}\label{subsec:tensileShearCombi}
 
 In this test series, the previously presented load cases were combined. Similar, we fixed the elastic parameters before we started the optimisation. However, the defined values for $E$ and $\nu$ must represent the elastic behaviour for both load cases. A comparison of the values we chose in the separate tests, shows a high variation. 
-As a first choice, we used the values of $E$ and $\nu$ from the simple shear tests. The plastic parameters, optimised in this test series are summarised in \autoref{tab:tensileShearCombiMatParams}. The yield stress runs into its upper limit of 50 MPa in every test. For $\alpha$ and $\beta$ the script found similar values for all initial value combinations. $\gamma$ runs into its lower limit of zero in four of five tests. 
+As a first choice, we used the values of $E$ and $\nu$ from the simple shear tests. The plastic parameters, optimised in this test series are summarised in \autoref{tab:tensileShearCombiMatParams}. The yield stress runs into its upper limit of 50 MPa in every test. For $\alpha$ and $\beta$ the alogrithm found similar values for all initial value combinations. $\gamma$ runs into its lower limit of zero in four of five tests. 
 
 \begin{table}[h!]
 \centering
-\caption{Final values for the optimised material parameters yield stress $\sigma_0$, and hardening coefficients $\alpha$, $\beta$ and $\gamma$ for material with mixing ratio 6:3 under sinusoidal shear and tensile strain with 15\%  amplitude with predefined Young's modulus $E$ and Poisson's ratio $\nu$}
+\caption{Final values for the optimised material parameters yield stress $\sigma_0$, and hardening coefficients $\alpha$, $\beta$ and $\gamma$ for material with mixing ratio 6:3 under sinusoidal combined loading of shear and tensile strain with predefined Young's modulus $E$ and Poisson's ratio $\nu$}
 \label{tab:tensileShearCombiMatParams}
 \renewcommand{\arraystretch}{1.1}
 \begin{tabular}{L{0.08\textwidth}|C{0.08\textwidth}C{0.08\textwidth}C{0.08\textwidth}C{0.08\textwidth}C{0.08\textwidth}C{0.08\textwidth}}
@@ -378,29 +378,29 @@ As a first choice, we used the values of $E$ and $\nu$ from the simple shear tes
 \begin{subfigure}[t]{0.495\textwidth}
     \centering
     \includegraphics[width=\textwidth]{Combi_6to3_015_fixENu_500a_normal_stress_strain_combined.pdf}
-    \caption{Final tensile stress-strain curves}
+    \caption{}
     \label{subfig:CombiTensileStressStrainCurve}
 \end{subfigure}
 \hfill
 \begin{subfigure}[t]{0.495\textwidth}
     \centering
     \includegraphics[width=\textwidth]{Combi_6to3_015_fixENu_500a_shear_stress_strain.pdf}
-    \caption{Final shear stress strain}
+    \caption{}
     \label{subfig:CombiShearStressStrain}
 \end{subfigure}
-\caption{Results of combi tests with 6to3 dataset}
+\begin{subfigure}[t]{0.495\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{Combi_6to3_015_fixENu_500a_rsme.pdf}
+    \caption{}
+    \label{fig:combiRMSE}
+\end{subfigure}
+\caption{Optimisation results for material with mixing ratio 6:3 under sinusoidal combined loading of shear and tensile strain with predefined Young's modulus $E$ and Poisson's ratio $\nu$: (a) optimised and \acrfull{rlr} $\sigma_{xx}$ caused by tensile strain; (b) optimised and \acrfull{rlr} $\sigma_{xy}$ caused by shear strain}
 \label{fig:CombiResults6to3}
 \end{figure}
 
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.495\textwidth]{Combi_6to3_015_fixENu_500a_rsme.pdf}
-    \caption{RMSE Combi tests}
-    \label{fig:combiRMSE}
-\end{figure}
 
-\subsection{Discussion}
-The previously presented results expose some properties of the optimisation script, which need to be discussed. The tensile load case showed similar behaviour as the validation tests. The material parameters $\sigma_0$, $\alpha$ and $\beta$ were determined uniquely, which lead to adequate stress-strain curves. In contrast to the \acrshort{rmse} of the validation study, the \acrshort{rmse} in this study converges at a higher value. This could be explained through the different reference data, used for the studies. In the sinusoidal data set, used in the tensile data set, much more data points are included (see \autoref{fig:tensileStressStrain6to3}).
+\subsection{Discussion} \label{subsec:CombiDiscussion}
+The previously presented results expose some properties of the optimisation approach, which need to be discussed. The tensile load case showed similar behaviour as the validation tests. The material parameters $\sigma_0$, $\alpha$ and $\beta$ were determined uniquely, which lead to adequate stress-strain curves. In contrast to the \acrshort{rmse} of the validation study, the \acrshort{rmse} in this study converges at a higher value. This could be explained through the different reference data, used for the studies. In the sinusoidal data set, used in the tensile data set, much more data points are included (see \autoref{fig:tensileStressStrain6to3}).
 Therefore, more deviations are possible, which leads to a higher absolute error. Especially, at the end of the loading process, the data become volatile, which makes it impossible to match them with a continuous function. However, the results show, that for a sinusoidal loading, applied as load case E11, the optimisation procedure gives adequate results. \\
 The tests for the simple shear load case show similar results in the load reactions.
 The \acrlong{olr} match the reference data as good as possible through the distribution of data.
@@ -414,7 +414,7 @@ Therefore, at the transition from elastic to plastic behaviour, only few points 
 \indent Consequently, the optimisation of the remaining plastic parameters is affected by the behaviour of the yield stress. Since it meets its limit, the numerical algorithm has reduced options to optimise the other parameters. Therefore, the similarity of the hardening parameters is a logical consequence of the behaviour of $\sigma_0$. \\
 \indent In the combined tests, the issues on the shear loading show up again. The yield stress showed similar behaviour; such that its upper limit was met in every test.
 In addition, the elastic parameters computed from the tensile reference data were different from the ones computed from the shear reference data.
-This leads to an insufficient fitting of the tensile load reactions. In the tensile stress-strain plot (XX) the slope of the fixed elastic curve is much higher than the reference data, which leads to a higher yield stress, than the stress in the reference data. Therefore, it is impossible for the script to fit the reference data in the further loading process. We assume the reasons for this inadequate optimisation behaviour in the shear load case. The problems mentioned before, are also valid in combination with other load cases. Therefore, a detailed study on the optimisation behaviour for shear load application is recommended in the future.
+This leads to an insufficient fitting of the tensile load reactions. In \autoref{fig:CombiResults6to3} the slope of the fixed elastic curve is much higher than the reference data for the tensile load case, which leads to a higher yield stress, than the stress in the reference data. Therefore, it is impossible for the optimisation approach to fit the reference data in the further loading process. We assume the reasons for this inadequate optimisation behaviour in the shear load case. The problems mentioned before, are also valid in combination with other load cases. Therefore, a detailed study on the optimisation behaviour for shear load application is recommended in the future.
 
  
 
@@ -453,7 +453,7 @@ In this section results from tests with cyclic load parameters are presented. We
 
 \begin{table}[h!]
 \centering
-\caption{Final optimised material parameters Young's modulus $E$, Poisson's ratio $\nu$, yield stress $\sigma_0$, and hardening coefficients $\alpha$, $\beta$ and $\gamma$ for material with mixing ratio 6:3; sinusoidal tensile strain applied in 1.5 loading cycles with amplitude 1, 5 and 8\%}
+\caption{Final optimised material parameters Young's modulus $E$, Poisson's ratio $\nu$, yield stress $\sigma_0$, and hardening coefficients $\alpha$, $\beta$ and $\gamma$ for material with mixing ratio 6:3 under sinusoidal tensile strain applied in 1.5 loading cycles with amplitude 1, 5 and 8\%}
 \label{tab:cyclicMatParams}
 \renewcommand{\arraystretch}{1.1}
 \begin{tabular}{L{0.08\textwidth}|C{0.08\textwidth}C{0.08\textwidth}C{0.08\textwidth}C{0.08\textwidth}C{0.08\textwidth}C{0.08\textwidth}C{0.08\textwidth}}
@@ -473,29 +473,33 @@ In this section results from tests with cyclic load parameters are presented. We
 \begin{figure}[H]
     \centering
     \includegraphics[width=1\textwidth]{combined_cyclic_stress_strain.pdf}
-    \caption{Stress Strain plots for 1,5,8\%}
+    \caption{Optimised and \acrfull{rlr} $\sigma_{xx}$ for material with mixing ratio 6:3 under sinusoidal tensile strain applied in 1.5 loading cycles with load parameter set for: (a) 8\% amplitude; (b) 1\% amplitude; (c) 5\% amplitude; (d) values of Young's modulus $E$ during the load application with $E_1$ at start of the loading cycle, $E_2$ at transition to negative strain, $E_3$ at the end of the loading cycle}
     \label{fig:cycliclStressStrain}
 \end{figure}
-XXX PLOT RECHTS 
-To evaluate the quality of the material parameters, we study the \acrlong{olr} $\sigma_{xx}$ for each amplitude in \autoref{fig:cycliclStressStrain}. For more details, the evolution of the load reactions of each amplitude are plotted separately. In addition, only one exemplary test is shown. A degradation of the match of the \acrlong{rlr} can be observed for the amplitude of 1\%.
-For the amplitude of 5 and 8\% we notice positive progress during the optimisation run. Especially, in the first rise, both load reactions match adequately with their corresponding reference data. However, during the unloading the error increases for both amplitudes. For 8\% amplitude the deviation is apparent. 
+ 
+To evaluate the quality of the material parameters, we study the \acrlong{olr} $\sigma_{xx}$ for each amplitude in \autoref{fig:cycliclStressStrain} (a)-(c). For more details, the evolution of the load reactions of each amplitude are plotted separately. In addition, only one exemplary test is shown. A degradation of the match of the \acrlong{rlr} can be observed for the amplitude of 1\%.
+For the amplitude of 5 and 8\% we notice positive progress during the optimisation run. Especially, in the first rise, both load reactions match adequately with their corresponding reference data. However, during the unloading the error increases for both amplitudes. For 8\% amplitude the deviation is apparent. In \autoref{fig:cycliclStressStrain} (d) the Young's modulus $E$ at specific points of the loading cycle is plotted for every amplitude. We computed the values with the reference data at the start of the loading ($E_1$), at the transition from positive to negative strain ($E_2$) and at the end of the first loading cycle ($E_3$). For all amplitudes the Young's modulus decreases during the loading cycle. From the start of the loading to the end of the first cycle, the Young's modulus reduces about 200 MPa in the tests with 1\% and 5\% amplitude. However, in the test with an amplitude of 8\%, the Young's modulus already decreases by 700 MPa between the first and the second data point. 
+
+
 \begin{figure}[H]
     \centering
     \includegraphics[width=1\textwidth]{CyclicTest_1_5_8Percent_autoInc_4_stress_time.pdf}
-    \caption{Stress Time plots for 1,5,8 \%}
+    \caption{Optimised and \acrfull{rlr} $\sigma_{xx}$ for material with mixing ratio 6:3 under sinusoidal tensile strain applied in 1.5 loading cycles with amplitude 1, 5 and 8\% over normalised simulation time for an exemplary test}
     \label{fig:cyclicStressTime}
 \end{figure}
 
 To simplify the visualisation for the periodic loading, we plotted the final load reactions from the same exemplary test over a normalised simulation time in \autoref{fig:cyclicStressTime}. For 1\% amplitude, the \acrlong{olr} have constantly smaller magnitudes than the reference data.
 Nevertheless, the reference and the optimised data both follow a sinusoidal function during the whole simulation time.  For the other two amplitudes, the data match in the first increasing load steps. During the rest of the loading path, the deviations increase with their maximum values right before or when the maximum stress magnitude is reached. 
 
-XXX ALGORITHM STATT SCRIPT
 \paragraph{Discussion}
 The presented test series give us additional information about the capabilities of our approach. First, the program is able to run an optimisation with three load parameter sets at a time. Since the \acrshort{rmse} decreases, the optimisation works in principle.
 However, the result in terms of measured load reactions $\sigma_{xx}$, is insufficient.
 Only the first loading path is adequately fitted with the optimisation.
 During the negative loading, the deviations increase, which could be explained through changes in the material properties.
-We assume, that in both cases the plastic regime is reached before the maximum amplitude. Therefore, a hardening process started, which leads to material damage. However, not only the plastic behaviour is influenced. Even in the elastic domain, the slope of the reference curve changes after the first loading sequence. This observation indicates material damage which influences the elastic and the plastic material properties. Since the damage models included in \name{Abaqus} do not handle material damage in the elastic region, a self-written subroutine is necessary to determine the damage behaviour. The inclusion of material damage would lead to an improvement of the approach to process cyclic load parameters, which should be part of future investigations. 
+We assume, that in both cases the plastic regime is reached before the maximum amplitude. Therefore, a hardening process started, which leads to material damage. However, not only the plastic behaviour is influenced.
+The decrease of the Young's modulus during the optimisation process, depicted in \autoref{fig:cycliclStressStrain} (d), demonstrates, the elastic properties are also affected.
+Because of the intensification of the effect as the amplitude increases, we also assume increasing material damage.
+These observations indicate material damage which influences the elastic and the plastic material properties. Since the damage models included in \name{Abaqus} do not handle material damage in the elastic region, a self-written subroutine is necessary to determine the damage behaviour. The inclusion of material damage would lead to an improvement of the approach to process cyclic load parameters, which should be part of future investigations. 
 
 
 % - drei load paraameter. set auf jeinmal getestet: geht prinzipell

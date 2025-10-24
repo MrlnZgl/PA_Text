@@ -730,6 +730,7 @@ OUTPUT indroduction.aux
 INPUT ./indroduction.tex
 INPUT ./indroduction.tex
 INPUT indroduction.tex
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/ecti1095.tfm
 INPUT ./chapter_basics.tex
 INPUT ./chapter_basics.tex
 OUTPUT chapter_basics.aux
@@ -766,7 +767,6 @@ INPUT ./images/NelderMeadAlg.pdf
 INPUT ./images/NelderMeadAlg.pdf
 INPUT ./images/NelderMeadAlg.pdf
 INPUT ./images/NelderMeadAlg.pdf
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/ecti1095.tfm
 INPUT ./chapter_modelsAndMethods.tex
 INPUT ./chapter_modelsAndMethods.tex
 OUTPUT chapter_modelsAndMethods.aux
@@ -901,10 +901,18 @@ INPUT ./images/Vald_4To3_fixEP1_material_params.pdf
 INPUT ./images/Vald_4To3_fixEP1_material_params.pdf
 INPUT ./images/Vald_4To3_fixEP1_material_params.pdf
 INPUT ./images/Vald_4To3_fixEP1_material_params.pdf
+INPUT ./images/Vald_4To3_fixEP1_rsme_lin_plot.pdf
+INPUT ./images/Vald_4To3_fixEP1_rsme_lin_plot.pdf
+INPUT ./images/Vald_4To3_fixEP1_rsme_lin_plot.pdf
+INPUT ./images/Vald_4To3_fixEP1_rsme_lin_plot.pdf
 INPUT ./images/Vald_8To3_fixEP1_material_params.pdf
 INPUT ./images/Vald_8To3_fixEP1_material_params.pdf
 INPUT ./images/Vald_8To3_fixEP1_material_params.pdf
 INPUT ./images/Vald_8To3_fixEP1_material_params.pdf
+INPUT ./images/Vald_8To3_fixEP1_rsme_lin_plot.pdf
+INPUT ./images/Vald_8To3_fixEP1_rsme_lin_plot.pdf
+INPUT ./images/Vald_8To3_fixEP1_rsme_lin_plot.pdf
+INPUT ./images/Vald_8To3_fixEP1_rsme_lin_plot.pdf
 INPUT ./images/Tensile_6to3_015_fixENu_material_params.pdf
 INPUT ./images/Tensile_6to3_015_fixENu_material_params.pdf
 INPUT ./images/Tensile_6to3_015_fixENu_material_params.pdf

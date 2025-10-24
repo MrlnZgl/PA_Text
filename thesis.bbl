@@ -61,6 +61,288 @@
       \verb Ries et al. - DECIPHERING ELASTOPLASTIC PROPERTIES FROM ATOMISTI.pdf:/Users/marleneziegler/Zotero/storage/FHVAAHEP/Ries et al. - DECIPHERING ELASTOPLASTIC PROPERTIES FROM ATOMISTI.pdf:application/pdf
       \endverb
     \endentry
+    \entry{koltzenburg_polymere_2024}{book}{}{}
+      \name{author}{3}{}{%
+        {{hash=abe386ec5f1132cedc93b5825ee74451}{%
+           family={Koltzenburg},
+           familyi={K\bibinitperiod},
+           given={Sebastian},
+           giveni={S\bibinitperiod}}}%
+        {{hash=99387833b281c92f468c67c847340ef0}{%
+           family={Maskos},
+           familyi={M\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+        {{hash=d2e52e9741e18cc2db9291556fa200d3}{%
+           family={Nuyken},
+           familyi={N\bibinitperiod},
+           given={Oskar},
+           giveni={O\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Berlin, Heidelberg}%
+      }
+      \list{publisher}{1}{%
+        {Springer Berlin Heidelberg}%
+      }
+      \strng{namehash}{e788f5eea20e5f5ce3c834ce14a9a8af}
+      \strng{fullhash}{e788f5eea20e5f5ce3c834ce14a9a8af}
+      \strng{fullhashraw}{e788f5eea20e5f5ce3c834ce14a9a8af}
+      \strng{bibnamehash}{e788f5eea20e5f5ce3c834ce14a9a8af}
+      \strng{authorbibnamehash}{e788f5eea20e5f5ce3c834ce14a9a8af}
+      \strng{authornamehash}{e788f5eea20e5f5ce3c834ce14a9a8af}
+      \strng{authorfullhash}{e788f5eea20e5f5ce3c834ce14a9a8af}
+      \strng{authorfullhashraw}{e788f5eea20e5f5ce3c834ce14a9a8af}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{isbn}{978-3-662-64600-7 978-3-662-64601-4}
+      \field{langid}{german}
+      \field{shorttitle}{Polymere}
+      \field{title}{Polymere: Synthese, Eigenschaften und Anwendungen}
+      \field{urlday}{24}
+      \field{urlmonth}{10}
+      \field{urlyear}{2025}
+      \field{year}{2024}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.1007/978-3-662-64601-4
+      \endverb
+      \verb{file}
+      \verb PDF:/Users/marleneziegler/Zotero/storage/V982S57T/Koltzenburg et al. - 2024 - Polymere Synthese, Eigenschaften und Anwendungen.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://link.springer.com/10.1007/978-3-662-64601-4
+      \endverb
+      \verb{url}
+      \verb https://link.springer.com/10.1007/978-3-662-64601-4
+      \endverb
+    \endentry
+    \entry{ries_characterization_2023}{thesis}{}{}
+      \name{author}{1}{}{%
+        {{hash=6f008db3199f0b0c7775c2724b341494}{%
+           family={Ries},
+           familyi={R\bibinitperiod},
+           given={Maximilian},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Friedrich-alexander Universität erlangen-Nürnberg}%
+      }
+      \list{location}{1}{%
+        {Erlangen}%
+      }
+      \strng{namehash}{6f008db3199f0b0c7775c2724b341494}
+      \strng{fullhash}{6f008db3199f0b0c7775c2724b341494}
+      \strng{fullhashraw}{6f008db3199f0b0c7775c2724b341494}
+      \strng{bibnamehash}{6f008db3199f0b0c7775c2724b341494}
+      \strng{authorbibnamehash}{6f008db3199f0b0c7775c2724b341494}
+      \strng{authornamehash}{6f008db3199f0b0c7775c2724b341494}
+      \strng{authorfullhash}{6f008db3199f0b0c7775c2724b341494}
+      \strng{authorfullhashraw}{6f008db3199f0b0c7775c2724b341494}
+      \field{extraname}{1}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{langid}{english}
+      \field{title}{Characterization and modeling of polymer nanocomposites across the scales}
+      \field{type}{phdthesis}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \verb{file}
+      \verb PDF:/Users/marleneziegler/Zotero/storage/CVQUE6QE/diss_final.pdf:application/pdf
+      \endverb
+    \endentry
+    \entry{rajak_fiber-reinforced_2019}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=97029508d2ef565435b5be1ecf1308a0}{%
+           family={Rajak},
+           familyi={R\bibinitperiod},
+           given={Dipen},
+           giveni={D\bibinitperiod}}}%
+        {{hash=1a316ccd613feb68ce7e6dd330c12b36}{%
+           family={Pagar},
+           familyi={P\bibinitperiod},
+           given={Durgesh},
+           giveni={D\bibinitperiod}}}%
+        {{hash=c6846f9128e7b2ddefdd1a0dbfa20506}{%
+           family={Menezes},
+           familyi={M\bibinitperiod},
+           given={Pradeep},
+           giveni={P\bibinitperiod}}}%
+        {{hash=17b8296c9aec52f3fd18aec21e6a5aee}{%
+           family={Linul},
+           familyi={L\bibinitperiod},
+           given={Emanoil},
+           giveni={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{995241ef38652a89faa433e96e008f4a}
+      \strng{fullhash}{e4bf8ade98fb24b9c118fe1ed106e937}
+      \strng{fullhashraw}{e4bf8ade98fb24b9c118fe1ed106e937}
+      \strng{bibnamehash}{995241ef38652a89faa433e96e008f4a}
+      \strng{authorbibnamehash}{995241ef38652a89faa433e96e008f4a}
+      \strng{authornamehash}{995241ef38652a89faa433e96e008f4a}
+      \strng{authorfullhash}{e4bf8ade98fb24b9c118fe1ed106e937}
+      \strng{authorfullhashraw}{e4bf8ade98fb24b9c118fe1ed106e937}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Composites have been found to be the most promising and discerning material available in this century. Presently, composites reinforced with ﬁbers of synthetic or natural materials are gaining more importance as demands for lightweight materials with high strength for speciﬁc applications are growing in the market. Fiber-reinforced polymer composite oﬀers not only high strength to weight ratio, but also reveals exceptional properties such as high durability; stiﬀness; damping property; ﬂexural strength; and resistance to corrosion, wear, impact, and ﬁre. These wide ranges of diverse features have led composite materials to ﬁnd applications in mechanical, construction, aerospace, automobile, biomedical, marine, and many other manufacturing industries. Performance of composite materials predominantly depends on their constituent elements and manufacturing techniques, therefore, functional properties of various ﬁbers available worldwide, their classiﬁcations, and the manufacturing techniques used to fabricate the composite materials need to be studied in order to ﬁgure out the optimized characteristic of the material for the desired application. An overview of a diverse range of ﬁbers, their properties, functionality, classiﬁcation, and various ﬁber composite manufacturing techniques is presented to discover the optimized ﬁber-reinforced composite material for signiﬁcant applications. Their exceptional performance in the numerous ﬁelds of applications have made ﬁber-reinforced composite materials a promising alternative over solitary metals or alloys.}
+      \field{day}{12}
+      \field{issn}{2073-4360}
+      \field{journaltitle}{Polymers}
+      \field{langid}{english}
+      \field{month}{10}
+      \field{number}{10}
+      \field{shortjournal}{Polymers}
+      \field{shorttitle}{Fiber-Reinforced Polymer Composites}
+      \field{title}{Fiber-Reinforced Polymer Composites: Manufacturing, Properties, and Applications}
+      \field{urlday}{24}
+      \field{urlmonth}{10}
+      \field{urlyear}{2025}
+      \field{volume}{11}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{1667}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/polym11101667
+      \endverb
+      \verb{file}
+      \verb PDF:/Users/marleneziegler/Zotero/storage/DR8QGISJ/Rajak et al. - 2019 - Fiber-Reinforced Polymer Composites Manufacturing, Properties, and Applications.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.mdpi.com/2073-4360/11/10/1667
+      \endverb
+      \verb{url}
+      \verb https://www.mdpi.com/2073-4360/11/10/1667
+      \endverb
+    \endentry
+    \entry{jeevi_review_2019}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=969d5480f0103a28974c55282f693b39}{%
+           family={Jeevi},
+           familyi={J\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod}}}%
+        {{hash=88e8043d07fea0e11bc0e7fda87c0753}{%
+           family={Nayak},
+           familyi={N\bibinitperiod},
+           given={Sanjay\bibnamedelima Kumar},
+           giveni={S\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=142d273e48a8c46dd4cd6da6040fa176}{%
+           family={Abdul\bibnamedelima Kader},
+           familyi={A\bibinitperiod\bibinitdelim K\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{8d7866e973e54d9df96eea20e022545c}
+      \strng{fullhash}{8d7866e973e54d9df96eea20e022545c}
+      \strng{fullhashraw}{8d7866e973e54d9df96eea20e022545c}
+      \strng{bibnamehash}{8d7866e973e54d9df96eea20e022545c}
+      \strng{authorbibnamehash}{8d7866e973e54d9df96eea20e022545c}
+      \strng{authornamehash}{8d7866e973e54d9df96eea20e022545c}
+      \strng{authorfullhash}{8d7866e973e54d9df96eea20e022545c}
+      \strng{authorfullhashraw}{8d7866e973e54d9df96eea20e022545c}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Composites have been used extensively in various engineering applications including automotive, aerospace, and building industries. Hybrid composites made from two or more different reinforcements show enhanced mechanical properties required for advanced engineering applications. Several issues in composites were resolved during the last few years through the development of new materials, new methods and models for hybrid joints. Many components in automobile are joined together either by permanent or temporary fastener such as rivets, welding joint and adhesively bonded joints. Increasing use of bonded structures is envisaged for reducing fastener count and riveted joints and there by drastically reducing assembly cost. Adhesive bonding has been applied successfully in many technologies. In this paper, scientific work on adhesively bonded composites and hybrid composites are reviewed and discussed. Several parameters such as surface treatment, joint configuration, material properties, geometric parameters, failure modes, etc. that affect the performance of adhesive bonded joints are discussed. Environmental factors like pre-bond moisture and temperature, method of adhesive application are also cited in detail. A specific case of adhesive joints in hybrid bonded-bolted joints is elaborated. As new applications are expanding in the field of composites joining and adhesive joints, it is imperative to use information on multiple adhesives and their behaviour in different environmental conditions to develop improved adhesive joint structure in mechanical applications.}
+      \field{day}{18}
+      \field{issn}{0169-4243}
+      \field{journaltitle}{Journal of Adhesion Science and Technology}
+      \field{month}{7}
+      \field{note}{Publisher: Taylor \& Francis \_eprint: https://doi.org/10.1080/01694243.2018.1543528}
+      \field{number}{14}
+      \field{title}{Review on adhesive joints and their application in hybrid composite structures}
+      \field{urlday}{17}
+      \field{urlmonth}{10}
+      \field{urlyear}{2025}
+      \field{volume}{33}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{1497\bibrangedash 1520}
+      \range{pages}{24}
+      \verb{doi}
+      \verb 10.1080/01694243.2018.1543528
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/Users/marleneziegler/Zotero/storage/YDVNGRXD/Jeevi et al. - 2019 - Review on adhesive joints and their application in hybrid composite structures.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1080/01694243.2018.1543528
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1080/01694243.2018.1543528
+      \endverb
+    \endentry
+    \entry{prolongo_comparative_2006}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=56d449f2f70997d16611f789d86bf412}{%
+           family={Prolongo},
+           familyi={P\bibinitperiod},
+           given={Silvia\bibnamedelima G.},
+           giveni={S\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=12f6832daa06ddad0ee7191d636672b0}{%
+           family={Del\bibnamedelima Rosario},
+           familyi={D\bibinitperiod\bibinitdelim R\bibinitperiod},
+           given={Gilberto},
+           giveni={G\bibinitperiod}}}%
+        {{hash=02c23f38c36531b18f2c26512b60a98d}{%
+           family={Ureña},
+           familyi={U\bibinitperiod},
+           given={Alejandro},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{dd69a3289e17ad204268c41b37e1bbeb}
+      \strng{fullhash}{dd69a3289e17ad204268c41b37e1bbeb}
+      \strng{fullhashraw}{dd69a3289e17ad204268c41b37e1bbeb}
+      \strng{bibnamehash}{dd69a3289e17ad204268c41b37e1bbeb}
+      \strng{authorbibnamehash}{dd69a3289e17ad204268c41b37e1bbeb}
+      \strng{authornamehash}{dd69a3289e17ad204268c41b37e1bbeb}
+      \strng{authorfullhash}{dd69a3289e17ad204268c41b37e1bbeb}
+      \strng{authorfullhashraw}{dd69a3289e17ad204268c41b37e1bbeb}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Adhesive properties of different epoxy resins have been evaluated in terms of the lap shear strength using aluminium adherends. Its durability in various humid environments has also been analysed. The fracture mechanisms were determined by {ESEM} observations. Despite fact that fracture seems macroscopically adhesive, it was found that there is an important participation of cohesive fracture mechanisms. Also, it has been demonstrated that the extension of these micro-cohesive mechanisms is directly correlated with the adhesive strength. Studied epoxy formulations are based on the two different crosslinking mechanisms, addition reaction and homopolymerisation. Curing behaviour and Tg reached were studied by {DSC}. Conventional curing process was carried out with different amine hardeners, while the homopolymerisation reaction was initiated by imidazoles. The results indicate that epoxy/amine systems present a higher adhesive strength than homopolymerised resins. Nevertheless, the hydrothermal ageing causes more damage to epoxy/amine networks. This observation has been associated with the lower water uptake tendency of homopolymerised resins due to its lower hydroxyl group concentration. A new epoxy formulation based on the use of polyaminesiloxane as a hardener has been analysed. This system presents relatively good adhesive resistance, high value of Tg and low water absorption compared with other aliphatic amine/epoxy resins.}
+      \field{issn}{01437496}
+      \field{journaltitle}{International Journal of Adhesion and Adhesives}
+      \field{langid}{english}
+      \field{month}{6}
+      \field{number}{3}
+      \field{shortjournal}{International Journal of Adhesion and Adhesives}
+      \field{title}{Comparative study on the adhesive properties of different epoxy resins}
+      \field{urlday}{24}
+      \field{urlmonth}{10}
+      \field{urlyear}{2025}
+      \field{volume}{26}
+      \field{year}{2006}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{125\bibrangedash 132}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1016/j.ijadhadh.2005.02.004
+      \endverb
+      \verb{file}
+      \verb PDF:/Users/marleneziegler/Zotero/storage/GXKRAE2M/Prolongo et al. - 2006 - Comparative study on the adhesive properties of different epoxy resins.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S0143749605000333
+      \endverb
+      \verb{url}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S0143749605000333
+      \endverb
+    \endentry
     \entry{campilho_extended_2011}{article}{}{}
       \name{author}{4}{}{%
         {{hash=a9d3a9cb7eb660a2fbeecf8cacbb0d78}{%
@@ -92,8 +374,8 @@
       \strng{authornamehash}{669702c758be4bee6d8a7ccd1009d2d6}
       \strng{authorfullhash}{2c2fc291bc8d357db82fbe4cde210982}
       \strng{authorfullhashraw}{2c2fc291bc8d357db82fbe4cde210982}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{09270256}
@@ -176,8 +458,8 @@
       \strng{authornamehash}{892ca040ef397cc5345a3c112d422ed8}
       \strng{authorfullhash}{f270d953e4a75673a2a05d64e8920fbe}
       \strng{authorfullhashraw}{f270d953e4a75673a2a05d64e8920fbe}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{This paper investigates comprehensive knowledge regarding joining {CFRP} and aluminium alloys in available literature in terms of available methods, bonding processing and mechanism and properties. The methods employed comprise the use of adhesive, self-piercing rivet, bolt, clinching and welding to join only {CFRP} and aluminium alloys. The non-thermal joining methods received great attention though the welding process has high potential in joining these materials. Except adhesive bonding and welding, other joining methods require the penetration of metallic pins through joining parts and therefore, surface preparation is unimportant. No model is found to predict the properties of jointed structures, which makes it difﬁcult to select one over another in applications. The choice of bonding methods depends primarily on the speciﬁc applications. The load-bearing mechanism of bolted joints is predominantly the friction that is the ﬁrst stage resistance. Hybrid joints performance is enhanced by combining rivets, clinch or bolts with adhesives.}
@@ -225,8 +507,9 @@
       \strng{authornamehash}{6f008db3199f0b0c7775c2724b341494}
       \strng{authorfullhash}{6f008db3199f0b0c7775c2724b341494}
       \strng{authorfullhashraw}{6f008db3199f0b0c7775c2724b341494}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{extraname}{2}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
       \field{abstract}{In the pursuit of lighter designs, many industries are shifting from conventional fasteners to adhesive joints, which offer a better strength-to-weight ratio and facilitate the use of fiber-reinforced polymers. However, modeling adhesive joints presents major challenges due to the complex behavior of polymeric adhesives and the microstructural changes induced by the substrates. As a result, various simulation methods have been developed to capture the behavior of adhesive joints across different scales. Molecular dynamics studies address atomistic and nanoscale phenomena, while continuum approaches – such as the finite element method, cohesive zone models, and peridynamics – focus on meso and macro scales. Additionally, multiscale methods combine particle and continuum approaches to provide a more comprehensive understanding of the adhesive bond behavior. This review paper offers an overview of the most relevant numerical methods employed to examine the mechanical behavior of adhesive joints and illustrates the simulations’ applications through examples from the literature.}
@@ -278,8 +561,8 @@
       \strng{authornamehash}{a450f9a72984af20a77a01510d522562}
       \strng{authorfullhash}{a450f9a72984af20a77a01510d522562}
       \strng{authorfullhashraw}{a450f9a72984af20a77a01510d522562}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
       \field{day}{1}
@@ -336,8 +619,8 @@
       \strng{authornamehash}{6a8390de802118c7abb495c1e4b794cf}
       \strng{authorfullhash}{6a8390de802118c7abb495c1e4b794cf}
       \strng{authorfullhashraw}{6a8390de802118c7abb495c1e4b794cf}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
       \field{abstract}{During recent decades it has become feasible to simulate the dynamics of molecular systems on a computer. The method of molecular dynamics ({MD}) solves Newton's equations of motion for a molecular system, which results in trajectories for all atoms in the system. From these atomic trajectories a variety of properties can be calculated. The aim of computer simulations of molecular systems is to compute macroscopic behavior from microscopic interactions. The main contributions a microscopic consideration can offer are (1) the understanding and (2) interpretation of experimental results, (3) semiquantitative estimates of experimental results, and (4) the capability to interpolate or extrapolate experimental data into regions that are only difficultly accessible in the laboratory. One of the two basic problems in the field of molecular modeling and simulation is how to efficiently search the vast configuration space which is spanned by all possible molecular conformations for the global low (free) energy regions which will be populated by a molecular system in thermal equilibrium. The other basic problem is the derivation of a sufficiently accurate interaction energy function or force field for the molecular system of interest. An important part of the art of computer simulation is to choose the unavoidable assumptions, approximations and simplifications of the molecular model and computational procedure such that their contributions to the overall inaccuracy are of comparable size, without affecting significantly the property of interest. Methodology and some practical applications of computer simulation in the field of (bio)chemistry will be reviewed.}
@@ -397,8 +680,8 @@
       \strng{authornamehash}{4528bcd79165d32fbaa1e7f2afb1e338}
       \strng{authorfullhash}{4528bcd79165d32fbaa1e7f2afb1e338}
       \strng{authorfullhashraw}{4528bcd79165d32fbaa1e7f2afb1e338}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{00104655}
@@ -553,8 +836,8 @@
       \strng{authornamehash}{534bd8fbfd1e1df6b8077b31537d3541}
       \strng{authorfullhash}{534bd8fbfd1e1df6b8077b31537d3541}
       \strng{authorfullhashraw}{534bd8fbfd1e1df6b8077b31537d3541}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{edition}{3. ed}
@@ -592,8 +875,8 @@
       \strng{authornamehash}{d2c0c05544bbadc1257d52758361aa09}
       \strng{authorfullhash}{d2c0c05544bbadc1257d52758361aa09}
       \strng{authorfullhashraw}{d2c0c05544bbadc1257d52758361aa09}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{isbn}{978-0-08-044606-6}
@@ -632,8 +915,8 @@
       \strng{authornamehash}{933c8b4c9db8294ed74d9206427c9083}
       \strng{authorfullhash}{933c8b4c9db8294ed74d9206427c9083}
       \strng{authorfullhashraw}{933c8b4c9db8294ed74d9206427c9083}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{A Practical Strain-Hardening Function}
@@ -717,8 +1000,8 @@
       \strng{authornamehash}{86f3b574956f6683d5c37e8e3933af13}
       \strng{authorfullhash}{86f3b574956f6683d5c37e8e3933af13}
       \strng{authorfullhashraw}{86f3b574956f6683d5c37e8e3933af13}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{howpublished}{Vorlesungsskript}
@@ -758,8 +1041,8 @@
       \strng{authornamehash}{2fe8a850e95311c4d84af8da6209f864}
       \strng{authorfullhash}{2fe8a850e95311c4d84af8da6209f864}
       \strng{authorfullhashraw}{2fe8a850e95311c4d84af8da6209f864}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{The finite element method ({FEM}) is a numerical analysis technique for obtaining approximate solutions to a wide variety of engineering problems. A finite element model of a problem gives a piecewise approximation to the governing equations. The basic premise of the {FEM} is that a solution region can be analytically modeled or approximated by replacing it with an assemblage of discrete elements (discretization). Since these elements can be put together in a variety of ways, they can be used to represent exceedingly complex shapes.}
@@ -792,8 +1075,8 @@
       \strng{authornamehash}{939c6b9e504e512f32f602665aacd551}
       \strng{authorfullhash}{939c6b9e504e512f32f602665aacd551}
       \strng{authorfullhashraw}{939c6b9e504e512f32f602665aacd551}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
       \field{isbn}{978-3-642-53936-7 978-3-642-53937-4}
@@ -835,8 +1118,8 @@
       \strng{authornamehash}{c583923b2f80eaac8753b4dce37681fe}
       \strng{authorfullhash}{c583923b2f80eaac8753b4dce37681fe}
       \strng{authorfullhashraw}{c583923b2f80eaac8753b4dce37681fe}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{langid}{english}
@@ -873,8 +1156,8 @@
       \strng{authornamehash}{27aace48eaa3dea3a27691916a491ba2}
       \strng{authorfullhash}{27aace48eaa3dea3a27691916a491ba2}
       \strng{authorfullhashraw}{27aace48eaa3dea3a27691916a491ba2}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{{EasyPBC} is an {ABAQUS} {CAE} plugin developed to estimate the homogenised effective elastic properties of user created periodic representative volume element ({RVE}), all within {ABAQUS} without the need to use third-party software. The plugin automatically applies the concepts of the periodic {RVE} homogenisation method in the software’s user interface by categorising, creating, and linking sets necessary for achieving deformable periodic boundary surfaces, which can distort and no longer remain plane. Additionally, it allows the user to benefit from finite element analysis data within {ABAQUS} {CAE} interface after calculating homogenised properties. In this article, the algorithm of the plugin based on periodic {RVE} homogenisation method is explained, which could be developed for other commercial {FE} software packages. Furthermore, examples of its implementation and verification are illustrated.}
@@ -928,8 +1211,8 @@
       \strng{authornamehash}{092b7b5277e1c36d3fd513b66ee584f0}
       \strng{authorfullhash}{092b7b5277e1c36d3fd513b66ee584f0}
       \strng{authorfullhashraw}{092b7b5277e1c36d3fd513b66ee584f0}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
       \field{abstract}{This paper addresses the solution of bound-constrained optimization problems using algorithms that require only the availability of objective function values but no derivative information. We refer to these algorithms as derivative-free algorithms. Fueled by a growing number of applications in science and engineering, the development of derivativefree optimization algorithms has long been studied, and it has found renewed interest in recent time. Along with many derivative-free algorithms, many software implementations have also appeared. The paper presents a review of derivative-free algorithms, followed by a systematic comparison of 22 related implementations using a test set of 502 problems. The test bed includes convex and nonconvex problems, smooth as well as nonsmooth problems. The algorithms were tested under the same conditions and ranked under several criteria, including their ability to ﬁnd near-global solutions for nonconvex problems, improve a given starting point, and reﬁne a near-optimal solution. A total of 112,448 problem instances were solved. We ﬁnd that the ability of all these solvers to obtain good solutions diminishes with increasing problem size. For the problems used in this study, {TOMLAB}/{MULTIMIN}, {TOMLAB}/{GLCCLUSTER}, {MCS} and {TOMLAB}/{LGO} are better, on average, than other derivative-free solvers in terms of solution quality within 2,500 function evaluations. These global solvers outperform local solvers even for convex problems. Finally, {TOMLAB}/{OQNLP}, {NEWUOA}, and {TOMLAB}/{MULTIMIN} show superior performance in terms of reﬁning a nearoptimal solution.}
@@ -984,8 +1267,8 @@
       \strng{authornamehash}{06e9e94332657d5a1d7c5393513fd38d}
       \strng{authorfullhash}{06e9e94332657d5a1d7c5393513fd38d}
       \strng{authorfullhashraw}{06e9e94332657d5a1d7c5393513fd38d}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{In this paper, we ﬁrst prove that the expansion and contraction steps of the Nelder-Mead simplex algorithm possess a descent property when the objective function is uniformly convex. This property provides some new insights on why the standard Nelder-Mead algorithm becomes inefﬁcient in high dimensions. We then propose an implementation of the Nelder-Mead method in which the expansion, contraction, and shrink parameters depend on the dimension of the optimization problem. Our numerical experiments show that the new implementation outperforms the standard Nelder-Mead method for high dimensional problems.}
@@ -1045,8 +1328,8 @@
       \strng{authornamehash}{d6d90dd15f3b10b575a0fe9b8d013f62}
       \strng{authorfullhash}{d6d90dd15f3b10b575a0fe9b8d013f62}
       \strng{authorfullhashraw}{d6d90dd15f3b10b575a0fe9b8d013f62}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Derivative free optimization algorithms are often used when it is difficult to find function derivatives, or if finding such derivatives are time consuming. The Nelder Mead's simplex method is one of the most popular derivative free optimization algorithms in the fields of engineering, statistics, and sciences. This algorithm is favored and widely used because of its fast convergence and simplicity. The simplex method converges really well with small scale problems of some variables. However, it does not have much success with large-scale problems of multiple variables. This factor has reduced its popularity in optimization sciences significantly. Two solutions of quasi-gradients are introduced to improve it in terms of the convergence rate and the convergence speed. The improved algorithm with higher success rate and faster convergence which still maintains the simplicity is the key feature of this paper. This algorithm will be compared on several benchmark functions with other popular optimization algorithms such as the genetic algorithm, the differential evolution algorithm, the particle swarm algorithm, and the original simplex method. Then, the comparing results will be reported and discussed.}
@@ -1099,8 +1382,8 @@
       \strng{authornamehash}{2db29ad368f10affecdcddbfcf27c0da}
       \strng{authorfullhash}{2db29ad368f10affecdcddbfcf27c0da}
       \strng{authorfullhashraw}{2db29ad368f10affecdcddbfcf27c0da}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{The Nelder–Mead or simplex search algorithm is one of the best known algorithms for unconstrained optimization of non–smooth functions. Even though the basic algorithm is quite simple, it is implemented in many different ways. Apart from some minor computational details, the main difference between various implementations lies in the selection of convergence (or termination) tests, which are used to break the iteration process. A fairly simple efficiency analysis of each iteration step reveals a potential computational bottleneck in the domain convergence test. To be efficient, such a test has to be sublinear in the number of vertices of the working simplex. We have tested some of the most common implementations of the Nelder–Mead algorithm, and none of them is efficient in this sense. Therefore, we propose a simple and efficient domain convergence test and discuss some of its properties. This test is based on tracking the volume of the working simplex throughout the iterations. Similar termination tests can also be applied in some other simplex–based direct search methods. (© 2004 {WILEY}-{VCH} Verlag {GmbH} \& Co. {KGaA}, Weinheim)}
@@ -1235,8 +1518,8 @@
       \strng{authornamehash}{ea23efa540ff1bbc8f185cfcf11baa14}
       \strng{authorfullhash}{ea23efa540ff1bbc8f185cfcf11baa14}
       \strng{authorfullhashraw}{ea23efa540ff1bbc8f185cfcf11baa14}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{One of the fundamental diﬃculties in engineering design is the multiplicity of local solutions. This has triggered great eﬀorts to develop global search algorithms. Globality, however, often has a prohibitively high numerical cost for real problems. A ﬁxed cost local search, which sequentially becomes global is developed. Globalization is achieved by probabilistic restart. A spatial probability of starting a local search is built based on past searches. An improved Nelder–Mead algorithm makes the local optimizer. It accounts for variable bounds. It is additionally made more robust by reinitializing degenerated simplexes. The resulting method, called Globalized Bounded Nelder–Mead ({GBNM}) algorithm, is particularly adapted to tackle multimodal, discontinuous optimization problems, for which it is uncertain that a global optimization can be aﬀorded. Diﬀerent strategies for restarting the local search are discussed. Numerical experiments are given on analytical test functions and composite laminate design problems. The {GBNM} method compares favorably to an evolutionary algorithm, both in terms of numerical cost and accuracy.}
@@ -1300,8 +1583,8 @@
       \strng{authornamehash}{75bb481d2d4f8232e8d32a2fc4cecfd8}
       \strng{authorfullhash}{1f97a1257c7692b9961703ea66c3042f}
       \strng{authorfullhashraw}{1f97a1257c7692b9961703ea66c3042f}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{1025-5842, 1476-8259}

@@ -1,18 +1,19 @@
 [0] Config.pm:308> INFO - This is Biber 2.20
 [0] Config.pm:311> INFO - Logfile is 'thesis.blg'
-[57] biber-darwin:340> INFO - === Thu Oct 23, 2025, 17:19:30
-[69] Biber.pm:420> INFO - Reading 'thesis.bcf'
-[137] Biber.pm:994> INFO - Found 26 citekeys in bib section 0
-[149] Biber.pm:4463> INFO - Processing section 0
-[156] Biber.pm:4654> INFO - Looking for bibtex file 'literature.bib' for section 0
-[165] bibtex.pm:1713> INFO - LaTeX decoding ...
-[267] bibtex.pm:1519> INFO - Found BibTeX data source 'literature.bib'
-[436] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[436] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[436] Biber.pm:4283> INFO - Sorting list 'none/global//global/global/global' of type 'entry' with template 'none' and locale 'en-US'
-[436] Biber.pm:4289> INFO - No sort tailoring available for locale 'en-US'
-[453] bbl.pm:676> INFO - Writing 'thesis.bbl' with encoding 'UTF-8'
-[465] bbl.pm:779> INFO - Output to thesis.bbl
-[465] Biber.pm:131> WARN - ISBN '978-3-658-01100-0 978-3-658-01101-7' in entry 'jung_methode_2013' is invalid - run biber with '--validate_datamodel' for details.
-[465] Biber.pm:131> WARN - ISBN '978-3-642-53936-7 978-3-642-53937-4' in entry 'steinke_finite-elemente-methode_2015' is invalid - run biber with '--validate_datamodel' for details.
-[465] Biber.pm:133> INFO - WARNINGS: 2
+[59] biber-darwin:340> INFO - === Fri Oct 24, 2025, 23:05:33
+[73] Biber.pm:420> INFO - Reading 'thesis.bcf'
+[142] Biber.pm:994> INFO - Found 31 citekeys in bib section 0
+[154] Biber.pm:4463> INFO - Processing section 0
+[162] Biber.pm:4654> INFO - Looking for bibtex file 'literature.bib' for section 0
+[172] bibtex.pm:1713> INFO - LaTeX decoding ...
+[285] bibtex.pm:1519> INFO - Found BibTeX data source 'literature.bib'
+[474] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[474] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[474] Biber.pm:4283> INFO - Sorting list 'none/global//global/global/global' of type 'entry' with template 'none' and locale 'en-US'
+[474] Biber.pm:4289> INFO - No sort tailoring available for locale 'en-US'
+[494] bbl.pm:676> INFO - Writing 'thesis.bbl' with encoding 'UTF-8'
+[508] bbl.pm:779> INFO - Output to thesis.bbl
+[508] Biber.pm:131> WARN - ISBN '978-3-662-64600-7 978-3-662-64601-4' in entry 'koltzenburg_polymere_2024' is invalid - run biber with '--validate_datamodel' for details.
+[508] Biber.pm:131> WARN - ISBN '978-3-658-01100-0 978-3-658-01101-7' in entry 'jung_methode_2013' is invalid - run biber with '--validate_datamodel' for details.
+[508] Biber.pm:131> WARN - ISBN '978-3-642-53936-7 978-3-642-53937-4' in entry 'steinke_finite-elemente-methode_2015' is invalid - run biber with '--validate_datamodel' for details.
+[508] Biber.pm:133> INFO - WARNINGS: 3

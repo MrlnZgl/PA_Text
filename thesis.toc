@@ -1,7 +1,7 @@
 \babel@toc {english}{}\relax 
 \contentsline {chapter}{Acronyms}{II}{section*.2}%
-\contentsline {chapter}{List of Figures}{IV}{chapter*.4}%
-\contentsline {chapter}{List of Tables}{V}{chapter*.5}%
+\contentsline {chapter}{List of Figures}{V}{chapter*.4}%
+\contentsline {chapter}{List of Tables}{VI}{chapter*.5}%
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}%
 \contentsline {paragraph}{\nonumberline Scope of this work}{1}{paragraph*.7}%
 \contentsline {chapter}{\numberline {2}Basics}{3}{chapter.2}%
@@ -33,18 +33,19 @@
 \contentsline {paragraph}{\nonumberline Test series 4:3 and 8:3}{28}{paragraph*.41}%
 \contentsline {paragraph}{\nonumberline Discussion}{30}{paragraph*.46}%
 \contentsline {section}{\numberline {4.3}Tensile-Shear combination}{30}{section.4.3}%
-\contentsline {subsection}{\numberline {4.3.1}Tensile tests}{30}{subsection.4.3.1}%
-\contentsline {subsection}{\numberline {4.3.2}Shear tests}{31}{subsection.4.3.2}%
-\contentsline {subsection}{\numberline {4.3.3}Tensile-Shear combination}{32}{subsection.4.3.3}%
+\contentsline {subsection}{\numberline {4.3.1}Pure tensile tests}{30}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}Pure shear tests}{31}{subsection.4.3.2}%
+\contentsline {subsection}{\numberline {4.3.3}Combined tensile-shear tests}{32}{subsection.4.3.3}%
 \contentsline {subsection}{\numberline {4.3.4}Discussion}{33}{subsection.4.3.4}%
 \contentsline {section}{\numberline {4.4}Cyclic Tests}{34}{section.4.4}%
-\contentsline {paragraph}{\nonumberline Discussion}{36}{paragraph*.58}%
-\contentsline {chapter}{\numberline {5}Conclusion}{37}{chapter.5}%
-\contentsline {paragraph}{\nonumberline Summary}{37}{paragraph*.60}%
-\contentsline {paragraph}{\nonumberline Conclusion}{37}{paragraph*.62}%
-\contentsline {paragraph}{\nonumberline Outlook}{38}{paragraph*.64}%
-\contentsline {chapter}{\nonumberline Bibliography}{i}{chapter*.65}%
-\contentsline {chapter}{\numberline {A}Appendix}{iv}{appendix.1.A}%
-\contentsline {section}{\numberline {A.1}Results}{v}{section.1.A.1}%
+\contentsline {paragraph}{\nonumberline Discussion}{36}{paragraph*.57}%
+\contentsline {chapter}{\numberline {5}Conclusion}{38}{chapter.5}%
+\contentsline {paragraph}{\nonumberline Summary}{38}{paragraph*.59}%
+\contentsline {paragraph}{\nonumberline Conclusion}{38}{paragraph*.61}%
+\contentsline {paragraph}{\nonumberline Outlook}{39}{paragraph*.63}%
+\contentsline {chapter}{\nonumberline Bibliography}{i}{chapter*.64}%
+\contentsline {chapter}{\numberline {A}Additional Results}{iv}{appendix.1.A}%
+\contentsline {section}{\numberline {A.1}Validation Results}{iv}{section.1.A.1}%
+\contentsline {section}{\numberline {A.2}Tensile-Shear combination Results}{vi}{section.1.A.2}%
 \contentsline {chapter}{\numberline {B}Appendix}{viii}{appendix.1.B}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
