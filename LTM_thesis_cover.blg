@@ -1,0 +1,5 @@
+[0] Config.pm:308> INFO - This is Biber 2.20
+[0] Config.pm:311> INFO - Logfile is 'LTM_thesis_cover.blg'
+[33] biber-darwin:340> INFO - === Sun Oct 26, 2025, 21:53:36
+[148] Utils.pm:410> ERROR - Cannot find 'LTM_thesis_cover.bcf'!
+[148] Biber.pm:136> INFO - ERRORS: 1
