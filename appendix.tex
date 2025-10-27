@@ -1,6 +1,6 @@
 \begin{appendices}
-    \chapter{Additional Results} \label{app:additionalResults}
-    \section{Validation Results} \label{app:verifResults}
+    \chapter{Additional results} \label{app:additionalResults}
+    \section{Validation plots} \label{app:verifResults}
 
     \begin{figure}[H]
     \centering
@@ -45,7 +45,7 @@
     \end{figure}
 
 
-    \section{Tensile-Shear combination Results} \label{app:tensileShearResults}
+    \section{Tensile-Shear combination plots} \label{app:tensileShearResults}
     \begin{figure}[H]
     \centering
     \includegraphics[width=0.7\textwidth]{Tensile_6to3_015_fixENu_material_params.pdf}
@@ -65,6 +65,92 @@
     XX CODE UND INPUT FILE
     \chapter{Code} \label{app:Code}
     \section{Input file} \label{app:inputFile}
-    \section{Optimisation algorithm}\label{app:Script}
 
+    \begin{lstlisting}[language=json,firstnumber=1]
+    {   "Modelname": "Cube",
+        "CubeSize": 1.0,
+        "MaterialName": "CyclicMD",
+        "MaterialType": "elasto-plastic",
+        "YoungsModulus": {
+            "value": [2500, 3000],
+            "min": 2000, 
+            "max": 4500
+        },
+        "PoissonRatio": {
+            "value": [0.32, 0.38],
+            "min": 0.23,
+            "max": 0.45
+        },
+        
+        "PlasticYield": {
+            "value": [50.0, 35.0],
+            "min": 10.0,
+            "max": 100.0
+        },
+        "Alpha": {
+            "value": [100.0, 70.0],
+            "min": 0.0,
+            "max": 200.0
+        },
+        "Beta": {
+            "value": [45.0, 20.0],
+            "min": 0.0,
+            "max": 100.0
+        },
+        "Gamma": {
+            "value": [10.0, 40.0],
+            "min": 0.0,
+            "max": 60.0
+        },
+        "C10": {
+            "min": 310.0,
+            "max": 650.0
+        },
+        "D1": {
+            "min": 0.00018,
+            "max": 0.0018
+        },
+        "PlasticMaterialParameters": "voce.dat",
+        "NumberOfElementsPerEdge": 6,
+        "MDDataFiles": [
+            {"filename": "exemplary_reference_data.dat", "weight": 1.0}
+        ],
+        "PrescribedDirections": { 
+            "E11": {"active": 1, "weight": 1.0},
+            "E22": {"active": 0, "weight": 0.0},
+            "E33": {"active": 0, "weight": 0.0},
+            "G12": {"active": 1, "weight": 1.0},
+            "G13": {"active": 0, "weight": 0.0},
+            "G23": {"active": 0, "weight": 0.0}
+        },
+        "StressAnalysisDirection": {
+            "xx": 1,
+            "yy": 0,
+            "zz": 0,
+            "xy": 1,
+            "xz": 0,
+            "yz": 0
+        },
+        "StrainAnalysisDirection": {
+            "xx": 0,
+            "yy": 1,
+            "zz": 1,
+            "xy": 0,
+            "xz": 0,
+            "yz": 0
+        },
+        "weights": {
+            "normalStress": 1,
+            "normalStrain": 1e4,
+            "shearStress": 1,
+            "shearStrain": 1e30
+        },
+        "NumberOfIterations": 300,
+        "Testname": "tensile_shear_combi_test"
+    }
+
+    \end{lstlisting}
+    \newpage
+    \section{Optimisation algorithm}\label{app:Script}
+    \lstinputlisting[language=Python]{Optimization_complete_cyclic.py}
 \end{appendices}
